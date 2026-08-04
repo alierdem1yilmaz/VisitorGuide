@@ -1,0 +1,19 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E7C7B"/>
+      <stop offset="100%" stop-color="#134E5E"/>
+    </linearGradient>
+  </defs>
+  <path d="M60 0
+           C93.137 0 120 26.863 120 60
+           C120 104 60 120 60 120
+           C60 120 0 104 0 60
+           C0 26.863 26.863 0 60 0 Z"
+        fill="url(#pinGradient)"/>
+  <circle cx="60" cy="58" r="34" fill="#FFFFFF"/>
+  <g transform="translate(60,58)">
+    <polygon points="0,-24 7,-7 24,0 7,7 0,24 -7,7 -24,0 -7,-7" fill="#0E7C7B"/>
+    <circle cx="0" cy="0" r="6" fill="#F2A541"/>
+  </g>
+</svg>
