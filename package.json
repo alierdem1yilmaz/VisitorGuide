@@ -9,6 +9,8 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@googlemaps/js-api-loader": "^2.1.1",
+    "@googlemaps/markerclusterer": "^2.6.2",
     "@prisma/client": "^6.19.3",
     "next": "15.5.22",
     "next-intl": "^4.13.5",
@@ -17,6 +19,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@types/google.maps": "^3.65.4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

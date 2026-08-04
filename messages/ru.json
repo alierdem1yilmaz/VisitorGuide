@@ -18,6 +18,8 @@
   },
   "common": {
     "all": "Все",
+    "gridView": "Список",
+    "mapView": "Карта",
     "cityCount": "{count, plural, one {# город} few {# города} many {# городов} other {# города}}",
     "placeCount": "{count, plural, one {# место} few {# места} many {# мест} other {# места}}"
   },

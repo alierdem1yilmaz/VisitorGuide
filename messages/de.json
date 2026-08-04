@@ -18,6 +18,8 @@
   },
   "common": {
     "all": "Alle",
+    "gridView": "Liste",
+    "mapView": "Karte",
     "cityCount": "{count, plural, one {# Stadt} other {# Städte}}",
     "placeCount": "{count, plural, one {# Ort} other {# Orte}}"
   },

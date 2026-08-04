@@ -18,6 +18,8 @@
   },
   "common": {
     "all": "Tümü",
+    "gridView": "Liste",
+    "mapView": "Harita",
     "cityCount": "{count, plural, other {# şehir}}",
     "placeCount": "{count, plural, other {# mekân}}"
   },

@@ -65,6 +65,21 @@ export async function getPlaceBySlug(
   return place;
 }
 
+export function getCountryPlacesForMap(countrySlug: string) {
+  return prisma.place.findMany({
+    where: { city: { country: { slug: countrySlug } } },
+    select: {
+      id: true,
+      slug: true,
+      name: true,
+      category: true,
+      latitude: true,
+      longitude: true,
+      city: { select: { slug: true } },
+    },
+  });
+}
+
 export async function searchAll({
   q,
   category,

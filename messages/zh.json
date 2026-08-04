@@ -18,6 +18,8 @@
   },
   "common": {
     "all": "全部",
+    "gridView": "列表",
+    "mapView": "地图",
     "cityCount": "{count, plural, other {#个城市}}",
     "placeCount": "{count, plural, other {#个地点}}"
   },
