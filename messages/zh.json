@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "tagline": "探索。发现。出发。"
+  },
+  "home": {
+    "title": "欢迎来到 VisitorGuide",
+    "subtitle": "发现餐厅、景点、古迹、酒店与自然景观。",
+    "countriesInDb": "数据库中的国家数量：{count}"
+  },
+  "footer": {
+    "rights": "版权所有。"
+  }
+}

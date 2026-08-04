@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "tagline": "EXPLORE. DISCOVER. GO."
+  },
+  "home": {
+    "title": "Welcome to VisitorGuide",
+    "subtitle": "Discover restaurants, attractions, monuments, hotels, and natural landmarks.",
+    "countriesInDb": "Countries in database: {count}"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

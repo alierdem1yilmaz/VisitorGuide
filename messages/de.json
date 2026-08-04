@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "tagline": "ERKUNDEN. ENTDECKEN. LOS."
+  },
+  "home": {
+    "title": "Willkommen bei VisitorGuide",
+    "subtitle": "Entdecken Sie Restaurants, Sehenswürdigkeiten, Denkmäler, Hotels und Naturwunder.",
+    "countriesInDb": "Länder in der Datenbank: {count}"
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten."
+  }
+}

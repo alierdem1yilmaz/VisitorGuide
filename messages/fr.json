@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "tagline": "EXPLOREZ. DÉCOUVREZ. PARTEZ."
+  },
+  "home": {
+    "title": "Bienvenue sur VisitorGuide",
+    "subtitle": "Découvrez restaurants, attractions, monuments, hôtels et sites naturels.",
+    "countriesInDb": "Pays dans la base de données : {count}"
+  },
+  "footer": {
+    "rights": "Tous droits réservés."
+  }
+}

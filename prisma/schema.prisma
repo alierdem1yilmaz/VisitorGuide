@@ -1,0 +1,111 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+enum Category {
+  RESTAURANT
+  ATTRACTION
+  MONUMENT
+  HOTEL
+  NATURE
+}
+
+model User {
+  id           String   @id @default(cuid())
+  name         String?
+  email        String   @unique
+  passwordHash String?
+  avatarUrl    String?
+  createdAt    DateTime @default(now())
+  reviews      Review[]
+}
+
+model Country {
+  id            String   @id @default(cuid())
+  name          String
+  slug          String   @unique
+  description   String?
+  coverImageUrl String?
+  cities        City[]
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+model City {
+  id            String   @id @default(cuid())
+  name          String
+  slug          String   @unique
+  countryId     String
+  country       Country  @relation(fields: [countryId], references: [id], onDelete: Cascade)
+  description   String?
+  coverImageUrl String?
+  latitude      Float?
+  longitude     Float?
+  places        Place[]
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([countryId])
+}
+
+model Place {
+  id           String    @id @default(cuid())
+  name         String
+  slug         String    @unique
+  cityId       String
+  city         City      @relation(fields: [cityId], references: [id], onDelete: Cascade)
+  category     Category
+  description  String?
+  address      String?
+  latitude     Float?
+  longitude    Float?
+  priceLevel   Int?
+  avgRating    Float     @default(0)
+  reviewCount  Int       @default(0)
+  openingHours Json?
+  website      String?
+  phone        String?
+  photos       Photo[]
+  reviews      Review[]
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  @@index([cityId])
+  @@index([category])
+}
+
+model Photo {
+  id        String   @id @default(cuid())
+  placeId   String
+  place     Place    @relation(fields: [placeId], references: [id], onDelete: Cascade)
+  url       String
+  caption   String?
+  isCover   Boolean  @default(false)
+  createdAt DateTime @default(now())
+
+  @@index([placeId])
+}
+
+model Review {
+  id        String   @id @default(cuid())
+  placeId   String
+  place     Place    @relation(fields: [placeId], references: [id], onDelete: Cascade)
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  rating    Int
+  title     String?
+  body      String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([placeId])
+  @@index([userId])
+  @@unique([placeId, userId])
+}

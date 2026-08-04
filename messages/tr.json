@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "tagline": "GEZ. KEŞFET. GİT."
+  },
+  "home": {
+    "title": "VisitorGuide'a Hoş Geldiniz",
+    "subtitle": "Restoranları, gezilecek yerleri, anıtları, otelleri ve doğal güzellikleri keşfedin.",
+    "countriesInDb": "Veritabanındaki ülke sayısı: {count}"
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır."
+  }
+}
