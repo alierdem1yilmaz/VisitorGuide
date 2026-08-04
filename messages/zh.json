@@ -42,6 +42,18 @@
     "writeReviewCta": "登录后发表评论",
     "photoAlt": "照片"
   },
+  "filters": {
+    "sortLabel": "排序",
+    "sortName": "名称",
+    "sortRating": "评分",
+    "sortPriceAsc": "价格（从低到高）",
+    "sortPriceDesc": "价格（从高到低）",
+    "sortDistance": "距离",
+    "ratingLabel": "最低评分",
+    "ratingAny": "不限评分",
+    "priceLabel": "最高价格",
+    "priceAny": "不限价格"
+  },
   "footer": {
     "rights": "版权所有。"
   }

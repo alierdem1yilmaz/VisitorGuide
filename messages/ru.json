@@ -42,6 +42,18 @@
     "writeReviewCta": "Войдите, чтобы оставить отзыв",
     "photoAlt": "фото"
   },
+  "filters": {
+    "sortLabel": "Сортировать",
+    "sortName": "По названию",
+    "sortRating": "По рейтингу",
+    "sortPriceAsc": "Цена (по возрастанию)",
+    "sortPriceDesc": "Цена (по убыванию)",
+    "sortDistance": "По расстоянию",
+    "ratingLabel": "Мин. рейтинг",
+    "ratingAny": "Любой рейтинг",
+    "priceLabel": "Макс. цена",
+    "priceAny": "Любая цена"
+  },
   "footer": {
     "rights": "Все права защищены."
   }

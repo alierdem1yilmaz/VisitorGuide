@@ -42,6 +42,18 @@
     "writeReviewCta": "Zum Bewerten anmelden",
     "photoAlt": "Foto"
   },
+  "filters": {
+    "sortLabel": "Sortieren",
+    "sortName": "Name",
+    "sortRating": "Bewertung",
+    "sortPriceAsc": "Preis (aufsteigend)",
+    "sortPriceDesc": "Preis (absteigend)",
+    "sortDistance": "Entfernung",
+    "ratingLabel": "Mind. Bewertung",
+    "ratingAny": "Alle Bewertungen",
+    "priceLabel": "Max. Preis",
+    "priceAny": "Alle Preise"
+  },
   "footer": {
     "rights": "Alle Rechte vorbehalten."
   }

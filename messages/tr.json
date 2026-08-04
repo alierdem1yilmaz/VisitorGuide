@@ -42,6 +42,18 @@
     "writeReviewCta": "Yorum yazmak için giriş yapın",
     "photoAlt": "fotoğrafı"
   },
+  "filters": {
+    "sortLabel": "Sırala",
+    "sortName": "İsim",
+    "sortRating": "Puan",
+    "sortPriceAsc": "Fiyat (düşükten yükseğe)",
+    "sortPriceDesc": "Fiyat (yüksekten düşüğe)",
+    "sortDistance": "Mesafe",
+    "ratingLabel": "Min. puan",
+    "ratingAny": "Tüm puanlar",
+    "priceLabel": "Maks. fiyat",
+    "priceAny": "Tüm fiyatlar"
+  },
   "footer": {
     "rights": "Tüm hakları saklıdır."
   }

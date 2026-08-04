@@ -1,5 +1,54 @@
 import { Category } from "@/generated/prisma/client";
 import { prisma } from "@/lib/prisma";
+import { haversineKm } from "@/lib/distance";
+
+export type PlaceSort = "name" | "rating" | "priceAsc" | "priceDesc" | "distance";
+
+export type PlaceFilters = {
+  category?: Category;
+  minRating?: number;
+  maxPrice?: number;
+  sort?: PlaceSort;
+};
+
+function placeWhere(filters: Omit<PlaceFilters, "sort">) {
+  return {
+    category: filters.category,
+    avgRating: filters.minRating ? { gte: filters.minRating } : undefined,
+    priceLevel: filters.maxPrice ? { lte: filters.maxPrice } : undefined,
+  };
+}
+
+function placeOrderBy(sort?: PlaceSort) {
+  switch (sort) {
+    case "rating":
+      return { avgRating: "desc" as const };
+    case "priceAsc":
+      return { priceLevel: "asc" as const };
+    case "priceDesc":
+      return { priceLevel: "desc" as const };
+    default:
+      return { name: "asc" as const };
+  }
+}
+
+function sortByDistance<T extends { latitude: number | null; longitude: number | null }>(
+  places: T[],
+  from: { latitude: number | null; longitude: number | null },
+) {
+  if (from.latitude == null || from.longitude == null) return places;
+  const originLat = from.latitude;
+  const originLng = from.longitude;
+
+  return [...places].sort((a, b) => {
+    if (a.latitude == null || a.longitude == null) return 1;
+    if (b.latitude == null || b.longitude == null) return -1;
+    return (
+      haversineKm(originLat, originLng, a.latitude, a.longitude) -
+      haversineKm(originLat, originLng, b.latitude, b.longitude)
+    );
+  });
+}
 
 export function getAllCountries() {
   return prisma.country.findMany({
@@ -24,21 +73,25 @@ export function getCountryBySlug(slug: string) {
 export async function getCityBySlug(
   countrySlug: string,
   citySlug: string,
-  category?: Category,
+  filters: PlaceFilters = {},
 ) {
   const city = await prisma.city.findUnique({
     where: { slug: citySlug },
     include: {
       country: true,
       places: {
-        where: category ? { category } : undefined,
-        orderBy: { name: "asc" },
+        where: placeWhere(filters),
+        orderBy: placeOrderBy(filters.sort),
         include: { photos: { where: { isCover: true }, take: 1 } },
       },
     },
   });
 
   if (!city || city.country.slug !== countrySlug) return null;
+
+  if (filters.sort === "distance") {
+    return { ...city, places: sortByDistance(city.places, city) };
+  }
   return city;
 }
 
@@ -83,10 +136,12 @@ export function getCountryPlacesForMap(countrySlug: string) {
 export async function searchAll({
   q,
   category,
+  minRating,
+  maxPrice,
+  sort,
 }: {
   q?: string;
-  category?: Category;
-}) {
+} & PlaceFilters) {
   const nameFilter = q ? { contains: q, mode: "insensitive" as const } : undefined;
 
   const [countries, cities, places] = await Promise.all([
@@ -105,10 +160,8 @@ export async function searchAll({
           take: 10,
         }),
     prisma.place.findMany({
-      where: {
-        name: nameFilter,
-        category,
-      },
+      where: { name: nameFilter, ...placeWhere({ category, minRating, maxPrice }) },
+      orderBy: sort === "distance" ? undefined : placeOrderBy(sort),
       include: {
         city: { include: { country: true } },
         photos: { where: { isCover: true }, take: 1 },
@@ -117,5 +170,29 @@ export async function searchAll({
     }),
   ]);
 
-  return { countries, cities, places };
+  const sortedPlaces =
+    sort === "distance"
+      ? [...places].sort(
+          (a, b) => distanceFromOwnCity(a) - distanceFromOwnCity(b),
+        )
+      : places;
+
+  return { countries, cities, places: sortedPlaces };
+}
+
+function distanceFromOwnCity(place: {
+  latitude: number | null;
+  longitude: number | null;
+  city: { latitude: number | null; longitude: number | null };
+}) {
+  const { latitude, longitude, city } = place;
+  if (
+    latitude == null ||
+    longitude == null ||
+    city.latitude == null ||
+    city.longitude == null
+  ) {
+    return Infinity;
+  }
+  return haversineKm(city.latitude, city.longitude, latitude, longitude);
 }

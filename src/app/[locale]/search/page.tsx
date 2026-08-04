@@ -2,11 +2,18 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import CountryCard from "@/components/destination/CountryCard";
 import CityCard from "@/components/destination/CityCard";
 import PlaceCard from "@/components/place/PlaceCard";
-import { searchAll } from "@/lib/queries";
+import FilterBar from "@/components/place/FilterBar";
+import { searchAll, type PlaceSort } from "@/lib/queries";
 import { Category } from "@/generated/prisma/client";
+
+const SORTS: PlaceSort[] = ["name", "rating", "priceAsc", "priceDesc", "distance"];
 
 function isCategory(value: string | undefined): value is Category {
   return !!value && (Object.values(Category) as string[]).includes(value);
+}
+
+function isSort(value: string | undefined): value is PlaceSort {
+  return !!value && (SORTS as string[]).includes(value);
 }
 
 export default async function SearchPage({
@@ -14,22 +21,46 @@ export default async function SearchPage({
   searchParams,
 }: {
   params: Promise<{ locale: string }>;
-  searchParams: Promise<{ q?: string; category?: string }>;
+  searchParams: Promise<{
+    q?: string;
+    category?: string;
+    sort?: string;
+    minRating?: string;
+    maxPrice?: string;
+  }>;
 }) {
   const { locale } = await params;
-  const { q, category: rawCategory } = await searchParams;
+  const {
+    q,
+    category: rawCategory,
+    sort: rawSort,
+    minRating: rawMinRating,
+    maxPrice: rawMaxPrice,
+  } = await searchParams;
   setRequestLocale(locale);
 
   const category = isCategory(rawCategory) ? rawCategory : undefined;
-  const { countries, cities, places } = await searchAll({ q, category });
+  const sort = isSort(rawSort) ? rawSort : undefined;
+  const minRating = rawMinRating ? Number(rawMinRating) : undefined;
+  const maxPrice = rawMaxPrice ? Number(rawMaxPrice) : undefined;
 
-  const [t, tCommon, tCategories] = await Promise.all([
+  const { countries, cities, places } = await searchAll({
+    q,
+    category,
+    sort,
+    minRating,
+    maxPrice,
+  });
+
+  const [t, tCommon, tCategories, tFilters] = await Promise.all([
     getTranslations("search"),
     getTranslations("common"),
     getTranslations("categories"),
+    getTranslations("filters"),
   ]);
 
   const hasResults = countries.length > 0 || cities.length > 0 || places.length > 0;
+  const hasSearchContext = Boolean(q || category);
   const heading = category ? tCategories(category) : t("resultsFor", { query: q ?? "" });
 
   return (
@@ -76,24 +107,44 @@ export default async function SearchPage({
         </section>
       )}
 
-      {places.length > 0 && (
+      {hasSearchContext && (
         <section className="mt-8">
           <h2 className="mb-4 text-lg font-semibold text-brand-700">{t("places")}</h2>
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {places.map((place) => (
-              <PlaceCard
-                key={place.id}
-                href={`/countries/${place.city.country.slug}/${place.city.slug}/${place.slug}`}
-                name={place.name}
-                description={place.description}
-                coverImageUrl={place.photos[0]?.url ?? null}
-                avgRating={place.avgRating}
-                reviewCount={place.reviewCount}
-                priceLevel={place.priceLevel}
-                categoryLabel={tCategories(place.category)}
-              />
-            ))}
+          <div className="mb-4">
+            <FilterBar
+              sortLabel={tFilters("sortLabel")}
+              ratingLabel={tFilters("ratingLabel")}
+              priceLabel={tFilters("priceLabel")}
+              sortOptions={{
+                name: tFilters("sortName"),
+                rating: tFilters("sortRating"),
+                priceAsc: tFilters("sortPriceAsc"),
+                priceDesc: tFilters("sortPriceDesc"),
+                distance: tFilters("sortDistance"),
+              }}
+              ratingAnyLabel={tFilters("ratingAny")}
+              priceAnyLabel={tFilters("priceAny")}
+            />
           </div>
+          {places.length > 0 ? (
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {places.map((place) => (
+                <PlaceCard
+                  key={place.id}
+                  href={`/countries/${place.city.country.slug}/${place.city.slug}/${place.slug}`}
+                  name={place.name}
+                  description={place.description}
+                  coverImageUrl={place.photos[0]?.url ?? null}
+                  avgRating={place.avgRating}
+                  reviewCount={place.reviewCount}
+                  priceLevel={place.priceLevel}
+                  categoryLabel={tCategories(place.category)}
+                />
+              ))}
+            </div>
+          ) : (
+            <p className="text-muted">{t("noResults")}</p>
+          )}
         </section>
       )}
     </div>

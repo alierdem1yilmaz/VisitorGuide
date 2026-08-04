@@ -42,6 +42,18 @@
     "writeReviewCta": "Sign in to write a review",
     "photoAlt": "photo"
   },
+  "filters": {
+    "sortLabel": "Sort",
+    "sortName": "Name",
+    "sortRating": "Rating",
+    "sortPriceAsc": "Price (low to high)",
+    "sortPriceDesc": "Price (high to low)",
+    "sortDistance": "Distance",
+    "ratingLabel": "Min. rating",
+    "ratingAny": "Any rating",
+    "priceLabel": "Max. price",
+    "priceAny": "Any price"
+  },
   "footer": {
     "rights": "All rights reserved."
   }
