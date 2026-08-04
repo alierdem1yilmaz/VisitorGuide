@@ -5,7 +5,29 @@
   "home": {
     "title": "Bienvenue sur VisitorGuide",
     "subtitle": "Découvrez restaurants, attractions, monuments, hôtels et sites naturels.",
-    "countriesInDb": "Pays dans la base de données : {count}"
+    "searchPlaceholder": "Rechercher un pays, une ville ou un lieu...",
+    "searchButton": "Rechercher",
+    "allDestinations": "Toutes les destinations"
+  },
+  "categories": {
+    "RESTAURANT": "Restaurants",
+    "ATTRACTION": "Attractions",
+    "MONUMENT": "Monuments",
+    "HOTEL": "Hôtels",
+    "NATURE": "Nature"
+  },
+  "common": {
+    "all": "Tout",
+    "cityCount": "{count, plural, one {# ville} other {# villes}}",
+    "placeCount": "{count, plural, one {# lieu} other {# lieux}}"
+  },
+  "search": {
+    "title": "Résultats de recherche",
+    "resultsFor": "Résultats pour \"{query}\"",
+    "countries": "Pays",
+    "cities": "Villes",
+    "places": "Lieux",
+    "noResults": "Aucun résultat trouvé."
   },
   "footer": {
     "rights": "Tous droits réservés."

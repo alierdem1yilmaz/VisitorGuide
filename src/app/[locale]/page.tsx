@@ -1,5 +1,10 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { prisma } from "@/lib/prisma";
+import Hero from "@/components/home/Hero";
+import CategoryShortcuts from "@/components/home/CategoryShortcuts";
+import CountryCard from "@/components/destination/CountryCard";
+import { getAllCountries } from "@/lib/queries";
+
+export const revalidate = 60;
 
 export default async function HomePage({
   params,
@@ -9,16 +14,33 @@ export default async function HomePage({
   const { locale } = await params;
   setRequestLocale(locale);
 
-  const t = await getTranslations("home");
-  const countryCount = await prisma.country.count();
+  const [t, tCommon, countries] = await Promise.all([
+    getTranslations("home"),
+    getTranslations("common"),
+    getAllCountries(),
+  ]);
 
   return (
-    <div className="mx-auto max-w-6xl px-6 py-16">
-      <h1 className="text-4xl font-bold text-brand-800">{t("title")}</h1>
-      <p className="mt-4 max-w-xl text-lg text-muted">{t("subtitle")}</p>
-      <p className="mt-8 inline-block rounded-full bg-brand-50 px-4 py-2 text-sm font-medium text-brand-700">
-        {t("countriesInDb", { count: countryCount })}
-      </p>
+    <div>
+      <Hero title={t("title")} subtitle={t("subtitle")} />
+      <CategoryShortcuts />
+      <section className="mx-auto max-w-6xl px-6 pb-16">
+        <h2 className="mb-6 text-2xl font-bold text-brand-800">
+          {t("allDestinations")}
+        </h2>
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {countries.map((country) => (
+            <CountryCard
+              key={country.id}
+              href={`/countries/${country.slug}`}
+              name={country.name}
+              description={country.description}
+              coverImageUrl={country.coverImageUrl}
+              cityCountLabel={tCommon("cityCount", { count: country._count.cities })}
+            />
+          ))}
+        </div>
+      </section>
     </div>
   );
 }

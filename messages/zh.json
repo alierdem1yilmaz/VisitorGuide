@@ -5,7 +5,29 @@
   "home": {
     "title": "欢迎来到 VisitorGuide",
     "subtitle": "发现餐厅、景点、古迹、酒店与自然景观。",
-    "countriesInDb": "数据库中的国家数量：{count}"
+    "searchPlaceholder": "搜索国家、城市或地点...",
+    "searchButton": "搜索",
+    "allDestinations": "所有目的地"
+  },
+  "categories": {
+    "RESTAURANT": "餐厅",
+    "ATTRACTION": "景点",
+    "MONUMENT": "古迹",
+    "HOTEL": "酒店",
+    "NATURE": "自然景观"
+  },
+  "common": {
+    "all": "全部",
+    "cityCount": "{count, plural, other {#个城市}}",
+    "placeCount": "{count, plural, other {#个地点}}"
+  },
+  "search": {
+    "title": "搜索结果",
+    "resultsFor": "\"{query}\" 的搜索结果",
+    "countries": "国家",
+    "cities": "城市",
+    "places": "地点",
+    "noResults": "未找到结果。"
   },
   "footer": {
     "rights": "版权所有。"

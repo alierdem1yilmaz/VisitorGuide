@@ -5,7 +5,29 @@
   "home": {
     "title": "Welcome to VisitorGuide",
     "subtitle": "Discover restaurants, attractions, monuments, hotels, and natural landmarks.",
-    "countriesInDb": "Countries in database: {count}"
+    "searchPlaceholder": "Search countries, cities, or places...",
+    "searchButton": "Search",
+    "allDestinations": "All Destinations"
+  },
+  "categories": {
+    "RESTAURANT": "Restaurants",
+    "ATTRACTION": "Attractions",
+    "MONUMENT": "Monuments",
+    "HOTEL": "Hotels",
+    "NATURE": "Nature"
+  },
+  "common": {
+    "all": "All",
+    "cityCount": "{count, plural, one {# city} other {# cities}}",
+    "placeCount": "{count, plural, one {# place} other {# places}}"
+  },
+  "search": {
+    "title": "Search Results",
+    "resultsFor": "Results for \"{query}\"",
+    "countries": "Countries",
+    "cities": "Cities",
+    "places": "Places",
+    "noResults": "No results found."
   },
   "footer": {
     "rights": "All rights reserved."

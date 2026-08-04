@@ -5,7 +5,29 @@
   "home": {
     "title": "Добро пожаловать в VisitorGuide",
     "subtitle": "Открывайте рестораны, достопримечательности, памятники, отели и природные красоты.",
-    "countriesInDb": "Стран в базе данных: {count}"
+    "searchPlaceholder": "Поиск стран, городов или мест...",
+    "searchButton": "Найти",
+    "allDestinations": "Все направления"
+  },
+  "categories": {
+    "RESTAURANT": "Рестораны",
+    "ATTRACTION": "Достопримечательности",
+    "MONUMENT": "Памятники",
+    "HOTEL": "Отели",
+    "NATURE": "Природа"
+  },
+  "common": {
+    "all": "Все",
+    "cityCount": "{count, plural, one {# город} few {# города} many {# городов} other {# города}}",
+    "placeCount": "{count, plural, one {# место} few {# места} many {# мест} other {# места}}"
+  },
+  "search": {
+    "title": "Результаты поиска",
+    "resultsFor": "Результаты для \"{query}\"",
+    "countries": "Страны",
+    "cities": "Города",
+    "places": "Места",
+    "noResults": "Результаты не найдены."
   },
   "footer": {
     "rights": "Все права защищены."

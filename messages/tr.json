@@ -5,7 +5,29 @@
   "home": {
     "title": "VisitorGuide'a Hoş Geldiniz",
     "subtitle": "Restoranları, gezilecek yerleri, anıtları, otelleri ve doğal güzellikleri keşfedin.",
-    "countriesInDb": "Veritabanındaki ülke sayısı: {count}"
+    "searchPlaceholder": "Ülke, şehir veya mekân ara...",
+    "searchButton": "Ara",
+    "allDestinations": "Tüm Destinasyonlar"
+  },
+  "categories": {
+    "RESTAURANT": "Restoranlar",
+    "ATTRACTION": "Gezilecek Yerler",
+    "MONUMENT": "Anıtlar",
+    "HOTEL": "Oteller",
+    "NATURE": "Doğa"
+  },
+  "common": {
+    "all": "Tümü",
+    "cityCount": "{count, plural, other {# şehir}}",
+    "placeCount": "{count, plural, other {# mekân}}"
+  },
+  "search": {
+    "title": "Arama Sonuçları",
+    "resultsFor": "\"{query}\" için sonuçlar",
+    "countries": "Ülkeler",
+    "cities": "Şehirler",
+    "places": "Mekânlar",
+    "noResults": "Sonuç bulunamadı."
   },
   "footer": {
     "rights": "Tüm hakları saklıdır."
