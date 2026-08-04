@@ -29,6 +29,17 @@
     "places": "地点",
     "noResults": "未找到结果。"
   },
+  "place": {
+    "address": "地址",
+    "openingHours": "营业时间",
+    "website": "网站",
+    "phone": "电话",
+    "reviewsHeading": "评论",
+    "noReviews": "暂无评论。",
+    "anonymous": "匿名",
+    "writeReviewCta": "登录后发表评论",
+    "photoAlt": "照片"
+  },
   "footer": {
     "rights": "版权所有。"
   }

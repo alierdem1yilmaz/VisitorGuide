@@ -42,6 +42,29 @@ export async function getCityBySlug(
   return city;
 }
 
+export async function getPlaceBySlug(
+  countrySlug: string,
+  citySlug: string,
+  placeSlug: string,
+) {
+  const place = await prisma.place.findUnique({
+    where: { slug: placeSlug },
+    include: {
+      city: { include: { country: true } },
+      photos: { orderBy: { isCover: "desc" } },
+      reviews: {
+        orderBy: { createdAt: "desc" },
+        include: { user: { select: { name: true } } },
+      },
+    },
+  });
+
+  if (!place || place.city.slug !== citySlug || place.city.country.slug !== countrySlug) {
+    return null;
+  }
+  return place;
+}
+
 export async function searchAll({
   q,
   category,

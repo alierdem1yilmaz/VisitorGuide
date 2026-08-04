@@ -15,7 +15,7 @@ export default function StarRating({
   reviewCount,
 }: {
   avgRating: number;
-  reviewCount: number;
+  reviewCount?: number;
 }) {
   const rounded = Math.round(avgRating);
 
@@ -26,7 +26,9 @@ export default function StarRating({
           <Star key={i} filled={i < rounded} />
         ))}
       </div>
-      <span className="text-sm text-muted">({reviewCount})</span>
+      {reviewCount !== undefined && (
+        <span className="text-sm text-muted">({reviewCount})</span>
+      )}
     </div>
   );
 }

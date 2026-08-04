@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
@@ -13,11 +14,28 @@ function isCategory(value: string | undefined): value is Category {
   return !!value && (CATEGORIES as string[]).includes(value);
 }
 
+type PageParams = { locale: string; countrySlug: string; citySlug: string };
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<PageParams>;
+}): Promise<Metadata> {
+  const { countrySlug, citySlug } = await params;
+  const city = await getCityBySlug(countrySlug, citySlug);
+  if (!city) return {};
+
+  return {
+    title: `${city.name} — VisitorGuide`,
+    description: city.description ?? undefined,
+  };
+}
+
 export default async function CityPage({
   params,
   searchParams,
 }: {
-  params: Promise<{ locale: string; countrySlug: string; citySlug: string }>;
+  params: Promise<PageParams>;
   searchParams: Promise<{ category?: string }>;
 }) {
   const { locale, countrySlug, citySlug } = await params;

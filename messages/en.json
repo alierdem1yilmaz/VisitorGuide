@@ -29,6 +29,17 @@
     "places": "Places",
     "noResults": "No results found."
   },
+  "place": {
+    "address": "Address",
+    "openingHours": "Opening Hours",
+    "website": "Website",
+    "phone": "Phone",
+    "reviewsHeading": "Reviews",
+    "noReviews": "No reviews yet.",
+    "anonymous": "Anonymous",
+    "writeReviewCta": "Sign in to write a review",
+    "photoAlt": "photo"
+  },
   "footer": {
     "rights": "All rights reserved."
   }

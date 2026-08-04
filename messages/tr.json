@@ -29,6 +29,17 @@
     "places": "Mekânlar",
     "noResults": "Sonuç bulunamadı."
   },
+  "place": {
+    "address": "Adres",
+    "openingHours": "Çalışma Saatleri",
+    "website": "Web Sitesi",
+    "phone": "Telefon",
+    "reviewsHeading": "Yorumlar",
+    "noReviews": "Henüz yorum yok.",
+    "anonymous": "Anonim",
+    "writeReviewCta": "Yorum yazmak için giriş yapın",
+    "photoAlt": "fotoğrafı"
+  },
   "footer": {
     "rights": "Tüm hakları saklıdır."
   }

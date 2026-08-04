@@ -29,6 +29,17 @@
     "places": "Lieux",
     "noResults": "Aucun résultat trouvé."
   },
+  "place": {
+    "address": "Adresse",
+    "openingHours": "Heures d'ouverture",
+    "website": "Site web",
+    "phone": "Téléphone",
+    "reviewsHeading": "Avis",
+    "noReviews": "Pas encore d'avis.",
+    "anonymous": "Anonyme",
+    "writeReviewCta": "Connectez-vous pour laisser un avis",
+    "photoAlt": "photo"
+  },
   "footer": {
     "rights": "Tous droits réservés."
   }

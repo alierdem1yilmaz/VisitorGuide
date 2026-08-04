@@ -29,6 +29,17 @@
     "places": "Места",
     "noResults": "Результаты не найдены."
   },
+  "place": {
+    "address": "Адрес",
+    "openingHours": "Часы работы",
+    "website": "Веб-сайт",
+    "phone": "Телефон",
+    "reviewsHeading": "Отзывы",
+    "noReviews": "Пока нет отзывов.",
+    "anonymous": "Аноним",
+    "writeReviewCta": "Войдите, чтобы оставить отзыв",
+    "photoAlt": "фото"
+  },
   "footer": {
     "rights": "Все права защищены."
   }
