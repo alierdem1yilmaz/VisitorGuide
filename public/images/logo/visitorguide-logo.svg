@@ -1,8 +1,8 @@
 <svg width="560" height="160" viewBox="0 0 560 160" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="pinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0E7C7B"/>
-      <stop offset="100%" stop-color="#134E5E"/>
+      <stop offset="0%" stop-color="#55381F"/>
+      <stop offset="100%" stop-color="#211408"/>
     </linearGradient>
   </defs>
 
@@ -14,12 +14,12 @@
              C60 120 0 104 0 60
              C0 26.863 26.863 0 60 0 Z"
           fill="url(#pinGradient)"/>
-    <circle cx="60" cy="58" r="34" fill="#FFFFFF"/>
+    <circle cx="60" cy="58" r="34" fill="#EDE0CC"/>
     <!-- compass star -->
     <g transform="translate(60,58)">
       <polygon points="0,-24 7,-7 24,0 7,7 0,24 -7,7 -24,0 -7,-7"
-               fill="#0E7C7B"/>
-      <circle cx="0" cy="0" r="6" fill="#F2A541"/>
+               fill="#3A2515"/>
+      <circle cx="0" cy="0" r="6" fill="#C08B26"/>
     </g>
   </g>
 
@@ -28,12 +28,12 @@
         font-family="Helvetica, Arial, sans-serif"
         font-size="46"
         font-weight="700"
-        fill="#134E5E">Visitor<tspan fill="#0E7C7B">Guide</tspan></text>
+        fill="#55381F">Visitor<tspan fill="#8C6239">Guide</tspan></text>
 
   <!-- Tagline -->
   <text x="162" y="108"
         font-family="Helvetica, Arial, sans-serif"
         font-size="15"
         letter-spacing="2.5"
-        fill="#6B8F8E">EXPLORE. DISCOVER. GO.</text>
+        fill="#8A7968">EXPLORE. DISCOVER. GO.</text>
 </svg>

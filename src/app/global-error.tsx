@@ -21,7 +21,7 @@ export default function GlobalError({
           <h1 style={{ fontSize: "1.5rem", fontWeight: 700 }}>
             Something went wrong
           </h1>
-          <p style={{ marginTop: "0.75rem", color: "#5b7671" }}>
+          <p style={{ marginTop: "0.75rem", color: "#8a7968" }}>
             Please try again in a moment.
           </p>
           <button
@@ -30,7 +30,7 @@ export default function GlobalError({
             style={{
               marginTop: "1.5rem",
               borderRadius: 9999,
-              background: "#0e7c7b",
+              background: "#55381f",
               color: "white",
               padding: "0.625rem 1.25rem",
               fontSize: "0.875rem",
