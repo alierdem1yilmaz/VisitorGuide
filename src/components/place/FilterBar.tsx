@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { usePathname, useRouter } from "@/i18n/navigation";
 
@@ -7,6 +8,7 @@ export default function FilterBar({
   sortLabel,
   ratingLabel,
   priceLabel,
+  searchPlaceholder,
   sortOptions,
   ratingAnyLabel,
   priceAnyLabel,
@@ -14,8 +16,8 @@ export default function FilterBar({
   sortLabel: string;
   ratingLabel: string;
   priceLabel: string;
+  searchPlaceholder: string;
   sortOptions: {
-    name: string;
     rating: string;
     priceAsc: string;
     priceDesc: string;
@@ -28,9 +30,14 @@ export default function FilterBar({
   const pathname = usePathname();
   const router = useRouter();
 
-  const sort = searchParams.get("sort") ?? "name";
+  const sort = searchParams.get("sort") ?? "rating";
   const minRating = searchParams.get("minRating") ?? "";
   const maxPrice = searchParams.get("maxPrice") ?? "";
+  const [query, setQuery] = useState(searchParams.get("q") ?? "");
+
+  useEffect(() => {
+    setQuery(searchParams.get("q") ?? "");
+  }, [searchParams]);
 
   function updateParam(key: string, value: string, defaultValue: string) {
     const params = new URLSearchParams(searchParams.toString());
@@ -43,18 +50,34 @@ export default function FilterBar({
     router.push(qs ? `${pathname}?${qs}` : pathname);
   }
 
-  const selectClass =
-    "rounded-full border border-brand-100 bg-white px-3 py-2 text-sm text-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-400";
+  useEffect(() => {
+    const current = searchParams.get("q") ?? "";
+    if (query === current) return;
+    const timer = setTimeout(() => updateParam("q", query, ""), 400);
+    return () => clearTimeout(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [query]);
+
+  const controlClass =
+    "rounded-lg border border-brand-100 bg-white px-3 py-2 text-sm text-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-400";
 
   return (
     <div className="flex flex-wrap gap-3">
+      <input
+        type="search"
+        aria-label={searchPlaceholder}
+        placeholder={searchPlaceholder}
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+        className={`${controlClass} w-full sm:w-56`}
+      />
+
       <select
         aria-label={sortLabel}
         value={sort}
-        onChange={(e) => updateParam("sort", e.target.value, "name")}
-        className={selectClass}
+        onChange={(e) => updateParam("sort", e.target.value, "rating")}
+        className={controlClass}
       >
-        <option value="name">{sortOptions.name}</option>
         <option value="rating">{sortOptions.rating}</option>
         <option value="priceAsc">{sortOptions.priceAsc}</option>
         <option value="priceDesc">{sortOptions.priceDesc}</option>
@@ -65,7 +88,7 @@ export default function FilterBar({
         aria-label={ratingLabel}
         value={minRating}
         onChange={(e) => updateParam("minRating", e.target.value, "")}
-        className={selectClass}
+        className={controlClass}
       >
         <option value="">{ratingAnyLabel}</option>
         <option value="3">3+ ★</option>
@@ -77,7 +100,7 @@ export default function FilterBar({
         aria-label={priceLabel}
         value={maxPrice}
         onChange={(e) => updateParam("maxPrice", e.target.value, "")}
-        className={selectClass}
+        className={controlClass}
       >
         <option value="">{priceAnyLabel}</option>
         <option value="1">$</option>

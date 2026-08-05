@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Loại",
+    "searchPlaceholder": "Tìm kiếm theo tên hoặc địa điểm...",
     "sortName": "Tên",
     "sortRating": "Xếp hạng",
     "sortPriceAsc": "Giá (từ thấp đến cao)",

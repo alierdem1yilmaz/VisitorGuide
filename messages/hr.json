@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Vrsta",
+    "searchPlaceholder": "Pretraži po imenu ili lokaciji...",
     "sortName": "Ime",
     "sortRating": "Ocjena",
     "sortPriceAsc": "Cijena (od najniže do najviše)",

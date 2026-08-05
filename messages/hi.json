@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "क्रमबद्ध करें",
+    "searchPlaceholder": "नाम या स्थान खोजें...",
     "sortName": "नाम",
     "sortRating": "रेटिंग",
     "sortPriceAsc": "कीमत (कम से ज़्यादा)",

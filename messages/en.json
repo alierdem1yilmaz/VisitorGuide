@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Sort",
+    "searchPlaceholder": "Search by name or location...",
     "sortName": "Name",
     "sortRating": "Rating",
     "sortPriceAsc": "Price (low to high)",

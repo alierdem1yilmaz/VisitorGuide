@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "종류",
+    "searchPlaceholder": "이름 또는 위치로 검색...",
     "sortName": "이름",
     "sortRating": "평가",
     "sortPriceAsc": "가격 (낮은 가격부터 높은 가격 순)",

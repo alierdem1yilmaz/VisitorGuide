@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Menyortir",
+    "searchPlaceholder": "Cari berdasarkan nama atau lokasi...",
     "sortName": "Nama",
     "sortRating": "Peringkat",
     "sortPriceAsc": "Harga (rendah ke tinggi)",

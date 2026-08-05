@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Trier",
+    "searchPlaceholder": "Rechercher par nom ou lieu...",
     "sortName": "Nom",
     "sortRating": "Note",
     "sortPriceAsc": "Prix (croissant)",

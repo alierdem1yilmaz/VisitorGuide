@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Seřadit",
+    "searchPlaceholder": "Hledat podle názvu nebo lokality...",
     "sortName": "Jméno",
     "sortRating": "Hodnocení",
     "sortPriceAsc": "Cena (od nejnižší po nejvyšší)",

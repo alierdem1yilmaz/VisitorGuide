@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Çeşidləmə",
+    "searchPlaceholder": "Ad və ya yer üzrə axtarış...",
     "sortName": "Ad",
     "sortRating": "Reytinq",
     "sortPriceAsc": "Qiymət (aşağıdan yuxarıya)",

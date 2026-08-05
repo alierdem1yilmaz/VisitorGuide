@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Isih",
+    "searchPlaceholder": "Cari mengikut nama atau lokasi...",
     "sortName": "Nama",
     "sortRating": "Penilaian",
     "sortPriceAsc": "Harga (rendah ke tinggi)",

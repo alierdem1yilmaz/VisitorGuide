@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Razvrsti",
+    "searchPlaceholder": "Iskanje po imenu ali lokaciji ...",
     "sortName": "Ime",
     "sortRating": "Ocena",
     "sortPriceAsc": "Cena (od najnižje do najvišje)",

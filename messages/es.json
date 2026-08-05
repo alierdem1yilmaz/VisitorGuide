@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Ordenar",
+    "searchPlaceholder": "Buscar por nombre o ubicación...",
     "sortName": "Nombre",
     "sortRating": "Valoración",
     "sortPriceAsc": "Precio (menor a mayor)",

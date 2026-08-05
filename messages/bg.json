@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Сортиране",
+    "searchPlaceholder": "Търсене по име или местоположение...",
     "sortName": "Име",
     "sortRating": "Рейтинг",
     "sortPriceAsc": "Цена (от ниска към висока)",

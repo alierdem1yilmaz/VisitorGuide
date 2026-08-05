@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "តម្រៀប",
+    "searchPlaceholder": "ស្វែងរកតាមឈ្មោះ ឬទីតាំង...",
     "sortName": "ឈ្មោះ",
     "sortRating": "ការវាយតម្លៃ",
     "sortPriceAsc": "តម្លៃ (ទាបទៅខ្ពស់)",

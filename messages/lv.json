@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Kārtot",
+    "searchPlaceholder": "Meklēt pēc nosaukuma vai atrašanās vietas...",
     "sortName": "Vārds",
     "sortRating": "Vērtējums",
     "sortPriceAsc": "Cena (no zemākās uz augstāko)",

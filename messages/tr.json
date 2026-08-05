@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Sırala",
+    "searchPlaceholder": "İsim veya konum ara...",
     "sortName": "İsim",
     "sortRating": "Puan",
     "sortPriceAsc": "Fiyat (düşükten yükseğe)",

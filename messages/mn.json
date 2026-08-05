@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Эрэмбэлэх",
+    "searchPlaceholder": "Нэр эсвэл байршлаар хайх...",
     "sortName": "Нэр",
     "sortRating": "Үнэлгээ",
     "sortPriceAsc": "Үнэ (багаас өндөр хүртэл)",

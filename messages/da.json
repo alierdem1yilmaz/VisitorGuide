@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Sortere",
+    "searchPlaceholder": "Søg efter navn eller placering...",
     "sortName": "Navn",
     "sortRating": "Vurdering",
     "sortPriceAsc": "Pris (lav til høj)",

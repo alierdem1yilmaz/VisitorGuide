@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Rūšiuoti",
+    "searchPlaceholder": "Ieškoti pagal pavadinimą arba vietą...",
     "sortName": "Vardas",
     "sortRating": "Įvertinimas",
     "sortPriceAsc": "Kaina (nuo žemiausios iki aukščiausios)",

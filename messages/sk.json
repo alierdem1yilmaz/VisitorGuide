@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Zoradiť",
+    "searchPlaceholder": "Hľadať podľa názvu alebo lokality...",
     "sortName": "Meno",
     "sortRating": "Hodnotenie",
     "sortPriceAsc": "Cena (od najnižšej po najvyššiu)",

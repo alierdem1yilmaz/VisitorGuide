@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Είδος",
+    "searchPlaceholder": "Αναζήτηση με όνομα ή τοποθεσία...",
     "sortName": "Ονομα",
     "sortRating": "Εκτίμηση",
     "sortPriceAsc": "Τιμή (από χαμηλή σε υψηλή)",

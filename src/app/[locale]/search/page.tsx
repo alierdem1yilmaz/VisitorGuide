@@ -148,8 +148,8 @@ export default async function SearchPage({
               sortLabel={tFilters("sortLabel")}
               ratingLabel={tFilters("ratingLabel")}
               priceLabel={tFilters("priceLabel")}
+              searchPlaceholder={tFilters("searchPlaceholder")}
               sortOptions={{
-                name: tFilters("sortName"),
                 rating: tFilters("sortRating"),
                 priceAsc: tFilters("sortPriceAsc"),
                 priceDesc: tFilters("sortPriceDesc"),

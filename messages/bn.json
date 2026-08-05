@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "সাজান",
+    "searchPlaceholder": "নাম বা অবস্থান দিয়ে অনুসন্ধান করুন...",
     "sortName": "নাম",
     "sortRating": "রেটিং",
     "sortPriceAsc": "মূল্য (কম থেকে বেশি)",

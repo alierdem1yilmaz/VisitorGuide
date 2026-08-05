@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Դասավորել",
+    "searchPlaceholder": "Որոնել անունով կամ գտնվելու վայրով...",
     "sortName": "Անուն",
     "sortRating": "Գնահատական",
     "sortPriceAsc": "Գին (ցածրից բարձր)",

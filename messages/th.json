@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "เรียงลำดับ",
+    "searchPlaceholder": "ค้นหาตามชื่อหรือสถานที่...",
     "sortName": "ชื่อ",
     "sortRating": "การให้คะแนน",
     "sortPriceAsc": "ราคา (จากต่ำไปสูง)",

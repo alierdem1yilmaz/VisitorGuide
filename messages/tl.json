@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Pagbukud-bukurin",
+    "searchPlaceholder": "Maghanap ayon sa pangalan o lokasyon...",
     "sortName": "Pangalan",
     "sortRating": "Rating",
     "sortPriceAsc": "Presyo (mababa hanggang mataas)",

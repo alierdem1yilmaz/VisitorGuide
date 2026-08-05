@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "選別",
+    "searchPlaceholder": "名前または場所で検索...",
     "sortName": "名前",
     "sortRating": "評価",
     "sortPriceAsc": "価格（安い順）",

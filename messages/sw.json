@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Panga",
+    "searchPlaceholder": "Tafuta kwa jina au eneo...",
     "sortName": "Jina",
     "sortRating": "Ukadiriaji",
     "sortPriceAsc": "Bei (chini hadi juu)",

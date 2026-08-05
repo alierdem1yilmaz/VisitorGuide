@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "დახარისხება",
+    "searchPlaceholder": "სახელის ან მდებარეობის მიხედვით ძიება...",
     "sortName": "სახელი",
     "sortRating": "რეიტინგი",
     "sortPriceAsc": "ფასი (დაბალიდან მაღალამდე)",

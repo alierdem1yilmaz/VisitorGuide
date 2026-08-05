@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Sorteeri",
+    "searchPlaceholder": "Otsi nime või asukoha järgi...",
     "sortName": "Nimi",
     "sortRating": "Hinnang",
     "sortPriceAsc": "Hind (madalamast kõrgemani)",

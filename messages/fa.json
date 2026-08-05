@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "مرتب سازی",
+    "searchPlaceholder": "جستجو بر اساس نام یا مکان ...",
     "sortName": "نام",
     "sortRating": "رتبه‌بندی",
     "sortPriceAsc": "قیمت (از پایین به بالا)",

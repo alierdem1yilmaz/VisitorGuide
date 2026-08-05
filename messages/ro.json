@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Sorta",
+    "searchPlaceholder": "Căutați după nume sau locație...",
     "sortName": "Nume",
     "sortRating": "Evaluare",
     "sortPriceAsc": "Preț (de la mic la mare)",

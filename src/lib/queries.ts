@@ -10,6 +10,7 @@ export type PlaceFilters = {
   maxPrice?: number;
   season?: Season;
   sort?: PlaceSort;
+  q?: string;
 };
 
 function placeWhere(filters: Omit<PlaceFilters, "sort">) {
@@ -19,6 +20,12 @@ function placeWhere(filters: Omit<PlaceFilters, "sort">) {
     priceLevel: filters.maxPrice ? { lte: filters.maxPrice } : undefined,
     bestSeason: filters.season
       ? { in: [filters.season, "ALL" as const] }
+      : undefined,
+    OR: filters.q
+      ? [
+          { name: { contains: filters.q, mode: "insensitive" as const } },
+          { address: { contains: filters.q, mode: "insensitive" as const } },
+        ]
       : undefined,
   };
 }
@@ -31,8 +38,10 @@ function placeOrderBy(sort?: PlaceSort) {
       return { priceLevel: "asc" as const };
     case "priceDesc":
       return { priceLevel: "desc" as const };
-    default:
+    case "name":
       return { name: "asc" as const };
+    default:
+      return { avgRating: "desc" as const };
   }
 }
 

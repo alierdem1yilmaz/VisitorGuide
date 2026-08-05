@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "نوع",
+    "searchPlaceholder": "ابحث بالاسم أو الموقع...",
     "sortName": "اسم",
     "sortRating": "تصنيف",
     "sortPriceAsc": "السعر (من الأدنى إلى الأعلى)",

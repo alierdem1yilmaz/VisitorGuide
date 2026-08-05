@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Sortuj",
+    "searchPlaceholder": "Szukaj po nazwie lub lokalizacji...",
     "sortName": "Nazwa",
     "sortRating": "Ocena",
     "sortPriceAsc": "Cena (rosnąco)",

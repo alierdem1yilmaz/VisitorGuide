@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Järjestellä",
+    "searchPlaceholder": "Hae nimen tai sijainnin mukaan...",
     "sortName": "Nimi",
     "sortRating": "Arvosana",
     "sortPriceAsc": "Hinta (alhaalta ylös)",

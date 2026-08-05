@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Ordinare",
+    "searchPlaceholder": "Cerca per nome o località...",
     "sortName": "Nome",
     "sortRating": "Valutazione",
     "sortPriceAsc": "Prezzo (dal più basso al più alto)",

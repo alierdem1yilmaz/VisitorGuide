@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "چھانٹنا",
+    "searchPlaceholder": "نام یا مقام کے لحاظ سے تلاش کریں...",
     "sortName": "نام",
     "sortRating": "درجہ بندی",
     "sortPriceAsc": "قیمت (کم سے زیادہ)",

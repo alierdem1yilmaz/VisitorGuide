@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Raða",
+    "searchPlaceholder": "Leita eftir nafni eða staðsetningu...",
     "sortName": "Nafn",
     "sortRating": "Einkunn",
     "sortPriceAsc": "Verð (lágt til hátt)",

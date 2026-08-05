@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Сортирај",
+    "searchPlaceholder": "Претрага по имену или локацији...",
     "sortName": "Име",
     "sortRating": "Оцена",
     "sortPriceAsc": "Цена (од најниже до највише)",

@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Сортувати",
+    "searchPlaceholder": "Пошук за назвою або місцезнаходженням...",
     "sortName": "Ім'я",
     "sortRating": "Рейтинг",
     "sortPriceAsc": "Ціна (від низької до високої)",

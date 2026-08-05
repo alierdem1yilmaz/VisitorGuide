@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Soort",
+    "searchPlaceholder": "Zoeken op naam of locatie...",
     "sortName": "Naam",
     "sortRating": "Beoordeling",
     "sortPriceAsc": "Prijs (van laag naar hoog)",

@@ -37,6 +37,7 @@ type PageSearchParams = {
   minRating?: string;
   maxPrice?: string;
   season?: string;
+  q?: string;
 };
 
 export async function generateMetadata({
@@ -69,6 +70,7 @@ export default async function CityPage({
     minRating: rawMinRating,
     maxPrice: rawMaxPrice,
     season: rawSeason,
+    q,
   } = await searchParams;
   setRequestLocale(locale);
 
@@ -85,6 +87,7 @@ export default async function CityPage({
     minRating,
     maxPrice,
     season,
+    q,
   });
   if (!city) notFound();
 
@@ -115,6 +118,7 @@ export default async function CityPage({
     if (minRating) params.set("minRating", String(minRating));
     if (maxPrice) params.set("maxPrice", String(maxPrice));
     if (season) params.set("season", season);
+    if (q) params.set("q", q);
     const qs = params.toString();
     return qs ? `${basePath}?${qs}` : basePath;
   }
@@ -166,8 +170,8 @@ export default async function CityPage({
           sortLabel={tFilters("sortLabel")}
           ratingLabel={tFilters("ratingLabel")}
           priceLabel={tFilters("priceLabel")}
+          searchPlaceholder={tFilters("searchPlaceholder")}
           sortOptions={{
-            name: tFilters("sortName"),
             rating: tFilters("sortRating"),
             priceAsc: tFilters("sortPriceAsc"),
             priceDesc: tFilters("sortPriceDesc"),

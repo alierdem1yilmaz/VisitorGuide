@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "סוּג",
+    "searchPlaceholder": "חיפוש לפי שם או מיקום...",
     "sortName": "שֵׁם",
     "sortRating": "דֵרוּג",
     "sortPriceAsc": "מחיר (נמוך לגבוה)",

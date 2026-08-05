@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Сортировать",
+    "searchPlaceholder": "Поиск по названию или месту...",
     "sortName": "По названию",
     "sortRating": "По рейтингу",
     "sortPriceAsc": "Цена (по возрастанию)",

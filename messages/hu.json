@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Fajta",
+    "searchPlaceholder": "Keresés név vagy helyszín alapján...",
     "sortName": "Név",
     "sortRating": "Értékelés",
     "sortPriceAsc": "Ár (növekvő)",

@@ -62,6 +62,7 @@
   },
   "filters": {
     "sortLabel": "Sorteer",
+    "searchPlaceholder": "Soek volgens naam of ligging...",
     "sortName": "Naam",
     "sortRating": "Gradering",
     "sortPriceAsc": "Prys (laag na hoog)",
