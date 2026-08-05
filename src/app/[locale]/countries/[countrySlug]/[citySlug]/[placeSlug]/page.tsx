@@ -11,6 +11,7 @@ import StarRating from "@/components/place/StarRating";
 import FavoriteButton from "@/components/place/FavoriteButton";
 import { getPlaceBySlug, getFavoritePlaceIds } from "@/lib/queries";
 import { auth } from "@/auth";
+import { getExchangeRates, getPreferredCurrency, formatConvertedPrice } from "@/lib/currency";
 
 export const revalidate = 60;
 
@@ -61,6 +62,14 @@ export default async function PlacePage({
   const favoriteIds = await getFavoritePlaceIds(session?.user?.id, [place.id]);
   const openingHours = isPlainObject(place.openingHours) ? place.openingHours : null;
   const placePath = `/countries/${countrySlug}/${citySlug}/${placeSlug}`;
+  const [preferredCurrency, rates] = await Promise.all([
+    getPreferredCurrency(place.city.country.currencyCode ?? "USD"),
+    getExchangeRates(),
+  ]);
+  const estimatedPrice =
+    place.priceAmount != null
+      ? formatConvertedPrice(place.priceAmount, preferredCurrency, rates, locale)
+      : null;
 
   return (
     <div className="mx-auto max-w-5xl px-6 py-10">
@@ -127,6 +136,12 @@ export default async function PlacePage({
             >
               {place.website}
             </a>
+          </p>
+        )}
+        {estimatedPrice && (
+          <p title={t("priceEstimateNote")}>
+            <span className="font-medium text-brand-700">{t("priceEstimate")}:</span>{" "}
+            <span className="text-muted">~{estimatedPrice}</span>
           </p>
         )}
         {openingHours && (

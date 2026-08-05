@@ -55,7 +55,9 @@
     "writeReviewCta": "Zaloguj się, aby napisać opinię",
     "photoAlt": "zdjęcie",
     "addToFavorites": "Dodaj do ulubionych",
-    "removeFromFavorites": "Usuń z ulubionych"
+    "removeFromFavorites": "Usuń z ulubionych",
+    "priceEstimateNote": "Cena szacunkowa, nie dane na żywo.",
+    "priceEstimate": "Szacunkowa cena"
   },
   "filters": {
     "sortLabel": "Sortuj",

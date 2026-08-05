@@ -55,7 +55,9 @@
     "writeReviewCta": "Войдите, чтобы оставить отзыв",
     "photoAlt": "фото",
     "addToFavorites": "Добавить в избранное",
-    "removeFromFavorites": "Убрать из избранного"
+    "removeFromFavorites": "Убрать из избранного",
+    "priceEstimateNote": "Приблизительная цена, не данные в реальном времени.",
+    "priceEstimate": "Примерная цена"
   },
   "filters": {
     "sortLabel": "Сортировать",

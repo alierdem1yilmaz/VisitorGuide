@@ -55,7 +55,9 @@
     "writeReviewCta": "登录后发表评论",
     "photoAlt": "照片",
     "addToFavorites": "加入收藏",
-    "removeFromFavorites": "取消收藏"
+    "removeFromFavorites": "取消收藏",
+    "priceEstimateNote": "预估价格，非实时数据。",
+    "priceEstimate": "预估价格"
   },
   "filters": {
     "sortLabel": "排序",

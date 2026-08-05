@@ -55,7 +55,9 @@
     "writeReviewCta": "Zum Bewerten anmelden",
     "photoAlt": "Foto",
     "addToFavorites": "Zu Favoriten hinzufügen",
-    "removeFromFavorites": "Aus Favoriten entfernen"
+    "removeFromFavorites": "Aus Favoriten entfernen",
+    "priceEstimateNote": "Geschätzter Preis, keine Echtzeitdaten.",
+    "priceEstimate": "Geschätzter Preis"
   },
   "filters": {
     "sortLabel": "Sortieren",

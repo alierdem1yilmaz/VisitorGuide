@@ -55,7 +55,9 @@
     "writeReviewCta": "Inicia sesión para escribir una reseña",
     "photoAlt": "foto",
     "addToFavorites": "Añadir a favoritos",
-    "removeFromFavorites": "Quitar de favoritos"
+    "removeFromFavorites": "Quitar de favoritos",
+    "priceEstimateNote": "Precio estimado, no son datos en tiempo real.",
+    "priceEstimate": "Precio estimado"
   },
   "filters": {
     "sortLabel": "Ordenar",

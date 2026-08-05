@@ -55,7 +55,9 @@
     "writeReviewCta": "Sign in to write a review",
     "photoAlt": "photo",
     "addToFavorites": "Add to favorites",
-    "removeFromFavorites": "Remove from favorites"
+    "removeFromFavorites": "Remove from favorites",
+    "priceEstimateNote": "Estimated price, not live data.",
+    "priceEstimate": "Estimated price"
   },
   "filters": {
     "sortLabel": "Sort",

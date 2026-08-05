@@ -10,6 +10,7 @@ import SeasonToggle from "@/components/place/SeasonToggle";
 import { getCityBySlug, getFavoritePlaceIds, type PlaceSort } from "@/lib/queries";
 import { Category, Season } from "@/generated/prisma/client";
 import { auth } from "@/auth";
+import { getExchangeRates, getPreferredCurrency, formatConvertedPrice } from "@/lib/currency";
 
 export const revalidate = 60;
 
@@ -98,6 +99,10 @@ export default async function CityPage({
     session?.user?.id,
     city.places.map((p) => p.id),
   );
+  const [preferredCurrency, rates] = await Promise.all([
+    getPreferredCurrency(city.country.currencyCode ?? "USD"),
+    getExchangeRates(),
+  ]);
 
   const basePath = `/countries/${countrySlug}/${citySlug}`;
 
@@ -207,6 +212,12 @@ export default async function CityPage({
               reviewCount={place.reviewCount}
               priceLevel={place.priceLevel}
               categoryLabel={tCategories(place.category)}
+              estimatedPrice={
+                place.priceAmount != null
+                  ? formatConvertedPrice(place.priceAmount, preferredCurrency, rates, locale)
+                  : undefined
+              }
+              priceEstimateLabel={tPlace("priceEstimateNote")}
               favorite={{
                 placeId: place.id,
                 path: buildQuery({}),

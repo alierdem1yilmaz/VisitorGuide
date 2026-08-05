@@ -55,7 +55,9 @@
     "writeReviewCta": "समीक्षा लिखने के लिए साइन इन करें",
     "photoAlt": "फ़ोटो",
     "addToFavorites": "पसंदीदा में जोड़ें",
-    "removeFromFavorites": "पसंदीदा से हटाएं"
+    "removeFromFavorites": "पसंदीदा से हटाएं",
+    "priceEstimateNote": "अनुमानित कीमत, वास्तविक समय का डेटा नहीं है।",
+    "priceEstimate": "अनुमानित कीमत"
   },
   "filters": {
     "sortLabel": "क्रमबद्ध करें",

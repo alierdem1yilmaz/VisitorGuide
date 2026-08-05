@@ -55,7 +55,9 @@
     "writeReviewCta": "Connectez-vous pour laisser un avis",
     "photoAlt": "photo",
     "addToFavorites": "Ajouter aux favoris",
-    "removeFromFavorites": "Retirer des favoris"
+    "removeFromFavorites": "Retirer des favoris",
+    "priceEstimateNote": "Prix estimé, pas une donnée en temps réel.",
+    "priceEstimate": "Prix estimé"
   },
   "filters": {
     "sortLabel": "Trier",

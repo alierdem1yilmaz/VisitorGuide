@@ -12,6 +12,8 @@ export default function PlaceCard({
   reviewCount,
   priceLevel,
   categoryLabel,
+  estimatedPrice,
+  priceEstimateLabel,
   favorite,
 }: {
   href: string;
@@ -22,6 +24,8 @@ export default function PlaceCard({
   reviewCount: number;
   priceLevel: number | null;
   categoryLabel: string;
+  estimatedPrice?: string;
+  priceEstimateLabel?: string;
   favorite?: {
     placeId: string;
     path: string;
@@ -67,11 +71,21 @@ export default function PlaceCard({
         )}
         <div className="mt-auto flex items-center justify-between pt-2">
           <StarRating avgRating={avgRating} reviewCount={reviewCount} />
-          {priceLevel && (
-            <span className="text-sm font-medium text-brand-600">
-              {"$".repeat(priceLevel)}
-            </span>
-          )}
+          <div className="text-right">
+            {priceLevel && (
+              <span className="block text-sm font-medium text-brand-600">
+                {"$".repeat(priceLevel)}
+              </span>
+            )}
+            {estimatedPrice && (
+              <span
+                className="block text-xs text-muted"
+                title={priceEstimateLabel}
+              >
+                ~{estimatedPrice}
+              </span>
+            )}
+          </div>
         </div>
       </div>
     </div>

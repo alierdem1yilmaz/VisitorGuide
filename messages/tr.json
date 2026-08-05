@@ -55,7 +55,9 @@
     "writeReviewCta": "Yorum yazmak için giriş yapın",
     "photoAlt": "fotoğrafı",
     "addToFavorites": "Favorilere ekle",
-    "removeFromFavorites": "Favorilerden çıkar"
+    "removeFromFavorites": "Favorilerden çıkar",
+    "priceEstimateNote": "Tahmini fiyat, gerçek zamanlı veri değildir.",
+    "priceEstimate": "Tahmini fiyat"
   },
   "filters": {
     "sortLabel": "Sırala",
