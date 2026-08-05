@@ -88,6 +88,11 @@
     "delete": "Sil",
     "deleteConfirm": "Bu yorumu silmek istediğine emin misin?"
   },
+  "error": {
+    "heading": "Bir şeyler ters gitti",
+    "message": "Lütfen bir süre sonra tekrar deneyin.",
+    "retry": "Tekrar dene"
+  },
   "footer": {
     "rights": "Tüm hakları saklıdır."
   }

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Hero from "@/components/home/Hero";
 import CategoryShortcuts from "@/components/home/CategoryShortcuts";
@@ -5,6 +6,20 @@ import CountryCard from "@/components/destination/CountryCard";
 import { getAllCountries } from "@/lib/queries";
 
 export const revalidate = 60;
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "home" });
+
+  return {
+    title: `VisitorGuide — ${t("title")}`,
+    description: t("subtitle"),
+  };
+}
 
 export default async function HomePage({
   params,

@@ -88,6 +88,11 @@
     "delete": "Eliminar",
     "deleteConfirm": "¿Seguro que quieres eliminar esta reseña?"
   },
+  "error": {
+    "heading": "Algo salió mal",
+    "message": "Por favor, inténtalo de nuevo en un momento.",
+    "retry": "Reintentar"
+  },
   "footer": {
     "rights": "Todos los derechos reservados."
   }

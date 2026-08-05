@@ -88,6 +88,11 @@
     "delete": "Usuń",
     "deleteConfirm": "Czy na pewno chcesz usunąć tę opinię?"
   },
+  "error": {
+    "heading": "Coś poszło nie tak",
+    "message": "Spróbuj ponownie za chwilę.",
+    "retry": "Spróbuj ponownie"
+  },
   "footer": {
     "rights": "Wszelkie prawa zastrzeżone."
   }

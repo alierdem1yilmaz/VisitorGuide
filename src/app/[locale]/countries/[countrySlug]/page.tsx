@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import CityCard from "@/components/destination/CityCard";
@@ -6,6 +7,21 @@ import ViewToggle from "@/components/place/ViewToggle";
 import { getCountryBySlug, getCountryPlacesForMap } from "@/lib/queries";
 
 export const revalidate = 60;
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; countrySlug: string }>;
+}): Promise<Metadata> {
+  const { countrySlug } = await params;
+  const country = await getCountryBySlug(countrySlug);
+  if (!country) return {};
+
+  return {
+    title: `${country.name} — VisitorGuide`,
+    description: country.description ?? undefined,
+  };
+}
 
 export default async function CountryPage({
   params,

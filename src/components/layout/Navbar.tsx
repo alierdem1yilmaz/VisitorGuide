@@ -13,14 +13,14 @@ export default async function Navbar() {
 
   return (
     <header className="border-b border-brand-100 bg-white">
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-6 py-4">
+      <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-4 gap-y-2 px-6 py-4">
         <Link href="/" className="flex items-center gap-3">
           <Logo />
           <span className="hidden text-xs font-medium tracking-widest text-muted sm:inline">
             {t("tagline")}
           </span>
         </Link>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3 sm:gap-4">
           {session?.user ? (
             <>
               <Link

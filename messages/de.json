@@ -88,6 +88,11 @@
     "delete": "Löschen",
     "deleteConfirm": "Möchtest du diese Bewertung wirklich löschen?"
   },
+  "error": {
+    "heading": "Etwas ist schiefgelaufen",
+    "message": "Bitte versuchen Sie es in einem Moment erneut.",
+    "retry": "Erneut versuchen"
+  },
   "footer": {
     "rights": "Alle Rechte vorbehalten."
   }

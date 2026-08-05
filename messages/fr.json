@@ -88,6 +88,11 @@
     "delete": "Supprimer",
     "deleteConfirm": "Voulez-vous vraiment supprimer cet avis ?"
   },
+  "error": {
+    "heading": "Une erreur est survenue",
+    "message": "Veuillez réessayer dans un instant.",
+    "retry": "Réessayer"
+  },
   "footer": {
     "rights": "Tous droits réservés."
   }
