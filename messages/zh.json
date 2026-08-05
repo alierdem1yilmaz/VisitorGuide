@@ -41,7 +41,9 @@
     "noReviews": "暂无评论。",
     "anonymous": "匿名",
     "writeReviewCta": "登录后发表评论",
-    "photoAlt": "照片"
+    "photoAlt": "照片",
+    "addToFavorites": "加入收藏",
+    "removeFromFavorites": "取消收藏"
   },
   "filters": {
     "sortLabel": "排序",
@@ -86,7 +88,10 @@
     "myReviews": "我的评论",
     "noReviews": "你还没有写过评论。",
     "delete": "删除",
-    "deleteConfirm": "确定要删除这条评论吗？"
+    "deleteConfirm": "确定要删除这条评论吗？",
+    "myFavorites": "我的收藏",
+    "noFavorites": "你还没有收藏任何地点。",
+    "removeFavorite": "取消收藏"
   },
   "error": {
     "heading": "出错了",

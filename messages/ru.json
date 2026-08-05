@@ -41,7 +41,9 @@
     "noReviews": "Пока нет отзывов.",
     "anonymous": "Аноним",
     "writeReviewCta": "Войдите, чтобы оставить отзыв",
-    "photoAlt": "фото"
+    "photoAlt": "фото",
+    "addToFavorites": "Добавить в избранное",
+    "removeFromFavorites": "Убрать из избранного"
   },
   "filters": {
     "sortLabel": "Сортировать",
@@ -86,7 +88,10 @@
     "myReviews": "Мои отзывы",
     "noReviews": "Вы еще не написали ни одного отзыва.",
     "delete": "Удалить",
-    "deleteConfirm": "Вы уверены, что хотите удалить этот отзыв?"
+    "deleteConfirm": "Вы уверены, что хотите удалить этот отзыв?",
+    "myFavorites": "Избранное",
+    "noFavorites": "У вас пока нет избранных мест.",
+    "removeFavorite": "Убрать из избранного"
   },
   "error": {
     "heading": "Что-то пошло не так",

@@ -41,7 +41,9 @@
     "noReviews": "Noch keine Bewertungen.",
     "anonymous": "Anonym",
     "writeReviewCta": "Zum Bewerten anmelden",
-    "photoAlt": "Foto"
+    "photoAlt": "Foto",
+    "addToFavorites": "Zu Favoriten hinzufügen",
+    "removeFromFavorites": "Aus Favoriten entfernen"
   },
   "filters": {
     "sortLabel": "Sortieren",
@@ -86,7 +88,10 @@
     "myReviews": "Meine Bewertungen",
     "noReviews": "Du hast noch keine Bewertungen geschrieben.",
     "delete": "Löschen",
-    "deleteConfirm": "Möchtest du diese Bewertung wirklich löschen?"
+    "deleteConfirm": "Möchtest du diese Bewertung wirklich löschen?",
+    "myFavorites": "Meine Favoriten",
+    "noFavorites": "Du hast noch keine Orte favorisiert.",
+    "removeFavorite": "Aus Favoriten entfernen"
   },
   "error": {
     "heading": "Etwas ist schiefgelaufen",

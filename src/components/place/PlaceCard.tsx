@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import StarRating from "./StarRating";
+import FavoriteButton from "./FavoriteButton";
 
 export default function PlaceCard({
   href,
@@ -11,6 +12,7 @@ export default function PlaceCard({
   reviewCount,
   priceLevel,
   categoryLabel,
+  favorite,
 }: {
   href: string;
   name: string;
@@ -20,12 +22,19 @@ export default function PlaceCard({
   reviewCount: number;
   priceLevel: number | null;
   categoryLabel: string;
+  favorite?: {
+    placeId: string;
+    path: string;
+    isFavorited: boolean;
+    addLabel: string;
+    removeLabel: string;
+  };
 }) {
   return (
-    <Link
-      href={href}
-      className="group flex flex-col overflow-hidden rounded-xl border border-brand-100 bg-white transition-shadow hover:shadow-lg"
-    >
+    <div className="group relative flex flex-col overflow-hidden rounded-xl border border-brand-100 bg-white transition-shadow hover:shadow-lg">
+      <Link href={href} aria-label={name} className="absolute inset-0 z-10">
+        <span className="sr-only">{name}</span>
+      </Link>
       <div className="relative h-44 w-full bg-brand-50">
         {coverImageUrl && (
           <Image
@@ -36,9 +45,20 @@ export default function PlaceCard({
             sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
           />
         )}
-        <span className="absolute left-3 top-3 rounded-full bg-white/90 px-2.5 py-1 text-xs font-medium text-brand-700">
+        <span className="pointer-events-none absolute left-3 top-3 rounded-full bg-white/90 px-2.5 py-1 text-xs font-medium text-brand-700">
           {categoryLabel}
         </span>
+        {favorite && (
+          <div className="relative z-20">
+            <FavoriteButton
+              placeId={favorite.placeId}
+              path={favorite.path}
+              isFavorited={favorite.isFavorited}
+              addLabel={favorite.addLabel}
+              removeLabel={favorite.removeLabel}
+            />
+          </div>
+        )}
       </div>
       <div className="flex flex-1 flex-col gap-2 p-4">
         <h3 className="font-semibold text-brand-800">{name}</h3>
@@ -54,6 +74,6 @@ export default function PlaceCard({
           )}
         </div>
       </div>
-    </Link>
+    </div>
   );
 }

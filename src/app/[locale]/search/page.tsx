@@ -4,8 +4,9 @@ import CityCard from "@/components/destination/CityCard";
 import PlaceCard from "@/components/place/PlaceCard";
 import FilterBar from "@/components/place/FilterBar";
 import SeasonToggle from "@/components/place/SeasonToggle";
-import { searchAll, type PlaceSort } from "@/lib/queries";
+import { searchAll, getFavoritePlaceIds, type PlaceSort } from "@/lib/queries";
 import { Category, Season } from "@/generated/prisma/client";
+import { auth } from "@/auth";
 
 const SORTS: PlaceSort[] = ["name", "rating", "priceAsc", "priceDesc", "distance"];
 
@@ -61,12 +62,30 @@ export default async function SearchPage({
     season,
   });
 
-  const [t, tCommon, tCategories, tFilters] = await Promise.all([
+  const [t, tCommon, tCategories, tFilters, tPlace, session] = await Promise.all([
     getTranslations("search"),
     getTranslations("common"),
     getTranslations("categories"),
     getTranslations("filters"),
+    getTranslations("place"),
+    auth(),
   ]);
+  const favoriteIds = await getFavoritePlaceIds(
+    session?.user?.id,
+    places.map((p) => p.id),
+  );
+
+  const currentPath = (() => {
+    const qp = new URLSearchParams();
+    if (q) qp.set("q", q);
+    if (category) qp.set("category", category);
+    if (sort) qp.set("sort", sort);
+    if (minRating) qp.set("minRating", String(minRating));
+    if (maxPrice) qp.set("maxPrice", String(maxPrice));
+    if (season) qp.set("season", season);
+    const qs = qp.toString();
+    return qs ? `/search?${qs}` : "/search";
+  })();
 
   const hasResults = countries.length > 0 || cities.length > 0 || places.length > 0;
   const hasSearchContext = Boolean(q || category);
@@ -153,6 +172,13 @@ export default async function SearchPage({
                   reviewCount={place.reviewCount}
                   priceLevel={place.priceLevel}
                   categoryLabel={tCategories(place.category)}
+                  favorite={{
+                    placeId: place.id,
+                    path: currentPath,
+                    isFavorited: favoriteIds.has(place.id),
+                    addLabel: tPlace("addToFavorites"),
+                    removeLabel: tPlace("removeFromFavorites"),
+                  }}
                 />
               ))}
             </div>

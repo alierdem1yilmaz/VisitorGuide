@@ -138,6 +138,34 @@ export function getUserReviews(userId: string) {
   });
 }
 
+export function getUserFavorites(userId: string) {
+  return prisma.favorite.findMany({
+    where: { userId },
+    orderBy: { createdAt: "desc" },
+    include: {
+      place: {
+        select: {
+          name: true,
+          slug: true,
+          avgRating: true,
+          reviewCount: true,
+          city: { select: { slug: true, country: { select: { slug: true } } } },
+          photos: { where: { isCover: true }, take: 1 },
+        },
+      },
+    },
+  });
+}
+
+export async function getFavoritePlaceIds(userId: string | undefined, placeIds: string[]) {
+  if (!userId || placeIds.length === 0) return new Set<string>();
+  const favorites = await prisma.favorite.findMany({
+    where: { userId, placeId: { in: placeIds } },
+    select: { placeId: true },
+  });
+  return new Set(favorites.map((f) => f.placeId));
+}
+
 export function getCountryPlacesForMap(countrySlug: string) {
   return prisma.place.findMany({
     where: { city: { country: { slug: countrySlug } } },

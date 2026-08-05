@@ -41,7 +41,9 @@
     "noReviews": "Henüz yorum yok.",
     "anonymous": "Anonim",
     "writeReviewCta": "Yorum yazmak için giriş yapın",
-    "photoAlt": "fotoğrafı"
+    "photoAlt": "fotoğrafı",
+    "addToFavorites": "Favorilere ekle",
+    "removeFromFavorites": "Favorilerden çıkar"
   },
   "filters": {
     "sortLabel": "Sırala",
@@ -86,7 +88,10 @@
     "myReviews": "Yorumlarım",
     "noReviews": "Henüz yorum yazmadın.",
     "delete": "Sil",
-    "deleteConfirm": "Bu yorumu silmek istediğine emin misin?"
+    "deleteConfirm": "Bu yorumu silmek istediğine emin misin?",
+    "myFavorites": "Favorilerim",
+    "noFavorites": "Henüz favori mekânın yok.",
+    "removeFavorite": "Favorilerden çıkar"
   },
   "error": {
     "heading": "Bir şeyler ters gitti",

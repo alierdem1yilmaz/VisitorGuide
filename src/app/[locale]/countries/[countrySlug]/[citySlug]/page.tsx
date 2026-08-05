@@ -7,8 +7,9 @@ import MapView from "@/components/place/MapView";
 import ViewToggle from "@/components/place/ViewToggle";
 import FilterBar from "@/components/place/FilterBar";
 import SeasonToggle from "@/components/place/SeasonToggle";
-import { getCityBySlug, type PlaceSort } from "@/lib/queries";
+import { getCityBySlug, getFavoritePlaceIds, type PlaceSort } from "@/lib/queries";
 import { Category, Season } from "@/generated/prisma/client";
+import { auth } from "@/auth";
 
 export const revalidate = 60;
 
@@ -86,11 +87,17 @@ export default async function CityPage({
   });
   if (!city) notFound();
 
-  const [t, tCategories, tFilters] = await Promise.all([
+  const [t, tCategories, tFilters, tPlace, session] = await Promise.all([
     getTranslations("common"),
     getTranslations("categories"),
     getTranslations("filters"),
+    getTranslations("place"),
+    auth(),
   ]);
+  const favoriteIds = await getFavoritePlaceIds(
+    session?.user?.id,
+    city.places.map((p) => p.id),
+  );
 
   const basePath = `/countries/${countrySlug}/${citySlug}`;
 
@@ -200,6 +207,13 @@ export default async function CityPage({
               reviewCount={place.reviewCount}
               priceLevel={place.priceLevel}
               categoryLabel={tCategories(place.category)}
+              favorite={{
+                placeId: place.id,
+                path: buildQuery({}),
+                isFavorited: favoriteIds.has(place.id),
+                addLabel: tPlace("addToFavorites"),
+                removeLabel: tPlace("removeFromFavorites"),
+              }}
             />
           ))}
         </div>

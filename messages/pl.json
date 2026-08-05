@@ -41,7 +41,9 @@
     "noReviews": "Brak opinii.",
     "anonymous": "Anonim",
     "writeReviewCta": "Zaloguj się, aby napisać opinię",
-    "photoAlt": "zdjęcie"
+    "photoAlt": "zdjęcie",
+    "addToFavorites": "Dodaj do ulubionych",
+    "removeFromFavorites": "Usuń z ulubionych"
   },
   "filters": {
     "sortLabel": "Sortuj",
@@ -86,7 +88,10 @@
     "myReviews": "Moje opinie",
     "noReviews": "Nie napisałeś jeszcze żadnej opinii.",
     "delete": "Usuń",
-    "deleteConfirm": "Czy na pewno chcesz usunąć tę opinię?"
+    "deleteConfirm": "Czy na pewno chcesz usunąć tę opinię?",
+    "myFavorites": "Moje ulubione",
+    "noFavorites": "Nie masz jeszcze żadnych ulubionych miejsc.",
+    "removeFavorite": "Usuń z ulubionych"
   },
   "error": {
     "heading": "Coś poszło nie tak",

@@ -41,7 +41,9 @@
     "noReviews": "Aún no hay reseñas.",
     "anonymous": "Anónimo",
     "writeReviewCta": "Inicia sesión para escribir una reseña",
-    "photoAlt": "foto"
+    "photoAlt": "foto",
+    "addToFavorites": "Añadir a favoritos",
+    "removeFromFavorites": "Quitar de favoritos"
   },
   "filters": {
     "sortLabel": "Ordenar",
@@ -86,7 +88,10 @@
     "myReviews": "Mis reseñas",
     "noReviews": "Aún no has escrito ninguna reseña.",
     "delete": "Eliminar",
-    "deleteConfirm": "¿Seguro que quieres eliminar esta reseña?"
+    "deleteConfirm": "¿Seguro que quieres eliminar esta reseña?",
+    "myFavorites": "Mis favoritos",
+    "noFavorites": "Aún no tienes lugares favoritos.",
+    "removeFavorite": "Quitar de favoritos"
   },
   "error": {
     "heading": "Algo salió mal",

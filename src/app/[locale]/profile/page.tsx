@@ -1,9 +1,10 @@
 import { redirect } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { auth } from "@/auth";
-import { getUserReviews } from "@/lib/queries";
+import { getUserReviews, getUserFavorites } from "@/lib/queries";
 import { updateProfile } from "@/lib/actions/profile";
 import ReviewListItem from "@/components/profile/ReviewListItem";
+import FavoriteListItem from "@/components/profile/FavoriteListItem";
 
 export default async function ProfilePage({
   params,
@@ -16,10 +17,11 @@ export default async function ProfilePage({
   const session = await auth();
   if (!session?.user) redirect("/login");
 
-  const [t, tAuth, reviews] = await Promise.all([
+  const [t, tAuth, reviews, favorites] = await Promise.all([
     getTranslations("profile"),
     getTranslations("auth"),
     getUserReviews(session.user.id),
+    getUserFavorites(session.user.id),
   ]);
 
   return (
@@ -76,6 +78,23 @@ export default async function ProfilePage({
                 locale={locale}
                 deleteLabel={t("delete")}
                 deleteConfirm={t("deleteConfirm")}
+              />
+            ))}
+          </div>
+        )}
+      </section>
+
+      <section className="mt-8">
+        <h2 className="mb-4 text-lg font-semibold text-brand-700">{t("myFavorites")}</h2>
+        {favorites.length === 0 ? (
+          <p className="text-muted">{t("noFavorites")}</p>
+        ) : (
+          <div className="flex flex-col gap-6 rounded-xl border border-brand-100 bg-white p-6">
+            {favorites.map((favorite) => (
+              <FavoriteListItem
+                key={favorite.id}
+                favorite={favorite}
+                removeLabel={t("removeFavorite")}
               />
             ))}
           </div>

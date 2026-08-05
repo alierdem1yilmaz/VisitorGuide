@@ -8,7 +8,8 @@ import ReviewList from "@/components/place/ReviewList";
 import WriteReviewCta from "@/components/place/WriteReviewCta";
 import ReviewForm from "@/components/place/ReviewForm";
 import StarRating from "@/components/place/StarRating";
-import { getPlaceBySlug } from "@/lib/queries";
+import FavoriteButton from "@/components/place/FavoriteButton";
+import { getPlaceBySlug, getFavoritePlaceIds } from "@/lib/queries";
 import { auth } from "@/auth";
 
 export const revalidate = 60;
@@ -57,7 +58,9 @@ export default async function PlacePage({
     auth(),
   ]);
 
+  const favoriteIds = await getFavoritePlaceIds(session?.user?.id, [place.id]);
   const openingHours = isPlainObject(place.openingHours) ? place.openingHours : null;
+  const placePath = `/countries/${countrySlug}/${citySlug}/${placeSlug}`;
 
   return (
     <div className="mx-auto max-w-5xl px-6 py-10">
@@ -83,7 +86,17 @@ export default async function PlacePage({
           </span>
           <h1 className="mt-2 text-3xl font-bold text-brand-800">{place.name}</h1>
         </div>
-        <StarRating avgRating={place.avgRating} reviewCount={place.reviewCount} />
+        <div className="flex items-center gap-3">
+          <StarRating avgRating={place.avgRating} reviewCount={place.reviewCount} />
+          <FavoriteButton
+            placeId={place.id}
+            path={placePath}
+            isFavorited={favoriteIds.has(place.id)}
+            addLabel={t("addToFavorites")}
+            removeLabel={t("removeFromFavorites")}
+            variant="inline"
+          />
+        </div>
       </div>
 
       {place.description && (

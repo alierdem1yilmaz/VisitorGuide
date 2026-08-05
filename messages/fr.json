@@ -41,7 +41,9 @@
     "noReviews": "Pas encore d'avis.",
     "anonymous": "Anonyme",
     "writeReviewCta": "Connectez-vous pour laisser un avis",
-    "photoAlt": "photo"
+    "photoAlt": "photo",
+    "addToFavorites": "Ajouter aux favoris",
+    "removeFromFavorites": "Retirer des favoris"
   },
   "filters": {
     "sortLabel": "Trier",
@@ -86,7 +88,10 @@
     "myReviews": "Mes avis",
     "noReviews": "Vous n'avez pas encore écrit d'avis.",
     "delete": "Supprimer",
-    "deleteConfirm": "Voulez-vous vraiment supprimer cet avis ?"
+    "deleteConfirm": "Voulez-vous vraiment supprimer cet avis ?",
+    "myFavorites": "Mes favoris",
+    "noFavorites": "Vous n'avez pas encore de lieux favoris.",
+    "removeFavorite": "Retirer des favoris"
   },
   "error": {
     "heading": "Une erreur est survenue",
