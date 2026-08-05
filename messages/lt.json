@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "TYRINĖK. ATRASK. EIK.",
+    "explore": "Naršyti",
+    "writeReview": "Parašykite atsiliepimą",
+    "more": "Daugiau",
+    "allCountries": "Visos šalys",
+    "favorites": "Mano mėgstamiausi"
+  },
+  "preferences": {
+    "title": "Nuostatos",
+    "regionTab": "Regionas ir kalba",
+    "currencyTab": "Valiuta",
+    "searchPlaceholder": "Ieškoti regiono arba kalbos...",
+    "close": "Uždaryti"
+  },
+  "home": {
+    "title": "Sveiki atvykę į lankytojų vadovą",
+    "subtitle": "Atraskite restoranus, lankytinas vietas, paminklus, viešbučius ir gamtos paminklus.",
+    "searchPlaceholder": "Ieškoti šalių, miestų ar vietų...",
+    "searchButton": "Paieška",
+    "allDestinations": "Visos kryptys"
+  },
+  "categories": {
+    "RESTAURANT": "Restoranai",
+    "ATTRACTION": "Lankytinos vietos",
+    "MONUMENT": "Paminklai",
+    "HOTEL": "Viešbučiai",
+    "NATURE": "Gamta"
+  },
+  "common": {
+    "all": "Visi",
+    "gridView": "Sąrašas",
+    "mapView": "Žemėlapis",
+    "currency": "Valiuta",
+    "cityCount": "{count, plural, other {# miestai}}",
+    "placeCount": "{count, plural, other {# vietos}}"
+  },
+  "search": {
+    "title": "Paieškos rezultatai",
+    "resultsFor": "Rezultatai pagal užklausą „{query}“",
+    "countries": "Šalys",
+    "cities": "Miestai",
+    "places": "Vietos",
+    "noResults": "Nerasta jokių rezultatų."
+  },
+  "place": {
+    "address": "Adresas",
+    "openingHours": "Darbo valandos",
+    "website": "Svetainė",
+    "phone": "Telefonas",
+    "reviewsHeading": "Atsiliepimai",
+    "noReviews": "Kol kas nėra atsiliepimų.",
+    "anonymous": "Anonimas",
+    "writeReviewCta": "Prisijunkite, kad galėtumėte parašyti atsiliepimą",
+    "photoAlt": "nuotrauka",
+    "addToFavorites": "Pridėti prie mėgstamiausių",
+    "removeFromFavorites": "Pašalinti iš mėgstamiausių",
+    "priceEstimateNote": "Apytikslė kaina, o ne tiesioginiai duomenys.",
+    "priceEstimate": "Numatoma kaina"
+  },
+  "filters": {
+    "sortLabel": "Rūšiuoti",
+    "sortName": "Vardas",
+    "sortRating": "Įvertinimas",
+    "sortPriceAsc": "Kaina (nuo žemiausios iki aukščiausios)",
+    "sortPriceDesc": "Kaina (nuo didžiausios iki mažiausios)",
+    "sortDistance": "Atstumas",
+    "ratingLabel": "Minimalus įvertinimas",
+    "ratingAny": "Bet koks įvertinimas",
+    "priceLabel": "Maks. kaina",
+    "priceAny": "Bet kokia kaina",
+    "seasonLabel": "Sezonas",
+    "seasonAll": "Ištisus metus",
+    "seasonSummer": "Vasara",
+    "seasonWinter": "Žiema"
+  },
+  "auth": {
+    "signIn": "Prisijungti",
+    "signOut": "Atsijungti",
+    "signUp": "Registruotis",
+    "email": "El. paštas",
+    "password": "Slaptažodis",
+    "name": "Vardas",
+    "continueWithGoogle": "Tęsti naudojant „Google“",
+    "invalidCredentials": "Neteisingas el. pašto adresas arba slaptažodis.",
+    "alreadyHaveAccount": "Jau turite paskyrą? Prisijunkite",
+    "noAccountYet": "Neturite paskyros? Registruotis"
+  },
+  "review": {
+    "writeReview": "Parašykite atsiliepimą",
+    "rating": "Įvertinimas",
+    "titleLabel": "Pavadinimas",
+    "bodyLabel": "Jūsų atsiliepimas",
+    "submit": "Pateikti"
+  },
+  "profile": {
+    "heading": "Mano profilis",
+    "accountInfo": "Paskyros informacija",
+    "avatarUrlLabel": "Avataro URL",
+    "save": "Išsaugoti",
+    "myReviews": "Mano atsiliepimai",
+    "noReviews": "Dar neparašėte jokių atsiliepimų.",
+    "delete": "Ištrinti",
+    "deleteConfirm": "Ar tikrai norite ištrinti šią apžvalgą?",
+    "myFavorites": "Mano mėgstamiausi",
+    "noFavorites": "Dar neįtraukėte jokių vietų į mėgstamiausius.",
+    "removeFavorite": "Pašalinti iš mėgstamiausių"
+  },
+  "error": {
+    "heading": "Kažkas nutiko ne taip",
+    "message": "Bandykite dar kartą po akimirkos.",
+    "retry": "Bandykite dar kartą"
+  },
+  "footer": {
+    "rights": "Visos teisės saugomos."
+  }
+}

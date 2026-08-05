@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "کاوش کن. کشف کن. برو.",
+    "explore": "کاوش",
+    "writeReview": "نوشتن نقد و بررسی",
+    "more": "بیشتر",
+    "allCountries": "همه کشورها",
+    "favorites": "موارد دلخواه من"
+  },
+  "preferences": {
+    "title": "تنظیمات برگزیده",
+    "regionTab": "منطقه و زبان",
+    "currencyTab": "ارز",
+    "searchPlaceholder": "جستجوی منطقه یا زبان...",
+    "close": "بستن"
+  },
+  "home": {
+    "title": "به راهنمای بازدیدکنندگان خوش آمدید",
+    "subtitle": "رستوران‌ها، جاذبه‌های گردشگری، بناهای تاریخی، هتل‌ها و جاذبه‌های طبیعی را کشف کنید.",
+    "searchPlaceholder": "جستجوی کشورها، شهرها یا مکان‌ها...",
+    "searchButton": "جستجو",
+    "allDestinations": "همه مقصدها"
+  },
+  "categories": {
+    "RESTAURANT": "رستوران‌ها",
+    "ATTRACTION": "جاذبه‌های گردشگری",
+    "MONUMENT": "بناهای تاریخی",
+    "HOTEL": "هتل‌ها",
+    "NATURE": "طبیعت"
+  },
+  "common": {
+    "all": "همه",
+    "gridView": "فهرست",
+    "mapView": "نقشه",
+    "currency": "ارز",
+    "cityCount": "{count, plural, other {# شهرها}}",
+    "placeCount": "{count, plural, other {# مکان‌ها}}"
+  },
+  "search": {
+    "title": "نتایج جستجو",
+    "resultsFor": "نتایج برای \"{query}\"",
+    "countries": "کشورها",
+    "cities": "شهرها",
+    "places": "مکان‌ها",
+    "noResults": "هیچ نتیجه‌ای یافت نشد."
+  },
+  "place": {
+    "address": "آدرس",
+    "openingHours": "ساعات کاری",
+    "website": "وب‌سایت",
+    "phone": "تلفن",
+    "reviewsHeading": "نقد و بررسی‌ها",
+    "noReviews": "هنوز هیچ نقدی وجود ندارد.",
+    "anonymous": "ناشناس",
+    "writeReviewCta": "برای نوشتن نقد و بررسی وارد شوید",
+    "photoAlt": "عکس",
+    "addToFavorites": "افزودن به علاقه‌مندی‌ها",
+    "removeFromFavorites": "حذف از موارد دلخواه",
+    "priceEstimateNote": "قیمت تخمینی، نه داده‌های زنده.",
+    "priceEstimate": "قیمت تخمینی"
+  },
+  "filters": {
+    "sortLabel": "مرتب سازی",
+    "sortName": "نام",
+    "sortRating": "رتبه‌بندی",
+    "sortPriceAsc": "قیمت (از پایین به بالا)",
+    "sortPriceDesc": "قیمت (از بالا به پایین)",
+    "sortDistance": "فاصله",
+    "ratingLabel": "حداقل امتیاز",
+    "ratingAny": "هر رتبه‌بندی",
+    "priceLabel": "حداکثر قیمت",
+    "priceAny": "هر قیمتی",
+    "seasonLabel": "فصل",
+    "seasonAll": "در تمام طول سال",
+    "seasonSummer": "تابستان",
+    "seasonWinter": "زمستان"
+  },
+  "auth": {
+    "signIn": "ورود",
+    "signOut": "خروج",
+    "signUp": "ثبت نام",
+    "email": "ایمیل",
+    "password": "رمز عبور",
+    "name": "نام",
+    "continueWithGoogle": "ادامه با گوگل",
+    "invalidCredentials": "ایمیل یا رمز عبور نامعتبر است.",
+    "alreadyHaveAccount": "قبلاً حساب کاربری دارید؟ ورود",
+    "noAccountYet": "حساب کاربری ندارید؟ ثبت نام کنید"
+  },
+  "review": {
+    "writeReview": "نوشتن نقد و بررسی",
+    "rating": "رتبه‌بندی",
+    "titleLabel": "عنوان",
+    "bodyLabel": "نقد شما",
+    "submit": "ارسال"
+  },
+  "profile": {
+    "heading": "پروفایل من",
+    "accountInfo": "اطلاعات حساب",
+    "avatarUrlLabel": "آدرس اینترنتی آواتار",
+    "save": "ذخیره",
+    "myReviews": "نقد و بررسی‌های من",
+    "noReviews": "شما هنوز هیچ نقدی ننوشته‌اید.",
+    "delete": "حذف",
+    "deleteConfirm": "آیا از حذف این نظر مطمئن هستید؟",
+    "myFavorites": "موارد دلخواه من",
+    "noFavorites": "شما هنوز هیچ مکانی را به لیست علاقه‌مندی‌هایتان اضافه نکرده‌اید.",
+    "removeFavorite": "حذف از موارد دلخواه"
+  },
+  "error": {
+    "heading": "چیزی اشتباه پیش رفت",
+    "message": "لطفا چند لحظه دیگر دوباره امتحان کنید.",
+    "retry": "دوباره امتحان کنید"
+  },
+  "footer": {
+    "rights": "تمامی حقوق محفوظ است."
+  }
+}

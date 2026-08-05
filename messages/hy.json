@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "ՈՒՍՈՒՄՆԱՍԻՐԵՔ։ ԲԱՑԱՀԱՅՏԵՔ։ ԳՆԱՑԵՔ։",
+    "explore": "Ուսումնասիրել",
+    "writeReview": "Գրել կարծիք",
+    "more": "Ավելին",
+    "allCountries": "Բոլոր երկրները",
+    "favorites": "Իմ նախընտրածները"
+  },
+  "preferences": {
+    "title": "Նախընտրություններ",
+    "regionTab": "Տարածաշրջան և լեզու",
+    "currencyTab": "Արժույթ",
+    "searchPlaceholder": "Որոնել տարածաշրջան կամ լեզու...",
+    "close": "Փակել"
+  },
+  "home": {
+    "title": "Բարի գալուստ VisitorGuide",
+    "subtitle": "Բացահայտեք ռեստորաններ, տեսարժան վայրեր, հուշարձաններ, հյուրանոցներ և բնական տեսարժան վայրեր։",
+    "searchPlaceholder": "Որոնեք երկրներ, քաղաքներ կամ վայրեր...",
+    "searchButton": "Որոնում",
+    "allDestinations": "Բոլոր ուղղությունները"
+  },
+  "categories": {
+    "RESTAURANT": "Ռեստորաններ",
+    "ATTRACTION": "Տեսարժան վայրեր",
+    "MONUMENT": "Հուշարձաններ",
+    "HOTEL": "Հյուրանոցներ",
+    "NATURE": "Բնություն"
+  },
+  "common": {
+    "all": "Բոլորը",
+    "gridView": "Ցանկ",
+    "mapView": "Քարտեզ",
+    "currency": "Արժույթ",
+    "cityCount": "{count, plural, other {# քաղաքներ}}",
+    "placeCount": "{count, plural, other {# վայրեր}}"
+  },
+  "search": {
+    "title": "Որոնման արդյունքներ",
+    "resultsFor": "Արդյունքներ «{query}»-ի համար",
+    "countries": "Երկրներ",
+    "cities": "Քաղաքներ",
+    "places": "Վայրեր",
+    "noResults": "Արդյունքներ չեն գտնվել։"
+  },
+  "place": {
+    "address": "Հասցե",
+    "openingHours": "Աշխատանքային ժամեր",
+    "website": "Կայք",
+    "phone": "Հեռախոս",
+    "reviewsHeading": "Արձագանքներ",
+    "noReviews": "Դեռևս կարծիքներ չկան։",
+    "anonymous": "Անանուն",
+    "writeReviewCta": "Մուտք գործեք՝ կարծիք գրելու համար",
+    "photoAlt": "լուսանկար",
+    "addToFavorites": "Ավելացնել ընտրյալներին",
+    "removeFromFavorites": "Հեռացնել ընտրյալներից",
+    "priceEstimateNote": "Մոտավոր գին, ոչ թե իրական տվյալներ։",
+    "priceEstimate": "Մոտավոր գին"
+  },
+  "filters": {
+    "sortLabel": "Դասավորել",
+    "sortName": "Անուն",
+    "sortRating": "Գնահատական",
+    "sortPriceAsc": "Գին (ցածրից բարձր)",
+    "sortPriceDesc": "Գին (բարձրից ցածր)",
+    "sortDistance": "Հեռավորություն",
+    "ratingLabel": "Նվազագույն գնահատական",
+    "ratingAny": "Ցանկացած գնահատական",
+    "priceLabel": "Առավելագույն գինը",
+    "priceAny": "Ցանկացած գին",
+    "seasonLabel": "սեզոն",
+    "seasonAll": "Տարվա բոլոր եղանակներին",
+    "seasonSummer": "Ամառ",
+    "seasonWinter": "Ձմեռ"
+  },
+  "auth": {
+    "signIn": "Մուտք գործել",
+    "signOut": "Ելք",
+    "signUp": "Գրանցվել",
+    "email": "Էլ․ փոստ",
+    "password": "Գաղտնաբառ",
+    "name": "Անուն",
+    "continueWithGoogle": "Շարունակեք Google-ով",
+    "invalidCredentials": "Անվավեր էլ․ հասցե կամ գաղտնաբառ։",
+    "alreadyHaveAccount": "Արդեն ունե՞ք հաշիվ։ Մուտք գործեք",
+    "noAccountYet": "Հաշիվ չունե՞ք։ Գրանցվեք"
+  },
+  "review": {
+    "writeReview": "Գրել կարծիք",
+    "rating": "Գնահատական",
+    "titleLabel": "Վերնագիր",
+    "bodyLabel": "Ձեր կարծիքը",
+    "submit": "Ուղարկել"
+  },
+  "profile": {
+    "heading": "Իմ պրոֆիլը",
+    "accountInfo": "Հաշվի տեղեկություններ",
+    "avatarUrlLabel": "Ավատարի URL",
+    "save": "Պահպանել",
+    "myReviews": "Իմ կարծիքները",
+    "noReviews": "Դուք դեռ որևէ ակնարկ չեք գրել։",
+    "delete": "Ջնջել",
+    "deleteConfirm": "Վստա՞հ եք, որ ուզում եք ջնջել այս կարծիքը։",
+    "myFavorites": "Իմ նախընտրածները",
+    "noFavorites": "Դուք դեռ որևէ վայր չեք ավելացրել նախընտրածների մեջ։",
+    "removeFavorite": "Հեռացնել ընտրյալներից"
+  },
+  "error": {
+    "heading": "Ինչ-որ բան սխալ է գնացել",
+    "message": "Խնդրում ենք կրկին փորձել մի փոքր ուշ։",
+    "retry": "Փորձեք կրկին"
+  },
+  "footer": {
+    "rights": "Բոլոր իրավունքները պաշտպանված են։"
+  }
+}

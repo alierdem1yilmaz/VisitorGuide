@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "VERKEN. ONTDEK. GAAN.",
+    "explore": "Verken",
+    "writeReview": "Skryf 'n resensie",
+    "more": "Meer",
+    "allCountries": "Alle Lande",
+    "favorites": "My gunstelinge"
+  },
+  "preferences": {
+    "title": "Voorkeure",
+    "regionTab": "Streek en taal",
+    "currencyTab": "Geldeenheid",
+    "searchPlaceholder": "Soek streek of taal...",
+    "close": "Maak toe"
+  },
+  "home": {
+    "title": "Welkom by Besoekersgids",
+    "subtitle": "Ontdek restaurante, besienswaardighede, monumente, hotelle en natuurlike landmerke.",
+    "searchPlaceholder": "Soek lande, stede of plekke...",
+    "searchButton": "Soek",
+    "allDestinations": "Alle bestemmings"
+  },
+  "categories": {
+    "RESTAURANT": "Restaurante",
+    "ATTRACTION": "Besienswaardighede",
+    "MONUMENT": "Monumente",
+    "HOTEL": "Hotelle",
+    "NATURE": "Natuur"
+  },
+  "common": {
+    "all": "Alles",
+    "gridView": "Lys",
+    "mapView": "Kaart",
+    "currency": "Geldeenheid",
+    "cityCount": "{count, plural, other {# stede}}",
+    "placeCount": "{count, plural, other {# plekke}}"
+  },
+  "search": {
+    "title": "Soekresultate",
+    "resultsFor": "Resultate vir \"{query}\"",
+    "countries": "Lande",
+    "cities": "Stede",
+    "places": "Plekke",
+    "noResults": "Geen resultate gevind nie."
+  },
+  "place": {
+    "address": "Adres",
+    "openingHours": "Ooptye",
+    "website": "Webwerf",
+    "phone": "Foon",
+    "reviewsHeading": "Resensies",
+    "noReviews": "Geen resensies nog nie.",
+    "anonymous": "Anoniem",
+    "writeReviewCta": "Meld aan om 'n resensie te skryf",
+    "photoAlt": "foto",
+    "addToFavorites": "Voeg by gunstelinge",
+    "removeFromFavorites": "Verwyder van gunstelinge",
+    "priceEstimateNote": "Geraamde prys, nie regstreekse data nie.",
+    "priceEstimate": "Geskatte prys"
+  },
+  "filters": {
+    "sortLabel": "Sorteer",
+    "sortName": "Naam",
+    "sortRating": "Gradering",
+    "sortPriceAsc": "Prys (laag na hoog)",
+    "sortPriceDesc": "Prys (hoog na laag)",
+    "sortDistance": "Afstand",
+    "ratingLabel": "Min. gradering",
+    "ratingAny": "Enige gradering",
+    "priceLabel": "Maks. prys",
+    "priceAny": "Enige prys",
+    "seasonLabel": "Seisoen",
+    "seasonAll": "Jaar deur",
+    "seasonSummer": "Somer",
+    "seasonWinter": "Winter"
+  },
+  "auth": {
+    "signIn": "Aanmeld",
+    "signOut": "Teken uit",
+    "signUp": "Registreer",
+    "email": "E-pos",
+    "password": "Wagwoord",
+    "name": "Naam",
+    "continueWithGoogle": "Gaan voort met Google",
+    "invalidCredentials": "Ongeldige e-pos of wagwoord.",
+    "alreadyHaveAccount": "Het jy reeds 'n rekening? Meld aan",
+    "noAccountYet": "Het jy nie 'n rekening nie? Registreer"
+  },
+  "review": {
+    "writeReview": "Skryf 'n resensie",
+    "rating": "Gradering",
+    "titleLabel": "Titel",
+    "bodyLabel": "Jou resensie",
+    "submit": "Dien in"
+  },
+  "profile": {
+    "heading": "My Profiel",
+    "accountInfo": "Rekeninginligting",
+    "avatarUrlLabel": "Avatar-URL",
+    "save": "Stoor",
+    "myReviews": "My resensies",
+    "noReviews": "Jy het nog geen resensies geskryf nie.",
+    "delete": "Vee uit",
+    "deleteConfirm": "Is jy seker jy wil hierdie resensie verwyder?",
+    "myFavorites": "My gunstelinge",
+    "noFavorites": "Jy het nog geen plekke as gunstelinge gemerk nie.",
+    "removeFavorite": "Verwyder van gunstelinge"
+  },
+  "error": {
+    "heading": "Iets het verkeerd geloop",
+    "message": "Probeer asseblief weer oor 'n oomblik.",
+    "retry": "Probeer weer"
+  },
+  "footer": {
+    "rights": "Alle regte voorbehou."
+  }
+}

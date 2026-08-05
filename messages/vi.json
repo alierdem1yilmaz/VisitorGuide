@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "KHÁM PHÁ. TÌM HIỂU. LÊN ĐƯỜNG.",
+    "explore": "Khám phá",
+    "writeReview": "Viết đánh giá",
+    "more": "Hơn",
+    "allCountries": "Tất cả các quốc gia",
+    "favorites": "Những món tôi yêu thích"
+  },
+  "preferences": {
+    "title": "Tùy chọn",
+    "regionTab": "Khu vực & Ngôn ngữ",
+    "currencyTab": "Tiền tệ",
+    "searchPlaceholder": "Tìm kiếm theo khu vực hoặc ngôn ngữ...",
+    "close": "Đóng"
+  },
+  "home": {
+    "title": "Chào mừng bạn đến với VisitorGuide",
+    "subtitle": "Khám phá các nhà hàng, điểm tham quan, di tích, khách sạn và danh lam thắng cảnh tự nhiên.",
+    "searchPlaceholder": "Tìm kiếm quốc gia, thành phố hoặc địa điểm...",
+    "searchButton": "Tìm kiếm",
+    "allDestinations": "Tất cả các điểm đến"
+  },
+  "categories": {
+    "RESTAURANT": "Nhà hàng",
+    "ATTRACTION": "Điểm tham quan",
+    "MONUMENT": "Tượng đài",
+    "HOTEL": "Khách sạn",
+    "NATURE": "Thiên nhiên"
+  },
+  "common": {
+    "all": "Tất cả",
+    "gridView": "Danh sách",
+    "mapView": "Bản đồ",
+    "currency": "Tiền tệ",
+    "cityCount": "{count, plural, other {# thành phố}}",
+    "placeCount": "{count, plural, other {# địa điểm}}"
+  },
+  "search": {
+    "title": "Kết quả tìm kiếm",
+    "resultsFor": "Kết quả cho \"{query}\"",
+    "countries": "Các quốc gia",
+    "cities": "Thành phố",
+    "places": "Địa điểm",
+    "noResults": "Không tìm thấy kết quả nào."
+  },
+  "place": {
+    "address": "Địa chỉ",
+    "openingHours": "Giờ mở cửa",
+    "website": "Trang web",
+    "phone": "Điện thoại",
+    "reviewsHeading": "Đánh giá",
+    "noReviews": "Chưa có đánh giá nào.",
+    "anonymous": "Vô danh",
+    "writeReviewCta": "Đăng nhập để viết đánh giá",
+    "photoAlt": "ảnh",
+    "addToFavorites": "Thêm vào mục yêu thích",
+    "removeFromFavorites": "Xóa khỏi mục yêu thích",
+    "priceEstimateNote": "Giá ước tính, không phải dữ liệu thực tế.",
+    "priceEstimate": "Giá ước tính"
+  },
+  "filters": {
+    "sortLabel": "Loại",
+    "sortName": "Tên",
+    "sortRating": "Xếp hạng",
+    "sortPriceAsc": "Giá (từ thấp đến cao)",
+    "sortPriceDesc": "Giá (từ cao đến thấp)",
+    "sortDistance": "Khoảng cách",
+    "ratingLabel": "Mức tối thiểu",
+    "ratingAny": "Bất kỳ xếp hạng nào",
+    "priceLabel": "Giá tối đa",
+    "priceAny": "Bất kể giá nào",
+    "seasonLabel": "Mùa",
+    "seasonAll": "Quanh năm",
+    "seasonSummer": "Mùa hè",
+    "seasonWinter": "Mùa đông"
+  },
+  "auth": {
+    "signIn": "Đăng nhập",
+    "signOut": "Đăng xuất",
+    "signUp": "Đăng ký",
+    "email": "E-mail",
+    "password": "Mật khẩu",
+    "name": "Tên",
+    "continueWithGoogle": "Tiếp tục với Google",
+    "invalidCredentials": "Địa chỉ email hoặc mật khẩu không hợp lệ.",
+    "alreadyHaveAccount": "Bạn đã có tài khoản? Đăng nhập",
+    "noAccountYet": "Chưa có tài khoản? Đăng ký"
+  },
+  "review": {
+    "writeReview": "Viết đánh giá",
+    "rating": "Xếp hạng",
+    "titleLabel": "Tiêu đề",
+    "bodyLabel": "Đánh giá của bạn",
+    "submit": "Nộp"
+  },
+  "profile": {
+    "heading": "Hồ sơ của tôi",
+    "accountInfo": "Thông tin tài khoản",
+    "avatarUrlLabel": "URL Avatar",
+    "save": "Cứu",
+    "myReviews": "Đánh giá của tôi",
+    "noReviews": "Bạn chưa viết bất kỳ bài đánh giá nào.",
+    "delete": "Xóa bỏ",
+    "deleteConfirm": "Bạn có chắc chắn muốn xóa bài đánh giá này không?",
+    "myFavorites": "Những món tôi yêu thích",
+    "noFavorites": "Bạn chưa đánh dấu địa điểm nào là yêu thích cả.",
+    "removeFavorite": "Xóa khỏi mục yêu thích"
+  },
+  "error": {
+    "heading": "Đã xảy ra lỗi",
+    "message": "Vui lòng thử lại sau một lát.",
+    "retry": "Hãy thử lại"
+  },
+  "footer": {
+    "rights": "Bản quyền đã được bảo lưu."
+  }
+}

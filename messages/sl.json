@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "RAZIŠČI. ODKRIJ. POJDI.",
+    "explore": "Razišči",
+    "writeReview": "Napišite oceno",
+    "more": "Več",
+    "allCountries": "Vse države",
+    "favorites": "Moji priljubljeni"
+  },
+  "preferences": {
+    "title": "Nastavitve",
+    "regionTab": "Regija in jezik",
+    "currencyTab": "Valuta",
+    "searchPlaceholder": "Iskanje regije ali jezika ...",
+    "close": "Zapri"
+  },
+  "home": {
+    "title": "Dobrodošli v VisitorGuide",
+    "subtitle": "Odkrijte restavracije, znamenitosti, spomenike, hotele in naravne znamenitosti.",
+    "searchPlaceholder": "Išči države, mesta ali kraje ...",
+    "searchButton": "Iskanje",
+    "allDestinations": "Vse destinacije"
+  },
+  "categories": {
+    "RESTAURANT": "Restavracije",
+    "ATTRACTION": "Znamenitosti",
+    "MONUMENT": "Spomeniki",
+    "HOTEL": "Hoteli",
+    "NATURE": "Narava"
+  },
+  "common": {
+    "all": "Vse",
+    "gridView": "Seznam",
+    "mapView": "Zemljevid",
+    "currency": "Valuta",
+    "cityCount": "{count, plural, other {# mesta}}",
+    "placeCount": "{count, plural, other {# kraji}}"
+  },
+  "search": {
+    "title": "Rezultati iskanja",
+    "resultsFor": "Rezultati za »{query}«",
+    "countries": "Države",
+    "cities": "Mesta",
+    "places": "Kraji",
+    "noResults": "Ni najdenih rezultatov."
+  },
+  "place": {
+    "address": "Naslov",
+    "openingHours": "Delovni čas",
+    "website": "Spletna stran",
+    "phone": "Telefon",
+    "reviewsHeading": "Ocene",
+    "noReviews": "Še ni ocen.",
+    "anonymous": "Anonimno",
+    "writeReviewCta": "Prijavite se, če želite napisati oceno",
+    "photoAlt": "fotografija",
+    "addToFavorites": "Dodaj med priljubljene",
+    "removeFromFavorites": "Odstrani iz priljubljenih",
+    "priceEstimateNote": "Ocenjena cena, ne podatki v živo.",
+    "priceEstimate": "Ocenjena cena"
+  },
+  "filters": {
+    "sortLabel": "Razvrsti",
+    "sortName": "Ime",
+    "sortRating": "Ocena",
+    "sortPriceAsc": "Cena (od najnižje do najvišje)",
+    "sortPriceDesc": "Cena (od najvišje do najnižje)",
+    "sortDistance": "Razdalja",
+    "ratingLabel": "Min. ocena",
+    "ratingAny": "Poljubna ocena",
+    "priceLabel": "Najvišja cena",
+    "priceAny": "Vsaka cena",
+    "seasonLabel": "Sezona",
+    "seasonAll": "Vse leto",
+    "seasonSummer": "Poletje",
+    "seasonWinter": "Zima"
+  },
+  "auth": {
+    "signIn": "Prijava",
+    "signOut": "Odjava",
+    "signUp": "Prijavi se",
+    "email": "E-pošta",
+    "password": "Geslo",
+    "name": "Ime",
+    "continueWithGoogle": "Nadaljuj z Googlom",
+    "invalidCredentials": "Neveljaven e-poštni naslov ali geslo.",
+    "alreadyHaveAccount": "Že imate račun? Prijava",
+    "noAccountYet": "Nimate računa? Registrirajte se"
+  },
+  "review": {
+    "writeReview": "Napišite oceno",
+    "rating": "Ocena",
+    "titleLabel": "Naslov",
+    "bodyLabel": "Vaša ocena",
+    "submit": "Pošlji"
+  },
+  "profile": {
+    "heading": "Moj profil",
+    "accountInfo": "Podatki o računu",
+    "avatarUrlLabel": "URL avatarja",
+    "save": "Shrani",
+    "myReviews": "Moje ocene",
+    "noReviews": "Še niste napisali nobene recenzije.",
+    "delete": "Izbriši",
+    "deleteConfirm": "Ali ste prepričani, da želite izbrisati to oceno?",
+    "myFavorites": "Moji priljubljeni",
+    "noFavorites": "Še niste dodali nobenega kraja med priljubljene.",
+    "removeFavorite": "Odstrani iz priljubljenih"
+  },
+  "error": {
+    "heading": "Nekaj je šlo narobe",
+    "message": "Prosim, poskusite znova čez trenutek.",
+    "retry": "Poskusi znova"
+  },
+  "footer": {
+    "rights": "Vse pravice pridržane."
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "VERKEN. ONTDEK. GA.",
+    "explore": "Ontdekken",
+    "writeReview": "Schrijf een recensie",
+    "more": "Meer",
+    "allCountries": "Alle landen",
+    "favorites": "Mijn favorieten"
+  },
+  "preferences": {
+    "title": "Voorkeuren",
+    "regionTab": "Regio en taal",
+    "currencyTab": "Munteenheid",
+    "searchPlaceholder": "Zoek op regio of taal...",
+    "close": "Dichtbij"
+  },
+  "home": {
+    "title": "Welkom bij VisitorGuide",
+    "subtitle": "Ontdek restaurants, attracties, monumenten, hotels en natuurlijke bezienswaardigheden.",
+    "searchPlaceholder": "Zoek naar landen, steden of plaatsen...",
+    "searchButton": "Zoekopdracht",
+    "allDestinations": "Alle bestemmingen"
+  },
+  "categories": {
+    "RESTAURANT": "Restaurants",
+    "ATTRACTION": "Attracties",
+    "MONUMENT": "Monumenten",
+    "HOTEL": "Hotels",
+    "NATURE": "Natuur"
+  },
+  "common": {
+    "all": "Alle",
+    "gridView": "Lijst",
+    "mapView": "Kaart",
+    "currency": "Munteenheid",
+    "cityCount": "{count, plural, other {# steden}}",
+    "placeCount": "{count, plural, other {# plaatsen}}"
+  },
+  "search": {
+    "title": "Zoekresultaten",
+    "resultsFor": "Resultaten voor \"{query}\"",
+    "countries": "Landen",
+    "cities": "Steden",
+    "places": "Plaatsen",
+    "noResults": "Geen resultaten gevonden."
+  },
+  "place": {
+    "address": "Adres",
+    "openingHours": "Openingstijden",
+    "website": "Website",
+    "phone": "Telefoon",
+    "reviewsHeading": "Recensies",
+    "noReviews": "Nog geen recensies.",
+    "anonymous": "Anoniem",
+    "writeReviewCta": "Meld u aan om een recensie te schrijven",
+    "photoAlt": "foto",
+    "addToFavorites": "Toevoegen aan favorieten",
+    "removeFromFavorites": "Verwijderen uit favorieten",
+    "priceEstimateNote": "Geschatte prijs, geen actuele gegevens.",
+    "priceEstimate": "Geschatte prijs"
+  },
+  "filters": {
+    "sortLabel": "Soort",
+    "sortName": "Naam",
+    "sortRating": "Beoordeling",
+    "sortPriceAsc": "Prijs (van laag naar hoog)",
+    "sortPriceDesc": "Prijs (van hoog naar laag)",
+    "sortDistance": "Afstand",
+    "ratingLabel": "Minimale beoordeling",
+    "ratingAny": "Elke beoordeling",
+    "priceLabel": "Maximale prijs",
+    "priceAny": "Elke prijs",
+    "seasonLabel": "Seizoen",
+    "seasonAll": "Het hele jaar door",
+    "seasonSummer": "Zomer",
+    "seasonWinter": "Winter"
+  },
+  "auth": {
+    "signIn": "Inloggen",
+    "signOut": "Uitloggen",
+    "signUp": "Aanmelden",
+    "email": "E-mail",
+    "password": "Wachtwoord",
+    "name": "Naam",
+    "continueWithGoogle": "Ga verder met Google",
+    "invalidCredentials": "Ongeldig e-mailadres of wachtwoord.",
+    "alreadyHaveAccount": "Heb je al een account? Log in",
+    "noAccountYet": "Nog geen account? Meld je aan"
+  },
+  "review": {
+    "writeReview": "Schrijf een recensie",
+    "rating": "Beoordeling",
+    "titleLabel": "Titel",
+    "bodyLabel": "Jouw beoordeling",
+    "submit": "Indienen"
+  },
+  "profile": {
+    "heading": "Mijn profiel",
+    "accountInfo": "Accountgegevens",
+    "avatarUrlLabel": "Avatar-URL",
+    "save": "Redden",
+    "myReviews": "Mijn recensies",
+    "noReviews": "Je hebt nog geen recensies geschreven.",
+    "delete": "Verwijderen",
+    "deleteConfirm": "Weet je zeker dat je deze recensie wilt verwijderen?",
+    "myFavorites": "Mijn favorieten",
+    "noFavorites": "Je hebt nog geen plaatsen aan je favorieten toegevoegd.",
+    "removeFavorite": "Verwijderen uit favorieten"
+  },
+  "error": {
+    "heading": "Er is iets misgegaan.",
+    "message": "Probeer het over een moment opnieuw.",
+    "retry": "Probeer het opnieuw"
+  },
+  "footer": {
+    "rights": "Alle rechten voorbehouden."
+  }
+}

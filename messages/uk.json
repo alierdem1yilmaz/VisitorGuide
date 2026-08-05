@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "ДОСЛІДЖУЙТЕ. ВІДКРИЙТЕ. ЙДІТЬ.",
+    "explore": "Дослідити",
+    "writeReview": "Написати відгук",
+    "more": "Більше",
+    "allCountries": "Усі країни",
+    "favorites": "Мої улюблені"
+  },
+  "preferences": {
+    "title": "Налаштування",
+    "regionTab": "Регіон і мова",
+    "currencyTab": "Валюта",
+    "searchPlaceholder": "Пошук за регіоном або мовою...",
+    "close": "Закрити"
+  },
+  "home": {
+    "title": "Ласкаво просимо до VisitorGuide",
+    "subtitle": "Відкрийте для себе ресторани, визначні пам'ятки, пам'ятки, готелі та природні пам'ятки.",
+    "searchPlaceholder": "Шукайте країни, міста чи місця...",
+    "searchButton": "Пошук",
+    "allDestinations": "Усі напрямки"
+  },
+  "categories": {
+    "RESTAURANT": "Ресторани",
+    "ATTRACTION": "Пам'ятки",
+    "MONUMENT": "Пам'ятники",
+    "HOTEL": "Готелі",
+    "NATURE": "Природа"
+  },
+  "common": {
+    "all": "Усі",
+    "gridView": "Список",
+    "mapView": "Карта",
+    "currency": "Валюта",
+    "cityCount": "{count, plural, other {# міста}}",
+    "placeCount": "{count, plural, other {# місця}}"
+  },
+  "search": {
+    "title": "Результати пошуку",
+    "resultsFor": "Результати для запиту \"{query}\"",
+    "countries": "Країни",
+    "cities": "Міста",
+    "places": "Місця",
+    "noResults": "Результатів не знайдено."
+  },
+  "place": {
+    "address": "Адреса",
+    "openingHours": "Години роботи",
+    "website": "Вебсайт",
+    "phone": "Телефон",
+    "reviewsHeading": "Відгуки",
+    "noReviews": "Поки що немає відгуків.",
+    "anonymous": "Анонім",
+    "writeReviewCta": "Увійдіть, щоб написати відгук",
+    "photoAlt": "фото",
+    "addToFavorites": "Додати до обраного",
+    "removeFromFavorites": "Видалити з обраного",
+    "priceEstimateNote": "Орієнтовна ціна, а не актуальні дані.",
+    "priceEstimate": "Орієнтовна ціна"
+  },
+  "filters": {
+    "sortLabel": "Сортувати",
+    "sortName": "Ім'я",
+    "sortRating": "Рейтинг",
+    "sortPriceAsc": "Ціна (від низької до високої)",
+    "sortPriceDesc": "Ціна (від високої до низької)",
+    "sortDistance": "Відстань",
+    "ratingLabel": "Мін. рейтинг",
+    "ratingAny": "Будь-який рейтинг",
+    "priceLabel": "Макс. ціна",
+    "priceAny": "Будь-яка ціна",
+    "seasonLabel": "Сезон",
+    "seasonAll": "Цілий рік",
+    "seasonSummer": "Літо",
+    "seasonWinter": "Зима"
+  },
+  "auth": {
+    "signIn": "Увійти",
+    "signOut": "Вийти",
+    "signUp": "Зареєструватися",
+    "email": "Електронна пошта",
+    "password": "Пароль",
+    "name": "Ім'я",
+    "continueWithGoogle": "Продовжити з Google",
+    "invalidCredentials": "Недійсна електронна адреса або пароль.",
+    "alreadyHaveAccount": "Вже маєте обліковий запис? Увійти",
+    "noAccountYet": "Немає облікового запису? Зареєструватися"
+  },
+  "review": {
+    "writeReview": "Написати відгук",
+    "rating": "Рейтинг",
+    "titleLabel": "Назва",
+    "bodyLabel": "Ваш відгук",
+    "submit": "Надіслати"
+  },
+  "profile": {
+    "heading": "Мій профіль",
+    "accountInfo": "Інформація про обліковий запис",
+    "avatarUrlLabel": "URL-адреса аватара",
+    "save": "Зберегти",
+    "myReviews": "Мої відгуки",
+    "noReviews": "Ви ще не написали жодного відгуку.",
+    "delete": "Видалити",
+    "deleteConfirm": "Ви впевнені, що хочете видалити цей відгук?",
+    "myFavorites": "Мої улюблені",
+    "noFavorites": "Ви ще не додали жодного місця до обраного.",
+    "removeFavorite": "Видалити з обраного"
+  },
+  "error": {
+    "heading": "Щось пішло не так",
+    "message": "Будь ласка, спробуйте ще раз за мить.",
+    "retry": "Спробуйте ще раз"
+  },
+  "footer": {
+    "rights": "Всі права захищені."
+  }
+}

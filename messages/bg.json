@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "РАЗГЛЕДАЙ. ОТКРИЙ. ТЪРСЕТЕ.",
+    "explore": "Разгледайте",
+    "writeReview": "Напишете отзив",
+    "more": "Още",
+    "allCountries": "Всички страни",
+    "favorites": "Моите любими"
+  },
+  "preferences": {
+    "title": "Предпочитания",
+    "regionTab": "Регион и език",
+    "currencyTab": "Валута",
+    "searchPlaceholder": "Търсене по регион или език...",
+    "close": "Затвори"
+  },
+  "home": {
+    "title": "Добре дошли в VisitorGuide",
+    "subtitle": "Открийте ресторанти, атракции, паметници, хотели и природни забележителности.",
+    "searchPlaceholder": "Търсете държави, градове или места...",
+    "searchButton": "Търсене",
+    "allDestinations": "Всички дестинации"
+  },
+  "categories": {
+    "RESTAURANT": "Ресторанти",
+    "ATTRACTION": "Забележителности",
+    "MONUMENT": "Паметници",
+    "HOTEL": "Хотели",
+    "NATURE": "Природа"
+  },
+  "common": {
+    "all": "Всички",
+    "gridView": "Списък",
+    "mapView": "Карта",
+    "currency": "Валута",
+    "cityCount": "{count, plural, other {# градове}}",
+    "placeCount": "{count, plural, other {# места}}"
+  },
+  "search": {
+    "title": "Резултати от търсенето",
+    "resultsFor": "Резултати за „{query}“",
+    "countries": "Държави",
+    "cities": "Градове",
+    "places": "Места",
+    "noResults": "Няма намерени резултати."
+  },
+  "place": {
+    "address": "Адрес",
+    "openingHours": "Работно време",
+    "website": "Уебсайт",
+    "phone": "Телефон",
+    "reviewsHeading": "Отзиви",
+    "noReviews": "Все още няма отзиви.",
+    "anonymous": "Анонимен",
+    "writeReviewCta": "Влезте, за да напишете отзив",
+    "photoAlt": "снимка",
+    "addToFavorites": "Добави към любими",
+    "removeFromFavorites": "Премахване от любими",
+    "priceEstimateNote": "Приблизителна цена, не актуални данни.",
+    "priceEstimate": "Приблизителна цена"
+  },
+  "filters": {
+    "sortLabel": "Сортиране",
+    "sortName": "Име",
+    "sortRating": "Рейтинг",
+    "sortPriceAsc": "Цена (от ниска към висока)",
+    "sortPriceDesc": "Цена (от висока към ниска)",
+    "sortDistance": "Разстояние",
+    "ratingLabel": "Мин. рейтинг",
+    "ratingAny": "Всяка оценка",
+    "priceLabel": "Максимална цена",
+    "priceAny": "Всяка цена",
+    "seasonLabel": "Сезон",
+    "seasonAll": "Целогодишно",
+    "seasonSummer": "Лято",
+    "seasonWinter": "Зима"
+  },
+  "auth": {
+    "signIn": "Вход",
+    "signOut": "Изход",
+    "signUp": "Регистрация",
+    "email": "Имейл",
+    "password": "Парола",
+    "name": "Име",
+    "continueWithGoogle": "Продължете с Google",
+    "invalidCredentials": "Невалиден имейл или парола.",
+    "alreadyHaveAccount": "Вече имате акаунт? Влезте",
+    "noAccountYet": "Нямате акаунт? Регистрирайте се"
+  },
+  "review": {
+    "writeReview": "Напишете отзив",
+    "rating": "Рейтинг",
+    "titleLabel": "Заглавие",
+    "bodyLabel": "Вашият отзив",
+    "submit": "Изпращане"
+  },
+  "profile": {
+    "heading": "Моят профил",
+    "accountInfo": "Информация за акаунта",
+    "avatarUrlLabel": "URL адрес на аватара",
+    "save": "Запазване",
+    "myReviews": "Моите отзиви",
+    "noReviews": "Все още не сте написали никакви отзиви.",
+    "delete": "Изтриване",
+    "deleteConfirm": "Сигурни ли сте, че искате да изтриете този отзив?",
+    "myFavorites": "Моите любими",
+    "noFavorites": "Все още не сте добавили никакви места към любимите си.",
+    "removeFavorite": "Премахване от любими"
+  },
+  "error": {
+    "heading": "Нещо се обърка",
+    "message": "Моля, опитайте отново след малко.",
+    "retry": "Опитай отново"
+  },
+  "footer": {
+    "rights": "Всички права запазени."
+  }
+}

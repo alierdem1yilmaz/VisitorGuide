@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "探検しよう。発見しよう。行こう。",
+    "explore": "探検する",
+    "writeReview": "レビューを書く",
+    "more": "もっと",
+    "allCountries": "すべての国",
+    "favorites": "私のお気に入り"
+  },
+  "preferences": {
+    "title": "設定",
+    "regionTab": "地域と言語",
+    "currencyTab": "通貨",
+    "searchPlaceholder": "地域または言語を検索...",
+    "close": "近い"
+  },
+  "home": {
+    "title": "VisitorGuideへようこそ",
+    "subtitle": "レストラン、観光スポット、史跡、ホテル、自然の名所などを探しましょう。",
+    "searchPlaceholder": "国、都市、または場所を検索...",
+    "searchButton": "検索",
+    "allDestinations": "すべての目的地"
+  },
+  "categories": {
+    "RESTAURANT": "レストラン",
+    "ATTRACTION": "アトラクション",
+    "MONUMENT": "記念碑",
+    "HOTEL": "ホテル",
+    "NATURE": "自然"
+  },
+  "common": {
+    "all": "全て",
+    "gridView": "リスト",
+    "mapView": "地図",
+    "currency": "通貨",
+    "cityCount": "{count, plural, other {# 都市}}",
+    "placeCount": "{count, plural, other {# 場所}}"
+  },
+  "search": {
+    "title": "検索結果",
+    "resultsFor": "「{query}」の検索結果",
+    "countries": "国々",
+    "cities": "都市",
+    "places": "場所",
+    "noResults": "検索結果が見つかりませんでした。"
+  },
+  "place": {
+    "address": "住所",
+    "openingHours": "営業時間",
+    "website": "Webサイト",
+    "phone": "電話",
+    "reviewsHeading": "レビュー",
+    "noReviews": "まだレビューはありません。",
+    "anonymous": "匿名",
+    "writeReviewCta": "レビューを書くにはログインしてください",
+    "photoAlt": "写真",
+    "addToFavorites": "お気に入りに追加",
+    "removeFromFavorites": "お気に入りから削除",
+    "priceEstimateNote": "推定価格であり、リアルタイムデータではありません。",
+    "priceEstimate": "推定価格"
+  },
+  "filters": {
+    "sortLabel": "選別",
+    "sortName": "名前",
+    "sortRating": "評価",
+    "sortPriceAsc": "価格（安い順）",
+    "sortPriceDesc": "価格（高い順）",
+    "sortDistance": "距離",
+    "ratingLabel": "最低評価",
+    "ratingAny": "あらゆる評価",
+    "priceLabel": "最大価格",
+    "priceAny": "どんな価格でも",
+    "seasonLabel": "季節",
+    "seasonAll": "一年中",
+    "seasonSummer": "夏",
+    "seasonWinter": "冬"
+  },
+  "auth": {
+    "signIn": "サインイン",
+    "signOut": "サインアウト",
+    "signUp": "サインアップ",
+    "email": "メール",
+    "password": "パスワード",
+    "name": "名前",
+    "continueWithGoogle": "Googleで続行",
+    "invalidCredentials": "メールアドレスまたはパスワードが無効です。",
+    "alreadyHaveAccount": "既にアカウントをお持ちですか？ログインしてください",
+    "noAccountYet": "アカウントをお持ちでない方はこちらからご登録ください。"
+  },
+  "review": {
+    "writeReview": "レビューを書く",
+    "rating": "評価",
+    "titleLabel": "タイトル",
+    "bodyLabel": "あなたのレビュー",
+    "submit": "提出する"
+  },
+  "profile": {
+    "heading": "マイプロフィール",
+    "accountInfo": "アカウント情報",
+    "avatarUrlLabel": "アバターURL",
+    "save": "保存",
+    "myReviews": "私のレビュー",
+    "noReviews": "まだレビューを書いていません。",
+    "delete": "消去",
+    "deleteConfirm": "このレビューを削除してもよろしいですか？",
+    "myFavorites": "私のお気に入り",
+    "noFavorites": "まだお気に入りの場所を登録していません。",
+    "removeFavorite": "お気に入りから削除"
+  },
+  "error": {
+    "heading": "何らかの問題が発生しました",
+    "message": "しばらくしてからもう一度お試しください。",
+    "retry": "もう一度やり直してください"
+  },
+  "footer": {
+    "rights": "無断転載を禁じます。"
+  }
+}

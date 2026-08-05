@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "IZPĒTI. ATKLĀJ. DOŠANĀS.",
+    "explore": "Izpētīt",
+    "writeReview": "Uzrakstīt atsauksmi",
+    "more": "Vairāk",
+    "allCountries": "Visas valstis",
+    "favorites": "Mani favorīti"
+  },
+  "preferences": {
+    "title": "Preferences",
+    "regionTab": "Reģions un valoda",
+    "currencyTab": "Valūta",
+    "searchPlaceholder": "Meklēt reģionu vai valodu...",
+    "close": "Aizvērt"
+  },
+  "home": {
+    "title": "Laipni lūdzam apmeklētāju ceļvedī",
+    "subtitle": "Atklājiet restorānus, apskates objektus, pieminekļus, viesnīcas un dabas pieminekļus.",
+    "searchPlaceholder": "Meklēt valstis, pilsētas vai vietas...",
+    "searchButton": "Meklēt",
+    "allDestinations": "Visi galamērķi"
+  },
+  "categories": {
+    "RESTAURANT": "Restorāni",
+    "ATTRACTION": "Atrakcijas",
+    "MONUMENT": "Pieminekļi",
+    "HOTEL": "Viesnīcas",
+    "NATURE": "Daba"
+  },
+  "common": {
+    "all": "Visi",
+    "gridView": "Saraksts",
+    "mapView": "Karte",
+    "currency": "Valūta",
+    "cityCount": "{count, plural, other {# pilsētas}}",
+    "placeCount": "{count, plural, other {# vietas}}"
+  },
+  "search": {
+    "title": "Meklēšanas rezultāti",
+    "resultsFor": "Rezultāti vaicājumam \"{query}\"",
+    "countries": "Valstis",
+    "cities": "Pilsētas",
+    "places": "Vietas",
+    "noResults": "Nav atrasts neviens rezultāts."
+  },
+  "place": {
+    "address": "Adrese",
+    "openingHours": "Darba laiks",
+    "website": "Tīmekļa vietne",
+    "phone": "Tālrunis",
+    "reviewsHeading": "Atsauksmes",
+    "noReviews": "Vēl nav atsauksmju.",
+    "anonymous": "Anonīms",
+    "writeReviewCta": "Pierakstieties, lai rakstītu atsauksmi",
+    "photoAlt": "foto",
+    "addToFavorites": "Pievienot izlasei",
+    "removeFromFavorites": "Noņemt no izlases",
+    "priceEstimateNote": "Aptuvenā cena, nevis tiešie dati.",
+    "priceEstimate": "Paredzamā cena"
+  },
+  "filters": {
+    "sortLabel": "Kārtot",
+    "sortName": "Vārds",
+    "sortRating": "Vērtējums",
+    "sortPriceAsc": "Cena (no zemākās uz augstāko)",
+    "sortPriceDesc": "Cena (no augstākās uz zemāko)",
+    "sortDistance": "Attālums",
+    "ratingLabel": "Min. vērtējums",
+    "ratingAny": "Jebkurš vērtējums",
+    "priceLabel": "Maks. cena",
+    "priceAny": "Jebkura cena",
+    "seasonLabel": "Sezona",
+    "seasonAll": "Visu gadu",
+    "seasonSummer": "Vasara",
+    "seasonWinter": "Ziema"
+  },
+  "auth": {
+    "signIn": "Pierakstīties",
+    "signOut": "Izrakstīties",
+    "signUp": "Reģistrēties",
+    "email": "E-pasts",
+    "password": "Parole",
+    "name": "Vārds",
+    "continueWithGoogle": "Turpināt ar Google",
+    "invalidCredentials": "Nederīga e-pasta adrese vai parole.",
+    "alreadyHaveAccount": "Vai jums jau ir konts? Pierakstieties",
+    "noAccountYet": "Nav konta? Reģistrējieties"
+  },
+  "review": {
+    "writeReview": "Uzrakstīt atsauksmi",
+    "rating": "Vērtējums",
+    "titleLabel": "Nosaukums",
+    "bodyLabel": "Jūsu atsauksme",
+    "submit": "Iesniegt"
+  },
+  "profile": {
+    "heading": "Mans profils",
+    "accountInfo": "Konta informācija",
+    "avatarUrlLabel": "Avatāra URL",
+    "save": "Saglabāt",
+    "myReviews": "Manas atsauksmes",
+    "noReviews": "Jūs vēl neesat uzrakstījis nevienu atsauksmi.",
+    "delete": "Dzēst",
+    "deleteConfirm": "Vai tiešām vēlaties dzēst šo atsauksmi?",
+    "myFavorites": "Mani favorīti",
+    "noFavorites": "Jūs vēl neesat pievienojis nevienu vietu izlasei.",
+    "removeFavorite": "Noņemt no izlases"
+  },
+  "error": {
+    "heading": "Kaut kas nogāja greizi",
+    "message": "Lūdzu, mēģiniet vēlreiz pēc brīža.",
+    "retry": "Mēģiniet vēlreiz"
+  },
+  "footer": {
+    "rights": "Visas tiesības aizsargātas."
+  }
+}

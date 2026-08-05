@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "ESPLORA. SCOPRI. VAI.",
+    "explore": "Esplorare",
+    "writeReview": "Scrivi una recensione",
+    "more": "Di più",
+    "allCountries": "Tutti i paesi",
+    "favorites": "I miei preferiti"
+  },
+  "preferences": {
+    "title": "Preferenze",
+    "regionTab": "Regione e lingua",
+    "currencyTab": "Valuta",
+    "searchPlaceholder": "Cerca per regione o lingua...",
+    "close": "Vicino"
+  },
+  "home": {
+    "title": "Benvenuti su VisitorGuide",
+    "subtitle": "Scopri ristoranti, attrazioni, monumenti, hotel e punti di riferimento naturali.",
+    "searchPlaceholder": "Cerca paesi, città o luoghi...",
+    "searchButton": "Ricerca",
+    "allDestinations": "Tutte le destinazioni"
+  },
+  "categories": {
+    "RESTAURANT": "Laser",
+    "ATTRACTION": "Disegni",
+    "MONUMENT": "Monumenti",
+    "HOTEL": "Hotel",
+    "NATURE": "Natura"
+  },
+  "common": {
+    "all": "Tutto",
+    "gridView": "Lista",
+    "mapView": "Mappa",
+    "currency": "Valuta",
+    "cityCount": "{count, plural, other {# città}}",
+    "placeCount": "{count, plural, other {# luoghi}}"
+  },
+  "search": {
+    "title": "Risultati della ricerca",
+    "resultsFor": "Risultati per \"{query}\"",
+    "countries": "Paesi",
+    "cities": "Comunità",
+    "places": "Luoghi",
+    "noResults": "Nessun risultato trovato."
+  },
+  "place": {
+    "address": "Indirizzo",
+    "openingHours": "Orari di apertura",
+    "website": "Sito web",
+    "phone": "Telefono",
+    "reviewsHeading": "Recensioni",
+    "noReviews": "Nessuna recensione ancora.",
+    "anonymous": "Anonimo",
+    "writeReviewCta": "Accedi per scrivere una recensione",
+    "photoAlt": "foto",
+    "addToFavorites": "Aggiungi ai preferiti",
+    "removeFromFavorites": "Rimuovi dai preferiti",
+    "priceEstimateNote": "Prezzo stimato, non dato in tempo reale.",
+    "priceEstimate": "Prezzo stimato"
+  },
+  "filters": {
+    "sortLabel": "Ordinare",
+    "sortName": "Nome",
+    "sortRating": "Valutazione",
+    "sortPriceAsc": "Prezzo (dal più basso al più alto)",
+    "sortPriceDesc": "Prezzo (dal più alto al più basso)",
+    "sortDistance": "Distanza",
+    "ratingLabel": "Valutazione minima",
+    "ratingAny": "Qualsiasi valutazione",
+    "priceLabel": "Prezzo massimo",
+    "priceAny": "Qualsiasi prezzo",
+    "seasonLabel": "Stagione",
+    "seasonAll": "Tutto l'anno",
+    "seasonSummer": "Estate",
+    "seasonWinter": "Inverno"
+  },
+  "auth": {
+    "signIn": "Registrazione",
+    "signOut": "Disconnessione",
+    "signUp": "Iscrizione",
+    "email": "E-mail",
+    "password": "Password",
+    "name": "Nome",
+    "continueWithGoogle": "Continua con Google",
+    "invalidCredentials": "Indirizzo email o password non validi.",
+    "alreadyHaveAccount": "Hai già un account? Accedi",
+    "noAccountYet": "Non hai un account? Registrati"
+  },
+  "review": {
+    "writeReview": "Scrivi una recensione",
+    "rating": "Valutazione",
+    "titleLabel": "Titolo",
+    "bodyLabel": "La tua recensione",
+    "submit": "Invia"
+  },
+  "profile": {
+    "heading": "Il mio profilo",
+    "accountInfo": "Informazioni sull'account",
+    "avatarUrlLabel": "URL dell'avatar",
+    "save": "Salva",
+    "myReviews": "Le mie ricette",
+    "noReviews": "Non hai ancora scritto nessuna recensione.",
+    "delete": "Eliminare",
+    "deleteConfirm": "Sei sicuro di voler eliminare questa recensione?",
+    "myFavorites": "I miei preferiti",
+    "noFavorites": "Non hai ancora aggiunto nessun luogo ai preferiti.",
+    "removeFavorite": "Rimuovi dai preferiti"
+  },
+  "error": {
+    "heading": "Qualcosa è andato storto",
+    "message": "Riprova tra un attimo.",
+    "retry": "Riprova"
+  },
+  "footer": {
+    "rights": "Tutti i diritti riservati."
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "TUTKI. LÖYDÄ. MENE.",
+    "explore": "Tutkia",
+    "writeReview": "Kirjoita arvostelu",
+    "more": "Lisää",
+    "allCountries": "Kaikki maat",
+    "favorites": "Suosikkini"
+  },
+  "preferences": {
+    "title": "Asetukset",
+    "regionTab": "Alue ja kieli",
+    "currencyTab": "Valuutta",
+    "searchPlaceholder": "Hae aluetta tai kieltä...",
+    "close": "Lähellä"
+  },
+  "home": {
+    "title": "Tervetuloa Vierailijaoppaaseen",
+    "subtitle": "Löydä ravintoloita, nähtävyyksiä, monumentteja, hotelleja ja luonnonnähtävyyksiä.",
+    "searchPlaceholder": "Hae maita, kaupunkeja tai paikkoja...",
+    "searchButton": "Haku",
+    "allDestinations": "Kaikki kohteet"
+  },
+  "categories": {
+    "RESTAURANT": "Ravintolat",
+    "ATTRACTION": "Nähtävyydet",
+    "MONUMENT": "Monumentit",
+    "HOTEL": "Hotellit",
+    "NATURE": "Luonto"
+  },
+  "common": {
+    "all": "Kaikki",
+    "gridView": "Lista",
+    "mapView": "Kartta",
+    "currency": "Valuutta",
+    "cityCount": "{count, plural, other {# kaupungit}}",
+    "placeCount": "{count, plural, other {# paikat}}"
+  },
+  "search": {
+    "title": "Hakutulokset",
+    "resultsFor": "Tulokset haulle \"{query}\"",
+    "countries": "Maat",
+    "cities": "Kaupungit",
+    "places": "Paikat",
+    "noResults": "Ei tuloksia."
+  },
+  "place": {
+    "address": "Osoite",
+    "openingHours": "Aukioloajat",
+    "website": "Verkkosivusto",
+    "phone": "Puhelin",
+    "reviewsHeading": "Arvostelut",
+    "noReviews": "Ei vielä arvosteluja.",
+    "anonymous": "Anonyymi",
+    "writeReviewCta": "Kirjaudu sisään kirjoittaaksesi arvostelun",
+    "photoAlt": "kuva",
+    "addToFavorites": "Lisää suosikkeihin",
+    "removeFromFavorites": "Poista suosikeista",
+    "priceEstimateNote": "Arvioitu hinta, ei reaaliaikaista dataa.",
+    "priceEstimate": "Arvioitu hinta"
+  },
+  "filters": {
+    "sortLabel": "Järjestellä",
+    "sortName": "Nimi",
+    "sortRating": "Arvosana",
+    "sortPriceAsc": "Hinta (alhaalta ylös)",
+    "sortPriceDesc": "Hinta (korkeimmasta alhaisimpaan)",
+    "sortDistance": "Etäisyys",
+    "ratingLabel": "Vähimmäisluokitus",
+    "ratingAny": "Mikä tahansa luokitus",
+    "priceLabel": "Maksimihinta",
+    "priceAny": "Mikä tahansa hinta",
+    "seasonLabel": "Kausi",
+    "seasonAll": "Ympäri vuoden",
+    "seasonSummer": "Kesä",
+    "seasonWinter": "Talvi"
+  },
+  "auth": {
+    "signIn": "Kirjaudu sisään",
+    "signOut": "Kirjaudu ulos",
+    "signUp": "Rekisteröidy",
+    "email": "Sähköposti",
+    "password": "Salasana",
+    "name": "Nimi",
+    "continueWithGoogle": "Jatka Googlen kanssa",
+    "invalidCredentials": "Virheellinen sähköpostiosoite tai salasana.",
+    "alreadyHaveAccount": "Onko sinulla jo tili? Kirjaudu sisään",
+    "noAccountYet": "Eikö sinulla ole tiliä? Rekisteröidy"
+  },
+  "review": {
+    "writeReview": "Kirjoita arvostelu",
+    "rating": "Arvosana",
+    "titleLabel": "Otsikko",
+    "bodyLabel": "Arvostelusi",
+    "submit": "Lähetä"
+  },
+  "profile": {
+    "heading": "Profiilini",
+    "accountInfo": "Tilitiedot",
+    "avatarUrlLabel": "Avatarin URL-osoite",
+    "save": "Tallentaa",
+    "myReviews": "Arvosteluni",
+    "noReviews": "Et ole vielä kirjoittanut arvosteluja.",
+    "delete": "Poistaa",
+    "deleteConfirm": "Haluatko varmasti poistaa tämän arvostelun?",
+    "myFavorites": "Suosikkini",
+    "noFavorites": "Et ole vielä lisännyt yhtään paikkaa suosikkeihin.",
+    "removeFavorite": "Poista suosikeista"
+  },
+  "error": {
+    "heading": "Jokin meni pieleen",
+    "message": "Yritä uudelleen hetken kuluttua.",
+    "retry": "Yritä uudelleen"
+  },
+  "footer": {
+    "rights": "Kaikki oikeudet pidätetään."
+  }
+}

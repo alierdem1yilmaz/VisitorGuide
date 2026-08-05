@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "AVASTA. AVASTA. MINE.",
+    "explore": "Avasta",
+    "writeReview": "Kirjutage arvustus",
+    "more": "Rohkem",
+    "allCountries": "Kõik riigid",
+    "favorites": "Minu lemmikud"
+  },
+  "preferences": {
+    "title": "Eelistused",
+    "regionTab": "Piirkond ja keel",
+    "currencyTab": "Valuuta",
+    "searchPlaceholder": "Otsi piirkonda või keelt...",
+    "close": "Sule"
+  },
+  "home": {
+    "title": "Tere tulemast Külastajajuhendisse",
+    "subtitle": "Avastage restorane, vaatamisväärsusi, monumente, hotelle ja looduslikke vaatamisväärsusi.",
+    "searchPlaceholder": "Otsi riike, linnu või kohti...",
+    "searchButton": "Otsi",
+    "allDestinations": "Kõik sihtkohad"
+  },
+  "categories": {
+    "RESTAURANT": "Restoranid",
+    "ATTRACTION": "Vaatamisväärsused",
+    "MONUMENT": "Monumendid",
+    "HOTEL": "Hotellid",
+    "NATURE": "Loodus"
+  },
+  "common": {
+    "all": "Kõik",
+    "gridView": "Loend",
+    "mapView": "Kaart",
+    "currency": "Valuuta",
+    "cityCount": "{count, plural, other {# linnad}}",
+    "placeCount": "{count, plural, other {# kohad}}"
+  },
+  "search": {
+    "title": "Otsingutulemused",
+    "resultsFor": "Tulemused päringule \"{query}\"",
+    "countries": "Riigid",
+    "cities": "Linnad",
+    "places": "Kohad",
+    "noResults": "Tulemusi ei leitud."
+  },
+  "place": {
+    "address": "Aadress",
+    "openingHours": "Lahtiolekuajad",
+    "website": "Veebisait",
+    "phone": "Telefon",
+    "reviewsHeading": "Arvustused",
+    "noReviews": "Arvustusi pole veel.",
+    "anonymous": "Anonüümne",
+    "writeReviewCta": "Arvustuse kirjutamiseks logige sisse",
+    "photoAlt": "foto",
+    "addToFavorites": "Lisa lemmikutesse",
+    "removeFromFavorites": "Eemalda lemmikutest",
+    "priceEstimateNote": "Hinnanguline hind, mitte reaalajas andmed.",
+    "priceEstimate": "Hinnanguline hind"
+  },
+  "filters": {
+    "sortLabel": "Sorteeri",
+    "sortName": "Nimi",
+    "sortRating": "Hinnang",
+    "sortPriceAsc": "Hind (madalamast kõrgemani)",
+    "sortPriceDesc": "Hind (kõrgemast madalamani)",
+    "sortDistance": "Kaugus",
+    "ratingLabel": "Minimaalne hinnang",
+    "ratingAny": "Mis tahes hinnang",
+    "priceLabel": "Maksimaalne hind",
+    "priceAny": "Iga hinnaga",
+    "seasonLabel": "Hooaeg",
+    "seasonAll": "Aastaringselt",
+    "seasonSummer": "Suvi",
+    "seasonWinter": "Talv"
+  },
+  "auth": {
+    "signIn": "Logi sisse",
+    "signOut": "Logi välja",
+    "signUp": "Registreeru",
+    "email": "E-post",
+    "password": "Parool",
+    "name": "Nimi",
+    "continueWithGoogle": "Jätka Google'iga",
+    "invalidCredentials": "Kehtetu e-posti aadress või parool.",
+    "alreadyHaveAccount": "Kas sul on juba konto? Logi sisse",
+    "noAccountYet": "Kas teil pole kontot? Registreeru"
+  },
+  "review": {
+    "writeReview": "Kirjutage arvustus",
+    "rating": "Hinnang",
+    "titleLabel": "Pealkiri",
+    "bodyLabel": "Teie arvustus",
+    "submit": "Esita"
+  },
+  "profile": {
+    "heading": "Minu profiil",
+    "accountInfo": "Kontoinfo",
+    "avatarUrlLabel": "Avatari URL",
+    "save": "Salvesta",
+    "myReviews": "Minu arvustused",
+    "noReviews": "Sa pole veel ühtegi arvustust kirjutanud.",
+    "delete": "Kustuta",
+    "deleteConfirm": "Kas olete kindel, et soovite selle arvustuse kustutada?",
+    "myFavorites": "Minu lemmikud",
+    "noFavorites": "Sa pole veel ühtegi kohta lemmikute hulka lisanud.",
+    "removeFavorite": "Eemalda lemmikutest"
+  },
+  "error": {
+    "heading": "Midagi läks valesti",
+    "message": "Palun proovige uuesti hetke pärast.",
+    "retry": "Proovi uuesti"
+  },
+  "footer": {
+    "rights": "Kõik õigused kaitstud."
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "UTFORSKA. UPPTÄCK. GÅ.",
+    "explore": "Utforska",
+    "writeReview": "Skriv en recension",
+    "more": "Mer",
+    "allCountries": "Alla länder",
+    "favorites": "Mina favoriter"
+  },
+  "preferences": {
+    "title": "Inställningar",
+    "regionTab": "Region och språk",
+    "currencyTab": "Valuta",
+    "searchPlaceholder": "Sök region eller språk...",
+    "close": "Nära"
+  },
+  "home": {
+    "title": "Välkommen till Besökarguiden",
+    "subtitle": "Upptäck restauranger, sevärdheter, monument, hotell och naturliga landmärken.",
+    "searchPlaceholder": "Sök länder, städer eller platser...",
+    "searchButton": "Söka",
+    "allDestinations": "Alla destinationer"
+  },
+  "categories": {
+    "RESTAURANT": "Restauranger",
+    "ATTRACTION": "Sevärdheter",
+    "MONUMENT": "Monument",
+    "HOTEL": "Hotell",
+    "NATURE": "Natur"
+  },
+  "common": {
+    "all": "Alla",
+    "gridView": "Lista",
+    "mapView": "Karta",
+    "currency": "Valuta",
+    "cityCount": "{count, plural, other {# städer}}",
+    "placeCount": "{count, plural, other {# platser}}"
+  },
+  "search": {
+    "title": "Sökresultat",
+    "resultsFor": "Resultat för \"{query}\"",
+    "countries": "Länder",
+    "cities": "Städer",
+    "places": "Platser",
+    "noResults": "Inga resultat hittades."
+  },
+  "place": {
+    "address": "Adress",
+    "openingHours": "Öppettider",
+    "website": "Webbplats",
+    "phone": "Telefon",
+    "reviewsHeading": "Recensioner",
+    "noReviews": "Inga recensioner än.",
+    "anonymous": "Anonym",
+    "writeReviewCta": "Logga in för att skriva en recension",
+    "photoAlt": "bild",
+    "addToFavorites": "Lägg till i favoriter",
+    "removeFromFavorites": "Ta bort från favoriter",
+    "priceEstimateNote": "Uppskattat pris, inte realtidsdata.",
+    "priceEstimate": "Uppskattat pris"
+  },
+  "filters": {
+    "sortLabel": "Sortera",
+    "sortName": "Namn",
+    "sortRating": "Gradering",
+    "sortPriceAsc": "Pris (lågt till högt)",
+    "sortPriceDesc": "Pris (högst till lågt)",
+    "sortDistance": "Avstånd",
+    "ratingLabel": "Lägsta betyg",
+    "ratingAny": "Vilket betyg som helst",
+    "priceLabel": "Maxpris",
+    "priceAny": "Vilket pris som helst",
+    "seasonLabel": "Säsong",
+    "seasonAll": "Året runt",
+    "seasonSummer": "Sommar",
+    "seasonWinter": "Vinter"
+  },
+  "auth": {
+    "signIn": "Logga in",
+    "signOut": "Logga ut",
+    "signUp": "Registrera dig",
+    "email": "E-post",
+    "password": "Lösenord",
+    "name": "Namn",
+    "continueWithGoogle": "Fortsätt med Google",
+    "invalidCredentials": "Ogiltig e-postadress eller lösenord.",
+    "alreadyHaveAccount": "Har du redan ett konto? Logga in",
+    "noAccountYet": "Har du inget konto? Registrera dig"
+  },
+  "review": {
+    "writeReview": "Skriv en recension",
+    "rating": "Gradering",
+    "titleLabel": "Titel",
+    "bodyLabel": "Din recension",
+    "submit": "Överlämna"
+  },
+  "profile": {
+    "heading": "Min profil",
+    "accountInfo": "Kontoinformation",
+    "avatarUrlLabel": "Avatar-URL",
+    "save": "Spara",
+    "myReviews": "Mina recensioner",
+    "noReviews": "Du har inte skrivit några recensioner än.",
+    "delete": "Radera",
+    "deleteConfirm": "Är du säker på att du vill ta bort den här recensionen?",
+    "myFavorites": "Mina favoriter",
+    "noFavorites": "Du har inte favoritmarkerat några platser än.",
+    "removeFavorite": "Ta bort från favoriter"
+  },
+  "error": {
+    "heading": "Något gick fel",
+    "message": "Försök igen om en stund.",
+    "retry": "Försök igen"
+  },
+  "footer": {
+    "rights": "Alla rättigheter förbehållna."
+  }
+}

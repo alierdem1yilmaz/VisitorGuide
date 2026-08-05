@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "탐험하고, 발견하고, 떠나세요.",
+    "explore": "탐구하다",
+    "writeReview": "리뷰 작성하기",
+    "more": "더",
+    "allCountries": "제국",
+    "favorites": "내가 좋아하는 것들"
+  },
+  "preferences": {
+    "title": "환경설정",
+    "regionTab": "지역 및 언어",
+    "currencyTab": "통화",
+    "searchPlaceholder": "지역 또는 언어를 검색하세요...",
+    "close": "닫다"
+  },
+  "home": {
+    "title": "방문자 가이드에 오신 것을 환영합니다",
+    "subtitle": "레스토랑, 관광 명소, 기념물, 호텔 및 자연 명소를 찾아보세요.",
+    "searchPlaceholder": "국가, 도시 또는 지역을 검색하세요...",
+    "searchButton": "찾다",
+    "allDestinations": "모든 목적지"
+  },
+  "categories": {
+    "RESTAURANT": "레스토랑",
+    "ATTRACTION": "관광 명소",
+    "MONUMENT": "기념물",
+    "HOTEL": "호텔",
+    "NATURE": "자연"
+  },
+  "common": {
+    "all": "모두",
+    "gridView": "목록",
+    "mapView": "지도",
+    "currency": "통화",
+    "cityCount": "{count, plural, other {# 도시들}}",
+    "placeCount": "{count, plural, other {# 장소}}"
+  },
+  "search": {
+    "title": "검색 결과",
+    "resultsFor": "\"{query}\"에 대한 검색 결과",
+    "countries": "국가",
+    "cities": "도시들",
+    "places": "장소",
+    "noResults": "검색 결과가 없습니다."
+  },
+  "place": {
+    "address": "주소",
+    "openingHours": "영업시간",
+    "website": "웹사이트",
+    "phone": "핸드폰",
+    "reviewsHeading": "리뷰",
+    "noReviews": "아직 리뷰가 없습니다.",
+    "anonymous": "익명의",
+    "writeReviewCta": "로그인 후 리뷰를 작성하세요.",
+    "photoAlt": "사진",
+    "addToFavorites": "즐겨찾기에 추가",
+    "removeFromFavorites": "즐겨찾기에서 제거",
+    "priceEstimateNote": "예상 가격이며 실시간 데이터가 아닙니다.",
+    "priceEstimate": "예상 가격"
+  },
+  "filters": {
+    "sortLabel": "종류",
+    "sortName": "이름",
+    "sortRating": "평가",
+    "sortPriceAsc": "가격 (낮은 가격부터 높은 가격 순)",
+    "sortPriceDesc": "가격 (높은 가격부터 낮은 가격 순)",
+    "sortDistance": "거리",
+    "ratingLabel": "최소 등급",
+    "ratingAny": "모든 등급",
+    "priceLabel": "최대 가격",
+    "priceAny": "어떤 가격이든",
+    "seasonLabel": "계절",
+    "seasonAll": "연중",
+    "seasonSummer": "여름",
+    "seasonWinter": "겨울"
+  },
+  "auth": {
+    "signIn": "로그인",
+    "signOut": "로그아웃",
+    "signUp": "회원가입",
+    "email": "이메일",
+    "password": "비밀번호",
+    "name": "이름",
+    "continueWithGoogle": "Google에서 계속 진행",
+    "invalidCredentials": "이메일 또는 비밀번호가 잘못되었습니다.",
+    "alreadyHaveAccount": "이미 계정이 있으신가요? 로그인하세요",
+    "noAccountYet": "계정이 없으신가요? 가입하세요"
+  },
+  "review": {
+    "writeReview": "리뷰 작성하기",
+    "rating": "평가",
+    "titleLabel": "제목",
+    "bodyLabel": "귀하의 리뷰",
+    "submit": "제출하다"
+  },
+  "profile": {
+    "heading": "내 프로필",
+    "accountInfo": "계정 정보",
+    "avatarUrlLabel": "아바타 URL",
+    "save": "구하다",
+    "myReviews": "내 리뷰",
+    "noReviews": "아직 리뷰를 작성하지 않으셨습니다.",
+    "delete": "삭제",
+    "deleteConfirm": "이 리뷰를 정말 삭제하시겠습니까?",
+    "myFavorites": "내가 좋아하는 것들",
+    "noFavorites": "아직 즐겨찾기에 추가한 장소가 없습니다.",
+    "removeFavorite": "즐겨찾기에서 제거"
+  },
+  "error": {
+    "heading": "뭔가 잘못됐어요",
+    "message": "잠시 후 다시 시도해 주세요.",
+    "retry": "다시 시도해 보세요"
+  },
+  "footer": {
+    "rights": "모든 권리 보유."
+  }
+}

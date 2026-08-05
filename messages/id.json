@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "JELAJAHI. TEMUKAN. PERGI.",
+    "explore": "Mengeksplorasi",
+    "writeReview": "Tulis Ulasan",
+    "more": "Lagi",
+    "allCountries": "Semua Negara",
+    "favorites": "Favoritku"
+  },
+  "preferences": {
+    "title": "Preferensi",
+    "regionTab": "Wilayah & Bahasa",
+    "currencyTab": "Mata uang",
+    "searchPlaceholder": "Cari berdasarkan wilayah atau bahasa...",
+    "close": "Menutup"
+  },
+  "home": {
+    "title": "Selamat datang di VisitorGuide",
+    "subtitle": "Temukan restoran, tempat wisata, monumen, hotel, dan landmark alam.",
+    "searchPlaceholder": "Cari negara, kota, atau tempat...",
+    "searchButton": "Mencari",
+    "allDestinations": "Semua Destinasi"
+  },
+  "categories": {
+    "RESTAURANT": "Restoran",
+    "ATTRACTION": "Objek wisata",
+    "MONUMENT": "Monumen",
+    "HOTEL": "Hotel",
+    "NATURE": "Alam"
+  },
+  "common": {
+    "all": "Semua",
+    "gridView": "Daftar",
+    "mapView": "Peta",
+    "currency": "Mata uang",
+    "cityCount": "{count, plural, other {# kota-kota}}",
+    "placeCount": "{count, plural, other {# tempat}}"
+  },
+  "search": {
+    "title": "Hasil Pencarian",
+    "resultsFor": "Hasil untuk \"{query}\"",
+    "countries": "Negara-negara",
+    "cities": "Kota-kota",
+    "places": "Tempat-tempat",
+    "noResults": "Tidak ada hasil yang ditemukan."
+  },
+  "place": {
+    "address": "Alamat",
+    "openingHours": "Jam Buka",
+    "website": "Situs web",
+    "phone": "Telepon",
+    "reviewsHeading": "Ulasan",
+    "noReviews": "Belum ada ulasan.",
+    "anonymous": "Anonim",
+    "writeReviewCta": "Masuk untuk menulis ulasan",
+    "photoAlt": "foto",
+    "addToFavorites": "Tambahkan ke favorit",
+    "removeFromFavorites": "Hapus dari favorit",
+    "priceEstimateNote": "Perkiraan harga, bukan data aktual.",
+    "priceEstimate": "Perkiraan harga"
+  },
+  "filters": {
+    "sortLabel": "Menyortir",
+    "sortName": "Nama",
+    "sortRating": "Peringkat",
+    "sortPriceAsc": "Harga (rendah ke tinggi)",
+    "sortPriceDesc": "Harga (dari tinggi ke rendah)",
+    "sortDistance": "Jarak",
+    "ratingLabel": "Peringkat minimum",
+    "ratingAny": "Peringkat apa pun",
+    "priceLabel": "Harga maksimum",
+    "priceAny": "Harga berapa pun",
+    "seasonLabel": "Musim",
+    "seasonAll": "Sepanjang tahun",
+    "seasonSummer": "Musim panas",
+    "seasonWinter": "Musim dingin"
+  },
+  "auth": {
+    "signIn": "Masuk",
+    "signOut": "Keluar",
+    "signUp": "Mendaftar",
+    "email": "E-mail",
+    "password": "Kata sandi",
+    "name": "Nama",
+    "continueWithGoogle": "Lanjutkan dengan Google",
+    "invalidCredentials": "Email atau kata sandi tidak valid.",
+    "alreadyHaveAccount": "Sudah memiliki akun? Masuk",
+    "noAccountYet": "Belum punya akun? Daftar sekarang"
+  },
+  "review": {
+    "writeReview": "Tulis Ulasan",
+    "rating": "Peringkat",
+    "titleLabel": "Judul",
+    "bodyLabel": "Ulasan Anda",
+    "submit": "Kirim"
+  },
+  "profile": {
+    "heading": "Profil Saya",
+    "accountInfo": "Informasi Akun",
+    "avatarUrlLabel": "URL Avatar",
+    "save": "Menyimpan",
+    "myReviews": "Ulasan Saya",
+    "noReviews": "Anda belum menulis ulasan apa pun.",
+    "delete": "Menghapus",
+    "deleteConfirm": "Apakah Anda yakin ingin menghapus ulasan ini?",
+    "myFavorites": "Favoritku",
+    "noFavorites": "Anda belum menambahkan tempat mana pun ke favorit.",
+    "removeFavorite": "Hapus dari favorit"
+  },
+  "error": {
+    "heading": "Terjadi kesalahan.",
+    "message": "Silakan coba lagi sebentar lagi.",
+    "retry": "Coba lagi"
+  },
+  "footer": {
+    "rights": "Seluruh hak dilindungi undang-undang."
+  }
+}

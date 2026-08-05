@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "OBJAVUJ. OBJAVUJ. ÍĎ.",
+    "explore": "Preskúmať",
+    "writeReview": "Napísať recenziu",
+    "more": "Viac",
+    "allCountries": "Všetky krajiny",
+    "favorites": "Moje obľúbené"
+  },
+  "preferences": {
+    "title": "Predvoľby",
+    "regionTab": "Región a jazyk",
+    "currencyTab": "Mena",
+    "searchPlaceholder": "Hľadať región alebo jazyk...",
+    "close": "Zatvoriť"
+  },
+  "home": {
+    "title": "Vitajte v sprievodcovi návštevníkmi",
+    "subtitle": "Objavte reštaurácie, atrakcie, pamiatky, hotely a prírodné pamiatky.",
+    "searchPlaceholder": "Vyhľadajte krajiny, mestá alebo miesta...",
+    "searchButton": "Hľadať",
+    "allDestinations": "Všetky destinácie"
+  },
+  "categories": {
+    "RESTAURANT": "Reštaurácie",
+    "ATTRACTION": "Atrakcie",
+    "MONUMENT": "Pamätníky",
+    "HOTEL": "Hotely",
+    "NATURE": "Príroda"
+  },
+  "common": {
+    "all": "Všetky",
+    "gridView": "Zoznam",
+    "mapView": "Mapa",
+    "currency": "Mena",
+    "cityCount": "{count, plural, other {# mestá}}",
+    "placeCount": "{count, plural, other {# miesta}}"
+  },
+  "search": {
+    "title": "Výsledky vyhľadávania",
+    "resultsFor": "Výsledky pre „{query}“",
+    "countries": "Krajiny",
+    "cities": "Mestá",
+    "places": "Miesta",
+    "noResults": "Nenašli sa žiadne výsledky."
+  },
+  "place": {
+    "address": "Adresa",
+    "openingHours": "OTVÁRACIE HODINY",
+    "website": "Webová stránka",
+    "phone": "Telefón",
+    "reviewsHeading": "Recenzie",
+    "noReviews": "Zatiaľ žiadne recenzie.",
+    "anonymous": "Anonymný",
+    "writeReviewCta": "Prihláste sa a napíšte recenziu",
+    "photoAlt": "fotografia",
+    "addToFavorites": "Pridať k obľúbeným",
+    "removeFromFavorites": "Odstrániť z obľúbených",
+    "priceEstimateNote": "Odhadovaná cena, nie aktuálne údaje.",
+    "priceEstimate": "Odhadovaná cena"
+  },
+  "filters": {
+    "sortLabel": "Zoradiť",
+    "sortName": "Meno",
+    "sortRating": "Hodnotenie",
+    "sortPriceAsc": "Cena (od najnižšej po najvyššiu)",
+    "sortPriceDesc": "Cena (od najvyššej po najnižšiu)",
+    "sortDistance": "Vzdialenosť",
+    "ratingLabel": "Minimálne hodnotenie",
+    "ratingAny": "Akékoľvek hodnotenie",
+    "priceLabel": "Maximálna cena",
+    "priceAny": "Akákoľvek cena",
+    "seasonLabel": "Sezóna",
+    "seasonAll": "Celoročne",
+    "seasonSummer": "Leto",
+    "seasonWinter": "Zima"
+  },
+  "auth": {
+    "signIn": "Prihlásiť sa",
+    "signOut": "Odhlásiť sa",
+    "signUp": "Zaregistrovať sa",
+    "email": "E-mail",
+    "password": "Heslo",
+    "name": "Meno",
+    "continueWithGoogle": "Pokračovať s Googlom",
+    "invalidCredentials": "Neplatný e-mail alebo heslo.",
+    "alreadyHaveAccount": "Už máte účet? Prihlásiť sa",
+    "noAccountYet": "Nemáte účet? Zaregistrujte sa"
+  },
+  "review": {
+    "writeReview": "Napísať recenziu",
+    "rating": "Hodnotenie",
+    "titleLabel": "Názov",
+    "bodyLabel": "Vaša recenzia",
+    "submit": "Odoslať"
+  },
+  "profile": {
+    "heading": "Môj profil",
+    "accountInfo": "Informácie o účte",
+    "avatarUrlLabel": "URL adresa avatara",
+    "save": "Uložiť",
+    "myReviews": "Moje recenzie",
+    "noReviews": "Zatiaľ ste nenapísali žiadne recenzie.",
+    "delete": "Odstrániť",
+    "deleteConfirm": "Naozaj chcete odstrániť túto recenziu?",
+    "myFavorites": "Moje obľúbené",
+    "noFavorites": "Zatiaľ ste si nepridali žiadne miesta medzi obľúbené.",
+    "removeFavorite": "Odstrániť z obľúbených"
+  },
+  "error": {
+    "heading": "Niečo sa pokazilo",
+    "message": "Skúste to znova o chvíľu.",
+    "retry": "Skúste to znova"
+  },
+  "footer": {
+    "rights": "Všetky práva vyhradené."
+  }
+}

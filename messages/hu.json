@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "FEDEZD FEL. FEDEZD FEL. INDULJ.",
+    "explore": "Felfedezés",
+    "writeReview": "Írjon véleményt",
+    "more": "Több",
+    "allCountries": "Minden ország",
+    "favorites": "Kedvenceim"
+  },
+  "preferences": {
+    "title": "Beállítások",
+    "regionTab": "Régió és nyelv",
+    "currencyTab": "Valuta",
+    "searchPlaceholder": "Régió vagy nyelv keresése...",
+    "close": "Közeli"
+  },
+  "home": {
+    "title": "Üdvözöljük a Látogatói Útmutatóban",
+    "subtitle": "Fedezzen fel éttermeket, látnivalókat, műemlékeket, szállodákat és természeti nevezetességeket.",
+    "searchPlaceholder": "Keressen országokat, városokat vagy helyeket...",
+    "searchButton": "Keresés",
+    "allDestinations": "Minden úti cél"
+  },
+  "categories": {
+    "RESTAURANT": "Éttermek",
+    "ATTRACTION": "Látnivalók",
+    "MONUMENT": "műemlékek",
+    "HOTEL": "Szállodák",
+    "NATURE": "Természet"
+  },
+  "common": {
+    "all": "Minden",
+    "gridView": "Lista",
+    "mapView": "Térkép",
+    "currency": "Valuta",
+    "cityCount": "{count, plural, other {# városok}}",
+    "placeCount": "{count, plural, other {# helyek}}"
+  },
+  "search": {
+    "title": "Keresési eredmények",
+    "resultsFor": "Eredmények a(z) „{query}” kifejezésre",
+    "countries": "Országok",
+    "cities": "Városok",
+    "places": "Helyek",
+    "noResults": "Nincs találat."
+  },
+  "place": {
+    "address": "Cím",
+    "openingHours": "Nyitvatartás",
+    "website": "Weboldal",
+    "phone": "Telefon",
+    "reviewsHeading": "Vélemények",
+    "noReviews": "Még nincsenek vélemények.",
+    "anonymous": "Névtelen",
+    "writeReviewCta": "Jelentkezzen be vélemény írásához",
+    "photoAlt": "fénykép",
+    "addToFavorites": "Hozzáadás a kedvencekhez",
+    "removeFromFavorites": "Eltávolítás a kedvencek közül",
+    "priceEstimateNote": "Becsült ár, nem élő adat.",
+    "priceEstimate": "Becsült ár"
+  },
+  "filters": {
+    "sortLabel": "Fajta",
+    "sortName": "Név",
+    "sortRating": "Értékelés",
+    "sortPriceAsc": "Ár (növekvő)",
+    "sortPriceDesc": "Ár (csökkenő)",
+    "sortDistance": "Távolság",
+    "ratingLabel": "Min. értékelés",
+    "ratingAny": "Bármely értékelés",
+    "priceLabel": "Max. ár",
+    "priceAny": "Bármilyen áron",
+    "seasonLabel": "Évad",
+    "seasonAll": "Egész évben",
+    "seasonSummer": "Nyári",
+    "seasonWinter": "Téli"
+  },
+  "auth": {
+    "signIn": "Bejelentkezés",
+    "signOut": "Kijelentkezés",
+    "signUp": "Regisztráció",
+    "email": "Email",
+    "password": "Jelszó",
+    "name": "Név",
+    "continueWithGoogle": "Folytatás a Google-lal",
+    "invalidCredentials": "Érvénytelen e-mail cím vagy jelszó.",
+    "alreadyHaveAccount": "Már van fiókja? Jelentkezzen be",
+    "noAccountYet": "Nincs fiókod? Regisztrálj"
+  },
+  "review": {
+    "writeReview": "Írjon véleményt",
+    "rating": "Értékelés",
+    "titleLabel": "Cím",
+    "bodyLabel": "Az Ön értékelése",
+    "submit": "Küldés"
+  },
+  "profile": {
+    "heading": "Profilom",
+    "accountInfo": "Fiókadatok",
+    "avatarUrlLabel": "Avatar URL-címe",
+    "save": "Megtakarítás",
+    "myReviews": "Véleményeim",
+    "noReviews": "Még nem írtál értékelést.",
+    "delete": "Töröl",
+    "deleteConfirm": "Biztosan törölni szeretné ezt az értékelést?",
+    "myFavorites": "Kedvenceim",
+    "noFavorites": "Még nem tettél kedvencek közé egy helyet sem.",
+    "removeFavorite": "Eltávolítás a kedvencek közül"
+  },
+  "error": {
+    "heading": "Valami rosszul sült el",
+    "message": "Kérjük, próbálja meg újra egy pillanat múlva.",
+    "retry": "Próbáld újra"
+  },
+  "footer": {
+    "rights": "Minden jog fenntartva."
+  }
+}

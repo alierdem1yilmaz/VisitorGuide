@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "TEROKAI. TEROKAI. PERGI.",
+    "explore": "Terokai",
+    "writeReview": "Tulis Ulasan",
+    "more": "Lebih lanjut",
+    "allCountries": "Semua Negara",
+    "favorites": "Kegemaran Saya"
+  },
+  "preferences": {
+    "title": "Keutamaan",
+    "regionTab": "Wilayah & Bahasa",
+    "currencyTab": "Mata wang",
+    "searchPlaceholder": "Cari wilayah atau bahasa...",
+    "close": "Tutup"
+  },
+  "home": {
+    "title": "Selamat datang ke Panduan Pelawat",
+    "subtitle": "Terokai restoran, tarikan, monumen, hotel dan mercu tanda semula jadi.",
+    "searchPlaceholder": "Cari negara, bandar atau tempat...",
+    "searchButton": "Carian",
+    "allDestinations": "Semua Destinasi"
+  },
+  "categories": {
+    "RESTAURANT": "Restoran",
+    "ATTRACTION": "Tarikan",
+    "MONUMENT": "Tugu-tugu",
+    "HOTEL": "Hotel",
+    "NATURE": "Alam semula jadi"
+  },
+  "common": {
+    "all": "Semua",
+    "gridView": "Senarai",
+    "mapView": "Peta",
+    "currency": "Mata wang",
+    "cityCount": "{count, plural, other {# bandar-bandar}}",
+    "placeCount": "{count, plural, other {# tempat-tempat}}"
+  },
+  "search": {
+    "title": "Hasil Carian",
+    "resultsFor": "Hasil carian untuk \"{query}\"",
+    "countries": "Negara-negara",
+    "cities": "Bandar-bandar",
+    "places": "Tempat",
+    "noResults": "Tiada hasil ditemui."
+  },
+  "place": {
+    "address": "Alamat",
+    "openingHours": "Waktu Operasi",
+    "website": "Laman Web",
+    "phone": "Telefon",
+    "reviewsHeading": "Ulasan",
+    "noReviews": "Tiada ulasan lagi.",
+    "anonymous": "Tanpa Nama",
+    "writeReviewCta": "Log masuk untuk menulis ulasan",
+    "photoAlt": "foto",
+    "addToFavorites": "Tambah ke kegemaran",
+    "removeFromFavorites": "Alih keluar daripada kegemaran",
+    "priceEstimateNote": "Anggaran harga, bukan data langsung.",
+    "priceEstimate": "Anggaran harga"
+  },
+  "filters": {
+    "sortLabel": "Isih",
+    "sortName": "Nama",
+    "sortRating": "Penilaian",
+    "sortPriceAsc": "Harga (rendah ke tinggi)",
+    "sortPriceDesc": "Harga (tinggi ke rendah)",
+    "sortDistance": "Jarak",
+    "ratingLabel": "Penilaian minimum",
+    "ratingAny": "Sebarang penilaian",
+    "priceLabel": "Harga maksimum",
+    "priceAny": "Sebarang harga",
+    "seasonLabel": "Musim",
+    "seasonAll": "Sepanjang tahun",
+    "seasonSummer": "Musim panas",
+    "seasonWinter": "Musim sejuk"
+  },
+  "auth": {
+    "signIn": "Daftar Masuk",
+    "signOut": "Daftar Keluar",
+    "signUp": "Daftar",
+    "email": "E-mel",
+    "password": "Kata Laluan",
+    "name": "Nama",
+    "continueWithGoogle": "Teruskan dengan Google",
+    "invalidCredentials": "E-mel atau kata laluan tidak sah.",
+    "alreadyHaveAccount": "Sudah mempunyai akaun? Log masuk",
+    "noAccountYet": "Tidak mempunyai akaun? Daftar"
+  },
+  "review": {
+    "writeReview": "Tulis Ulasan",
+    "rating": "Penilaian",
+    "titleLabel": "Tajuk",
+    "bodyLabel": "Ulasan anda",
+    "submit": "Hantar"
+  },
+  "profile": {
+    "heading": "Profil Saya",
+    "accountInfo": "Maklumat Akaun",
+    "avatarUrlLabel": "URL Avatar",
+    "save": "Simpan",
+    "myReviews": "Ulasan Saya",
+    "noReviews": "Anda belum menulis sebarang ulasan lagi.",
+    "delete": "Padam",
+    "deleteConfirm": "Adakah anda pasti mahu memadamkan ulasan ini?",
+    "myFavorites": "Kegemaran Saya",
+    "noFavorites": "Anda belum lagi memilih mana-mana tempat sebagai kegemaran.",
+    "removeFavorite": "Alih keluar daripada kegemaran"
+  },
+  "error": {
+    "heading": "Ada yang tidak kena",
+    "message": "Sila cuba lagi sebentar lagi.",
+    "retry": "Cuba lagi"
+  },
+  "footer": {
+    "rights": "Semua hak cipta terpelihara."
+  }
+}

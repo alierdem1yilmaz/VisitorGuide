@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "Chunguza. GUNDUA. NENDA.",
+    "explore": "Gundua",
+    "writeReview": "Andika Uhakiki",
+    "more": "Zaidi",
+    "allCountries": "Nchi Zote",
+    "favorites": "Vipendwa Vyangu"
+  },
+  "preferences": {
+    "title": "Mapendeleo",
+    "regionTab": "Mkoa na Lugha",
+    "currencyTab": "Sarafu",
+    "searchPlaceholder": "Tafuta eneo au lugha...",
+    "close": "Funga"
+  },
+  "home": {
+    "title": "Karibu kwenye VisitorGuide",
+    "subtitle": "Gundua migahawa, vivutio, makaburi, hoteli, na alama asilia.",
+    "searchPlaceholder": "Tafuta nchi, miji, au maeneo...",
+    "searchButton": "Tafuta",
+    "allDestinations": "Maeneo Yote ya Kuenda"
+  },
+  "categories": {
+    "RESTAURANT": "Mikahawa",
+    "ATTRACTION": "Vivutio",
+    "MONUMENT": "Makaburi",
+    "HOTEL": "Hoteli",
+    "NATURE": "Asili"
+  },
+  "common": {
+    "all": "Zote",
+    "gridView": "Orodha",
+    "mapView": "Ramani",
+    "currency": "Sarafu",
+    "cityCount": "{count, plural, other {# miji}}",
+    "placeCount": "{count, plural, other {# maeneo}}"
+  },
+  "search": {
+    "title": "Matokeo ya Utafutaji",
+    "resultsFor": "Matokeo ya \"{query}\"",
+    "countries": "Nchi",
+    "cities": "Miji",
+    "places": "Maeneo",
+    "noResults": "Hakuna matokeo yaliyopatikana."
+  },
+  "place": {
+    "address": "Anwani",
+    "openingHours": "Saa za Kufungua",
+    "website": "Tovuti",
+    "phone": "Simu",
+    "reviewsHeading": "Mapitio",
+    "noReviews": "Hakuna maoni bado.",
+    "anonymous": "Mtu Asiyejulikana",
+    "writeReviewCta": "Ingia ili kuandika maoni",
+    "photoAlt": "picha",
+    "addToFavorites": "Ongeza kwenye vipendwa",
+    "removeFromFavorites": "Ondoa kutoka kwa vipendwa",
+    "priceEstimateNote": "Bei inayokadiriwa, si data ya moja kwa moja.",
+    "priceEstimate": "Bei inayokadiriwa"
+  },
+  "filters": {
+    "sortLabel": "Panga",
+    "sortName": "Jina",
+    "sortRating": "Ukadiriaji",
+    "sortPriceAsc": "Bei (chini hadi juu)",
+    "sortPriceDesc": "Bei (juu hadi chini)",
+    "sortDistance": "Umbali",
+    "ratingLabel": "Ukadiriaji wa chini kabisa",
+    "ratingAny": "Ukadiriaji wowote",
+    "priceLabel": "Bei ya juu zaidi",
+    "priceAny": "Bei yoyote",
+    "seasonLabel": "Msimu",
+    "seasonAll": "Mwaka mzima",
+    "seasonSummer": "Majira ya joto",
+    "seasonWinter": "Baridi"
+  },
+  "auth": {
+    "signIn": "Ingia",
+    "signOut": "Toka",
+    "signUp": "Jisajili",
+    "email": "Barua pepe",
+    "password": "Nenosiri",
+    "name": "Jina",
+    "continueWithGoogle": "Endelea na Google",
+    "invalidCredentials": "Barua pepe au nenosiri si sahihi.",
+    "alreadyHaveAccount": "Tayari una akaunti? Ingia",
+    "noAccountYet": "Huna akaunti? Jisajili"
+  },
+  "review": {
+    "writeReview": "Andika Uhakiki",
+    "rating": "Ukadiriaji",
+    "titleLabel": "Kichwa",
+    "bodyLabel": "Uhakiki wako",
+    "submit": "Wasilisha"
+  },
+  "profile": {
+    "heading": "Wasifu Wangu",
+    "accountInfo": "Taarifa za Akaunti",
+    "avatarUrlLabel": "URL ya Avatar",
+    "save": "Hifadhi",
+    "myReviews": "Mapitio Yangu",
+    "noReviews": "Hujaandika maoni yoyote bado.",
+    "delete": "Futa",
+    "deleteConfirm": "Una uhakika unataka kufuta ukaguzi huu?",
+    "myFavorites": "Vipendwa Vyangu",
+    "noFavorites": "Bado hujapenda maeneo yoyote.",
+    "removeFavorite": "Ondoa kutoka kwa vipendwa"
+  },
+  "error": {
+    "heading": "Kuna kitu kimeenda vibaya",
+    "message": "Tafadhali jaribu tena baada ya muda mfupi.",
+    "retry": "Jaribu tena"
+  },
+  "footer": {
+    "rights": "Haki zote zimehifadhiwa."
+  }
+}

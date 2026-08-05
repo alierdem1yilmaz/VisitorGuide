@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "חקור. גלה. לך.",
+    "explore": "לַחקוֹר",
+    "writeReview": "כתוב ביקורת",
+    "more": "יוֹתֵר",
+    "allCountries": "כל המדינות",
+    "favorites": "המועדפים שלי"
+  },
+  "preferences": {
+    "title": "העדפות",
+    "regionTab": "אזור ושפה",
+    "currencyTab": "מַטְבֵּעַ",
+    "searchPlaceholder": "חיפוש אזור או שפה...",
+    "close": "לִסְגוֹר"
+  },
+  "home": {
+    "title": "ברוכים הבאים למדריך המבקרים",
+    "subtitle": "גלו מסעדות, אטרקציות, מונומנטים, מלונות ואתרי טבע.",
+    "searchPlaceholder": "חפש מדינות, ערים או מקומות...",
+    "searchButton": "לְחַפֵּשׂ",
+    "allDestinations": "כל היעדים"
+  },
+  "categories": {
+    "RESTAURANT": "מסעדות",
+    "ATTRACTION": "אטרקציות",
+    "MONUMENT": "אנדרטאות",
+    "HOTEL": "מלונות",
+    "NATURE": "טֶבַע"
+  },
+  "common": {
+    "all": "כֹּל",
+    "gridView": "רְשִׁימָה",
+    "mapView": "מַפָּה",
+    "currency": "מַטְבֵּעַ",
+    "cityCount": "{count, plural, other {# ערים}}",
+    "placeCount": "{count, plural, other {# מקומות}}"
+  },
+  "search": {
+    "title": "תוצאות חיפוש",
+    "resultsFor": "תוצאות עבור \"{query}\"",
+    "countries": "מדינות",
+    "cities": "ערים",
+    "places": "מקומות",
+    "noResults": "לא נמצאו תוצאות."
+  },
+  "place": {
+    "address": "כְּתוֹבֶת",
+    "openingHours": "שְׁעוֹת פְּתִיחָה",
+    "website": "אֲתַר אִינטֶרנֶט",
+    "phone": "טֵלֵפוֹן",
+    "reviewsHeading": "ביקורות",
+    "noReviews": "אין עדיין ביקורות.",
+    "anonymous": "אֲנוֹנִימִי",
+    "writeReviewCta": "היכנס כדי לכתוב ביקורת",
+    "photoAlt": "תַצלוּם",
+    "addToFavorites": "הוסף למועדפים",
+    "removeFromFavorites": "הסר מהמועדפים",
+    "priceEstimateNote": "מחיר משוער, לא נתונים בזמן אמת.",
+    "priceEstimate": "מחיר משוער"
+  },
+  "filters": {
+    "sortLabel": "סוּג",
+    "sortName": "שֵׁם",
+    "sortRating": "דֵרוּג",
+    "sortPriceAsc": "מחיר (נמוך לגבוה)",
+    "sortPriceDesc": "מחיר (גבוה לנמוך)",
+    "sortDistance": "מֶרְחָק",
+    "ratingLabel": "דירוג מינימלי",
+    "ratingAny": "כל דירוג",
+    "priceLabel": "מחיר מקסימלי",
+    "priceAny": "כל מחיר",
+    "seasonLabel": "עוֹנָה",
+    "seasonAll": "כל השנה",
+    "seasonSummer": "קַיִץ",
+    "seasonWinter": "חוֹרֶף"
+  },
+  "auth": {
+    "signIn": "כניסה",
+    "signOut": "יציאה",
+    "signUp": "הרשמה",
+    "email": "אֶלֶקטרוֹנִי",
+    "password": "סִיסמָה",
+    "name": "שֵׁם",
+    "continueWithGoogle": "המשך עם גוגל",
+    "invalidCredentials": "כתובת דוא\"ל או סיסמה לא חוקיים.",
+    "alreadyHaveAccount": "כבר יש לך חשבון? התחבר",
+    "noAccountYet": "אין לך חשבון? הירשם"
+  },
+  "review": {
+    "writeReview": "כתוב ביקורת",
+    "rating": "דֵרוּג",
+    "titleLabel": "כּוֹתֶרֶת",
+    "bodyLabel": "הביקורת שלך",
+    "submit": "לְהַגִישׁ"
+  },
+  "profile": {
+    "heading": "הפרופיל שלי",
+    "accountInfo": "פרטי חשבון",
+    "avatarUrlLabel": "כתובת URL של אווטאר",
+    "save": "לְהַצִיל",
+    "myReviews": "הביקורות שלי",
+    "noReviews": "עדיין לא כתבת ביקורות.",
+    "delete": "לִמְחוֹק",
+    "deleteConfirm": "האם אתה בטוח שברצונך למחוק את הביקורת הזו?",
+    "myFavorites": "המועדפים שלי",
+    "noFavorites": "עדיין לא סימנת אף מקום כמועדף.",
+    "removeFavorite": "הסר מהמועדפים"
+  },
+  "error": {
+    "heading": "משהו השתבש",
+    "message": "אנא נסה שוב בעוד רגע.",
+    "retry": "נסה שוב"
+  },
+  "footer": {
+    "rights": "כֹּל הַזְכוּיוֹת שְׁמוּרוֹת."
+  }
+}

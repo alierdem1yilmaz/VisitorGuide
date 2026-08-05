@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "KANNA. UPPGÖTVA. FARA.",
+    "explore": "Kanna",
+    "writeReview": "Skrifaðu umsögn",
+    "more": "Meira",
+    "allCountries": "Öll lönd",
+    "favorites": "Uppáhaldsefnin mín"
+  },
+  "preferences": {
+    "title": "Kjörstillingar",
+    "regionTab": "Svæði og tungumál",
+    "currencyTab": "Gjaldmiðill",
+    "searchPlaceholder": "Leita að svæði eða tungumáli...",
+    "close": "Loka"
+  },
+  "home": {
+    "title": "Velkomin(n) í VisitorGuide",
+    "subtitle": "Uppgötvaðu veitingastaði, aðdráttarafl, minnismerki, hótel og náttúruperlur.",
+    "searchPlaceholder": "Leita að löndum, borgum eða stöðum...",
+    "searchButton": "Leita",
+    "allDestinations": "Allir áfangastaðir"
+  },
+  "categories": {
+    "RESTAURANT": "Veitingastaðir",
+    "ATTRACTION": "Áhugaverðir staðir",
+    "MONUMENT": "Minnismerki",
+    "HOTEL": "Hótel",
+    "NATURE": "Náttúran"
+  },
+  "common": {
+    "all": "Allt",
+    "gridView": "Listi",
+    "mapView": "Kort",
+    "currency": "Gjaldmiðill",
+    "cityCount": "{count, plural, other {# borgir}}",
+    "placeCount": "{count, plural, other {# staðir}}"
+  },
+  "search": {
+    "title": "Leitarniðurstöður",
+    "resultsFor": "Niðurstöður fyrir „{fyrirspurn}“",
+    "countries": "Lönd",
+    "cities": "Borgir",
+    "places": "Staðir",
+    "noResults": "Engar niðurstöður fundust."
+  },
+  "place": {
+    "address": "Heimilisfang",
+    "openingHours": "Opnunartími",
+    "website": "Vefsíða",
+    "phone": "Sími",
+    "reviewsHeading": "Umsagnir",
+    "noReviews": "Engar umsagnir ennþá.",
+    "anonymous": "Nafnlaust",
+    "writeReviewCta": "Skráðu þig inn til að skrifa umsögn",
+    "photoAlt": "ljósmynd",
+    "addToFavorites": "Bæta við uppáhalds",
+    "removeFromFavorites": "Fjarlægja úr uppáhaldslistum",
+    "priceEstimateNote": "Áætlað verð, ekki rauntímagögn.",
+    "priceEstimate": "Áætlað verð"
+  },
+  "filters": {
+    "sortLabel": "Raða",
+    "sortName": "Nafn",
+    "sortRating": "Einkunn",
+    "sortPriceAsc": "Verð (lágt til hátt)",
+    "sortPriceDesc": "Verð (hárra til lægra)",
+    "sortDistance": "Fjarlægð",
+    "ratingLabel": "Lágmarkseinkunn",
+    "ratingAny": "Einhver einkunn",
+    "priceLabel": "Hámarksverð",
+    "priceAny": "Hvaða verð sem er",
+    "seasonLabel": "Tímabil",
+    "seasonAll": "Allt árið",
+    "seasonSummer": "Sumar",
+    "seasonWinter": "Vetur"
+  },
+  "auth": {
+    "signIn": "Innskráning",
+    "signOut": "Skrá út",
+    "signUp": "Skráning",
+    "email": "Tölvupóstur",
+    "password": "Lykilorð",
+    "name": "Nafn",
+    "continueWithGoogle": "Halda áfram með Google",
+    "invalidCredentials": "Ógilt netfang eða lykilorð.",
+    "alreadyHaveAccount": "Ertu nú þegar með aðgang? Skráðu þig inn",
+    "noAccountYet": "Ertu ekki með aðgang? Skráðu þig"
+  },
+  "review": {
+    "writeReview": "Skrifaðu umsögn",
+    "rating": "Einkunn",
+    "titleLabel": "Titill",
+    "bodyLabel": "Umsögn þín",
+    "submit": "Senda inn"
+  },
+  "profile": {
+    "heading": "Prófíll minn",
+    "accountInfo": "Reikningsupplýsingar",
+    "avatarUrlLabel": "Vefslóð fyrir notandamynd",
+    "save": "Vista",
+    "myReviews": "Umsagnir mínar",
+    "noReviews": "Þú hefur ekki skrifað neinar umsagnir ennþá.",
+    "delete": "Eyða",
+    "deleteConfirm": "Ertu viss um að þú viljir eyða þessari umsögn?",
+    "myFavorites": "Uppáhaldsefnin mín",
+    "noFavorites": "Þú hefur ekki merkt neina staði sem uppáhalds.",
+    "removeFavorite": "Fjarlægja úr uppáhaldslistum"
+  },
+  "error": {
+    "heading": "Eitthvað fór úrskeiðis",
+    "message": "Reyndu aftur eftir smástund.",
+    "retry": "Reyndu aftur"
+  },
+  "footer": {
+    "rights": "Öll réttindi áskilin."
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "KƏŞF EDİN. KƏŞF EDİN. GEDİN.",
+    "explore": "Araşdırın",
+    "writeReview": "Rəy yazın",
+    "more": "Daha çox",
+    "allCountries": "Bütün Ölkələr",
+    "favorites": "Sevimlilərim"
+  },
+  "preferences": {
+    "title": "Seçimlər",
+    "regionTab": "Region və Dil",
+    "currencyTab": "Valyuta",
+    "searchPlaceholder": "Bölgə və ya dil axtarın...",
+    "close": "Bağla"
+  },
+  "home": {
+    "title": "VisitorGuide-a xoş gəlmisiniz",
+    "subtitle": "Restoranları, turistik yerləri, abidələri, otelləri və təbii görməli yerləri kəşf edin.",
+    "searchPlaceholder": "Ölkələri, şəhərləri və ya yerləri axtarın...",
+    "searchButton": "Axtarış",
+    "allDestinations": "Bütün Təyinat Yerləri"
+  },
+  "categories": {
+    "RESTAURANT": "Restoranlar",
+    "ATTRACTION": "Görməli yerlər",
+    "MONUMENT": "Abidələr",
+    "HOTEL": "Otellər",
+    "NATURE": "Təbiət"
+  },
+  "common": {
+    "all": "Hamısı",
+    "gridView": "Siyahı",
+    "mapView": "Xəritə",
+    "currency": "Valyuta",
+    "cityCount": "{count, plural, other {# şəhərlər}}",
+    "placeCount": "{count, plural, other {# yerlər}}"
+  },
+  "search": {
+    "title": "Axtarış Nəticələri",
+    "resultsFor": "\"{query}\" üçün nəticələr",
+    "countries": "Ölkələr",
+    "cities": "Şəhərlər",
+    "places": "Yerlər",
+    "noResults": "Heç bir nəticə tapılmadı."
+  },
+  "place": {
+    "address": "Ünvan",
+    "openingHours": "İş saatları",
+    "website": "Veb sayt",
+    "phone": "Telefon",
+    "reviewsHeading": "Rəylər",
+    "noReviews": "Hələ rəy yoxdur.",
+    "anonymous": "Anonim",
+    "writeReviewCta": "Rəy yazmaq üçün daxil olun",
+    "photoAlt": "şəkil",
+    "addToFavorites": "Sevimlilərə əlavə edin",
+    "removeFromFavorites": "Sevimlilərdən silin",
+    "priceEstimateNote": "Təxmini qiymət, canlı məlumat deyil.",
+    "priceEstimate": "Təxmini qiymət"
+  },
+  "filters": {
+    "sortLabel": "Çeşidləmə",
+    "sortName": "Ad",
+    "sortRating": "Reytinq",
+    "sortPriceAsc": "Qiymət (aşağıdan yuxarıya)",
+    "sortPriceDesc": "Qiymət (yüksəkdən aşağıya)",
+    "sortDistance": "Məsafə",
+    "ratingLabel": "Minimum reytinq",
+    "ratingAny": "İstənilən reytinq",
+    "priceLabel": "Maksimum qiymət",
+    "priceAny": "İstənilən qiymət",
+    "seasonLabel": "Mövsüm",
+    "seasonAll": "İl boyu",
+    "seasonSummer": "Yay",
+    "seasonWinter": "Qış"
+  },
+  "auth": {
+    "signIn": "Daxil ol",
+    "signOut": "Çıxış",
+    "signUp": "Qeydiyyatdan keçin",
+    "email": "E-poçt",
+    "password": "Şifrə",
+    "name": "Ad",
+    "continueWithGoogle": "Google ilə davam edin",
+    "invalidCredentials": "Yanlış e-poçt və ya parol.",
+    "alreadyHaveAccount": "Artıq hesabınız var? Daxil olun",
+    "noAccountYet": "Hesabınız yoxdur? Qeydiyyatdan keçin"
+  },
+  "review": {
+    "writeReview": "Rəy yazın",
+    "rating": "Reytinq",
+    "titleLabel": "Başlıq",
+    "bodyLabel": "Rəyiniz",
+    "submit": "Göndər"
+  },
+  "profile": {
+    "heading": "Mənim Profilim",
+    "accountInfo": "Hesab Məlumatı",
+    "avatarUrlLabel": "Avatar URL-i",
+    "save": "Yadda saxla",
+    "myReviews": "Rəylərim",
+    "noReviews": "Hələ heç bir rəy yazmamısınız.",
+    "delete": "Sil",
+    "deleteConfirm": "Bu rəyi silmək istədiyinizə əminsiniz?",
+    "myFavorites": "Sevimlilərim",
+    "noFavorites": "Hələ heç bir yeri sevimlilər siyahısına əlavə etməmisiniz.",
+    "removeFavorite": "Sevimlilərdən silin"
+  },
+  "error": {
+    "heading": "Nəsə səhv getdi",
+    "message": "Zəhmət olmasa, bir az sonra yenidən cəhd edin.",
+    "retry": "Yenidən cəhd edin"
+  },
+  "footer": {
+    "rights": "Bütün hüquqlar qorunur."
+  }
+}

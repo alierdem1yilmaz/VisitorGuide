@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "შეისწავლე. აღმოაჩინე. წადი.",
+    "explore": "დათვალიერება",
+    "writeReview": "დაწერეთ მიმოხილვა",
+    "more": "მეტი",
+    "allCountries": "ყველა ქვეყანა",
+    "favorites": "ჩემი ფავორიტები"
+  },
+  "preferences": {
+    "title": "პარამეტრები",
+    "regionTab": "რეგიონი და ენა",
+    "currencyTab": "ვალუტა",
+    "searchPlaceholder": "რეგიონის ან ენის ძიება...",
+    "close": "დახურვა"
+  },
+  "home": {
+    "title": "კეთილი იყოს თქვენი მობრძანება VisitorGuide-ში",
+    "subtitle": "აღმოაჩინეთ რესტორნები, ატრაქციონები, ძეგლები, სასტუმროები და ბუნებრივი ღირსშესანიშნაობები.",
+    "searchPlaceholder": "მოძებნეთ ქვეყნები, ქალაქები ან ადგილები...",
+    "searchButton": "ძიება",
+    "allDestinations": "ყველა მიმართულება"
+  },
+  "categories": {
+    "RESTAURANT": "რესტორნები",
+    "ATTRACTION": "ღირსშესანიშნაობები",
+    "MONUMENT": "ძეგლები",
+    "HOTEL": "სასტუმროები",
+    "NATURE": "ბუნება"
+  },
+  "common": {
+    "all": "ყველა",
+    "gridView": "სია",
+    "mapView": "რუკა",
+    "currency": "ვალუტა",
+    "cityCount": "{count, plural, other {# ქალაქები}}",
+    "placeCount": "{count, plural, other {# ადგილები}}"
+  },
+  "search": {
+    "title": "ძიების შედეგები",
+    "resultsFor": "შედეგები „{query}“-სთვის",
+    "countries": "ქვეყნები",
+    "cities": "ქალაქები",
+    "places": "ადგილები",
+    "noResults": "შედეგები ვერ მოიძებნა."
+  },
+  "place": {
+    "address": "მისამართი",
+    "openingHours": "სამუშაო საათები",
+    "website": "ვებსაიტი",
+    "phone": "ტელეფონი",
+    "reviewsHeading": "მიმოხილვები",
+    "noReviews": "ჯერ არ არის მიმოხილვები.",
+    "anonymous": "ანონიმური",
+    "writeReviewCta": "შედით სისტემაში მიმოხილვის დასაწერად",
+    "photoAlt": "ფოტო",
+    "addToFavorites": "რჩეულებში დამატება",
+    "removeFromFavorites": "რჩეულებიდან ამოღება",
+    "priceEstimateNote": "სავარაუდო ფასი, არა რეალური მონაცემები.",
+    "priceEstimate": "სავარაუდო ფასი"
+  },
+  "filters": {
+    "sortLabel": "დახარისხება",
+    "sortName": "სახელი",
+    "sortRating": "რეიტინგი",
+    "sortPriceAsc": "ფასი (დაბალიდან მაღალამდე)",
+    "sortPriceDesc": "ფასი (მაღალიდან დაბალამდე)",
+    "sortDistance": "მანძილი",
+    "ratingLabel": "მინიმ. რეიტინგი",
+    "ratingAny": "ნებისმიერი შეფასება",
+    "priceLabel": "მაქს. ფასი",
+    "priceAny": "ნებისმიერი ფასი",
+    "seasonLabel": "სეზონი",
+    "seasonAll": "მთელი წლის განმავლობაში",
+    "seasonSummer": "ზაფხული",
+    "seasonWinter": "ზამთარი"
+  },
+  "auth": {
+    "signIn": "შესვლა",
+    "signOut": "გასვლა",
+    "signUp": "რეგისტრაცია",
+    "email": "ელ. ფოსტა",
+    "password": "პაროლი",
+    "name": "სახელი",
+    "continueWithGoogle": "გააგრძელეთ Google-ით",
+    "invalidCredentials": "არასწორი ელ. ფოსტა ან პაროლი.",
+    "alreadyHaveAccount": "უკვე გაქვთ ანგარიში? შედით სისტემაში",
+    "noAccountYet": "არ გაქვთ ანგარიში? დარეგისტრირდით"
+  },
+  "review": {
+    "writeReview": "დაწერეთ მიმოხილვა",
+    "rating": "რეიტინგი",
+    "titleLabel": "სათაური",
+    "bodyLabel": "თქვენი მიმოხილვა",
+    "submit": "გაგზავნა"
+  },
+  "profile": {
+    "heading": "ჩემი პროფილი",
+    "accountInfo": "ანგარიშის ინფორმაცია",
+    "avatarUrlLabel": "ავატარის URL",
+    "save": "შენახვა",
+    "myReviews": "ჩემი მიმოხილვები",
+    "noReviews": "თქვენ ჯერ არ დაგიწერიათ მიმოხილვები.",
+    "delete": "წაშლა",
+    "deleteConfirm": "დარწმუნებული ხართ, რომ გსურთ ამ მიმოხილვის წაშლა?",
+    "myFavorites": "ჩემი ფავორიტები",
+    "noFavorites": "ჯერ არცერთი ადგილი არ დაგიმატებიათ რჩეულებში.",
+    "removeFavorite": "რჩეულებიდან ამოღება"
+  },
+  "error": {
+    "heading": "რაღაც არასწორად მოხდა",
+    "message": "გთხოვთ, ცოტა ხანში ხელახლა სცადოთ.",
+    "retry": "ხელახლა სცადეთ"
+  },
+  "footer": {
+    "rights": "ყველა უფლება დაცულია."
+  }
+}

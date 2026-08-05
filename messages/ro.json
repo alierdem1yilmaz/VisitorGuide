@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "EXPLOREAZĂ. DESCOPERĂ. PLECĂ.",
+    "explore": "Explora",
+    "writeReview": "Scrie o recenzie",
+    "more": "Mai mult",
+    "allCountries": "Toate țările",
+    "favorites": "Favoritele mele"
+  },
+  "preferences": {
+    "title": "Preferințe",
+    "regionTab": "Regiune și limbă",
+    "currencyTab": "Valută",
+    "searchPlaceholder": "Căutați regiune sau limbă...",
+    "close": "Aproape"
+  },
+  "home": {
+    "title": "Bun venit la VisitorGuide",
+    "subtitle": "Descoperiți restaurante, atracții, monumente, hoteluri și repere naturale.",
+    "searchPlaceholder": "Căutați țări, orașe sau locuri...",
+    "searchButton": "Căutare",
+    "allDestinations": "Toate destinațiile"
+  },
+  "categories": {
+    "RESTAURANT": "Restaurante",
+    "ATTRACTION": "Atracții",
+    "MONUMENT": "Monumente",
+    "HOTEL": "Hoteluri",
+    "NATURE": "Natură"
+  },
+  "common": {
+    "all": "Toate",
+    "gridView": "Listă",
+    "mapView": "Hartă",
+    "currency": "Valută",
+    "cityCount": "{count, plural, other {# orașe}}",
+    "placeCount": "{count, plural, other {# locuri}}"
+  },
+  "search": {
+    "title": "Rezultate căutare",
+    "resultsFor": "Rezultate pentru „{query}”",
+    "countries": "Țări",
+    "cities": "Orașe",
+    "places": "Locuri",
+    "noResults": "Nu s-au găsit rezultate."
+  },
+  "place": {
+    "address": "Adresa",
+    "openingHours": "Program de lucru",
+    "website": "Site web",
+    "phone": "Telefon",
+    "reviewsHeading": "Recenzii",
+    "noReviews": "Încă nu există recenzii.",
+    "anonymous": "Anonim",
+    "writeReviewCta": "Conectați-vă pentru a scrie o recenzie",
+    "photoAlt": "fotografie",
+    "addToFavorites": "Adaugă la favorite",
+    "removeFromFavorites": "Eliminare din favorite",
+    "priceEstimateNote": "Preț estimat, nu date în timp real.",
+    "priceEstimate": "Preț estimat"
+  },
+  "filters": {
+    "sortLabel": "Sorta",
+    "sortName": "Nume",
+    "sortRating": "Evaluare",
+    "sortPriceAsc": "Preț (de la mic la mare)",
+    "sortPriceDesc": "Preț (de la cel mai mare la cel mai mic)",
+    "sortDistance": "Distanţă",
+    "ratingLabel": "Evaluare minimă",
+    "ratingAny": "Orice evaluare",
+    "priceLabel": "Preț maxim",
+    "priceAny": "Orice preț",
+    "seasonLabel": "Sezon",
+    "seasonAll": "Tot anul",
+    "seasonSummer": "Vară",
+    "seasonWinter": "Iarnă"
+  },
+  "auth": {
+    "signIn": "Conectare",
+    "signOut": "Sign out",
+    "signUp": "Înregistrare",
+    "email": "E-mail",
+    "password": "Parolă",
+    "name": "Nume",
+    "continueWithGoogle": "Continuă cu Google",
+    "invalidCredentials": "Adresă de e-mail sau parolă nevalidă.",
+    "alreadyHaveAccount": "Ai deja un cont? Conectează-te?",
+    "noAccountYet": "Nu ai un cont? Înregistrează-te"
+  },
+  "review": {
+    "writeReview": "Scrie o recenzie",
+    "rating": "Evaluare",
+    "titleLabel": "Titlu",
+    "bodyLabel": "Recenzia ta",
+    "submit": "Trimite"
+  },
+  "profile": {
+    "heading": "Profilul meu",
+    "accountInfo": "Informații despre cont",
+    "avatarUrlLabel": "URL-ul avatarului",
+    "save": "Salva",
+    "myReviews": "Recenziile mele",
+    "noReviews": "Nu ai scris încă nicio recenzie.",
+    "delete": "Şterge",
+    "deleteConfirm": "Sigur vrei să ștergi această recenzie?",
+    "myFavorites": "Favoritele mele",
+    "noFavorites": "Nu ai adăugat încă nicio locație la favorite.",
+    "removeFavorite": "Eliminare din favorite"
+  },
+  "error": {
+    "heading": "Ceva nu a mers bine",
+    "message": "Vă rugăm să încercați din nou peste o clipă.",
+    "retry": "Încearcă din nou"
+  },
+  "footer": {
+    "rights": "Toate drepturile rezervate."
+  }
+}

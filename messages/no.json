@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "UTFORSK. OPPDAG. GÅ.",
+    "explore": "Utforske",
+    "writeReview": "Skriv en anmeldelse",
+    "more": "Flere",
+    "allCountries": "Alle land",
+    "favorites": "Mine favoritter"
+  },
+  "preferences": {
+    "title": "Innstillinger",
+    "regionTab": "Region og språk",
+    "currencyTab": "Valuta",
+    "searchPlaceholder": "Søk etter region eller språk...",
+    "close": "Lukke"
+  },
+  "home": {
+    "title": "Velkommen til Besøksguiden",
+    "subtitle": "Oppdag restauranter, attraksjoner, monumenter, hoteller og naturlige landemerker.",
+    "searchPlaceholder": "Søk etter land, byer eller steder...",
+    "searchButton": "Søk",
+    "allDestinations": "Alle reisemål"
+  },
+  "categories": {
+    "RESTAURANT": "Restauranter",
+    "ATTRACTION": "Attraksjoner",
+    "MONUMENT": "Monumenter",
+    "HOTEL": "Hoteller",
+    "NATURE": "Natur"
+  },
+  "common": {
+    "all": "Alle",
+    "gridView": "Liste",
+    "mapView": "Kart",
+    "currency": "Valuta",
+    "cityCount": "{count, plural, other {# byer}}",
+    "placeCount": "{count, plural, other {# steder}}"
+  },
+  "search": {
+    "title": "Søkeresultater",
+    "resultsFor": "Resultater for «{query}»",
+    "countries": "Land",
+    "cities": "Byer",
+    "places": "Steder",
+    "noResults": "Ingen resultater funnet."
+  },
+  "place": {
+    "address": "Adresse",
+    "openingHours": "Åpningstider",
+    "website": "Nettsted",
+    "phone": "Telefon",
+    "reviewsHeading": "Anmeldelser",
+    "noReviews": "Ingen anmeldelser ennå.",
+    "anonymous": "Anonym",
+    "writeReviewCta": "Logg inn for å skrive en anmeldelse",
+    "photoAlt": "bilde",
+    "addToFavorites": "Legg til i favoritter",
+    "removeFromFavorites": "Fjern fra favoritter",
+    "priceEstimateNote": "Estimert pris, ikke sanntidsdata.",
+    "priceEstimate": "Estimert pris"
+  },
+  "filters": {
+    "sortLabel": "Sortere",
+    "sortName": "Navn",
+    "sortRating": "Vurdering",
+    "sortPriceAsc": "Pris (lav til høy)",
+    "sortPriceDesc": "Pris (høy til lav)",
+    "sortDistance": "Avstand",
+    "ratingLabel": "Minimumsvurdering",
+    "ratingAny": "Enhver vurdering",
+    "priceLabel": "Maks. pris",
+    "priceAny": "Enhver pris",
+    "seasonLabel": "Årstid",
+    "seasonAll": "Året rundt",
+    "seasonSummer": "Sommer",
+    "seasonWinter": "Vinter"
+  },
+  "auth": {
+    "signIn": "Logg inn",
+    "signOut": "Logg ut",
+    "signUp": "Registrer deg",
+    "email": "E-post",
+    "password": "Passord",
+    "name": "Navn",
+    "continueWithGoogle": "Fortsett med Google",
+    "invalidCredentials": "Ugyldig e-post eller passord.",
+    "alreadyHaveAccount": "Har du allerede en konto? Logg inn",
+    "noAccountYet": "Har du ikke en konto? Registrer deg"
+  },
+  "review": {
+    "writeReview": "Skriv en anmeldelse",
+    "rating": "Vurdering",
+    "titleLabel": "Tittel",
+    "bodyLabel": "Din anmeldelse",
+    "submit": "Send inn"
+  },
+  "profile": {
+    "heading": "Min profil",
+    "accountInfo": "Kontoinformasjon",
+    "avatarUrlLabel": "Avatar-URL",
+    "save": "Spare",
+    "myReviews": "Mine anmeldelser",
+    "noReviews": "Du har ikke skrevet noen anmeldelser ennå.",
+    "delete": "Slett",
+    "deleteConfirm": "Er du sikker på at du vil slette denne anmeldelsen?",
+    "myFavorites": "Mine favoritter",
+    "noFavorites": "Du har ikke markert noen steder som favoritter ennå.",
+    "removeFavorite": "Fjern fra favoritter"
+  },
+  "error": {
+    "heading": "Noe gikk galt",
+    "message": "Prøv igjen om et øyeblikk.",
+    "retry": "Prøv igjen"
+  },
+  "footer": {
+    "rights": "Alle rettigheter forbeholdt."
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "СУДЛА. НЭЭ. ЯВА.",
+    "explore": "Судлах",
+    "writeReview": "Сэтгэгдэл бичих",
+    "more": "Илүү их",
+    "allCountries": "Бүх улс орнууд",
+    "favorites": "Миний дуртай зүйлс"
+  },
+  "preferences": {
+    "title": "Тохиргоо",
+    "regionTab": "Бүс нутаг ба хэл",
+    "currencyTab": "Валют",
+    "searchPlaceholder": "Бүс нутаг эсвэл хэлийг хайх...",
+    "close": "Хаах"
+  },
+  "home": {
+    "title": "VisitorGuide-д тавтай морилно уу",
+    "subtitle": "Ресторан, үзвэр үйлчилгээ, хөшөө дурсгал, зочид буудал, байгалийн дурсгалт газруудыг нээж илрүүл.",
+    "searchPlaceholder": "Улс орон, хот эсвэл газруудыг хайх...",
+    "searchButton": "Хайлт",
+    "allDestinations": "Бүх очих газрууд"
+  },
+  "categories": {
+    "RESTAURANT": "Ресторанууд",
+    "ATTRACTION": "Үзвэр үйлчилгээ",
+    "MONUMENT": "Хөшөө дурсгалууд",
+    "HOTEL": "Зочид буудлууд",
+    "NATURE": "Байгаль"
+  },
+  "common": {
+    "all": "Бүгд",
+    "gridView": "Жагсаалт",
+    "mapView": "Газрын зураг",
+    "currency": "Валют",
+    "cityCount": "{count, plural, other {# хотууд}}",
+    "placeCount": "{count, plural, other {# газрууд}}"
+  },
+  "search": {
+    "title": "Хайлтын үр дүн",
+    "resultsFor": "\"{query}\" хайлтын үр дүн",
+    "countries": "Улс орнууд",
+    "cities": "Хотууд",
+    "places": "Газрууд",
+    "noResults": "Илэрц олдсонгүй."
+  },
+  "place": {
+    "address": "Хаяг",
+    "openingHours": "Ажиллах цаг",
+    "website": "Вэбсайт",
+    "phone": "Утас",
+    "reviewsHeading": "Шүүмжүүд",
+    "noReviews": "Одоогоор ямар ч сэтгэгдэл алга.",
+    "anonymous": "Нэргүй",
+    "writeReviewCta": "Сэтгэгдэл бичихийн тулд нэвтэрнэ үү",
+    "photoAlt": "зураг",
+    "addToFavorites": "Дуртай зүйлсэд нэмэх",
+    "removeFromFavorites": "Дуртай зүйлсээс хасах",
+    "priceEstimateNote": "Бодит мэдээлэл биш, тооцоолсон үнэ.",
+    "priceEstimate": "Тооцоолсон үнэ"
+  },
+  "filters": {
+    "sortLabel": "Эрэмбэлэх",
+    "sortName": "Нэр",
+    "sortRating": "Үнэлгээ",
+    "sortPriceAsc": "Үнэ (багаас өндөр хүртэл)",
+    "sortPriceDesc": "Үнэ (өндөрөөс бага хүртэл)",
+    "sortDistance": "Зай",
+    "ratingLabel": "Хамгийн бага үнэлгээ",
+    "ratingAny": "Ямар ч үнэлгээ",
+    "priceLabel": "Хамгийн их үнэ",
+    "priceAny": "Ямар ч үнээр",
+    "seasonLabel": "Улирал",
+    "seasonAll": "Жилийн турш",
+    "seasonSummer": "Зун",
+    "seasonWinter": "Өвөл"
+  },
+  "auth": {
+    "signIn": "Нэвтрэх",
+    "signOut": "Гарах",
+    "signUp": "Бүртгүүлэх",
+    "email": "И-мэйл",
+    "password": "Нууц үг",
+    "name": "Нэр",
+    "continueWithGoogle": "Google-тэй үргэлжлүүлэх",
+    "invalidCredentials": "Хүчингүй имэйл хаяг эсвэл нууц үг.",
+    "alreadyHaveAccount": "Та аль хэдийн бүртгэлтэй юу? Нэвтрэх",
+    "noAccountYet": "Бүртгэлгүй байна уу? Бүртгүүлэх"
+  },
+  "review": {
+    "writeReview": "Сэтгэгдэл бичих",
+    "rating": "Үнэлгээ",
+    "titleLabel": "Гарчиг",
+    "bodyLabel": "Таны сэтгэгдэл",
+    "submit": "Илгээх"
+  },
+  "profile": {
+    "heading": "Миний профайл",
+    "accountInfo": "Дансны мэдээлэл",
+    "avatarUrlLabel": "Аватарын URL",
+    "save": "Хадгалах",
+    "myReviews": "Миний тоймууд",
+    "noReviews": "Та одоогоор ямар ч сэтгэгдэл бичээгүй байна.",
+    "delete": "Устгах",
+    "deleteConfirm": "Та энэ сэтгэгдлийг устгахдаа итгэлтэй байна уу?",
+    "myFavorites": "Миний дуртай зүйлс",
+    "noFavorites": "Та одоогоор ямар ч газрыг дуртай жагсаалтад оруулаагүй байна.",
+    "removeFavorite": "Дуртай зүйлсээс хасах"
+  },
+  "error": {
+    "heading": "Ямар нэгэн зүйл буруу болсон",
+    "message": "Хэсэг хугацааны дараа дахин оролдоно уу.",
+    "retry": "Дахин оролдоно уу"
+  },
+  "footer": {
+    "rights": "Бүх эрх хуулиар хамгаалагдсан."
+  }
+}

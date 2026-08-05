@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "ΕΞΕΡΕΥΝΗΣΤΕ. ΑΝΑΚΑΛΥΨΤΕ. ΤΑΞΙΔΕΨΤΕ.",
+    "explore": "Εξερευνώ",
+    "writeReview": "Γράψτε μια κριτική",
+    "more": "Περισσότερο",
+    "allCountries": "Όλες οι χώρες",
+    "favorites": "Τα αγαπημένα μου"
+  },
+  "preferences": {
+    "title": "Προτιμήσεις",
+    "regionTab": "Περιοχή & Γλώσσα",
+    "currencyTab": "Νόμισμα",
+    "searchPlaceholder": "Αναζήτηση περιοχής ή γλώσσας...",
+    "close": "Κοντά"
+  },
+  "home": {
+    "title": "Καλώς ορίσατε στον Οδηγό Επισκεπτών",
+    "subtitle": "Ανακαλύψτε εστιατόρια, αξιοθέατα, μνημεία, ξενοδοχεία και φυσικά αξιοθέατα.",
+    "searchPlaceholder": "Αναζήτηση χωρών, πόλεων ή τοποθεσιών...",
+    "searchButton": "Ερευνα",
+    "allDestinations": "Όλοι οι προορισμοί"
+  },
+  "categories": {
+    "RESTAURANT": "Εστιατόρια",
+    "ATTRACTION": "Θελγήτρα",
+    "MONUMENT": "Μνημεία",
+    "HOTEL": "Ξενοδοχεία",
+    "NATURE": "Φύση"
+  },
+  "common": {
+    "all": "Ολοι",
+    "gridView": "Λίστα",
+    "mapView": "Χάρτης",
+    "currency": "Νόμισμα",
+    "cityCount": "{count, plural, other {# πόλεις}}",
+    "placeCount": "{count, plural, other {# μέρη}}"
+  },
+  "search": {
+    "title": "Αποτελέσματα αναζήτησης",
+    "resultsFor": "Αποτελέσματα για \"{ερώτημα}\"",
+    "countries": "Χώρες",
+    "cities": "Πόλεις",
+    "places": "Μέρη",
+    "noResults": "Δεν βρέθηκαν αποτελέσματα."
+  },
+  "place": {
+    "address": "Διεύθυνση",
+    "openingHours": "Ώρες Λειτουργίας",
+    "website": "Δικτυακός τόπος",
+    "phone": "Τηλέφωνο",
+    "reviewsHeading": "Κριτικές",
+    "noReviews": "Δεν υπάρχουν ακόμη αξιολογήσεις.",
+    "anonymous": "Ανώνυμος",
+    "writeReviewCta": "Συνδεθείτε για να γράψετε μια κριτική",
+    "photoAlt": "φωτογραφία",
+    "addToFavorites": "Προσθήκη στα αγαπημένα",
+    "removeFromFavorites": "Αφαίρεση από τα αγαπημένα",
+    "priceEstimateNote": "Εκτιμώμενη τιμή, όχι δεδομένα σε πραγματικό χρόνο.",
+    "priceEstimate": "Εκτιμώμενη τιμή"
+  },
+  "filters": {
+    "sortLabel": "Είδος",
+    "sortName": "Ονομα",
+    "sortRating": "Εκτίμηση",
+    "sortPriceAsc": "Τιμή (από χαμηλή σε υψηλή)",
+    "sortPriceDesc": "Τιμή (από υψηλή σε χαμηλή)",
+    "sortDistance": "Απόσταση",
+    "ratingLabel": "Ελάχιστη βαθμολογία",
+    "ratingAny": "Οποιαδήποτε αξιολόγηση",
+    "priceLabel": "Μέγιστη τιμή",
+    "priceAny": "Οποιαδήποτε τιμή",
+    "seasonLabel": "Εποχή",
+    "seasonAll": "Όλο το χρόνο",
+    "seasonSummer": "Καλοκαίρι",
+    "seasonWinter": "Χειμώνας"
+  },
+  "auth": {
+    "signIn": "Σύνδεση",
+    "signOut": "Αποσύνδεση",
+    "signUp": "Εγγραφή",
+    "email": "E-mail",
+    "password": "Σύνθημα",
+    "name": "Ονομα",
+    "continueWithGoogle": "Συνέχεια με την Google",
+    "invalidCredentials": "Μη έγκυρο email ή κωδικός πρόσβασης.",
+    "alreadyHaveAccount": "Έχετε ήδη λογαριασμό; Συνδεθείτε",
+    "noAccountYet": "Δεν έχετε λογαριασμό; Εγγραφείτε"
+  },
+  "review": {
+    "writeReview": "Γράψτε μια κριτική",
+    "rating": "Εκτίμηση",
+    "titleLabel": "Τίτλος",
+    "bodyLabel": "Η αξιολόγησή σας",
+    "submit": "Υποτάσσομαι"
+  },
+  "profile": {
+    "heading": "Το προφίλ μου",
+    "accountInfo": "Πληροφορίες Λογαριασμού",
+    "avatarUrlLabel": "URL avatar",
+    "save": "Εκτός",
+    "myReviews": "Οι κριτικές μου",
+    "noReviews": "Δεν έχετε γράψει ακόμη κριτικές.",
+    "delete": "Διαγράφω",
+    "deleteConfirm": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την αξιολόγηση;",
+    "myFavorites": "Τα αγαπημένα μου",
+    "noFavorites": "Δεν έχετε προσθέσει ακόμα κανένα μέρος στα αγαπημένα.",
+    "removeFavorite": "Αφαίρεση από τα αγαπημένα"
+  },
+  "error": {
+    "heading": "Κάτι πήγε στραβά",
+    "message": "Παρακαλώ δοκιμάστε ξανά σε λίγο.",
+    "retry": "Δοκιμάστε ξανά"
+  },
+  "footer": {
+    "rights": "Με επιφύλαξη παντός δικαιώματος."
+  }
+}

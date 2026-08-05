@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "استكشف. اكتشف. انطلق.",
+    "explore": "يستكشف",
+    "writeReview": "اكتب مراجعة",
+    "more": "أكثر",
+    "allCountries": "جميع البلدان",
+    "favorites": "مفضلاتي"
+  },
+  "preferences": {
+    "title": "التفضيلات",
+    "regionTab": "المنطقة واللغة",
+    "currencyTab": "عملة",
+    "searchPlaceholder": "ابحث عن المنطقة أو اللغة...",
+    "close": "يغلق"
+  },
+  "home": {
+    "title": "أهلاً بكم في دليل الزوار",
+    "subtitle": "اكتشف المطاعم والمعالم السياحية والآثار والفنادق والمعالم الطبيعية.",
+    "searchPlaceholder": "ابحث عن البلدان أو المدن أو الأماكن...",
+    "searchButton": "يبحث",
+    "allDestinations": "جميع الوجهات"
+  },
+  "categories": {
+    "RESTAURANT": "المطاعم",
+    "ATTRACTION": "جاذبية",
+    "MONUMENT": "آثار",
+    "HOTEL": "الفنادق",
+    "NATURE": "طبيعة"
+  },
+  "common": {
+    "all": "الجميع",
+    "gridView": "قائمة",
+    "mapView": "رسم خريطة",
+    "currency": "عملة",
+    "cityCount": "{count, plural, other {# المدن}}",
+    "placeCount": "{count, plural, other {# أماكن}}"
+  },
+  "search": {
+    "title": "نتائج البحث",
+    "resultsFor": "نتائج البحث عن \"{query}\"",
+    "countries": "بلدان",
+    "cities": "المدن",
+    "places": "الأماكن",
+    "noResults": "لم يتم العثور على نتائج."
+  },
+  "place": {
+    "address": "عنوان",
+    "openingHours": "ساعات العمل",
+    "website": "موقع إلكتروني",
+    "phone": "هاتف",
+    "reviewsHeading": "التقييمات",
+    "noReviews": "لا توجد تقييمات حتى الآن.",
+    "anonymous": "مجهول",
+    "writeReviewCta": "سجّل الدخول لكتابة مراجعة",
+    "photoAlt": "صورة",
+    "addToFavorites": "أضف إلى المفضلة",
+    "removeFromFavorites": "إزالة من المفضلة",
+    "priceEstimateNote": "السعر تقديري، وليس بيانات مباشرة.",
+    "priceEstimate": "السعر التقديري"
+  },
+  "filters": {
+    "sortLabel": "نوع",
+    "sortName": "اسم",
+    "sortRating": "تصنيف",
+    "sortPriceAsc": "السعر (من الأدنى إلى الأعلى)",
+    "sortPriceDesc": "السعر (من الأعلى إلى الأدنى)",
+    "sortDistance": "مسافة",
+    "ratingLabel": "الحد الأدنى للتقييم",
+    "ratingAny": "أي تصنيف",
+    "priceLabel": "السعر الأقصى",
+    "priceAny": "أي سعر",
+    "seasonLabel": "موسم",
+    "seasonAll": "على مدار السنة",
+    "seasonSummer": "صيف",
+    "seasonWinter": "شتاء"
+  },
+  "auth": {
+    "signIn": "تسجيل الدخول",
+    "signOut": "تسجيل الخروج",
+    "signUp": "اشتراك",
+    "email": "بريد إلكتروني",
+    "password": "كلمة المرور",
+    "name": "اسم",
+    "continueWithGoogle": "تابع مع جوجل",
+    "invalidCredentials": "بريد إلكتروني أو كلمة مرور غير صحيحة.",
+    "alreadyHaveAccount": "هل لديك حساب بالفعل؟ سجّل الدخول",
+    "noAccountYet": "ليس لديك حساب؟ سجل الآن"
+  },
+  "review": {
+    "writeReview": "اكتب مراجعة",
+    "rating": "تصنيف",
+    "titleLabel": "عنوان",
+    "bodyLabel": "تقييمك",
+    "submit": "يُقدِّم"
+  },
+  "profile": {
+    "heading": "ملفي الشخصي",
+    "accountInfo": "معلومات الحساب",
+    "avatarUrlLabel": "رابط الصورة الرمزية",
+    "save": "يحفظ",
+    "myReviews": "تقييماتي",
+    "noReviews": "لم تكتب أي مراجعات حتى الآن.",
+    "delete": "يمسح",
+    "deleteConfirm": "هل أنت متأكد من رغبتك في حذف هذا التقييم؟",
+    "myFavorites": "مفضلاتي",
+    "noFavorites": "لم تقم بإضافة أي أماكن إلى المفضلة بعد.",
+    "removeFavorite": "إزالة من المفضلة"
+  },
+  "error": {
+    "heading": "حدث خطأ ما",
+    "message": "يرجى المحاولة مرة أخرى بعد قليل.",
+    "retry": "حاول ثانية"
+  },
+  "footer": {
+    "rights": "جميع الحقوق محفوظة."
+  }
+}

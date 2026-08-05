@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "GALUGARIN. TUKLASIN. HUMAYON.",
+    "explore": "Galugarin",
+    "writeReview": "Magsulat ng Review",
+    "more": "Higit pa",
+    "allCountries": "Lahat ng Bansa",
+    "favorites": "Mga Paborito Ko"
+  },
+  "preferences": {
+    "title": "Mga Kagustuhan",
+    "regionTab": "Rehiyon at Wika",
+    "currencyTab": "Pera",
+    "searchPlaceholder": "Hanapin ang rehiyon o wika...",
+    "close": "Isara"
+  },
+  "home": {
+    "title": "Maligayang pagdating sa VisitorGuide",
+    "subtitle": "Tuklasin ang mga restawran, atraksyon, monumento, hotel, at natural na landmark.",
+    "searchPlaceholder": "Maghanap ng mga bansa, lungsod, o lugar...",
+    "searchButton": "Maghanap",
+    "allDestinations": "Lahat ng Destinasyon"
+  },
+  "categories": {
+    "RESTAURANT": "Mga restawran",
+    "ATTRACTION": "Mga Atraksyon",
+    "MONUMENT": "Mga Monumento",
+    "HOTEL": "Mga Hotel",
+    "NATURE": "Kalikasan"
+  },
+  "common": {
+    "all": "Lahat",
+    "gridView": "Listahan",
+    "mapView": "Mapa",
+    "currency": "Pera",
+    "cityCount": "{count, plural, other {# mga lungsod}}",
+    "placeCount": "{count, plural, other {# mga lugar}}"
+  },
+  "search": {
+    "title": "Mga Resulta ng Paghahanap",
+    "resultsFor": "Mga resulta para sa \"{query}\"",
+    "countries": "Mga Bansa",
+    "cities": "Mga Lungsod",
+    "places": "Mga Lugar",
+    "noResults": "Walang nakitang resulta."
+  },
+  "place": {
+    "address": "Tirahan",
+    "openingHours": "Mga Oras ng Pagbubukas",
+    "website": "Website",
+    "phone": "Telepono",
+    "reviewsHeading": "Mga Review",
+    "noReviews": "Wala pang mga review.",
+    "anonymous": "Anonymous",
+    "writeReviewCta": "Mag-sign in para magsulat ng review",
+    "photoAlt": "larawan",
+    "addToFavorites": "Idagdag sa mga paborito",
+    "removeFromFavorites": "Alisin sa mga paborito",
+    "priceEstimateNote": "Tinatayang presyo, hindi live na datos.",
+    "priceEstimate": "Tinatayang presyo"
+  },
+  "filters": {
+    "sortLabel": "Pagbukud-bukurin",
+    "sortName": "Pangalan",
+    "sortRating": "Rating",
+    "sortPriceAsc": "Presyo (mababa hanggang mataas)",
+    "sortPriceDesc": "Presyo (mataas hanggang mababa)",
+    "sortDistance": "Distansya",
+    "ratingLabel": "Pinakamababang rating",
+    "ratingAny": "Anumang rating",
+    "priceLabel": "Pinakamataas na presyo",
+    "priceAny": "Anumang presyo",
+    "seasonLabel": "Panahon",
+    "seasonAll": "Buong taon",
+    "seasonSummer": "Tag-init",
+    "seasonWinter": "Taglamig"
+  },
+  "auth": {
+    "signIn": "Mag-sign In",
+    "signOut": "Mag-sign Out",
+    "signUp": "Mag-sign Up",
+    "email": "I-email",
+    "password": "Password",
+    "name": "Pangalan",
+    "continueWithGoogle": "Magpatuloy sa Google",
+    "invalidCredentials": "Hindi wastong email o password.",
+    "alreadyHaveAccount": "Mayroon ka nang account? Mag-sign in",
+    "noAccountYet": "Wala pang account? Mag-sign up"
+  },
+  "review": {
+    "writeReview": "Magsulat ng Review",
+    "rating": "Rating",
+    "titleLabel": "Pamagat",
+    "bodyLabel": "Ang iyong pagsusuri",
+    "submit": "Isumite"
+  },
+  "profile": {
+    "heading": "Aking Profile",
+    "accountInfo": "Impormasyon ng Account",
+    "avatarUrlLabel": "URL ng Avatar",
+    "save": "I-save",
+    "myReviews": "Aking Mga Review",
+    "noReviews": "Wala ka pang naisusulat na mga review.",
+    "delete": "Burahin",
+    "deleteConfirm": "Sigurado ka bang gusto mong burahin ang review na ito?",
+    "myFavorites": "Mga Paborito Ko",
+    "noFavorites": "Wala ka pang na-favorite na lugar.",
+    "removeFavorite": "Alisin sa mga paborito"
+  },
+  "error": {
+    "heading": "May nangyaring mali",
+    "message": "Pakisubukang muli maya-maya.",
+    "retry": "Subukan muli"
+  },
+  "footer": {
+    "rights": "Lahat ng karapatan ay nakalaan."
+  }
+}

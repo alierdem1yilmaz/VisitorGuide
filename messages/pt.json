@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "EXPLORE. DESCUBRA. VÁ.",
+    "explore": "Explorar",
+    "writeReview": "Escreva uma avaliação",
+    "more": "Mais",
+    "allCountries": "Todos os países",
+    "favorites": "Meus favoritos"
+  },
+  "preferences": {
+    "title": "Preferências",
+    "regionTab": "Região e idioma",
+    "currencyTab": "Moeda",
+    "searchPlaceholder": "Pesquisar região ou idioma...",
+    "close": "Fechar"
+  },
+  "home": {
+    "title": "Bem-vindo ao Guia do Visitante",
+    "subtitle": "Descubra restaurantes, atrações, monumentos, hotéis e pontos turísticos naturais.",
+    "searchPlaceholder": "Pesquise países, cidades ou lugares...",
+    "searchButton": "Procurar",
+    "allDestinations": "Todos os destinos"
+  },
+  "categories": {
+    "RESTAURANT": "Restaurantes",
+    "ATTRACTION": "Atrações",
+    "MONUMENT": "Monumentos",
+    "HOTEL": "Hotéis",
+    "NATURE": "Natureza"
+  },
+  "common": {
+    "all": "Todos",
+    "gridView": "Lista",
+    "mapView": "Mapa",
+    "currency": "Moeda",
+    "cityCount": "{count, plural, other {# cidades}}",
+    "placeCount": "{count, plural, other {# lugares}}"
+  },
+  "search": {
+    "title": "Resultados da pesquisa",
+    "resultsFor": "Resultados para \"{query}\"",
+    "countries": "Países",
+    "cities": "Cidades",
+    "places": "Lugares",
+    "noResults": "Nenhum resultado encontrado."
+  },
+  "place": {
+    "address": "Endereço",
+    "openingHours": "Horário de funcionamento",
+    "website": "Site",
+    "phone": "Telefone",
+    "reviewsHeading": "Avaliações",
+    "noReviews": "Ainda não há avaliações.",
+    "anonymous": "Anônimo",
+    "writeReviewCta": "Faça login para escrever uma avaliação.",
+    "photoAlt": "foto",
+    "addToFavorites": "Adicionar aos favoritos",
+    "removeFromFavorites": "Remover dos favoritos",
+    "priceEstimateNote": "Preço estimado, não dados em tempo real.",
+    "priceEstimate": "Preço estimado"
+  },
+  "filters": {
+    "sortLabel": "Organizar",
+    "sortName": "Nome",
+    "sortRating": "Avaliação",
+    "sortPriceAsc": "Preço (do mais baixo ao mais alto)",
+    "sortPriceDesc": "Preço (do mais alto para o mais baixo)",
+    "sortDistance": "Distância",
+    "ratingLabel": "Classificação mínima",
+    "ratingAny": "Qualquer classificação",
+    "priceLabel": "Preço máximo",
+    "priceAny": "Qualquer preço",
+    "seasonLabel": "Temporada",
+    "seasonAll": "Durante todo o ano",
+    "seasonSummer": "Verão",
+    "seasonWinter": "Inverno"
+  },
+  "auth": {
+    "signIn": "Entrar",
+    "signOut": "Sair",
+    "signUp": "Inscrever-se",
+    "email": "E-mail",
+    "password": "Senha",
+    "name": "Nome",
+    "continueWithGoogle": "Continuar com o Google",
+    "invalidCredentials": "E-mail ou senha inválidos.",
+    "alreadyHaveAccount": "Já tem uma conta? Iniciar sessão",
+    "noAccountYet": "Não tem uma conta? Cadastre-se"
+  },
+  "review": {
+    "writeReview": "Escreva uma avaliação",
+    "rating": "Avaliação",
+    "titleLabel": "Título",
+    "bodyLabel": "Sua avaliação",
+    "submit": "Enviar"
+  },
+  "profile": {
+    "heading": "Meu perfil",
+    "accountInfo": "Informações da conta",
+    "avatarUrlLabel": "URL do avatar",
+    "save": "Salvar",
+    "myReviews": "Minhas avaliações",
+    "noReviews": "Você ainda não escreveu nenhuma avaliação.",
+    "delete": "Excluir",
+    "deleteConfirm": "Tem certeza de que deseja excluir esta avaliação?",
+    "myFavorites": "Meus favoritos",
+    "noFavorites": "Você ainda não adicionou nenhum lugar aos seus favoritos.",
+    "removeFavorite": "Remover dos favoritos"
+  },
+  "error": {
+    "heading": "Algo deu errado",
+    "message": "Por favor, tente novamente em instantes.",
+    "retry": "Tente novamente"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados."
+  }
+}

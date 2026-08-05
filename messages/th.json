@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "tagline": "สำรวจ. ค้นพบ. ออกไป.",
+    "explore": "สำรวจ",
+    "writeReview": "เขียนรีวิว",
+    "more": "มากกว่า",
+    "allCountries": "ทุกประเทศ",
+    "favorites": "รายการโปรดของฉัน"
+  },
+  "preferences": {
+    "title": "การตั้งค่า",
+    "regionTab": "ภูมิภาคและภาษา",
+    "currencyTab": "สกุลเงิน",
+    "searchPlaceholder": "ค้นหาตามภูมิภาคหรือภาษา...",
+    "close": "ปิด"
+  },
+  "home": {
+    "title": "ยินดีต้อนรับสู่ VisitorGuide",
+    "subtitle": "ค้นพบร้านอาหาร สถานที่ท่องเที่ยว อนุสรณ์สถาน โรงแรม และสถานที่สำคัญทางธรรมชาติ",
+    "searchPlaceholder": "ค้นหาประเทศ เมือง หรือสถานที่...",
+    "searchButton": "ค้นหา",
+    "allDestinations": "จุดหมายปลายทางทั้งหมด"
+  },
+  "categories": {
+    "RESTAURANT": "ร้านอาหาร",
+    "ATTRACTION": "สถานที่ท่องเที่ยว",
+    "MONUMENT": "อนุสาวรีย์",
+    "HOTEL": "โรงแรม",
+    "NATURE": "ธรรมชาติ"
+  },
+  "common": {
+    "all": "ทั้งหมด",
+    "gridView": "รายการ",
+    "mapView": "แผนที่",
+    "currency": "สกุลเงิน",
+    "cityCount": "{count, plural, other {# เมืองต่างๆ}}",
+    "placeCount": "{count, plural, other {# สถานที่}}"
+  },
+  "search": {
+    "title": "ผลการค้นหา",
+    "resultsFor": "ผลลัพธ์สำหรับ \"{query}\"",
+    "countries": "ประเทศ",
+    "cities": "เมืองต่างๆ",
+    "places": "สถานที่",
+    "noResults": "ไม่พบผลลัพธ์ใดๆ"
+  },
+  "place": {
+    "address": "ที่อยู่",
+    "openingHours": "เวลาเปิดทำการ",
+    "website": "เว็บไซต์",
+    "phone": "โทรศัพท์",
+    "reviewsHeading": "รีวิว",
+    "noReviews": "ยังไม่มีรีวิว",
+    "anonymous": "นิรนาม",
+    "writeReviewCta": "ลงชื่อเข้าใช้เพื่อเขียนรีวิว",
+    "photoAlt": "รูปถ่าย",
+    "addToFavorites": "เพิ่มในรายการโปรด",
+    "removeFromFavorites": "ลบออกจากรายการโปรด",
+    "priceEstimateNote": "ราคาที่แสดงเป็นราคาโดยประมาณ ไม่ใช่ราคาปัจจุบัน",
+    "priceEstimate": "ราคาโดยประมาณ"
+  },
+  "filters": {
+    "sortLabel": "เรียงลำดับ",
+    "sortName": "ชื่อ",
+    "sortRating": "การให้คะแนน",
+    "sortPriceAsc": "ราคา (จากต่ำไปสูง)",
+    "sortPriceDesc": "ราคา (จากสูงไปต่ำ)",
+    "sortDistance": "ระยะทาง",
+    "ratingLabel": "คะแนนขั้นต่ำ",
+    "ratingAny": "การให้คะแนนใดๆ",
+    "priceLabel": "ราคาสูงสุด",
+    "priceAny": "ราคาใดก็ได้",
+    "seasonLabel": "ฤดูกาล",
+    "seasonAll": "ตลอดทั้งปี",
+    "seasonSummer": "ฤดูร้อน",
+    "seasonWinter": "ฤดูหนาว"
+  },
+  "auth": {
+    "signIn": "เข้าสู่ระบบ",
+    "signOut": "ออกจากระบบ",
+    "signUp": "ลงทะเบียน",
+    "email": "อีเมล",
+    "password": "รหัสผ่าน",
+    "name": "ชื่อ",
+    "continueWithGoogle": "ดำเนินการต่อด้วย Google",
+    "invalidCredentials": "อีเมลหรือรหัสผ่านไม่ถูกต้อง",
+    "alreadyHaveAccount": "มีบัญชีอยู่แล้วใช่ไหม? เข้าสู่ระบบ",
+    "noAccountYet": "ยังไม่มีบัญชีใช่ไหม? สมัครสมาชิกเลย"
+  },
+  "review": {
+    "writeReview": "เขียนรีวิว",
+    "rating": "การให้คะแนน",
+    "titleLabel": "ชื่อ",
+    "bodyLabel": "รีวิวของคุณ",
+    "submit": "ส่ง"
+  },
+  "profile": {
+    "heading": "โปรไฟล์ของฉัน",
+    "accountInfo": "ข้อมูลบัญชี",
+    "avatarUrlLabel": "URL รูปประจำตัว",
+    "save": "บันทึก",
+    "myReviews": "รีวิวของฉัน",
+    "noReviews": "คุณยังไม่ได้เขียนรีวิวใดๆ เลย",
+    "delete": "ลบ",
+    "deleteConfirm": "คุณแน่ใจหรือไม่ว่าต้องการลบรีวิวนี้?",
+    "myFavorites": "รายการโปรดของฉัน",
+    "noFavorites": "คุณยังไม่ได้เพิ่มสถานที่ใด ๆ เป็นรายการโปรด",
+    "removeFavorite": "ลบออกจากรายการโปรด"
+  },
+  "error": {
+    "heading": "เกิดข้อผิดพลาดบางอย่าง",
+    "message": "โปรดลองใหม่อีกครั้งในสักครู่",
+    "retry": "ลองอีกครั้ง"
+  },
+  "footer": {
+    "rights": "สงวนลิขสิทธิ์ทุกประการ"
+  }
+}
