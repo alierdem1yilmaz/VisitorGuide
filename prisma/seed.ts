@@ -1,10 +1,16 @@
 import { PrismaClient, Category, Season } from "../src/generated/prisma/client";
+import wikiPhotos from "./wikiPhotos.json";
 
 const prisma = new PrismaClient();
 
+// Real photos sourced from Wikipedia's pageimage for the place (see
+// scripts used to build wikiPhotos.json) — only available for the cover
+// photo of places notable enough to have their own Wikipedia article.
+// Everything else falls back to a Picsum placeholder, same as before.
 function photo(slug: string, index: number, caption: string, isCover = false) {
+  const realUrl = index === 1 ? (wikiPhotos as Record<string, string>)[slug] : undefined;
   return {
-    url: `https://picsum.photos/seed/${slug}-${index}/800/600`,
+    url: realUrl ?? `https://picsum.photos/seed/${slug}-${index}/800/600`,
     caption,
     isCover,
   };
