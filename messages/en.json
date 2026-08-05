@@ -20,6 +20,7 @@
     "all": "All",
     "gridView": "List",
     "mapView": "Map",
+    "currency": "Currency",
     "cityCount": "{count, plural, one {# city} other {# cities}}",
     "placeCount": "{count, plural, one {# place} other {# places}}"
   },
@@ -52,7 +53,11 @@
     "ratingLabel": "Min. rating",
     "ratingAny": "Any rating",
     "priceLabel": "Max. price",
-    "priceAny": "Any price"
+    "priceAny": "Any price",
+    "seasonLabel": "Season",
+    "seasonAll": "Year-round",
+    "seasonSummer": "Summer",
+    "seasonWinter": "Winter"
   },
   "auth": {
     "signIn": "Sign In",

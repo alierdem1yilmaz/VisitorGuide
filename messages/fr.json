@@ -20,6 +20,7 @@
     "all": "Tout",
     "gridView": "Liste",
     "mapView": "Carte",
+    "currency": "Devise",
     "cityCount": "{count, plural, one {# ville} other {# villes}}",
     "placeCount": "{count, plural, one {# lieu} other {# lieux}}"
   },
@@ -52,7 +53,11 @@
     "ratingLabel": "Note min.",
     "ratingAny": "Toutes les notes",
     "priceLabel": "Prix max.",
-    "priceAny": "Tous les prix"
+    "priceAny": "Tous les prix",
+    "seasonLabel": "Saison",
+    "seasonAll": "Toute l'année",
+    "seasonSummer": "Été",
+    "seasonWinter": "Hiver"
   },
   "auth": {
     "signIn": "Connexion",

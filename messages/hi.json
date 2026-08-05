@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "tagline": "खोजें। जानें। जाएं।"
+  },
+  "home": {
+    "title": "VisitorGuide में आपका स्वागत है",
+    "subtitle": "रेस्तरां, आकर्षण, स्मारक, होटल और प्राकृतिक स्थलों की खोज करें।",
+    "searchPlaceholder": "देश, शहर या स्थान खोजें...",
+    "searchButton": "खोजें",
+    "allDestinations": "सभी गंतव्य"
+  },
+  "categories": {
+    "RESTAURANT": "रेस्तरां",
+    "ATTRACTION": "आकर्षण",
+    "MONUMENT": "स्मारक",
+    "HOTEL": "होटल",
+    "NATURE": "प्रकृति"
+  },
+  "common": {
+    "all": "सभी",
+    "gridView": "सूची",
+    "mapView": "मानचित्र",
+    "currency": "मुद्रा",
+    "cityCount": "{count, plural, one {# शहर} other {# शहर}}",
+    "placeCount": "{count, plural, one {# जगह} other {# जगहें}}"
+  },
+  "search": {
+    "title": "खोज परिणाम",
+    "resultsFor": "\"{query}\" के लिए परिणाम",
+    "countries": "देश",
+    "cities": "शहर",
+    "places": "स्थान",
+    "noResults": "कोई परिणाम नहीं मिला।"
+  },
+  "place": {
+    "address": "पता",
+    "openingHours": "खुलने का समय",
+    "website": "वेबसाइट",
+    "phone": "फ़ोन",
+    "reviewsHeading": "समीक्षाएं",
+    "noReviews": "अभी तक कोई समीक्षा नहीं।",
+    "anonymous": "अज्ञात",
+    "writeReviewCta": "समीक्षा लिखने के लिए साइन इन करें",
+    "photoAlt": "फ़ोटो"
+  },
+  "filters": {
+    "sortLabel": "क्रमबद्ध करें",
+    "sortName": "नाम",
+    "sortRating": "रेटिंग",
+    "sortPriceAsc": "कीमत (कम से ज़्यादा)",
+    "sortPriceDesc": "कीमत (ज़्यादा से कम)",
+    "sortDistance": "दूरी",
+    "ratingLabel": "न्यूनतम रेटिंग",
+    "ratingAny": "कोई भी रेटिंग",
+    "priceLabel": "अधिकतम कीमत",
+    "priceAny": "कोई भी कीमत",
+    "seasonLabel": "मौसम",
+    "seasonAll": "पूरे साल",
+    "seasonSummer": "गर्मी",
+    "seasonWinter": "सर्दी"
+  },
+  "auth": {
+    "signIn": "साइन इन करें",
+    "signOut": "साइन आउट करें",
+    "signUp": "साइन अप करें",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "name": "नाम",
+    "continueWithGoogle": "Google से जारी रखें",
+    "invalidCredentials": "ईमेल या पासवर्ड गलत है।",
+    "alreadyHaveAccount": "पहले से खाता है? साइन इन करें",
+    "noAccountYet": "खाता नहीं है? साइन अप करें"
+  },
+  "review": {
+    "writeReview": "समीक्षा लिखें",
+    "rating": "रेटिंग",
+    "titleLabel": "शीर्षक",
+    "bodyLabel": "आपकी समीक्षा",
+    "submit": "जमा करें"
+  },
+  "profile": {
+    "heading": "मेरी प्रोफ़ाइल",
+    "accountInfo": "खाता जानकारी",
+    "avatarUrlLabel": "प्रोफ़ाइल फ़ोटो URL",
+    "save": "सहेजें",
+    "myReviews": "मेरी समीक्षाएं",
+    "noReviews": "आपने अभी तक कोई समीक्षा नहीं लिखी है।",
+    "delete": "हटाएं",
+    "deleteConfirm": "क्या आप वाकई इस समीक्षा को हटाना चाहते हैं?"
+  },
+  "footer": {
+    "rights": "सर्वाधिकार सुरक्षित।"
+  }
+}

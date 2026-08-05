@@ -20,6 +20,7 @@
     "all": "Все",
     "gridView": "Список",
     "mapView": "Карта",
+    "currency": "Валюта",
     "cityCount": "{count, plural, one {# город} few {# города} many {# городов} other {# города}}",
     "placeCount": "{count, plural, one {# место} few {# места} many {# мест} other {# места}}"
   },
@@ -52,7 +53,11 @@
     "ratingLabel": "Мин. рейтинг",
     "ratingAny": "Любой рейтинг",
     "priceLabel": "Макс. цена",
-    "priceAny": "Любая цена"
+    "priceAny": "Любая цена",
+    "seasonLabel": "Сезон",
+    "seasonAll": "Круглый год",
+    "seasonSummer": "Лето",
+    "seasonWinter": "Зима"
   },
   "auth": {
     "signIn": "Войти",

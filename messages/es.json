@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "tagline": "EXPLORA. DESCUBRE. PARTE."
+  },
+  "home": {
+    "title": "Bienvenido a VisitorGuide",
+    "subtitle": "Descubre restaurantes, atracciones, monumentos, hoteles y paisajes naturales.",
+    "searchPlaceholder": "Busca países, ciudades o lugares...",
+    "searchButton": "Buscar",
+    "allDestinations": "Todos los destinos"
+  },
+  "categories": {
+    "RESTAURANT": "Restaurantes",
+    "ATTRACTION": "Atracciones",
+    "MONUMENT": "Monumentos",
+    "HOTEL": "Hoteles",
+    "NATURE": "Naturaleza"
+  },
+  "common": {
+    "all": "Todos",
+    "gridView": "Lista",
+    "mapView": "Mapa",
+    "currency": "Moneda",
+    "cityCount": "{count, plural, one {# ciudad} other {# ciudades}}",
+    "placeCount": "{count, plural, one {# lugar} other {# lugares}}"
+  },
+  "search": {
+    "title": "Resultados de búsqueda",
+    "resultsFor": "Resultados para \"{query}\"",
+    "countries": "Países",
+    "cities": "Ciudades",
+    "places": "Lugares",
+    "noResults": "No se encontraron resultados."
+  },
+  "place": {
+    "address": "Dirección",
+    "openingHours": "Horario",
+    "website": "Sitio web",
+    "phone": "Teléfono",
+    "reviewsHeading": "Reseñas",
+    "noReviews": "Aún no hay reseñas.",
+    "anonymous": "Anónimo",
+    "writeReviewCta": "Inicia sesión para escribir una reseña",
+    "photoAlt": "foto"
+  },
+  "filters": {
+    "sortLabel": "Ordenar",
+    "sortName": "Nombre",
+    "sortRating": "Valoración",
+    "sortPriceAsc": "Precio (menor a mayor)",
+    "sortPriceDesc": "Precio (mayor a menor)",
+    "sortDistance": "Distancia",
+    "ratingLabel": "Valoración mín.",
+    "ratingAny": "Cualquier valoración",
+    "priceLabel": "Precio máx.",
+    "priceAny": "Cualquier precio",
+    "seasonLabel": "Temporada",
+    "seasonAll": "Todo el año",
+    "seasonSummer": "Verano",
+    "seasonWinter": "Invierno"
+  },
+  "auth": {
+    "signIn": "Iniciar sesión",
+    "signOut": "Cerrar sesión",
+    "signUp": "Registrarse",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "name": "Nombre",
+    "continueWithGoogle": "Continuar con Google",
+    "invalidCredentials": "Correo electrónico o contraseña incorrectos.",
+    "alreadyHaveAccount": "¿Ya tienes una cuenta? Inicia sesión",
+    "noAccountYet": "¿No tienes cuenta? Regístrate"
+  },
+  "review": {
+    "writeReview": "Escribir una reseña",
+    "rating": "Valoración",
+    "titleLabel": "Título",
+    "bodyLabel": "Tu reseña",
+    "submit": "Enviar"
+  },
+  "profile": {
+    "heading": "Mi perfil",
+    "accountInfo": "Información de la cuenta",
+    "avatarUrlLabel": "URL de la foto de perfil",
+    "save": "Guardar",
+    "myReviews": "Mis reseñas",
+    "noReviews": "Aún no has escrito ninguna reseña.",
+    "delete": "Eliminar",
+    "deleteConfirm": "¿Seguro que quieres eliminar esta reseña?"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  }
+}

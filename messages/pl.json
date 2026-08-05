@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "tagline": "ODKRYWAJ. POZNAWAJ. JEDŹ."
+  },
+  "home": {
+    "title": "Witamy w VisitorGuide",
+    "subtitle": "Odkryj restauracje, atrakcje, zabytki, hotele i naturalne krajobrazy.",
+    "searchPlaceholder": "Szukaj krajów, miast lub miejsc...",
+    "searchButton": "Szukaj",
+    "allDestinations": "Wszystkie kierunki"
+  },
+  "categories": {
+    "RESTAURANT": "Restauracje",
+    "ATTRACTION": "Atrakcje",
+    "MONUMENT": "Zabytki",
+    "HOTEL": "Hotele",
+    "NATURE": "Natura"
+  },
+  "common": {
+    "all": "Wszystkie",
+    "gridView": "Lista",
+    "mapView": "Mapa",
+    "currency": "Waluta",
+    "cityCount": "{count, plural, one {# miasto} few {# miasta} many {# miast} other {# miasta}}",
+    "placeCount": "{count, plural, one {# miejsce} few {# miejsca} many {# miejsc} other {# miejsca}}"
+  },
+  "search": {
+    "title": "Wyniki wyszukiwania",
+    "resultsFor": "Wyniki dla \"{query}\"",
+    "countries": "Kraje",
+    "cities": "Miasta",
+    "places": "Miejsca",
+    "noResults": "Nie znaleziono wyników."
+  },
+  "place": {
+    "address": "Adres",
+    "openingHours": "Godziny otwarcia",
+    "website": "Strona internetowa",
+    "phone": "Telefon",
+    "reviewsHeading": "Opinie",
+    "noReviews": "Brak opinii.",
+    "anonymous": "Anonim",
+    "writeReviewCta": "Zaloguj się, aby napisać opinię",
+    "photoAlt": "zdjęcie"
+  },
+  "filters": {
+    "sortLabel": "Sortuj",
+    "sortName": "Nazwa",
+    "sortRating": "Ocena",
+    "sortPriceAsc": "Cena (rosnąco)",
+    "sortPriceDesc": "Cena (malejąco)",
+    "sortDistance": "Odległość",
+    "ratingLabel": "Min. ocena",
+    "ratingAny": "Dowolna ocena",
+    "priceLabel": "Maks. cena",
+    "priceAny": "Dowolna cena",
+    "seasonLabel": "Sezon",
+    "seasonAll": "Cały rok",
+    "seasonSummer": "Lato",
+    "seasonWinter": "Zima"
+  },
+  "auth": {
+    "signIn": "Zaloguj się",
+    "signOut": "Wyloguj się",
+    "signUp": "Zarejestruj się",
+    "email": "E-mail",
+    "password": "Hasło",
+    "name": "Imię",
+    "continueWithGoogle": "Kontynuuj z Google",
+    "invalidCredentials": "Nieprawidłowy e-mail lub hasło.",
+    "alreadyHaveAccount": "Masz już konto? Zaloguj się",
+    "noAccountYet": "Nie masz konta? Zarejestruj się"
+  },
+  "review": {
+    "writeReview": "Napisz opinię",
+    "rating": "Ocena",
+    "titleLabel": "Tytuł",
+    "bodyLabel": "Twoja opinia",
+    "submit": "Wyślij"
+  },
+  "profile": {
+    "heading": "Mój profil",
+    "accountInfo": "Informacje o koncie",
+    "avatarUrlLabel": "URL zdjęcia profilowego",
+    "save": "Zapisz",
+    "myReviews": "Moje opinie",
+    "noReviews": "Nie napisałeś jeszcze żadnej opinii.",
+    "delete": "Usuń",
+    "deleteConfirm": "Czy na pewno chcesz usunąć tę opinię?"
+  },
+  "footer": {
+    "rights": "Wszelkie prawa zastrzeżone."
+  }
+}

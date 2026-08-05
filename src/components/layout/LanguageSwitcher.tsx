@@ -11,6 +11,9 @@ const LABELS: Record<string, string> = {
   fr: "Français",
   ru: "Русский",
   zh: "中文",
+  es: "Español",
+  hi: "हिन्दी",
+  pl: "Polski",
 };
 
 export default function LanguageSwitcher() {

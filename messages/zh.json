@@ -20,6 +20,7 @@
     "all": "全部",
     "gridView": "列表",
     "mapView": "地图",
+    "currency": "货币",
     "cityCount": "{count, plural, other {#个城市}}",
     "placeCount": "{count, plural, other {#个地点}}"
   },
@@ -52,7 +53,11 @@
     "ratingLabel": "最低评分",
     "ratingAny": "不限评分",
     "priceLabel": "最高价格",
-    "priceAny": "不限价格"
+    "priceAny": "不限价格",
+    "seasonLabel": "季节",
+    "seasonAll": "全年",
+    "seasonSummer": "夏季",
+    "seasonWinter": "冬季"
   },
   "auth": {
     "signIn": "登录",

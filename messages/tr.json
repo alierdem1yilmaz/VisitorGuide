@@ -20,6 +20,7 @@
     "all": "Tümü",
     "gridView": "Liste",
     "mapView": "Harita",
+    "currency": "Para Birimi",
     "cityCount": "{count, plural, other {# şehir}}",
     "placeCount": "{count, plural, other {# mekân}}"
   },
@@ -52,7 +53,11 @@
     "ratingLabel": "Min. puan",
     "ratingAny": "Tüm puanlar",
     "priceLabel": "Maks. fiyat",
-    "priceAny": "Tüm fiyatlar"
+    "priceAny": "Tüm fiyatlar",
+    "seasonLabel": "Sezon",
+    "seasonAll": "Tüm Yıl",
+    "seasonSummer": "Yaz",
+    "seasonWinter": "Kış"
   },
   "auth": {
     "signIn": "Giriş Yap",
