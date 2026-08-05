@@ -54,6 +54,25 @@
     "priceLabel": "Maks. fiyat",
     "priceAny": "Tüm fiyatlar"
   },
+  "auth": {
+    "signIn": "Giriş Yap",
+    "signOut": "Çıkış Yap",
+    "signUp": "Kayıt Ol",
+    "email": "E-posta",
+    "password": "Şifre",
+    "name": "Ad",
+    "continueWithGoogle": "Google ile devam et",
+    "invalidCredentials": "E-posta veya şifre hatalı.",
+    "alreadyHaveAccount": "Zaten hesabın var mı? Giriş yap",
+    "noAccountYet": "Hesabın yok mu? Kayıt ol"
+  },
+  "review": {
+    "writeReview": "Yorum Yaz",
+    "rating": "Puan",
+    "titleLabel": "Başlık",
+    "bodyLabel": "Yorumun",
+    "submit": "Gönder"
+  },
   "footer": {
     "rights": "Tüm hakları saklıdır."
   }

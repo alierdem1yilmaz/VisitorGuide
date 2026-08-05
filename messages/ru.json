@@ -54,6 +54,25 @@
     "priceLabel": "Макс. цена",
     "priceAny": "Любая цена"
   },
+  "auth": {
+    "signIn": "Войти",
+    "signOut": "Выйти",
+    "signUp": "Регистрация",
+    "email": "Эл. почта",
+    "password": "Пароль",
+    "name": "Имя",
+    "continueWithGoogle": "Продолжить через Google",
+    "invalidCredentials": "Неверный email или пароль.",
+    "alreadyHaveAccount": "Уже есть аккаунт? Войти",
+    "noAccountYet": "Нет аккаунта? Зарегистрироваться"
+  },
+  "review": {
+    "writeReview": "Написать отзыв",
+    "rating": "Оценка",
+    "titleLabel": "Заголовок",
+    "bodyLabel": "Ваш отзыв",
+    "submit": "Отправить"
+  },
   "footer": {
     "rights": "Все права защищены."
   }

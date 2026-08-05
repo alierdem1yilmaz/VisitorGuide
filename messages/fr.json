@@ -54,6 +54,25 @@
     "priceLabel": "Prix max.",
     "priceAny": "Tous les prix"
   },
+  "auth": {
+    "signIn": "Connexion",
+    "signOut": "Déconnexion",
+    "signUp": "Inscription",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "name": "Nom",
+    "continueWithGoogle": "Continuer avec Google",
+    "invalidCredentials": "E-mail ou mot de passe incorrect.",
+    "alreadyHaveAccount": "Déjà un compte ? Connectez-vous",
+    "noAccountYet": "Pas encore de compte ? Inscrivez-vous"
+  },
+  "review": {
+    "writeReview": "Écrire un avis",
+    "rating": "Note",
+    "titleLabel": "Titre",
+    "bodyLabel": "Votre avis",
+    "submit": "Envoyer"
+  },
   "footer": {
     "rights": "Tous droits réservés."
   }

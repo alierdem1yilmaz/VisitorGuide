@@ -6,8 +6,10 @@ import PhotoGallery from "@/components/place/PhotoGallery";
 import PlaceMap from "@/components/place/PlaceMap";
 import ReviewList from "@/components/place/ReviewList";
 import WriteReviewCta from "@/components/place/WriteReviewCta";
+import ReviewForm from "@/components/place/ReviewForm";
 import StarRating from "@/components/place/StarRating";
 import { getPlaceBySlug } from "@/lib/queries";
+import { auth } from "@/auth";
 
 export const revalidate = 60;
 
@@ -48,9 +50,11 @@ export default async function PlacePage({
   const place = await getPlaceBySlug(countrySlug, citySlug, placeSlug);
   if (!place) notFound();
 
-  const [t, tCategories] = await Promise.all([
+  const [t, tCategories, tReview, session] = await Promise.all([
     getTranslations("place"),
     getTranslations("categories"),
+    getTranslations("review"),
+    auth(),
   ]);
 
   const openingHours = isPlainObject(place.openingHours) ? place.openingHours : null;
@@ -138,8 +142,20 @@ export default async function PlacePage({
       <div className="mt-10">
         <div className="mb-4 flex items-center justify-between">
           <h2 className="text-xl font-bold text-brand-800">{t("reviewsHeading")}</h2>
-          <WriteReviewCta label={t("writeReviewCta")} />
+          {!session?.user && <WriteReviewCta label={t("writeReviewCta")} />}
         </div>
+        {session?.user && (
+          <div className="mb-6">
+            <ReviewForm
+              placeId={place.id}
+              path={`/countries/${countrySlug}/${citySlug}/${placeSlug}`}
+              ratingLabel={tReview("rating")}
+              titleLabel={tReview("titleLabel")}
+              bodyLabel={tReview("bodyLabel")}
+              submitLabel={tReview("submit")}
+            />
+          </div>
+        )}
         <ReviewList
           reviews={place.reviews}
           locale={locale}
