@@ -73,6 +73,16 @@
     "bodyLabel": "你的评论",
     "submit": "提交"
   },
+  "profile": {
+    "heading": "我的资料",
+    "accountInfo": "账户信息",
+    "avatarUrlLabel": "头像图片链接",
+    "save": "保存",
+    "myReviews": "我的评论",
+    "noReviews": "你还没有写过评论。",
+    "delete": "删除",
+    "deleteConfirm": "确定要删除这条评论吗？"
+  },
   "footer": {
     "rights": "版权所有。"
   }

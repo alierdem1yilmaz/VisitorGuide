@@ -73,6 +73,16 @@
     "bodyLabel": "Deine Bewertung",
     "submit": "Absenden"
   },
+  "profile": {
+    "heading": "Mein Profil",
+    "accountInfo": "Kontoinformationen",
+    "avatarUrlLabel": "Profilbild-URL",
+    "save": "Speichern",
+    "myReviews": "Meine Bewertungen",
+    "noReviews": "Du hast noch keine Bewertungen geschrieben.",
+    "delete": "Löschen",
+    "deleteConfirm": "Möchtest du diese Bewertung wirklich löschen?"
+  },
   "footer": {
     "rights": "Alle Rechte vorbehalten."
   }

@@ -73,6 +73,16 @@
     "bodyLabel": "Yorumun",
     "submit": "Gönder"
   },
+  "profile": {
+    "heading": "Profilim",
+    "accountInfo": "Hesap Bilgileri",
+    "avatarUrlLabel": "Profil Fotoğrafı URL'si",
+    "save": "Kaydet",
+    "myReviews": "Yorumlarım",
+    "noReviews": "Henüz yorum yazmadın.",
+    "delete": "Sil",
+    "deleteConfirm": "Bu yorumu silmek istediğine emin misin?"
+  },
   "footer": {
     "rights": "Tüm hakları saklıdır."
   }

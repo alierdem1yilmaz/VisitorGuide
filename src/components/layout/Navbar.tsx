@@ -23,9 +23,12 @@ export default async function Navbar() {
         <div className="flex items-center gap-4">
           {session?.user ? (
             <>
-              <span className="hidden text-sm font-medium text-brand-700 sm:inline">
+              <Link
+                href="/profile"
+                className="hidden text-sm font-medium text-brand-700 hover:underline sm:inline"
+              >
                 {session.user.name ?? session.user.email}
-              </span>
+              </Link>
               <form
                 action={async () => {
                   "use server";

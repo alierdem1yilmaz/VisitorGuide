@@ -118,6 +118,22 @@ export async function getPlaceBySlug(
   return place;
 }
 
+export function getUserReviews(userId: string) {
+  return prisma.review.findMany({
+    where: { userId },
+    orderBy: { createdAt: "desc" },
+    include: {
+      place: {
+        select: {
+          name: true,
+          slug: true,
+          city: { select: { slug: true, country: { select: { slug: true } } } },
+        },
+      },
+    },
+  });
+}
+
 export function getCountryPlacesForMap(countrySlug: string) {
   return prisma.place.findMany({
     where: { city: { country: { slug: countrySlug } } },
