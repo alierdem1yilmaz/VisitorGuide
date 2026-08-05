@@ -17,6 +17,12 @@ enum Category {
   NATURE
 }
 
+enum Season {
+  SUMMER
+  WINTER
+  ALL
+}
+
 model User {
   id           String   @id @default(cuid())
   name         String?
@@ -33,6 +39,7 @@ model Country {
   slug          String   @unique
   description   String?
   coverImageUrl String?
+  currencyCode  String?
   cities        City[]
   createdAt     DateTime @default(now())
   updatedAt     DateTime @updatedAt
@@ -62,6 +69,7 @@ model Place {
   cityId       String
   city         City      @relation(fields: [cityId], references: [id], onDelete: Cascade)
   category     Category
+  bestSeason   Season    @default(ALL)
   description  String?
   address      String?
   latitude     Float?
