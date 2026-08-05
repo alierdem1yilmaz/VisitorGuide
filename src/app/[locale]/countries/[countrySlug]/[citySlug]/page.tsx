@@ -6,8 +6,9 @@ import PlaceCard from "@/components/place/PlaceCard";
 import MapView from "@/components/place/MapView";
 import ViewToggle from "@/components/place/ViewToggle";
 import FilterBar from "@/components/place/FilterBar";
+import SeasonToggle from "@/components/place/SeasonToggle";
 import { getCityBySlug, type PlaceSort } from "@/lib/queries";
-import { Category } from "@/generated/prisma/client";
+import { Category, Season } from "@/generated/prisma/client";
 
 export const revalidate = 60;
 
@@ -22,6 +23,10 @@ function isSort(value: string | undefined): value is PlaceSort {
   return !!value && (SORTS as string[]).includes(value);
 }
 
+function isSeason(value: string | undefined): value is Season {
+  return value === "SUMMER" || value === "WINTER";
+}
+
 type PageParams = { locale: string; countrySlug: string; citySlug: string };
 type PageSearchParams = {
   category?: string;
@@ -29,6 +34,7 @@ type PageSearchParams = {
   sort?: string;
   minRating?: string;
   maxPrice?: string;
+  season?: string;
 };
 
 export async function generateMetadata({
@@ -60,6 +66,7 @@ export default async function CityPage({
     sort: rawSort,
     minRating: rawMinRating,
     maxPrice: rawMaxPrice,
+    season: rawSeason,
   } = await searchParams;
   setRequestLocale(locale);
 
@@ -68,12 +75,14 @@ export default async function CityPage({
   const sort = isSort(rawSort) ? rawSort : undefined;
   const minRating = rawMinRating ? Number(rawMinRating) : undefined;
   const maxPrice = rawMaxPrice ? Number(rawMaxPrice) : undefined;
+  const season = isSeason(rawSeason) ? rawSeason : undefined;
 
   const city = await getCityBySlug(countrySlug, citySlug, {
     category,
     sort,
     minRating,
     maxPrice,
+    season,
   });
   if (!city) notFound();
 
@@ -93,6 +102,7 @@ export default async function CityPage({
     if (sort && sort !== "name") params.set("sort", sort);
     if (minRating) params.set("minRating", String(minRating));
     if (maxPrice) params.set("maxPrice", String(maxPrice));
+    if (season) params.set("season", season);
     const qs = params.toString();
     return qs ? `${basePath}?${qs}` : basePath;
   }
@@ -139,7 +149,7 @@ export default async function CityPage({
         />
       </div>
 
-      <div className="mt-4">
+      <div className="mt-4 flex flex-wrap items-center justify-between gap-4">
         <FilterBar
           sortLabel={tFilters("sortLabel")}
           ratingLabel={tFilters("ratingLabel")}
@@ -153,6 +163,11 @@ export default async function CityPage({
           }}
           ratingAnyLabel={tFilters("ratingAny")}
           priceAnyLabel={tFilters("priceAny")}
+        />
+        <SeasonToggle
+          allLabel={tFilters("seasonAll")}
+          summerLabel={tFilters("seasonSummer")}
+          winterLabel={tFilters("seasonWinter")}
         />
       </div>
 

@@ -56,6 +56,12 @@ export default async function CountryPage({
         <p className="text-sm font-medium text-brand-600">
           {tCommon("cityCount", { count: country._count.cities })} ·{" "}
           {tCommon("placeCount", { count: placeCount })}
+          {country.currencyCode && (
+            <>
+              {" "}
+              · {tCommon("currency")}: {country.currencyCode}
+            </>
+          )}
         </p>
         <ViewToggle
           basePath={basePath}

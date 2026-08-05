@@ -1,4 +1,4 @@
-import { PrismaClient, Category } from "../src/generated/prisma/client";
+import { PrismaClient, Category, Season } from "../src/generated/prisma/client";
 
 const prisma = new PrismaClient();
 
@@ -17,6 +17,7 @@ const countries = [
     description:
       "A country spanning Europe and Asia, known for its ancient history, vibrant cities, and Mediterranean coastline.",
     coverImageUrl: "https://picsum.photos/seed/turkiye-cover/1200/600",
+    currencyCode: "TRY",
     cities: [
       {
         slug: "istanbul",
@@ -123,6 +124,7 @@ const countries = [
             slug: "duden-waterfalls",
             name: "Düden Waterfalls",
             category: Category.NATURE,
+            bestSeason: Season.SUMMER,
             description:
               "A set of waterfalls where the Düden River cascades into the Mediterranean Sea, popular for scenic boat tours.",
             address: "Karataş, Antalya",
@@ -468,6 +470,7 @@ const countries = [
     description:
       "A Western European country known for its art, cuisine, and landmarks ranging from the Eiffel Tower to the French Riviera.",
     coverImageUrl: "https://picsum.photos/seed/fransa-cover/1200/600",
+    currencyCode: "EUR",
     cities: [
       {
         slug: "paris",
@@ -571,6 +574,7 @@ const countries = [
             slug: "promenade-des-anglais",
             name: "Promenade des Anglais",
             category: Category.NATURE,
+            bestSeason: Season.SUMMER,
             description:
               "A famous seaside promenade along the Baie des Anges, popular for walking, cycling, and sea views.",
             address: "Promenade des Anglais, 06000 Nice",
@@ -652,6 +656,7 @@ const countries = [
     description:
       "A southern European country famed for its Renaissance art, ancient ruins, and regional cuisine, from Rome to Venice and Florence.",
     coverImageUrl: "https://picsum.photos/seed/italya-cover/1200/600",
+    currencyCode: "EUR",
     cities: [
       {
         slug: "roma",
@@ -785,6 +790,7 @@ const countries = [
             slug: "lido-di-venezia",
             name: "Lido di Venezia",
             category: Category.NATURE,
+            bestSeason: Season.SUMMER,
             description:
               "A narrow barrier island facing the Adriatic, with sandy beaches a short vaporetto ride from central Venice.",
             address: "Lido di Venezia, Venezia VE",
@@ -922,6 +928,7 @@ const countries = [
     description:
       "An island nation blending ultramodern cities with centuries-old temples, shrines, and traditional gardens.",
     coverImageUrl: "https://picsum.photos/seed/japonya-cover/1200/600",
+    currencyCode: "JPY",
     cities: [
       {
         slug: "tokyo",
@@ -1103,6 +1110,7 @@ const countries = [
     description:
       "An Iberian country known for Moorish architecture, Gaudí's landmarks, and vibrant regional food and festival culture.",
     coverImageUrl: "https://picsum.photos/seed/ispanya-cover/1200/600",
+    currencyCode: "EUR",
     cities: [
       {
         slug: "sevilla",
@@ -1287,6 +1295,7 @@ const countries = [
     description:
       "A large North American country of diverse landscapes and cities, from the monuments of Washington to the skyline of New York.",
     coverImageUrl: "https://picsum.photos/seed/abd-cover/1200/600",
+    currencyCode: "USD",
     cities: [
       {
         slug: "new-york",
@@ -1468,6 +1477,7 @@ const countries = [
     description:
       "South America's largest country, known for its beaches, mountains, and the cultural energy of Rio de Janeiro and São Paulo.",
     coverImageUrl: "https://picsum.photos/seed/brezilya-cover/1200/600",
+    currencyCode: "BRL",
     cities: [
       {
         slug: "rio-de-janeiro",
@@ -1497,6 +1507,7 @@ const countries = [
             slug: "copacabana-beach",
             name: "Copacabana Beach",
             category: Category.NATURE,
+            bestSeason: Season.SUMMER,
             description:
               "A famous 4-kilometer stretch of sandy beach along Rio's coastline, framed by a wave-patterned promenade.",
             address: "Copacabana, Rio de Janeiro",
@@ -1649,6 +1660,7 @@ const countries = [
     description:
       "An island nation in Northwestern Europe, home to centuries of royal history, world-class museums, and the capital, London.",
     coverImageUrl: "https://picsum.photos/seed/ingiltere-cover/1200/600",
+    currencyCode: "GBP",
     cities: [
       {
         slug: "londra",
@@ -1744,6 +1756,7 @@ const countries = [
     description:
       "A North African kingdom known for its imperial cities, markets, and the blend of Arab, Berber, and French influences.",
     coverImageUrl: "https://picsum.photos/seed/fas-cover/1200/600",
+    currencyCode: "MAD",
     cities: [
       {
         slug: "marakes",
@@ -1839,6 +1852,7 @@ const countries = [
     description:
       "A southeastern European country regarded as the cradle of Western civilization, known for ancient ruins and island life.",
     coverImageUrl: "https://picsum.photos/seed/yunanistan-cover/1200/600",
+    currencyCode: "EUR",
     cities: [
       {
         slug: "atina",

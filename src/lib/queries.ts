@@ -1,4 +1,4 @@
-import { Category } from "@/generated/prisma/client";
+import { Category, Season } from "@/generated/prisma/client";
 import { prisma } from "@/lib/prisma";
 import { haversineKm } from "@/lib/distance";
 
@@ -8,6 +8,7 @@ export type PlaceFilters = {
   category?: Category;
   minRating?: number;
   maxPrice?: number;
+  season?: Season;
   sort?: PlaceSort;
 };
 
@@ -16,6 +17,9 @@ function placeWhere(filters: Omit<PlaceFilters, "sort">) {
     category: filters.category,
     avgRating: filters.minRating ? { gte: filters.minRating } : undefined,
     priceLevel: filters.maxPrice ? { lte: filters.maxPrice } : undefined,
+    bestSeason: filters.season
+      ? { in: [filters.season, "ALL" as const] }
+      : undefined,
   };
 }
 
@@ -154,6 +158,7 @@ export async function searchAll({
   category,
   minRating,
   maxPrice,
+  season,
   sort,
 }: {
   q?: string;
@@ -176,7 +181,7 @@ export async function searchAll({
           take: 10,
         }),
     prisma.place.findMany({
-      where: { name: nameFilter, ...placeWhere({ category, minRating, maxPrice }) },
+      where: { name: nameFilter, ...placeWhere({ category, minRating, maxPrice, season }) },
       orderBy: sort === "distance" ? undefined : placeOrderBy(sort),
       include: {
         city: { include: { country: true } },

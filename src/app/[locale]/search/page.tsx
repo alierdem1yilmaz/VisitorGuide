@@ -3,8 +3,9 @@ import CountryCard from "@/components/destination/CountryCard";
 import CityCard from "@/components/destination/CityCard";
 import PlaceCard from "@/components/place/PlaceCard";
 import FilterBar from "@/components/place/FilterBar";
+import SeasonToggle from "@/components/place/SeasonToggle";
 import { searchAll, type PlaceSort } from "@/lib/queries";
-import { Category } from "@/generated/prisma/client";
+import { Category, Season } from "@/generated/prisma/client";
 
 const SORTS: PlaceSort[] = ["name", "rating", "priceAsc", "priceDesc", "distance"];
 
@@ -14,6 +15,10 @@ function isCategory(value: string | undefined): value is Category {
 
 function isSort(value: string | undefined): value is PlaceSort {
   return !!value && (SORTS as string[]).includes(value);
+}
+
+function isSeason(value: string | undefined): value is Season {
+  return value === "SUMMER" || value === "WINTER";
 }
 
 export default async function SearchPage({
@@ -27,6 +32,7 @@ export default async function SearchPage({
     sort?: string;
     minRating?: string;
     maxPrice?: string;
+    season?: string;
   }>;
 }) {
   const { locale } = await params;
@@ -36,6 +42,7 @@ export default async function SearchPage({
     sort: rawSort,
     minRating: rawMinRating,
     maxPrice: rawMaxPrice,
+    season: rawSeason,
   } = await searchParams;
   setRequestLocale(locale);
 
@@ -43,6 +50,7 @@ export default async function SearchPage({
   const sort = isSort(rawSort) ? rawSort : undefined;
   const minRating = rawMinRating ? Number(rawMinRating) : undefined;
   const maxPrice = rawMaxPrice ? Number(rawMaxPrice) : undefined;
+  const season = isSeason(rawSeason) ? rawSeason : undefined;
 
   const { countries, cities, places } = await searchAll({
     q,
@@ -50,6 +58,7 @@ export default async function SearchPage({
     sort,
     minRating,
     maxPrice,
+    season,
   });
 
   const [t, tCommon, tCategories, tFilters] = await Promise.all([
@@ -110,7 +119,7 @@ export default async function SearchPage({
       {hasSearchContext && (
         <section className="mt-8">
           <h2 className="mb-4 text-lg font-semibold text-brand-700">{t("places")}</h2>
-          <div className="mb-4">
+          <div className="mb-4 flex flex-wrap items-center justify-between gap-4">
             <FilterBar
               sortLabel={tFilters("sortLabel")}
               ratingLabel={tFilters("ratingLabel")}
@@ -124,6 +133,11 @@ export default async function SearchPage({
               }}
               ratingAnyLabel={tFilters("ratingAny")}
               priceAnyLabel={tFilters("priceAny")}
+            />
+            <SeasonToggle
+              allLabel={tFilters("seasonAll")}
+              summerLabel={tFilters("seasonSummer")}
+              winterLabel={tFilters("seasonWinter")}
             />
           </div>
           {places.length > 0 ? (
