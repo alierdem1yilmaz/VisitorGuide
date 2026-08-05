@@ -1,6 +1,18 @@
 {
   "nav": {
-    "tagline": "खोजें। जानें। जाएं।"
+    "tagline": "खोजें। जानें। जाएं।",
+    "explore": "खोजें",
+    "writeReview": "समीक्षा लिखें",
+    "more": "और अधिक",
+    "allCountries": "सभी देश",
+    "favorites": "मेरे पसंदीदा"
+  },
+  "preferences": {
+    "title": "प्राथमिकताएं",
+    "regionTab": "क्षेत्र और भाषा",
+    "currencyTab": "मुद्रा",
+    "searchPlaceholder": "क्षेत्र या भाषा खोजें...",
+    "close": "बंद करें"
   },
   "home": {
     "title": "VisitorGuide में आपका स्वागत है",

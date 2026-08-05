@@ -1,6 +1,18 @@
 {
   "nav": {
-    "tagline": "EXPLOREZ. DÉCOUVREZ. PARTEZ."
+    "tagline": "EXPLOREZ. DÉCOUVREZ. PARTEZ.",
+    "explore": "Explorer",
+    "writeReview": "Écrire un avis",
+    "more": "Plus",
+    "allCountries": "Tous les pays",
+    "favorites": "Mes favoris"
+  },
+  "preferences": {
+    "title": "Préférences",
+    "regionTab": "Région et langue",
+    "currencyTab": "Devise",
+    "searchPlaceholder": "Rechercher une région ou une langue...",
+    "close": "Fermer"
   },
   "home": {
     "title": "Bienvenue sur VisitorGuide",

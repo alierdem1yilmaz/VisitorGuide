@@ -1,6 +1,18 @@
 {
   "nav": {
-    "tagline": "EXPLORE. DISCOVER. GO."
+    "tagline": "EXPLORE. DISCOVER. GO.",
+    "explore": "Explore",
+    "writeReview": "Write a Review",
+    "more": "More",
+    "allCountries": "All Countries",
+    "favorites": "My Favorites"
+  },
+  "preferences": {
+    "title": "Preferences",
+    "regionTab": "Region & Language",
+    "currencyTab": "Currency",
+    "searchPlaceholder": "Search region or language...",
+    "close": "Close"
   },
   "home": {
     "title": "Welcome to VisitorGuide",

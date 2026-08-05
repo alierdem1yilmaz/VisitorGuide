@@ -1,6 +1,18 @@
 {
   "nav": {
-    "tagline": "ODKRYWAJ. POZNAWAJ. JEDŹ."
+    "tagline": "ODKRYWAJ. POZNAWAJ. JEDŹ.",
+    "explore": "Odkrywaj",
+    "writeReview": "Napisz opinię",
+    "more": "Więcej",
+    "allCountries": "Wszystkie kraje",
+    "favorites": "Moje ulubione"
+  },
+  "preferences": {
+    "title": "Preferencje",
+    "regionTab": "Region i język",
+    "currencyTab": "Waluta",
+    "searchPlaceholder": "Szukaj regionu lub języka...",
+    "close": "Zamknij"
   },
   "home": {
     "title": "Witamy w VisitorGuide",

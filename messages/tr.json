@@ -1,6 +1,18 @@
 {
   "nav": {
-    "tagline": "GEZ. KEŞFET. GİT."
+    "tagline": "GEZ. KEŞFET. GİT.",
+    "explore": "Keşfedin",
+    "writeReview": "Yorum Yazın",
+    "more": "Devamı",
+    "allCountries": "Tüm Ülkeler",
+    "favorites": "Favorilerim"
+  },
+  "preferences": {
+    "title": "Tercihler",
+    "regionTab": "Bölge ve Dil",
+    "currencyTab": "Para Birimi",
+    "searchPlaceholder": "Bölge veya dil ara...",
+    "close": "Kapat"
   },
   "home": {
     "title": "VisitorGuide'a Hoş Geldiniz",

@@ -1,6 +1,18 @@
 {
   "nav": {
-    "tagline": "探索。发现。出发。"
+    "tagline": "探索。发现。出发。",
+    "explore": "探索",
+    "writeReview": "写评论",
+    "more": "更多",
+    "allCountries": "所有国家",
+    "favorites": "我的收藏"
+  },
+  "preferences": {
+    "title": "偏好设置",
+    "regionTab": "地区和语言",
+    "currencyTab": "货币",
+    "searchPlaceholder": "搜索地区或语言...",
+    "close": "关闭"
   },
   "home": {
     "title": "欢迎来到 VisitorGuide",

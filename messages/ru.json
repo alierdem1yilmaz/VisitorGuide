@@ -1,6 +1,18 @@
 {
   "nav": {
-    "tagline": "ИССЛЕДУЙТЕ. ОТКРЫВАЙТЕ. В ПУТЬ."
+    "tagline": "ИССЛЕДУЙТЕ. ОТКРЫВАЙТЕ. В ПУТЬ.",
+    "explore": "Исследовать",
+    "writeReview": "Написать отзыв",
+    "more": "Ещё",
+    "allCountries": "Все страны",
+    "favorites": "Избранное"
+  },
+  "preferences": {
+    "title": "Настройки",
+    "regionTab": "Регион и язык",
+    "currencyTab": "Валюта",
+    "searchPlaceholder": "Поиск региона или языка...",
+    "close": "Закрыть"
   },
   "home": {
     "title": "Добро пожаловать в VisitorGuide",
