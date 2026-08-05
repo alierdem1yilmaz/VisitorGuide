@@ -5757,11 +5757,17 @@ async function main() {
   );
 }
 
-main()
-  .catch((e) => {
-    console.error(e);
-    process.exit(1);
-  })
-  .finally(async () => {
-    await prisma.$disconnect();
-  });
+import { fileURLToPath } from "url";
+
+export { countries };
+
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  main()
+    .catch((e) => {
+      console.error(e);
+      process.exit(1);
+    })
+    .finally(async () => {
+      await prisma.$disconnect();
+    });
+}
