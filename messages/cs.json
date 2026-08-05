@@ -19,7 +19,8 @@
     "subtitle": "Objevte restaurace, atrakce, památky, hotely a přírodní památky.",
     "searchPlaceholder": "Hledat země, města nebo místa...",
     "searchButton": "Vyhledávání",
-    "allDestinations": "Všechny destinace"
+    "allDestinations": "Všechny destinace",
+    "viewAll": "Zobrazit vše"
   },
   "categories": {
     "RESTAURANT": "Restaurace",

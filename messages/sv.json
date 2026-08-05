@@ -19,7 +19,8 @@
     "subtitle": "Upptäck restauranger, sevärdheter, monument, hotell och naturliga landmärken.",
     "searchPlaceholder": "Sök länder, städer eller platser...",
     "searchButton": "Söka",
-    "allDestinations": "Alla destinationer"
+    "allDestinations": "Alla destinationer",
+    "viewAll": "Visa alla"
   },
   "categories": {
     "RESTAURANT": "Restauranger",

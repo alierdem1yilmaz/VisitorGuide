@@ -19,7 +19,8 @@
     "subtitle": "Restoranları, gezilecek yerleri, anıtları, otelleri ve doğal güzellikleri keşfedin.",
     "searchPlaceholder": "Ülke, şehir veya mekân ara...",
     "searchButton": "Ara",
-    "allDestinations": "Tüm Destinasyonlar"
+    "allDestinations": "Tüm Destinasyonlar",
+    "viewAll": "Tümünü Gör"
   },
   "categories": {
     "RESTAURANT": "Restoranlar",

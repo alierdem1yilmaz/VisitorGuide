@@ -19,7 +19,8 @@
     "subtitle": "Atklājiet restorānus, apskates objektus, pieminekļus, viesnīcas un dabas pieminekļus.",
     "searchPlaceholder": "Meklēt valstis, pilsētas vai vietas...",
     "searchButton": "Meklēt",
-    "allDestinations": "Visi galamērķi"
+    "allDestinations": "Visi galamērķi",
+    "viewAll": "Skatīt visu"
   },
   "categories": {
     "RESTAURANT": "Restorāni",

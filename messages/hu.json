@@ -19,7 +19,8 @@
     "subtitle": "Fedezzen fel éttermeket, látnivalókat, műemlékeket, szállodákat és természeti nevezetességeket.",
     "searchPlaceholder": "Keressen országokat, városokat vagy helyeket...",
     "searchButton": "Keresés",
-    "allDestinations": "Minden úti cél"
+    "allDestinations": "Minden úti cél",
+    "viewAll": "Összes megtekintése"
   },
   "categories": {
     "RESTAURANT": "Éttermek",

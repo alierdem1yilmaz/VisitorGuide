@@ -19,7 +19,8 @@
     "subtitle": "Scopri ristoranti, attrazioni, monumenti, hotel e punti di riferimento naturali.",
     "searchPlaceholder": "Cerca paesi, città o luoghi...",
     "searchButton": "Ricerca",
-    "allDestinations": "Tutte le destinazioni"
+    "allDestinations": "Tutte le destinazioni",
+    "viewAll": "Visualizza tutto"
   },
   "categories": {
     "RESTAURANT": "Laser",

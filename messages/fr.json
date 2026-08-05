@@ -19,7 +19,8 @@
     "subtitle": "Découvrez restaurants, attractions, monuments, hôtels et sites naturels.",
     "searchPlaceholder": "Rechercher un pays, une ville ou un lieu...",
     "searchButton": "Rechercher",
-    "allDestinations": "Toutes les destinations"
+    "allDestinations": "Toutes les destinations",
+    "viewAll": "Tout voir"
   },
   "categories": {
     "RESTAURANT": "Restaurants",

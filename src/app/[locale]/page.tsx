@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Hero from "@/components/home/Hero";
-import CategoryShortcuts from "@/components/home/CategoryShortcuts";
-import CountryCard from "@/components/destination/CountryCard";
-import { getAllCountries } from "@/lib/queries";
+import CategoryShowcaseRow, {
+  type ShowcasePlace,
+} from "@/components/home/CategoryShowcaseRow";
+import { getFeaturedPlacesByCategory } from "@/lib/queries";
+import { Category } from "@/generated/prisma/client";
 
 export const revalidate = 60;
 
@@ -29,33 +31,43 @@ export default async function HomePage({
   const { locale } = await params;
   setRequestLocale(locale);
 
-  const [t, tCommon, countries] = await Promise.all([
+  const [t, tCategories, featured] = await Promise.all([
     getTranslations("home"),
-    getTranslations("common"),
-    getAllCountries(),
+    getTranslations("categories"),
+    getFeaturedPlacesByCategory(),
   ]);
+
+  const categories: Category[] = [
+    Category.RESTAURANT,
+    Category.ATTRACTION,
+    Category.MONUMENT,
+    Category.HOTEL,
+    Category.NATURE,
+  ];
 
   return (
     <div>
       <Hero title={t("title")} subtitle={t("subtitle")} />
-      <CategoryShortcuts />
-      <section className="mx-auto max-w-6xl px-6 pb-16">
-        <h2 className="mb-6 text-2xl font-bold text-brand-800">
-          {t("allDestinations")}
-        </h2>
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {countries.map((country) => (
-            <CountryCard
-              key={country.id}
-              href={`/countries/${country.slug}`}
-              name={country.name}
-              description={country.description}
-              coverImageUrl={country.coverImageUrl}
-              cityCountLabel={tCommon("cityCount", { count: country._count.cities })}
-            />
-          ))}
-        </div>
-      </section>
+      {categories.map((category) => {
+        const places: ShowcasePlace[] = featured[category].map((place) => ({
+          id: place.id,
+          href: `/countries/${place.city.country.slug}/${place.city.slug}/${place.slug}`,
+          name: place.name,
+          photoUrl: place.photos[0]?.url ?? null,
+          cityName: place.city.name,
+          countryName: place.city.country.name,
+        }));
+        return (
+          <CategoryShowcaseRow
+            key={category}
+            category={category}
+            label={tCategories(category)}
+            viewAllHref={`/search?category=${category}`}
+            viewAllLabel={t("viewAll")}
+            places={places}
+          />
+        );
+      })}
     </div>
   );
 }

@@ -19,7 +19,8 @@
     "subtitle": "اكتشف المطاعم والمعالم السياحية والآثار والفنادق والمعالم الطبيعية.",
     "searchPlaceholder": "ابحث عن البلدان أو المدن أو الأماكن...",
     "searchButton": "يبحث",
-    "allDestinations": "جميع الوجهات"
+    "allDestinations": "جميع الوجهات",
+    "viewAll": "عرض الكل"
   },
   "categories": {
     "RESTAURANT": "المطاعم",

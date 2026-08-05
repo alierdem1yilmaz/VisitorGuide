@@ -61,6 +61,28 @@ export function getAllCountries() {
   });
 }
 
+export async function getFeaturedPlacesByCategory(perCategory = 8) {
+  const categories = Object.values(Category);
+  const results = await Promise.all(
+    categories.map((category) =>
+      prisma.place.findMany({
+        where: { category, photos: { some: { isCover: true } } },
+        orderBy: { reviewCount: "desc" },
+        take: perCategory,
+        include: {
+          photos: { where: { isCover: true }, take: 1 },
+          city: { include: { country: true } },
+        },
+      }),
+    ),
+  );
+
+  return Object.fromEntries(categories.map((c, i) => [c, results[i]])) as Record<
+    Category,
+    (typeof results)[number]
+  >;
+}
+
 export function getCountryBySlug(slug: string) {
   return prisma.country.findUnique({
     where: { slug },

@@ -19,7 +19,8 @@
     "subtitle": "Otkrijte restorane, atrakcije, spomenike, hotele i prirodne znamenitosti.",
     "searchPlaceholder": "Pretražite države, gradove ili mjesta...",
     "searchButton": "Pretraživanje",
-    "allDestinations": "Sva odredišta"
+    "allDestinations": "Sva odredišta",
+    "viewAll": "Prikaži sve"
   },
   "categories": {
     "RESTAURANT": "Restorani",

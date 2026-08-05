@@ -19,7 +19,8 @@
     "subtitle": "Khám phá các nhà hàng, điểm tham quan, di tích, khách sạn và danh lam thắng cảnh tự nhiên.",
     "searchPlaceholder": "Tìm kiếm quốc gia, thành phố hoặc địa điểm...",
     "searchButton": "Tìm kiếm",
-    "allDestinations": "Tất cả các điểm đến"
+    "allDestinations": "Tất cả các điểm đến",
+    "viewAll": "Xem tất cả"
   },
   "categories": {
     "RESTAURANT": "Nhà hàng",

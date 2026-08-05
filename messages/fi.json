@@ -19,7 +19,8 @@
     "subtitle": "Löydä ravintoloita, nähtävyyksiä, monumentteja, hotelleja ja luonnonnähtävyyksiä.",
     "searchPlaceholder": "Hae maita, kaupunkeja tai paikkoja...",
     "searchButton": "Haku",
-    "allDestinations": "Kaikki kohteet"
+    "allDestinations": "Kaikki kohteet",
+    "viewAll": "Näytä kaikki"
   },
   "categories": {
     "RESTAURANT": "Ravintolat",

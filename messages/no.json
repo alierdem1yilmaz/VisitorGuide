@@ -19,7 +19,8 @@
     "subtitle": "Oppdag restauranter, attraksjoner, monumenter, hoteller og naturlige landemerker.",
     "searchPlaceholder": "Søk etter land, byer eller steder...",
     "searchButton": "Søk",
-    "allDestinations": "Alle reisemål"
+    "allDestinations": "Alle reisemål",
+    "viewAll": "Vis alle"
   },
   "categories": {
     "RESTAURANT": "Restauranter",

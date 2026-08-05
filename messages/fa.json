@@ -19,7 +19,8 @@
     "subtitle": "رستوران‌ها، جاذبه‌های گردشگری، بناهای تاریخی، هتل‌ها و جاذبه‌های طبیعی را کشف کنید.",
     "searchPlaceholder": "جستجوی کشورها، شهرها یا مکان‌ها...",
     "searchButton": "جستجو",
-    "allDestinations": "همه مقصدها"
+    "allDestinations": "همه مقصدها",
+    "viewAll": "مشاهده همه"
   },
   "categories": {
     "RESTAURANT": "رستوران‌ها",

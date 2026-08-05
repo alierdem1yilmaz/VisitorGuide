@@ -19,7 +19,8 @@
     "subtitle": "Oplev restauranter, attraktioner, monumenter, hoteller og naturlige vartegn.",
     "searchPlaceholder": "Søg efter lande, byer eller steder...",
     "searchButton": "Søge",
-    "allDestinations": "Alle destinationer"
+    "allDestinations": "Alle destinationer",
+    "viewAll": "Se alle"
   },
   "categories": {
     "RESTAURANT": "Restauranter",

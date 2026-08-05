@@ -19,7 +19,8 @@
     "subtitle": "レストラン、観光スポット、史跡、ホテル、自然の名所などを探しましょう。",
     "searchPlaceholder": "国、都市、または場所を検索...",
     "searchButton": "検索",
-    "allDestinations": "すべての目的地"
+    "allDestinations": "すべての目的地",
+    "viewAll": "すべて表示"
   },
   "categories": {
     "RESTAURANT": "レストラン",

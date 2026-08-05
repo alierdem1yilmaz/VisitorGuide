@@ -19,7 +19,8 @@
     "subtitle": "Atraskite restoranus, lankytinas vietas, paminklus, viešbučius ir gamtos paminklus.",
     "searchPlaceholder": "Ieškoti šalių, miestų ar vietų...",
     "searchButton": "Paieška",
-    "allDestinations": "Visos kryptys"
+    "allDestinations": "Visos kryptys",
+    "viewAll": "Peržiūrėti visus"
   },
   "categories": {
     "RESTAURANT": "Restoranai",

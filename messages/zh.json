@@ -19,7 +19,8 @@
     "subtitle": "发现餐厅、景点、古迹、酒店与自然景观。",
     "searchPlaceholder": "搜索国家、城市或地点...",
     "searchButton": "搜索",
-    "allDestinations": "所有目的地"
+    "allDestinations": "所有目的地",
+    "viewAll": "查看全部"
   },
   "categories": {
     "RESTAURANT": "餐厅",

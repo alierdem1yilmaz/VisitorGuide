@@ -19,7 +19,8 @@
     "subtitle": "Temukan restoran, tempat wisata, monumen, hotel, dan landmark alam.",
     "searchPlaceholder": "Cari negara, kota, atau tempat...",
     "searchButton": "Mencari",
-    "allDestinations": "Semua Destinasi"
+    "allDestinations": "Semua Destinasi",
+    "viewAll": "Lihat Semua"
   },
   "categories": {
     "RESTAURANT": "Restoran",

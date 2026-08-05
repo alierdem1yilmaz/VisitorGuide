@@ -19,7 +19,8 @@
     "subtitle": "Avastage restorane, vaatamisväärsusi, monumente, hotelle ja looduslikke vaatamisväärsusi.",
     "searchPlaceholder": "Otsi riike, linnu või kohti...",
     "searchButton": "Otsi",
-    "allDestinations": "Kõik sihtkohad"
+    "allDestinations": "Kõik sihtkohad",
+    "viewAll": "Kuva kõik"
   },
   "categories": {
     "RESTAURANT": "Restoranid",

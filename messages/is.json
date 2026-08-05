@@ -19,7 +19,8 @@
     "subtitle": "Uppgötvaðu veitingastaði, aðdráttarafl, minnismerki, hótel og náttúruperlur.",
     "searchPlaceholder": "Leita að löndum, borgum eða stöðum...",
     "searchButton": "Leita",
-    "allDestinations": "Allir áfangastaðir"
+    "allDestinations": "Allir áfangastaðir",
+    "viewAll": "Skoða allt"
   },
   "categories": {
     "RESTAURANT": "Veitingastaðir",
