@@ -1,5 +1,6 @@
 import { PrismaClient, Category, Season } from "../src/generated/prisma/client";
 import wikiPhotos from "./wikiPhotos.json";
+import { estimatePriceUsd } from "./priceEstimate";
 
 const prisma = new PrismaClient();
 
@@ -5696,10 +5697,15 @@ async function main() {
 
       for (const place of places) {
         const { photos, ...placeData } = place;
+        const priceAmount = estimatePriceUsd(
+          place.category,
+          place.priceLevel,
+          country.slug,
+        );
         const dbPlace = await prisma.place.upsert({
           where: { slug: place.slug },
-          update: { ...placeData, cityId: dbCity.id },
-          create: { ...placeData, cityId: dbCity.id },
+          update: { ...placeData, priceAmount, cityId: dbCity.id },
+          create: { ...placeData, priceAmount, cityId: dbCity.id },
         });
         placeIds.push(dbPlace.id);
 

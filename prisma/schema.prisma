@@ -24,13 +24,14 @@ enum Season {
 }
 
 model User {
-  id           String   @id @default(cuid())
+  id           String     @id @default(cuid())
   name         String?
-  email        String   @unique
+  email        String     @unique
   passwordHash String?
   avatarUrl    String?
-  createdAt    DateTime @default(now())
+  createdAt    DateTime   @default(now())
   reviews      Review[]
+  favorites    Favorite[]
 }
 
 model Country {
@@ -63,27 +64,30 @@ model City {
 }
 
 model Place {
-  id           String    @id @default(cuid())
-  name         String
-  slug         String    @unique
-  cityId       String
-  city         City      @relation(fields: [cityId], references: [id], onDelete: Cascade)
-  category     Category
-  bestSeason   Season    @default(ALL)
-  description  String?
-  address      String?
-  latitude     Float?
-  longitude    Float?
-  priceLevel   Int?
-  avgRating    Float     @default(0)
-  reviewCount  Int       @default(0)
-  openingHours Json?
-  website      String?
-  phone        String?
-  photos       Photo[]
-  reviews      Review[]
-  createdAt    DateTime  @default(now())
-  updatedAt    DateTime  @updatedAt
+  id            String     @id @default(cuid())
+  name          String
+  slug          String     @unique
+  cityId        String
+  city          City       @relation(fields: [cityId], references: [id], onDelete: Cascade)
+  category      Category
+  bestSeason    Season     @default(ALL)
+  description   String?
+  address       String?
+  latitude      Float?
+  longitude     Float?
+  priceLevel    Int?
+  priceAmount   Float?
+  priceCurrency String     @default("USD")
+  avgRating     Float      @default(0)
+  reviewCount   Int        @default(0)
+  openingHours  Json?
+  website       String?
+  phone         String?
+  photos        Photo[]
+  reviews       Review[]
+  favorites     Favorite[]
+  createdAt     DateTime   @default(now())
+  updatedAt     DateTime   @updatedAt
 
   @@index([cityId])
   @@index([category])
@@ -113,7 +117,20 @@ model Review {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
+  @@unique([placeId, userId])
   @@index([placeId])
   @@index([userId])
+}
+
+model Favorite {
+  id        String   @id @default(cuid())
+  placeId   String
+  place     Place    @relation(fields: [placeId], references: [id], onDelete: Cascade)
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+
   @@unique([placeId, userId])
+  @@index([placeId])
+  @@index([userId])
 }
