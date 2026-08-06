@@ -75,7 +75,12 @@
     "seasonLabel": "Εποχή",
     "seasonAll": "Όλο το χρόνο",
     "seasonSummer": "Καλοκαίρι",
-    "seasonWinter": "Χειμώνας"
+    "seasonWinter": "Χειμώνας",
+    "mostPopular": "Πιο δημοφιλή",
+    "topRated": "Κορυφαία βαθμολογία",
+    "allInCategory": "Εξερευνήστε όλα",
+    "previousPhoto": "Προηγούμενη φωτογραφία",
+    "nextPhoto": "Επόμενη φωτογραφία"
   },
   "auth": {
     "signIn": "Σύνδεση",

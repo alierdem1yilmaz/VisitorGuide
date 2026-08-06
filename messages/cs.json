@@ -75,7 +75,12 @@
     "seasonLabel": "Sezóna",
     "seasonAll": "Celoročně",
     "seasonSummer": "Letní",
-    "seasonWinter": "Zima"
+    "seasonWinter": "Zima",
+    "mostPopular": "Nejoblíbenější",
+    "topRated": "Nejlépe hodnocené",
+    "allInCategory": "Prozkoumat vše",
+    "previousPhoto": "Předchozí fotografie",
+    "nextPhoto": "Další fotka"
   },
   "auth": {
     "signIn": "Přihlásit se",

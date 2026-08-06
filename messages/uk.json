@@ -75,7 +75,12 @@
     "seasonLabel": "Сезон",
     "seasonAll": "Цілий рік",
     "seasonSummer": "Літо",
-    "seasonWinter": "Зима"
+    "seasonWinter": "Зима",
+    "mostPopular": "Найпопулярніші",
+    "topRated": "Найвищий рейтинг",
+    "allInCategory": "Переглянути все",
+    "previousPhoto": "Попереднє фото",
+    "nextPhoto": "Наступне фото"
   },
   "auth": {
     "signIn": "Увійти",

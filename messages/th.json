@@ -75,7 +75,12 @@
     "seasonLabel": "ฤดูกาล",
     "seasonAll": "ตลอดทั้งปี",
     "seasonSummer": "ฤดูร้อน",
-    "seasonWinter": "ฤดูหนาว"
+    "seasonWinter": "ฤดูหนาว",
+    "mostPopular": "ยอดนิยมที่สุด",
+    "topRated": "ได้รับคะแนนสูงสุด",
+    "allInCategory": "สำรวจทั้งหมด",
+    "previousPhoto": "ภาพก่อนหน้า",
+    "nextPhoto": "รูปถัดไป"
   },
   "auth": {
     "signIn": "เข้าสู่ระบบ",

@@ -75,7 +75,12 @@
     "seasonLabel": "Säsong",
     "seasonAll": "Året runt",
     "seasonSummer": "Sommar",
-    "seasonWinter": "Vinter"
+    "seasonWinter": "Vinter",
+    "mostPopular": "Mest populära",
+    "topRated": "Högst betygsatt",
+    "allInCategory": "Utforska alla",
+    "previousPhoto": "Föregående foto",
+    "nextPhoto": "Nästa foto"
   },
   "auth": {
     "signIn": "Logga in",

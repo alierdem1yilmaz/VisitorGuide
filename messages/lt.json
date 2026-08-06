@@ -75,7 +75,12 @@
     "seasonLabel": "Sezonas",
     "seasonAll": "Ištisus metus",
     "seasonSummer": "Vasara",
-    "seasonWinter": "Žiema"
+    "seasonWinter": "Žiema",
+    "mostPopular": "Populiariausi",
+    "topRated": "Geriausiai įvertinti",
+    "allInCategory": "Naršyti viską",
+    "previousPhoto": "Ankstesnė nuotrauka",
+    "nextPhoto": "Kita nuotrauka"
   },
   "auth": {
     "signIn": "Prisijungti",

@@ -75,7 +75,12 @@
     "seasonLabel": "Sezona",
     "seasonAll": "Visu gadu",
     "seasonSummer": "Vasara",
-    "seasonWinter": "Ziema"
+    "seasonWinter": "Ziema",
+    "mostPopular": "Populārākie",
+    "topRated": "Augstāk novērtētais",
+    "allInCategory": "Izpētīt visu",
+    "previousPhoto": "Iepriekšējais fotoattēls",
+    "nextPhoto": "Nākamais fotoattēls"
   },
   "auth": {
     "signIn": "Pierakstīties",

@@ -75,7 +75,12 @@
     "seasonLabel": "Sæson",
     "seasonAll": "Året rundt",
     "seasonSummer": "Sommer",
-    "seasonWinter": "Vinter"
+    "seasonWinter": "Vinter",
+    "mostPopular": "Mest populære",
+    "topRated": "Topbedømt",
+    "allInCategory": "Udforsk alle",
+    "previousPhoto": "Forrige billede",
+    "nextPhoto": "Næste billede"
   },
   "auth": {
     "signIn": "Log ind",

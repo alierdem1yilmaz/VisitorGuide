@@ -75,7 +75,12 @@
     "seasonLabel": "Tímabil",
     "seasonAll": "Allt árið",
     "seasonSummer": "Sumar",
-    "seasonWinter": "Vetur"
+    "seasonWinter": "Vetur",
+    "mostPopular": "Vinsælast",
+    "topRated": "Hæst metið",
+    "allInCategory": "Skoða allt",
+    "previousPhoto": "Fyrri mynd",
+    "nextPhoto": "Næsta mynd"
   },
   "auth": {
     "signIn": "Innskráning",

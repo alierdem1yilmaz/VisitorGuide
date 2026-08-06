@@ -75,7 +75,12 @@
     "seasonLabel": "სეზონი",
     "seasonAll": "მთელი წლის განმავლობაში",
     "seasonSummer": "ზაფხული",
-    "seasonWinter": "ზამთარი"
+    "seasonWinter": "ზამთარი",
+    "mostPopular": "ყველაზე პოპულარული",
+    "topRated": "ყველაზე მაღალი რეიტინგი",
+    "allInCategory": "ყველას დათვალიერება",
+    "previousPhoto": "წინა ფოტო",
+    "nextPhoto": "შემდეგი ფოტო"
   },
   "auth": {
     "signIn": "შესვლა",

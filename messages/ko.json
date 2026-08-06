@@ -75,7 +75,12 @@
     "seasonLabel": "계절",
     "seasonAll": "연중",
     "seasonSummer": "여름",
-    "seasonWinter": "겨울"
+    "seasonWinter": "겨울",
+    "mostPopular": "가장 인기 있는",
+    "topRated": "최고 평점",
+    "allInCategory": "모두 살펴보기",
+    "previousPhoto": "이전 사진",
+    "nextPhoto": "다음 사진"
   },
   "auth": {
     "signIn": "로그인",

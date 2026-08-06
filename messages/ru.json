@@ -75,7 +75,12 @@
     "seasonLabel": "Сезон",
     "seasonAll": "Круглый год",
     "seasonSummer": "Лето",
-    "seasonWinter": "Зима"
+    "seasonWinter": "Зима",
+    "mostPopular": "Самые популярные",
+    "topRated": "Высоко оценённые",
+    "allInCategory": "Смотреть все",
+    "previousPhoto": "Предыдущее фото",
+    "nextPhoto": "Следующее фото"
   },
   "auth": {
     "signIn": "Войти",

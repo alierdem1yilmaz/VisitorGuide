@@ -75,7 +75,12 @@
     "seasonLabel": "Sezon",
     "seasonAll": "Tüm Yıl",
     "seasonSummer": "Yaz",
-    "seasonWinter": "Kış"
+    "seasonWinter": "Kış",
+    "mostPopular": "En Popüler",
+    "topRated": "En Çok Beğenilen",
+    "allInCategory": "Tümünü Keşfedin",
+    "previousPhoto": "Önceki fotoğraf",
+    "nextPhoto": "Sonraki fotoğraf"
   },
   "auth": {
     "signIn": "Giriş Yap",

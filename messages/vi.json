@@ -75,7 +75,12 @@
     "seasonLabel": "Mùa",
     "seasonAll": "Quanh năm",
     "seasonSummer": "Mùa hè",
-    "seasonWinter": "Mùa đông"
+    "seasonWinter": "Mùa đông",
+    "mostPopular": "Phổ biến nhất",
+    "topRated": "Được đánh giá cao nhất",
+    "allInCategory": "Khám phá tất cả",
+    "previousPhoto": "Ảnh trước đó",
+    "nextPhoto": "Ảnh tiếp theo"
   },
   "auth": {
     "signIn": "Đăng nhập",

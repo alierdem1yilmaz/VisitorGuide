@@ -75,7 +75,12 @@
     "seasonLabel": "Panahon",
     "seasonAll": "Buong taon",
     "seasonSummer": "Tag-init",
-    "seasonWinter": "Taglamig"
+    "seasonWinter": "Taglamig",
+    "mostPopular": "Pinakasikat",
+    "topRated": "Nangungunang Rating",
+    "allInCategory": "Galugarin Lahat",
+    "previousPhoto": "Nakaraang larawan",
+    "nextPhoto": "Susunod na larawan"
   },
   "auth": {
     "signIn": "Mag-sign In",

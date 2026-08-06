@@ -75,7 +75,12 @@
     "seasonLabel": "սեզոն",
     "seasonAll": "Տարվա բոլոր եղանակներին",
     "seasonSummer": "Ամառ",
-    "seasonWinter": "Ձմեռ"
+    "seasonWinter": "Ձմեռ",
+    "mostPopular": "Ամենատարածվածը",
+    "topRated": "Ամենաբարձր գնահատականով",
+    "allInCategory": "Ուսումնասիրել բոլորը",
+    "previousPhoto": "Նախորդ լուսանկարը",
+    "nextPhoto": "Հաջորդ լուսանկարը"
   },
   "auth": {
     "signIn": "Մուտք գործել",

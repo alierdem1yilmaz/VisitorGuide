@@ -75,7 +75,12 @@
     "seasonLabel": "موسم",
     "seasonAll": "سال بھر",
     "seasonSummer": "موسم گرما",
-    "seasonWinter": "موسم سرما"
+    "seasonWinter": "موسم سرما",
+    "mostPopular": "سب سے زیادہ مقبول",
+    "topRated": "ٹاپ ریٹیڈ",
+    "allInCategory": "سبھی کو دریافت کریں۔",
+    "previousPhoto": "پچھلی تصویر",
+    "nextPhoto": "اگلی تصویر"
   },
   "auth": {
     "signIn": "سائن ان کریں۔",

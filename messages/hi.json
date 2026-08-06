@@ -75,7 +75,12 @@
     "seasonLabel": "मौसम",
     "seasonAll": "पूरे साल",
     "seasonSummer": "गर्मी",
-    "seasonWinter": "सर्दी"
+    "seasonWinter": "सर्दी",
+    "mostPopular": "सबसे लोकप्रिय",
+    "topRated": "सर्वश्रेष्ठ रेटेड",
+    "allInCategory": "सभी देखें",
+    "previousPhoto": "पिछली तस्वीर",
+    "nextPhoto": "अगली तस्वीर"
   },
   "auth": {
     "signIn": "साइन इन करें",

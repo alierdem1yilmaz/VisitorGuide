@@ -75,7 +75,12 @@
     "seasonLabel": "Kausi",
     "seasonAll": "Ympäri vuoden",
     "seasonSummer": "Kesä",
-    "seasonWinter": "Talvi"
+    "seasonWinter": "Talvi",
+    "mostPopular": "Suosituimmat",
+    "topRated": "Parhaiten arvioidut",
+    "allInCategory": "Tutustu kaikkiin",
+    "previousPhoto": "Edellinen kuva",
+    "nextPhoto": "Seuraava kuva"
   },
   "auth": {
     "signIn": "Kirjaudu sisään",

@@ -75,7 +75,12 @@
     "seasonLabel": "Musim",
     "seasonAll": "Sepanjang tahun",
     "seasonSummer": "Musim panas",
-    "seasonWinter": "Musim sejuk"
+    "seasonWinter": "Musim sejuk",
+    "mostPopular": "Paling Popular",
+    "topRated": "Penilaian Terbaik",
+    "allInCategory": "Terokai Semua",
+    "previousPhoto": "Foto sebelumnya",
+    "nextPhoto": "Foto seterusnya"
   },
   "auth": {
     "signIn": "Daftar Masuk",

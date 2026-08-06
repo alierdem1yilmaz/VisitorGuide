@@ -75,7 +75,12 @@
     "seasonLabel": "Улирал",
     "seasonAll": "Жилийн турш",
     "seasonSummer": "Зун",
-    "seasonWinter": "Өвөл"
+    "seasonWinter": "Өвөл",
+    "mostPopular": "Хамгийн алдартай",
+    "topRated": "Хамгийн өндөр үнэлгээтэй",
+    "allInCategory": "Бүгдийг судлах",
+    "previousPhoto": "Өмнөх зураг",
+    "nextPhoto": "Дараагийн зураг"
   },
   "auth": {
     "signIn": "Нэвтрэх",

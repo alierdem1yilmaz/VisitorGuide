@@ -2,11 +2,14 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
+import Breadcrumbs from "@/components/breadcrumbs/Breadcrumbs";
 import PlaceCard from "@/components/place/PlaceCard";
 import MapView from "@/components/place/MapView";
 import ViewToggle from "@/components/place/ViewToggle";
 import FilterBar from "@/components/place/FilterBar";
 import SeasonToggle from "@/components/place/SeasonToggle";
+import CategoryHeroBanner from "@/components/place/CategoryHeroBanner";
+import HighlightRow from "@/components/place/HighlightRow";
 import { getCityBySlug, getFavoritePlaceIds, type PlaceSort } from "@/lib/queries";
 import { Category, Season } from "@/generated/prisma/client";
 import { auth } from "@/auth";
@@ -109,6 +112,39 @@ export default async function CityPage({
 
   const basePath = `/countries/${countrySlug}/${citySlug}`;
 
+  const showCategorySpotlight = Boolean(category) && category !== Category.HOTEL;
+
+  const heroPhotos = showCategorySpotlight
+    ? [...city.places]
+        .sort((a, b) => b.reviewCount - a.reviewCount)
+        .map((p) => p.photos[0]?.url)
+        .filter((url): url is string => !!url && !url.includes("picsum"))
+        .slice(0, 6)
+        .map((url) => ({ url, alt: city.name }))
+    : [];
+
+  function toHighlight(place: NonNullable<typeof city>["places"][number]) {
+    return {
+      id: place.id,
+      href: `${basePath}/${place.slug}`,
+      name: place.name,
+      coverImageUrl: place.photos[0]?.url ?? null,
+      avgRating: place.avgRating,
+      reviewCount: place.reviewCount,
+    };
+  }
+
+  const mostPopular = showCategorySpotlight
+    ? [...city.places].sort((a, b) => b.reviewCount - a.reviewCount).slice(0, 8).map(toHighlight)
+    : [];
+  const topRated = showCategorySpotlight
+    ? [...city.places]
+        .filter((p) => p.avgRating > 0)
+        .sort((a, b) => b.avgRating - a.avgRating)
+        .slice(0, 8)
+        .map(toHighlight)
+    : [];
+
   function buildQuery(overrides: { category?: string }) {
     const params = new URLSearchParams();
     const nextCategory = "category" in overrides ? overrides.category : category;
@@ -125,9 +161,45 @@ export default async function CityPage({
 
   return (
     <div className="mx-auto max-w-6xl px-6 py-12">
-      <h1 className="text-3xl font-bold text-brand-800">{city.name}</h1>
-      {city.description && (
-        <p className="mt-3 max-w-2xl text-muted">{city.description}</p>
+      {showCategorySpotlight ? (
+        <>
+          <Breadcrumbs
+            items={[
+              { label: city.country.name, href: `/countries/${countrySlug}` },
+              { label: city.name, href: basePath },
+              { label: tCategories(category!) },
+            ]}
+          />
+          <div className="mt-3">
+            <h1 className="text-3xl font-bold text-brand-800">
+              {tCategories(category!)}
+            </h1>
+            <p className="mt-1 text-muted">
+              {city.name}, {city.country.name}
+            </p>
+          </div>
+          <div className="mt-6">
+            <CategoryHeroBanner
+              photos={heroPhotos}
+              previousLabel={tFilters("previousPhoto")}
+              nextLabel={tFilters("nextPhoto")}
+            />
+          </div>
+          <div className="mt-8">
+            <HighlightRow label={tFilters("mostPopular")} places={mostPopular} />
+            <HighlightRow label={tFilters("topRated")} places={topRated} />
+          </div>
+          <h2 className="mb-2 mt-2 text-lg font-bold text-brand-800">
+            {tFilters("allInCategory")}
+          </h2>
+        </>
+      ) : (
+        <>
+          <h1 className="text-3xl font-bold text-brand-800">{city.name}</h1>
+          {city.description && (
+            <p className="mt-3 max-w-2xl text-muted">{city.description}</p>
+          )}
+        </>
       )}
 
       <div className="mt-6 flex flex-wrap items-center justify-between gap-4">

@@ -75,7 +75,12 @@
     "seasonLabel": "মৌসুম",
     "seasonAll": "সারা বছর",
     "seasonSummer": "গ্রীষ্মকাল",
-    "seasonWinter": "শীতকাল"
+    "seasonWinter": "শীতকাল",
+    "mostPopular": "সবচেয়ে জনপ্রিয়",
+    "topRated": "শীর্ষ রেট প্রাপ্ত",
+    "allInCategory": "সবকিছু অন্বেষণ করুন",
+    "previousPhoto": "আগের ছবি",
+    "nextPhoto": "পরবর্তী ছবি"
   },
   "auth": {
     "signIn": "সাইন ইন করুন",

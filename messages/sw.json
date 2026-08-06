@@ -75,7 +75,12 @@
     "seasonLabel": "Msimu",
     "seasonAll": "Mwaka mzima",
     "seasonSummer": "Majira ya joto",
-    "seasonWinter": "Baridi"
+    "seasonWinter": "Baridi",
+    "mostPopular": "Maarufu Zaidi",
+    "topRated": "Iliyokadiriwa Zaidi",
+    "allInCategory": "Gundua Zote",
+    "previousPhoto": "Picha iliyotangulia",
+    "nextPhoto": "Picha inayofuata"
   },
   "auth": {
     "signIn": "Ingia",

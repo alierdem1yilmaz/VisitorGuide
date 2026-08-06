@@ -75,7 +75,12 @@
     "seasonLabel": "季節",
     "seasonAll": "一年中",
     "seasonSummer": "夏",
-    "seasonWinter": "冬"
+    "seasonWinter": "冬",
+    "mostPopular": "人気ランキング",
+    "topRated": "最高評価",
+    "allInCategory": "すべてを見る",
+    "previousPhoto": "前の写真",
+    "nextPhoto": "次の写真"
   },
   "auth": {
     "signIn": "サインイン",

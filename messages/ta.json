@@ -75,7 +75,12 @@
     "seasonLabel": "பருவம்",
     "seasonAll": "ஆண்டு முழுவதும்",
     "seasonSummer": "கோடைக்காலம்",
-    "seasonWinter": "குளிர்காலம்"
+    "seasonWinter": "குளிர்காலம்",
+    "mostPopular": "மிகவும் பிரபலமான",
+    "topRated": "சிறந்த மதிப்பீடு",
+    "allInCategory": "அனைத்தையும் ஆராயுங்கள்",
+    "previousPhoto": "முந்தைய புகைப்படம்",
+    "nextPhoto": "அடுத்த புகைப்படம்"
   },
   "auth": {
     "signIn": "உள்நுழை",

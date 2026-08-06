@@ -75,7 +75,12 @@
     "seasonLabel": "រដូវកាល",
     "seasonAll": "ពេញមួយឆ្នាំ",
     "seasonSummer": "រដូវក្តៅ",
-    "seasonWinter": "រដូវរងា"
+    "seasonWinter": "រដូវរងា",
+    "mostPopular": "ពេញនិយមបំផុត",
+    "topRated": "ចំណាត់ថ្នាក់ខ្ពស់បំផុត",
+    "allInCategory": "ស្វែងយល់ទាំងអស់",
+    "previousPhoto": "រូបថតមុន",
+    "nextPhoto": "រូបថតបន្ទាប់"
   },
   "auth": {
     "signIn": "ចូល",

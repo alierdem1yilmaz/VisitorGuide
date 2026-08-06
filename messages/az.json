@@ -75,7 +75,12 @@
     "seasonLabel": "Mövsüm",
     "seasonAll": "İl boyu",
     "seasonSummer": "Yay",
-    "seasonWinter": "Qış"
+    "seasonWinter": "Qış",
+    "mostPopular": "Ən Populyar",
+    "topRated": "Ən Yüksək Reytinqli",
+    "allInCategory": "Hamısını araşdırın",
+    "previousPhoto": "Əvvəlki foto",
+    "nextPhoto": "Növbəti foto"
   },
   "auth": {
     "signIn": "Daxil ol",

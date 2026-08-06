@@ -75,7 +75,12 @@
     "seasonLabel": "موسم",
     "seasonAll": "على مدار السنة",
     "seasonSummer": "صيف",
-    "seasonWinter": "شتاء"
+    "seasonWinter": "شتاء",
+    "mostPopular": "الأكثر شعبية",
+    "topRated": "الأعلى تقييمًا",
+    "allInCategory": "استكشف الكل",
+    "previousPhoto": "الصورة السابقة",
+    "nextPhoto": "الصورة التالية"
   },
   "auth": {
     "signIn": "تسجيل الدخول",

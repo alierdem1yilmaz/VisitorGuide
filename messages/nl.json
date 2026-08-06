@@ -75,7 +75,12 @@
     "seasonLabel": "Seizoen",
     "seasonAll": "Het hele jaar door",
     "seasonSummer": "Zomer",
-    "seasonWinter": "Winter"
+    "seasonWinter": "Winter",
+    "mostPopular": "Meest populair",
+    "topRated": "Hoogst gewaardeerd",
+    "allInCategory": "Ontdek alles",
+    "previousPhoto": "Vorige foto",
+    "nextPhoto": "Volgende foto"
   },
   "auth": {
     "signIn": "Inloggen",

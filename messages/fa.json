@@ -75,7 +75,12 @@
     "seasonLabel": "فصل",
     "seasonAll": "در تمام طول سال",
     "seasonSummer": "تابستان",
-    "seasonWinter": "زمستان"
+    "seasonWinter": "زمستان",
+    "mostPopular": "محبوب‌ترین‌ها",
+    "topRated": "دارای بالاترین امتیاز",
+    "allInCategory": "کاوش همه",
+    "previousPhoto": "عکس قبلی",
+    "nextPhoto": "عکس بعدی"
   },
   "auth": {
     "signIn": "ورود",

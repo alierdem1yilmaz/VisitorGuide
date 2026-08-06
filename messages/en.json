@@ -75,7 +75,12 @@
     "seasonLabel": "Season",
     "seasonAll": "Year-round",
     "seasonSummer": "Summer",
-    "seasonWinter": "Winter"
+    "seasonWinter": "Winter",
+    "mostPopular": "Most Popular",
+    "topRated": "Top Rated",
+    "allInCategory": "Explore All",
+    "previousPhoto": "Previous photo",
+    "nextPhoto": "Next photo"
   },
   "auth": {
     "signIn": "Sign In",

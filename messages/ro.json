@@ -75,7 +75,12 @@
     "seasonLabel": "Sezon",
     "seasonAll": "Tot anul",
     "seasonSummer": "Vară",
-    "seasonWinter": "Iarnă"
+    "seasonWinter": "Iarnă",
+    "mostPopular": "Cele mai populare",
+    "topRated": "Cele mai bine cotate",
+    "allInCategory": "Explorează tot",
+    "previousPhoto": "Fotografia anterioară",
+    "nextPhoto": "Următoarea fotografie"
   },
   "auth": {
     "signIn": "Conectare",

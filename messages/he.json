@@ -75,7 +75,12 @@
     "seasonLabel": "עוֹנָה",
     "seasonAll": "כל השנה",
     "seasonSummer": "קַיִץ",
-    "seasonWinter": "חוֹרֶף"
+    "seasonWinter": "חוֹרֶף",
+    "mostPopular": "הכי פופולרי",
+    "topRated": "מדורג גבוה",
+    "allInCategory": "חקור הכל",
+    "previousPhoto": "תמונה קודמת",
+    "nextPhoto": "התמונה הבאה"
   },
   "auth": {
     "signIn": "כניסה",

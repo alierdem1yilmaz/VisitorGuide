@@ -75,7 +75,12 @@
     "seasonLabel": "Hooaeg",
     "seasonAll": "Aastaringselt",
     "seasonSummer": "Suvi",
-    "seasonWinter": "Talv"
+    "seasonWinter": "Talv",
+    "mostPopular": "Kõige populaarsem",
+    "topRated": "Kõrgeima hinnanguga",
+    "allInCategory": "Avasta kõik",
+    "previousPhoto": "Eelmine foto",
+    "nextPhoto": "Järgmine foto"
   },
   "auth": {
     "signIn": "Logi sisse",

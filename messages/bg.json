@@ -75,7 +75,12 @@
     "seasonLabel": "Сезон",
     "seasonAll": "Целогодишно",
     "seasonSummer": "Лято",
-    "seasonWinter": "Зима"
+    "seasonWinter": "Зима",
+    "mostPopular": "Най-популярни",
+    "topRated": "Най-високо оценени",
+    "allInCategory": "Разгледайте всички",
+    "previousPhoto": "Предишна снимка",
+    "nextPhoto": "Следваща снимка"
   },
   "auth": {
     "signIn": "Вход",

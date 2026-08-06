@@ -75,7 +75,12 @@
     "seasonLabel": "季节",
     "seasonAll": "全年",
     "seasonSummer": "夏季",
-    "seasonWinter": "冬季"
+    "seasonWinter": "冬季",
+    "mostPopular": "最受欢迎",
+    "topRated": "评分最高",
+    "allInCategory": "探索全部",
+    "previousPhoto": "上一张照片",
+    "nextPhoto": "下一张照片"
   },
   "auth": {
     "signIn": "登录",

@@ -75,7 +75,12 @@
     "seasonLabel": "Sezona",
     "seasonAll": "Tijekom cijele godine",
     "seasonSummer": "Ljeto",
-    "seasonWinter": "Zimski"
+    "seasonWinter": "Zimski",
+    "mostPopular": "Najpopularnije",
+    "topRated": "Najbolje ocijenjeno",
+    "allInCategory": "Istraži sve",
+    "previousPhoto": "Prethodna fotografija",
+    "nextPhoto": "Sljedeća fotografija"
   },
   "auth": {
     "signIn": "Prijava",

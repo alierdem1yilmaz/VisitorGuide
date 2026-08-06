@@ -75,7 +75,12 @@
     "seasonLabel": "Saison",
     "seasonAll": "Toute l'année",
     "seasonSummer": "Été",
-    "seasonWinter": "Hiver"
+    "seasonWinter": "Hiver",
+    "mostPopular": "Les plus populaires",
+    "topRated": "Les mieux notés",
+    "allInCategory": "Tout découvrir",
+    "previousPhoto": "Photo précédente",
+    "nextPhoto": "Photo suivante"
   },
   "auth": {
     "signIn": "Connexion",

@@ -75,7 +75,12 @@
     "seasonLabel": "Évad",
     "seasonAll": "Egész évben",
     "seasonSummer": "Nyári",
-    "seasonWinter": "Téli"
+    "seasonWinter": "Téli",
+    "mostPopular": "Legnépszerűbb",
+    "topRated": "Legjobbra értékelt",
+    "allInCategory": "Összes felfedezése",
+    "previousPhoto": "Előző fotó",
+    "nextPhoto": "Következő fotó"
   },
   "auth": {
     "signIn": "Bejelentkezés",
