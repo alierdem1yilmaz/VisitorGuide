@@ -20,7 +20,10 @@
     "searchPlaceholder": "Sök länder, städer eller platser...",
     "searchButton": "Söka",
     "allDestinations": "Alla destinationer",
-    "viewAll": "Visa alla"
+    "viewAll": "Visa alla",
+    "introHeading": "Upptäck platser som riktiga resenärer har hittat",
+    "introSubtitle": "Från restauranger till naturliga underverk, monument till hotell, utforska tusentals verkliga platser runt om i världen med riktiga betyg och riktiga foton.",
+    "introCta": "Börja utforska"
   },
   "categories": {
     "RESTAURANT": "Restauranger",

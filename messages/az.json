@@ -20,7 +20,10 @@
     "searchPlaceholder": "Ölkələri, şəhərləri və ya yerləri axtarın...",
     "searchButton": "Axtarış",
     "allDestinations": "Bütün Təyinat Yerləri",
-    "viewAll": "Hamısına Baxın"
+    "viewAll": "Hamısına Baxın",
+    "introHeading": "Əsl Səyahətçilərin Tapdığı Yerləri Kəşf Edin",
+    "introSubtitle": "Restoranlardan təbii möcüzələrə, abidələrdən otellərə qədər dünyanın hər yerində minlərlə real məkanı real reytinqlər və real fotoşəkillərlə araşdırın.",
+    "introCta": "Kəşf etməyə başlayın"
   },
   "categories": {
     "RESTAURANT": "Restoranlar",

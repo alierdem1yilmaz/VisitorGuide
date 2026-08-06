@@ -20,7 +20,10 @@
     "searchPlaceholder": "Otsi riike, linnu või kohti...",
     "searchButton": "Otsi",
     "allDestinations": "Kõik sihtkohad",
-    "viewAll": "Kuva kõik"
+    "viewAll": "Kuva kõik",
+    "introHeading": "Avasta kohad, mille päris rändurid on leidnud",
+    "introSubtitle": "Restoranidest loodusimede, monumentide ja hotellideni – avastage tuhandeid päris kohti üle maailma, kasutades päris hinnanguid ja fotosid.",
+    "introCta": "Alusta avastamist"
   },
   "categories": {
     "RESTAURANT": "Restoranid",

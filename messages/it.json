@@ -20,7 +20,10 @@
     "searchPlaceholder": "Cerca paesi, città o luoghi...",
     "searchButton": "Ricerca",
     "allDestinations": "Tutte le destinazioni",
-    "viewAll": "Visualizza tutto"
+    "viewAll": "Visualizza tutto",
+    "introHeading": "Scopri i luoghi che i veri viaggiatori hanno scoperto",
+    "introSubtitle": "Dai ristoranti alle meraviglie naturali, dai monumenti agli hotel, esplora migliaia di luoghi reali in tutto il mondo con recensioni e foto autentiche.",
+    "introCta": "Inizia a esplorare"
   },
   "categories": {
     "RESTAURANT": "Laser",

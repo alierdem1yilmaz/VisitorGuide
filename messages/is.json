@@ -20,7 +20,10 @@
     "searchPlaceholder": "Leita að löndum, borgum eða stöðum...",
     "searchButton": "Leita",
     "allDestinations": "Allir áfangastaðir",
-    "viewAll": "Skoða allt"
+    "viewAll": "Skoða allt",
+    "introHeading": "Uppgötvaðu staðina sem sannir ferðalangar hafa fundið",
+    "introSubtitle": "Frá veitingastöðum til náttúruperla, minnisvarða til hótela, skoðaðu þúsundir raunverulegra staða um allan heim með raunverulegum einkunnum og myndum.",
+    "introCta": "Byrjaðu að kanna"
   },
   "categories": {
     "RESTAURANT": "Veitingastaðir",

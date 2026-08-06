@@ -20,7 +20,10 @@
     "searchPlaceholder": "Ülke, şehir veya mekân ara...",
     "searchButton": "Ara",
     "allDestinations": "Tüm Destinasyonlar",
-    "viewAll": "Tümünü Gör"
+    "viewAll": "Tümünü Gör",
+    "introHeading": "Gerçek Gezginlerin Keşfettiği Yerleri Siz de Keşfedin",
+    "introSubtitle": "Restoranlardan doğal güzelliklere, anıtlardan otellere kadar dünyanın dört bir yanında binlerce gerçek mekanı, gerçek puanları ve gerçek fotoğraflarıyla keşfedin.",
+    "introCta": "Keşfetmeye Başla"
   },
   "categories": {
     "RESTAURANT": "Restoranlar",

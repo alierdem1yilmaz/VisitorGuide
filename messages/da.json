@@ -20,7 +20,10 @@
     "searchPlaceholder": "Søg efter lande, byer eller steder...",
     "searchButton": "Søge",
     "allDestinations": "Alle destinationer",
-    "viewAll": "Se alle"
+    "viewAll": "Se alle",
+    "introHeading": "Opdag de steder, som rigtige rejsende har fundet",
+    "introSubtitle": "Fra restauranter til naturlige vidundere, monumenter til hoteller, udforsk tusindvis af virkelige steder rundt om i verden med virkelige vurderinger og virkelige billeder.",
+    "introCta": "Begynd at udforske"
   },
   "categories": {
     "RESTAURANT": "Restauranter",

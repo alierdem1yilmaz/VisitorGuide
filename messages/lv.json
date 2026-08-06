@@ -20,7 +20,10 @@
     "searchPlaceholder": "Meklēt valstis, pilsētas vai vietas...",
     "searchButton": "Meklēt",
     "allDestinations": "Visi galamērķi",
-    "viewAll": "Skatīt visu"
+    "viewAll": "Skatīt visu",
+    "introHeading": "Atklājiet vietas, kuras atraduši īsti ceļotāji",
+    "introSubtitle": "No restorāniem līdz dabas brīnumiem, no pieminekļiem līdz viesnīcām — izpētiet tūkstošiem reālu vietu visā pasaulē ar reāliem vērtējumiem un īstiem fotoattēliem.",
+    "introCta": "Sākt izpēti"
   },
   "categories": {
     "RESTAURANT": "Restorāni",

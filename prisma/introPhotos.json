@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "trevi-fountain-roma",
+    "placeName": "Trevi Fountain",
+    "cityName": "Rome",
+    "countryName": "Italy",
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AG9NLjBeG48tORMOkLTonHQocKLUi8AkVmClyzNKl3Hin_8XVtqAk4s-47zs_y4MKhRBJA-TqUioOenkdssscrR_Yz_0I9uNmbkDJh_5kaG3FJrSuwJywS7z3m73KzL08PDL_HX9bWZ9Qu9mSXg7CPAdCrul=s4800-w1200",
+    "author": "Niels van overloop"
+  },
+  {
+    "slug": "eiffel-tower",
+    "placeName": "Eiffel Tower",
+    "cityName": "Paris",
+    "countryName": "France",
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AG9NLjBidaKFsRXJXfIQUlDM5NRSBk7j54cmmp86RUm_DZjVVoRsTwboPETQkPGAQ2ZXBXHeDqCMNeobqPPr6Lbi76Ds9ptItdVrf1gzT1UFz4tl4rn4I56H4OL9fWgi3TBkCMinDyLUHIUUa9Q_xZo=s4800-w1200",
+    "author": "Sampoi. kz"
+  },
+  {
+    "slug": "sagrada-familia",
+    "placeName": "Sagrada Família",
+    "cityName": "Barcelona",
+    "countryName": "Spain",
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AG9NLjAzMJ_XDES5auDtSPNWAvt05Jy52EuBDHLLJGQi3pkpnlz2bbaVr6PmOOYudFf2dZRhTj7uGFZ9PZw2GKteJ0mjIvLfHR03eod6UEsV3m6RrOEB0fY4sFkWdaABcQq8lO6U0aJVmGP7oUoYgDCjrUfYag=s4800-w1200",
+    "author": "Bonkers moss"
+  },
+  {
+    "slug": "zocalo",
+    "placeName": "Zócalo",
+    "cityName": "Mexico City",
+    "countryName": "Mexico",
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AG9NLjD1MIQJhoq9pqhtiw3R-0GqRFIiQZl9RYXa6OfuBdtcjSUR82tt6ABeOpbNHHBsBS6ZKb4Q-GZGdTwG9GOcWdW0guqSV_pbsZDhV9UB-4Ur-dgtxOitHC5IXE1rJKGm4RvNTVrwwvKDWiV89B0uwedEtw=s4800-w1200",
+    "author": "Andrea Cortinovis"
+  },
+  {
+    "slug": "central-park",
+    "placeName": "Central Park",
+    "cityName": "New York",
+    "countryName": "United States",
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AG9NLjASSbkzELu9kTUXpnkhSim9vlvYRMG-YEmXIdzypRTv4mXwmyN_sVOgDWr0yrixy5XqXPl_lqF2SWAXm_lwOfVJ-39JMncDXwGNx4-_YMdUjqPRAxTCepM9Az3gjXZIbErQ2RRwLeAOpbLxT54=s4800-w612",
+    "author": "Abraham amor"
+  },
+  {
+    "slug": "ibirapuera-park",
+    "placeName": "Ibirapuera Park",
+    "cityName": "São Paulo",
+    "countryName": "Brazil",
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AG9NLjAH_VKppDI1a9M1Jx9xIqn9tzIcyGu2M7ecdpOzKhVqX2PHDriDBEYhqwEkJMwRcMQe4Cvjxa5ZtMzw8E8D6g8vUIW3T4YwXI5YBOa0mmbWVMWRvzf6FaeumydraohBj_XO89z4L92cBnpCkHo=s4800-w1200",
+    "author": "Jonathan Rojas"
+  },
+  {
+    "slug": "taj-mahal",
+    "placeName": "Taj Mahal",
+    "cityName": "Agra",
+    "countryName": "India",
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AG9NLjArHe3eMZEE4j-g_IqVUAlPDs905XSEjC6V3OyH0lrM0owxIzFktQ5OKKLCNrx-K-Q_EOsTLASW7XF51yHGufLUdufBCh6wohcYTbUbw5HJmYTw6q1W0Wg8ytN4Hg_kIYP4w5hBqmjmqupywg=s4800-w1080",
+    "author": "Pepa Pérez"
+  },
+  {
+    "slug": "galata-tower-istanbul",
+    "placeName": "Galata Tower",
+    "cityName": "Istanbul",
+    "countryName": "Turkey",
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AG9NLjAXom9x09rqngHBjinV9mw8o3RiVtJflxQLCy3B2jdw0VGUVg14rb7ErIPJoIoR1AOJngsCXpyTe7sVE2nhlmKRosuWqA52UTz040G-Giztwe_tUWw33gh7Rb9YStJj0XkbHnPU8V9cndJeo1JG-rdf=s4800-w1200",
+    "author": "poto poto"
+  },
+  {
+    "slug": "prague-castle",
+    "placeName": "Prague Castle",
+    "cityName": "Prague",
+    "countryName": "Czech Republic",
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AG9NLjC5l9Juae72ZIdqR45EYgglBob4rSYKZ0eVlHsdOYkpIXZVQd5PZ6A_mgSSZhcVOaPqNzI7uAXk8noKpj3y2N0VpgYGpAG0oJcLiHW2HPD_Q2FHvl58DM7HEaBb5woEl_UJWkkooC7P_tzhVAg=s4800-w930",
+    "author": "Deterexik"
+  },
+  {
+    "slug": "brandenburg-gate",
+    "placeName": "Brandenburg Gate",
+    "cityName": "Berlin",
+    "countryName": "Germany",
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AG9NLjAvZp3Fh1J84BXM42PU1vNPEVZNKaPC0tGUT75EphvPSgtQQFEd5ucfhJTNCL-CUw9R3-eKB8RJcXiGfOY6PLqrOQfRJmj9ouOHJf2pVGDKxSWPm8lamEGk8hG2Uz2GRfvqaSkhbmisVfPP98wp3Tse=s4800-w1200",
+    "author": "Vadym Overchenko"
+  }
+]

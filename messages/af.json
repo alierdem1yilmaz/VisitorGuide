@@ -20,7 +20,10 @@
     "searchPlaceholder": "Soek lande, stede of plekke...",
     "searchButton": "Soek",
     "allDestinations": "Alle bestemmings",
-    "viewAll": "Bekyk alles"
+    "viewAll": "Bekyk alles",
+    "introHeading": "Ontdek die plekke wat regte reisigers gevind het",
+    "introSubtitle": "Van restaurante tot natuurwonders, monumente tot hotelle, verken duisende regte plekke regoor die wêreld met regte graderings en regte foto's.",
+    "introCta": "Begin Verken"
   },
   "categories": {
     "RESTAURANT": "Restaurante",

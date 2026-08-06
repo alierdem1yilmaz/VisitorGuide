@@ -20,7 +20,10 @@
     "searchPlaceholder": "Cari negara, bandar atau tempat...",
     "searchButton": "Carian",
     "allDestinations": "Semua Destinasi",
-    "viewAll": "Lihat Semua"
+    "viewAll": "Lihat Semua",
+    "introHeading": "Temui Tempat-tempat yang Telah Ditemui oleh Pengembara Sebenar",
+    "introSubtitle": "Daripada restoran hinggalah keajaiban alam semula jadi, monumen hinggalah hotel, terokai beribu-ribu tempat sebenar di seluruh dunia dengan penilaian dan foto sebenar.",
+    "introCta": "Mula Meneroka"
   },
   "categories": {
     "RESTAURANT": "Restoran",

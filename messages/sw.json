@@ -20,7 +20,10 @@
     "searchPlaceholder": "Tafuta nchi, miji, au maeneo...",
     "searchButton": "Tafuta",
     "allDestinations": "Maeneo Yote ya Kuenda",
-    "viewAll": "Tazama Zote"
+    "viewAll": "Tazama Zote",
+    "introHeading": "Gundua Maeneo Ambayo Wasafiri Halisi Wamepata",
+    "introSubtitle": "Kuanzia migahawa hadi maajabu ya asili, makaburi hadi hoteli, chunguza maelfu ya maeneo halisi duniani kote kwa ukadiriaji halisi na picha halisi.",
+    "introCta": "Anza Kuchunguza"
   },
   "categories": {
     "RESTAURANT": "Mikahawa",

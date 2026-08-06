@@ -20,7 +20,10 @@
     "searchPlaceholder": "Hae maita, kaupunkeja tai paikkoja...",
     "searchButton": "Haku",
     "allDestinations": "Kaikki kohteet",
-    "viewAll": "Näytä kaikki"
+    "viewAll": "Näytä kaikki",
+    "introHeading": "Löydä paikat, jotka oikeat matkailijat ovat löytäneet",
+    "introSubtitle": "Ravintoloista luonnonihmeisiin, monumenteista hotelleihin – tutustu tuhansiin oikeisiin paikkoihin ympäri maailmaa oikeiden arvioiden ja valokuvien avulla.",
+    "introCta": "Aloita tutkiminen"
   },
   "categories": {
     "RESTAURANT": "Ravintolat",

@@ -20,7 +20,10 @@
     "searchPlaceholder": "Išči države, mesta ali kraje ...",
     "searchButton": "Iskanje",
     "allDestinations": "Vse destinacije",
-    "viewAll": "Prikaži vse"
+    "viewAll": "Prikaži vse",
+    "introHeading": "Odkrijte kraje, ki so jih našli pravi popotniki",
+    "introSubtitle": "Od restavracij do naravnih čudes, spomenikov do hotelov, raziščite na tisoče resničnih krajev po vsem svetu z resničnimi ocenami in resničnimi fotografijami.",
+    "introCta": "Začni raziskovati"
   },
   "categories": {
     "RESTAURANT": "Restavracije",

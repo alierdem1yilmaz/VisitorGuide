@@ -20,7 +20,10 @@
     "searchPlaceholder": "Căutați țări, orașe sau locuri...",
     "searchButton": "Căutare",
     "allDestinations": "Toate destinațiile",
-    "viewAll": "Vezi toate"
+    "viewAll": "Vezi toate",
+    "introHeading": "Descoperă locurile pe care le-au găsit călătorii adevărați",
+    "introSubtitle": "De la restaurante la minuni naturale, de la monumente la hoteluri, explorează mii de locuri reale din întreaga lume cu evaluări și fotografii reale.",
+    "introCta": "Începeți explorarea"
   },
   "categories": {
     "RESTAURANT": "Restaurante",

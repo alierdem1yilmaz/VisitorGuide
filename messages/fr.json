@@ -20,7 +20,10 @@
     "searchPlaceholder": "Rechercher un pays, une ville ou un lieu...",
     "searchButton": "Rechercher",
     "allDestinations": "Toutes les destinations",
-    "viewAll": "Tout voir"
+    "viewAll": "Tout voir",
+    "introHeading": "Découvrez les lieux trouvés par de vrais voyageurs",
+    "introSubtitle": "Des restaurants aux merveilles naturelles, des monuments aux hôtels, explorez des milliers de lieux réels à travers le monde avec de vraies notes et de vraies photos.",
+    "introCta": "Commencer à explorer"
   },
   "categories": {
     "RESTAURANT": "Restaurants",

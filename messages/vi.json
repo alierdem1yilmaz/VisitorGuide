@@ -20,7 +20,10 @@
     "searchPlaceholder": "Tìm kiếm quốc gia, thành phố hoặc địa điểm...",
     "searchButton": "Tìm kiếm",
     "allDestinations": "Tất cả các điểm đến",
-    "viewAll": "Xem tất cả"
+    "viewAll": "Xem tất cả",
+    "introHeading": "Khám phá những địa điểm mà du khách thực sự đã tìm thấy.",
+    "introSubtitle": "Từ nhà hàng đến kỳ quan thiên nhiên, từ di tích đến khách sạn, hãy khám phá hàng ngàn địa điểm thực tế trên khắp thế giới với đánh giá và hình ảnh thực tế.",
+    "introCta": "Bắt đầu khám phá"
   },
   "categories": {
     "RESTAURANT": "Nhà hàng",

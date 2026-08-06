@@ -20,7 +20,10 @@
     "searchPlaceholder": "Cari negara, kota, atau tempat...",
     "searchButton": "Mencari",
     "allDestinations": "Semua Destinasi",
-    "viewAll": "Lihat Semua"
+    "viewAll": "Lihat Semua",
+    "introHeading": "Temukan Tempat-Tempat yang Telah Ditemukan oleh Para Pelancong Sejati",
+    "introSubtitle": "Dari restoran hingga keajaiban alam, monumen hingga hotel, jelajahi ribuan tempat nyata di seluruh dunia dengan peringkat dan foto asli.",
+    "introCta": "Mulai Menjelajah"
   },
   "categories": {
     "RESTAURANT": "Restoran",

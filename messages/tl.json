@@ -20,7 +20,10 @@
     "searchPlaceholder": "Maghanap ng mga bansa, lungsod, o lugar...",
     "searchButton": "Maghanap",
     "allDestinations": "Lahat ng Destinasyon",
-    "viewAll": "Tingnan Lahat"
+    "viewAll": "Tingnan Lahat",
+    "introHeading": "Tuklasin ang mga Lugar na Natagpuan ng mga Tunay na Manlalakbay",
+    "introSubtitle": "Mula sa mga restawran hanggang sa mga likas na kababalaghan, mga monumento hanggang sa mga hotel, galugarin ang libu-libong totoong lugar sa buong mundo na may mga totoong rating at totoong mga larawan.",
+    "introCta": "Simulan ang Paggalugad"
   },
   "categories": {
     "RESTAURANT": "Mga restawran",

@@ -20,7 +20,10 @@
     "searchPlaceholder": "국가, 도시 또는 지역을 검색하세요...",
     "searchButton": "찾다",
     "allDestinations": "모든 목적지",
-    "viewAll": "모두 보기"
+    "viewAll": "모두 보기",
+    "introHeading": "실제 여행자들이 발견한 장소들을 만나보세요",
+    "introSubtitle": "레스토랑부터 자연 경관, 기념물부터 호텔까지, 실제 평점과 사진으로 전 세계 수천 곳의 실제 장소를 탐험해 보세요.",
+    "introCta": "지금 바로 탐색을 시작하세요"
   },
   "categories": {
     "RESTAURANT": "레스토랑",

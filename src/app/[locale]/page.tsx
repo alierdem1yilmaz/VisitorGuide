@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Hero from "@/components/home/Hero";
+import IntroSection from "@/components/home/IntroSection";
 import CategoryShowcaseRow, {
   type ShowcasePlace,
 } from "@/components/home/CategoryShowcaseRow";
 import { getFeaturedPlacesByCategory } from "@/lib/queries";
 import { Category } from "@/generated/prisma/client";
+import introPhotos from "../../../prisma/introPhotos.json";
 
 export const revalidate = 60;
 
@@ -48,6 +50,16 @@ export default async function HomePage({
   return (
     <div>
       <Hero title={t("title")} subtitle={t("subtitle")} />
+      <IntroSection
+        heading={t("introHeading")}
+        subtitle={t("introSubtitle")}
+        ctaLabel={t("introCta")}
+        photos={introPhotos.map((p) => ({
+          url: p.photoUrl,
+          author: p.author,
+          placeName: p.placeName,
+        }))}
+      />
       {categories.map((category) => {
         const places: ShowcasePlace[] = featured[category].map((place) => ({
           id: place.id,

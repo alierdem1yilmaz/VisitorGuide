@@ -20,7 +20,10 @@
     "searchPlaceholder": "Vyhľadajte krajiny, mestá alebo miesta...",
     "searchButton": "Hľadať",
     "allDestinations": "Všetky destinácie",
-    "viewAll": "Zobraziť všetko"
+    "viewAll": "Zobraziť všetko",
+    "introHeading": "Objavte miesta, ktoré našli skutoční cestovatelia",
+    "introSubtitle": "Od reštaurácií po prírodné divy, od pamiatok po hotely, preskúmajte tisíce skutočných miest po celom svete so skutočnými hodnoteniami a skutočnými fotografiami.",
+    "introCta": "Začnite objavovať"
   },
   "categories": {
     "RESTAURANT": "Reštaurácie",

@@ -20,7 +20,10 @@
     "searchPlaceholder": "Keressen országokat, városokat vagy helyeket...",
     "searchButton": "Keresés",
     "allDestinations": "Minden úti cél",
-    "viewAll": "Összes megtekintése"
+    "viewAll": "Összes megtekintése",
+    "introHeading": "Fedezd fel azokat a helyeket, amelyeket az igazi utazók találtak",
+    "introSubtitle": "Éttermektől a természeti csodákig, műemlékektől a szállodákig, fedezz fel több ezer valós helyet szerte a világon valós értékelésekkel és valódi fotókkal.",
+    "introCta": "Kezdje el a felfedezést"
   },
   "categories": {
     "RESTAURANT": "Éttermek",

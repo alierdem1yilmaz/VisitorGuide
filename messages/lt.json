@@ -20,7 +20,10 @@
     "searchPlaceholder": "Ieškoti šalių, miestų ar vietų...",
     "searchButton": "Paieška",
     "allDestinations": "Visos kryptys",
-    "viewAll": "Peržiūrėti visus"
+    "viewAll": "Peržiūrėti visus",
+    "introHeading": "Atraskite vietas, kurias rado tikri keliautojai",
+    "introSubtitle": "Nuo restoranų iki gamtos stebuklų, nuo paminklų iki viešbučių – tyrinėkite tūkstančius tikrų vietų visame pasaulyje su tikrais įvertinimais ir tikromis nuotraukomis.",
+    "introCta": "Pradėti tyrinėti"
   },
   "categories": {
     "RESTAURANT": "Restoranai",

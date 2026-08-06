@@ -20,7 +20,10 @@
     "searchPlaceholder": "国、都市、または場所を検索...",
     "searchButton": "検索",
     "allDestinations": "すべての目的地",
-    "viewAll": "すべて表示"
+    "viewAll": "すべて表示",
+    "introHeading": "実際の旅行者が発見した場所を探ってみよう",
+    "introSubtitle": "レストランから自然の驚異、モニュメントからホテルまで、世界中の何千もの実際の場所を、実際の評価と実際の写真とともに探索しましょう。",
+    "introCta": "探索を始めよう"
   },
   "categories": {
     "RESTAURANT": "レストラン",

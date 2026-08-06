@@ -20,7 +20,10 @@
     "searchPlaceholder": "Zoek naar landen, steden of plaatsen...",
     "searchButton": "Zoekopdracht",
     "allDestinations": "Alle bestemmingen",
-    "viewAll": "Alles bekijken"
+    "viewAll": "Alles bekijken",
+    "introHeading": "Ontdek de plekken die echte reizigers hebben gevonden.",
+    "introSubtitle": "Van restaurants tot natuurwonderen, van monumenten tot hotels: ontdek duizenden echte plekken over de hele wereld met echte beoordelingen en echte foto's.",
+    "introCta": "Begin met verkennen"
   },
   "categories": {
     "RESTAURANT": "Restaurants",

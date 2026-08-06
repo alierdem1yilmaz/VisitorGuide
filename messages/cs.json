@@ -20,7 +20,10 @@
     "searchPlaceholder": "Hledat země, města nebo místa...",
     "searchButton": "Vyhledávání",
     "allDestinations": "Všechny destinace",
-    "viewAll": "Zobrazit vše"
+    "viewAll": "Zobrazit vše",
+    "introHeading": "Objevte místa, která objevili skuteční cestovatelé",
+    "introSubtitle": "Od restaurací po přírodní divy, od památek po hotely, prozkoumejte tisíce skutečných míst po celém světě se skutečnými hodnoceními a skutečnými fotografiemi.",
+    "introCta": "Začněte s průzkumem"
   },
   "categories": {
     "RESTAURANT": "Restaurace",

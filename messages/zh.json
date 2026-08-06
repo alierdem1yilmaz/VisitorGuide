@@ -20,7 +20,10 @@
     "searchPlaceholder": "搜索国家、城市或地点...",
     "searchButton": "搜索",
     "allDestinations": "所有目的地",
-    "viewAll": "查看全部"
+    "viewAll": "查看全部",
+    "introHeading": "探索真实旅行者发现的地方",
+    "introSubtitle": "从餐厅到自然奇观，从古迹到酒店，探索世界各地成千上万的真实地点，附有真实评分和真实照片。",
+    "introCta": "开始探索"
   },
   "categories": {
     "RESTAURANT": "餐厅",
