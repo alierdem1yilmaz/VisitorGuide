@@ -4,10 +4,10 @@ import { estimatePriceUsd } from "./priceEstimate";
 
 const prisma = new PrismaClient();
 
-// Real photos sourced from Wikipedia's pageimage for the place (see
-// scripts used to build wikiPhotos.json) — only available for the cover
-// photo of places notable enough to have their own Wikipedia article.
-// Everything else falls back to a Picsum placeholder, same as before.
+// Real photos for the cover slot: Wikipedia's pageimage where a place has
+// its own article (scripts/*wiki*), topped up with Google Places photos for
+// the rest (scripts/fetchPhotosForCuratedPlaces.ts) — only a Picsum
+// placeholder falls through both.
 function photo(slug: string, index: number, caption: string, isCover = false) {
   const realUrl = index === 1 ? (wikiPhotos as Record<string, string>)[slug] : undefined;
   return {
