@@ -46,7 +46,9 @@
     "countries": "Lande",
     "cities": "Stede",
     "places": "Plekke",
-    "noResults": "Geen resultate gevind nie."
+    "noResults": "Geen resultate gevind nie.",
+    "exploreHeading": "Verken",
+    "exploreSubtitle": "Van restaurante tot natuurwonders, monumente tot hotelle, verken lande regoor die wêreld. Klik op enige land om sy stede en regte plekke te sien."
   },
   "place": {
     "address": "Adres",

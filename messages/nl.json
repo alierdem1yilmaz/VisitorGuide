@@ -46,7 +46,9 @@
     "countries": "Landen",
     "cities": "Steden",
     "places": "Plaatsen",
-    "noResults": "Geen resultaten gevonden."
+    "noResults": "Geen resultaten gevonden.",
+    "exploreHeading": "Ontdekken",
+    "exploreSubtitle": "Van restaurants tot natuurwonderen, van monumenten tot hotels: ontdek landen over de hele wereld. Klik op een land om de steden en bezienswaardigheden te bekijken."
   },
   "place": {
     "address": "Adres",

@@ -46,7 +46,9 @@
     "countries": "Mga Bansa",
     "cities": "Mga Lungsod",
     "places": "Mga Lugar",
-    "noResults": "Walang nakitang resulta."
+    "noResults": "Walang nakitang resulta.",
+    "exploreHeading": "Galugarin",
+    "exploreSubtitle": "Mula sa mga restawran hanggang sa mga kababalaghan ng kalikasan, mga monumento hanggang sa mga hotel, galugarin ang mga bansa sa buong mundo. Mag-click sa anumang bansa upang makita ang mga lungsod at totoong lugar nito."
   },
   "place": {
     "address": "Tirahan",

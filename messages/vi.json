@@ -46,7 +46,9 @@
     "countries": "Các quốc gia",
     "cities": "Thành phố",
     "places": "Địa điểm",
-    "noResults": "Không tìm thấy kết quả nào."
+    "noResults": "Không tìm thấy kết quả nào.",
+    "exploreHeading": "Khám phá",
+    "exploreSubtitle": "Từ nhà hàng đến kỳ quan thiên nhiên, từ di tích lịch sử đến khách sạn, hãy khám phá các quốc gia trên khắp thế giới. Nhấp chuột vào bất kỳ quốc gia nào để xem các thành phố và địa điểm thực tế của nó."
   },
   "place": {
     "address": "Địa chỉ",

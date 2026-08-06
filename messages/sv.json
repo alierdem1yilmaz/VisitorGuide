@@ -46,7 +46,9 @@
     "countries": "Länder",
     "cities": "Städer",
     "places": "Platser",
-    "noResults": "Inga resultat hittades."
+    "noResults": "Inga resultat hittades.",
+    "exploreHeading": "Utforska",
+    "exploreSubtitle": "Från restauranger till naturliga underverk, monument till hotell, utforska länder runt om i världen. Klicka på valfritt land för att se dess städer och verkliga platser."
   },
   "place": {
     "address": "Adress",

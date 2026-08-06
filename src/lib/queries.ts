@@ -131,6 +131,19 @@ async function topPlacePhotosForCountry(countrySlug: string) {
   return extractPhotoUrls(places);
 }
 
+export async function getAllCountriesWithPhotos() {
+  const countries = await prisma.country.findMany({
+    orderBy: { name: "asc" },
+    include: { _count: { select: { cities: true } } },
+  });
+  return Promise.all(
+    countries.map(async (country) => ({
+      ...country,
+      photoUrls: await topPlacePhotosForCountry(country.slug),
+    })),
+  );
+}
+
 export async function getCityBySlug(
   countrySlug: string,
   citySlug: string,

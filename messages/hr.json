@@ -46,7 +46,9 @@
     "countries": "Zemlje",
     "cities": "Gradovi",
     "places": "Mjesta",
-    "noResults": "Nisu pronađeni rezultati."
+    "noResults": "Nisu pronađeni rezultati.",
+    "exploreHeading": "Istražiti",
+    "exploreSubtitle": "Od restorana do prirodnih čuda, spomenika do hotela, istražite zemlje diljem svijeta. Kliknite na bilo koju zemlju da biste vidjeli njezine gradove i stvarna mjesta."
   },
   "place": {
     "address": "Adresa",

@@ -46,7 +46,9 @@
     "countries": "Negara-negara",
     "cities": "Kota-kota",
     "places": "Tempat-tempat",
-    "noResults": "Tidak ada hasil yang ditemukan."
+    "noResults": "Tidak ada hasil yang ditemukan.",
+    "exploreHeading": "Mengeksplorasi",
+    "exploreSubtitle": "Dari restoran hingga keajaiban alam, monumen hingga hotel, jelajahi berbagai negara di seluruh dunia. Klik negara mana pun untuk melihat kota-kota dan tempat-tempat nyatanya."
   },
   "place": {
     "address": "Alamat",

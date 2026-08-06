@@ -46,7 +46,9 @@
     "countries": "Negara-negara",
     "cities": "Bandar-bandar",
     "places": "Tempat",
-    "noResults": "Tiada hasil ditemui."
+    "noResults": "Tiada hasil ditemui.",
+    "exploreHeading": "Terokai",
+    "exploreSubtitle": "Daripada restoran hinggalah keajaiban alam semula jadi, monumen hinggalah hotel, terokai negara-negara di seluruh dunia. Klik mana-mana negara untuk melihat bandar dan tempat sebenar di sana."
   },
   "place": {
     "address": "Alamat",

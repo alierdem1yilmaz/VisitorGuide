@@ -46,7 +46,9 @@
     "countries": "Országok",
     "cities": "Városok",
     "places": "Helyek",
-    "noResults": "Nincs találat."
+    "noResults": "Nincs találat.",
+    "exploreHeading": "Felfedezés",
+    "exploreSubtitle": "Éttermektől a természeti csodákig, műemlékektől a szállodákig fedezd fel a világ országait. Kattints bármelyik ország nevére, hogy megtekinthesd a városait és a valós helyeit."
   },
   "place": {
     "address": "Cím",

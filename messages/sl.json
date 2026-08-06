@@ -46,7 +46,9 @@
     "countries": "Države",
     "cities": "Mesta",
     "places": "Kraji",
-    "noResults": "Ni najdenih rezultatov."
+    "noResults": "Ni najdenih rezultatov.",
+    "exploreHeading": "Razišči",
+    "exploreSubtitle": "Od restavracij do naravnih čudes, od spomenikov do hotelov, raziščite države po vsem svetu. Kliknite na katero koli državo, da si ogledate njena mesta in kraje v resnici."
   },
   "place": {
     "address": "Naslov",

@@ -46,7 +46,9 @@
     "countries": "Lönd",
     "cities": "Borgir",
     "places": "Staðir",
-    "noResults": "Engar niðurstöður fundust."
+    "noResults": "Engar niðurstöður fundust.",
+    "exploreHeading": "Kanna",
+    "exploreSubtitle": "Frá veitingastöðum til náttúruperla, minnisvarða til hótela, skoðaðu lönd um allan heim. Smelltu á hvaða land sem er til að sjá borgir þess og raunverulega staði."
   },
   "place": {
     "address": "Heimilisfang",

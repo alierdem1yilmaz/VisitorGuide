@@ -46,7 +46,9 @@
     "countries": "Countries",
     "cities": "Cities",
     "places": "Places",
-    "noResults": "No results found."
+    "noResults": "No results found.",
+    "exploreHeading": "Explore",
+    "exploreSubtitle": "From restaurants to natural wonders, monuments to hotels, explore countries around the world. Click into any country to see its cities and real places."
   },
   "place": {
     "address": "Address",

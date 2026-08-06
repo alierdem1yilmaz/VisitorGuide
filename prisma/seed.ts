@@ -5595,6 +5595,326 @@ const countries = [
       },
     ],
   },
+  {
+    slug: "belcika",
+    name: "Belgium",
+    description:
+      "A Western European country known for medieval towns, Gothic architecture, chocolate, and its role as the EU's political heart.",
+    coverImageUrl: "https://picsum.photos/seed/belcika-cover/1200/600",
+    currencyCode: "EUR",
+    cities: [
+      {
+        slug: "bruksel",
+        name: "Brussels",
+        description:
+          "Belgium's capital and the de facto capital of the EU, known for its Grand Place, art nouveau architecture, and comic strip murals.",
+        coverImageUrl: "https://picsum.photos/seed/bruksel-cover/1200/600",
+        latitude: 50.8503,
+        longitude: 4.3517,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "irlanda",
+    name: "Ireland",
+    description:
+      "An island nation known for green landscapes, rugged Atlantic coastline, medieval castles, and a lively literary and pub culture.",
+    coverImageUrl: "https://picsum.photos/seed/irlanda-cover/1200/600",
+    currencyCode: "EUR",
+    cities: [
+      {
+        slug: "dublin",
+        name: "Dublin",
+        description:
+          "Ireland's capital on the River Liffey, known for Trinity College, Georgian architecture, and its historic pubs and literary heritage.",
+        coverImageUrl: "https://picsum.photos/seed/dublin-cover/1200/600",
+        latitude: 53.3498,
+        longitude: -6.2603,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "isvec",
+    name: "Sweden",
+    description:
+      "A Scandinavian country known for its design culture, archipelagos, and a mix of medieval old towns and modern architecture.",
+    coverImageUrl: "https://picsum.photos/seed/isvec-cover/1200/600",
+    currencyCode: "SEK",
+    cities: [
+      {
+        slug: "stockholm",
+        name: "Stockholm",
+        description:
+          "Sweden's capital, built across fourteen islands, known for its medieval Gamla Stan old town and waterfront museums.",
+        coverImageUrl: "https://picsum.photos/seed/stockholm-cover/1200/600",
+        latitude: 59.3293,
+        longitude: 18.0686,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "norvec",
+    name: "Norway",
+    description:
+      "A Scandinavian country famed for dramatic fjords, mountains, and the northern lights, with a strong seafaring heritage.",
+    coverImageUrl: "https://picsum.photos/seed/norvec-cover/1200/600",
+    currencyCode: "NOK",
+    cities: [
+      {
+        slug: "oslo",
+        name: "Oslo",
+        description:
+          "Norway's capital on a fjord, surrounded by forested hills, known for its museums, waterfront, and access to nature.",
+        coverImageUrl: "https://picsum.photos/seed/oslo-cover/1200/600",
+        latitude: 59.9139,
+        longitude: 10.7522,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "danimarka",
+    name: "Denmark",
+    description:
+      "A Scandinavian country known for its coastal capital, cycling culture, medieval castles, and the concept of hygge.",
+    coverImageUrl: "https://picsum.photos/seed/danimarka-cover/1200/600",
+    currencyCode: "DKK",
+    cities: [
+      {
+        slug: "kopenhag",
+        name: "Copenhagen",
+        description:
+          "Denmark's capital, known for the colorful Nyhavn harbor, Tivoli Gardens, and a strong design and food scene.",
+        coverImageUrl: "https://picsum.photos/seed/kopenhag-cover/1200/600",
+        latitude: 55.6761,
+        longitude: 12.5683,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "izlanda",
+    name: "Iceland",
+    description:
+      "A volcanic island nation known for geysers, glaciers, waterfalls, hot springs, and dramatic, otherworldly landscapes.",
+    coverImageUrl: "https://picsum.photos/seed/izlanda-cover/1200/600",
+    currencyCode: "ISK",
+    cities: [
+      {
+        slug: "reykjavik",
+        name: "Reykjavik",
+        description:
+          "Iceland's capital and the world's northernmost capital city, a gateway to the island's glaciers, geothermal spas, and volcanic landscapes.",
+        coverImageUrl: "https://picsum.photos/seed/reykjavik-cover/1200/600",
+        latitude: 64.1466,
+        longitude: -21.9426,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "romanya",
+    name: "Romania",
+    description:
+      "A Southeastern European country known for the Carpathian Mountains, medieval Transylvanian towns, and Dracula folklore.",
+    coverImageUrl: "https://picsum.photos/seed/romanya-cover/1200/600",
+    currencyCode: "RON",
+    cities: [
+      {
+        slug: "bukres",
+        name: "Bucharest",
+        description:
+          "Romania's capital, known for its grand Belle Époque architecture, the massive Palace of the Parliament, and leafy boulevards.",
+        coverImageUrl: "https://picsum.photos/seed/bukres-cover/1200/600",
+        latitude: 44.4268,
+        longitude: 26.1025,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "slovenya",
+    name: "Slovenia",
+    description:
+      "A small Alpine country known for Lake Bled, forested mountains, and a compact, walkable capital.",
+    coverImageUrl: "https://picsum.photos/seed/slovenya-cover/1200/600",
+    currencyCode: "EUR",
+    cities: [
+      {
+        slug: "ljubljana",
+        name: "Ljubljana",
+        description:
+          "Slovenia's green capital, centered on a car-free old town along the Ljubljanica River beneath a hilltop castle.",
+        coverImageUrl: "https://picsum.photos/seed/ljubljana-cover/1200/600",
+        latitude: 46.0569,
+        longitude: 14.5058,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "singapur",
+    name: "Singapore",
+    description:
+      "A city-state in Southeast Asia known for futuristic architecture, hawker food culture, and lush urban greenery.",
+    coverImageUrl: "https://picsum.photos/seed/singapur-cover/1200/600",
+    currencyCode: "SGD",
+    cities: [
+      {
+        slug: "singapore-city",
+        name: "Singapore",
+        description:
+          "A global city known for Gardens by the Bay, Marina Bay Sands, and a diverse food scene blending Chinese, Malay, and Indian influences.",
+        coverImageUrl: "https://picsum.photos/seed/singapore-city-cover/1200/600",
+        latitude: 1.3521,
+        longitude: 103.8198,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "malezya",
+    name: "Malaysia",
+    description:
+      "A Southeast Asian country known for the Petronas Towers, diverse rainforests, and a multicultural Malay, Chinese, and Indian heritage.",
+    coverImageUrl: "https://picsum.photos/seed/malezya-cover/1200/600",
+    currencyCode: "MYR",
+    cities: [
+      {
+        slug: "kuala-lumpur",
+        name: "Kuala Lumpur",
+        description:
+          "Malaysia's capital, known for the Petronas Twin Towers, street food markets, and a mix of colonial and modern architecture.",
+        coverImageUrl: "https://picsum.photos/seed/kuala-lumpur-cover/1200/600",
+        latitude: 3.139,
+        longitude: 101.6869,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "filipinler",
+    name: "Philippines",
+    description:
+      "A Southeast Asian archipelago nation known for tropical beaches, coral reefs, and a blend of Spanish and Southeast Asian heritage.",
+    coverImageUrl: "https://picsum.photos/seed/filipinler-cover/1200/600",
+    currencyCode: "PHP",
+    cities: [
+      {
+        slug: "manila",
+        name: "Manila",
+        description:
+          "The Philippines' capital, known for the historic walled city of Intramuros and its bayside boulevard.",
+        coverImageUrl: "https://picsum.photos/seed/manila-cover/1200/600",
+        latitude: 14.5995,
+        longitude: 120.9842,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "kambocya",
+    name: "Cambodia",
+    description:
+      "A Southeast Asian country known for the ancient temple complex of Angkor and Khmer culture.",
+    coverImageUrl: "https://picsum.photos/seed/kambocya-cover/1200/600",
+    currencyCode: "KHR",
+    cities: [
+      {
+        slug: "siem-reap",
+        name: "Siem Reap",
+        description:
+          "The gateway city to the Angkor Archaeological Park, home to Angkor Wat and hundreds of other ancient Khmer temples.",
+        coverImageUrl: "https://picsum.photos/seed/siem-reap-cover/1200/600",
+        latitude: 13.3671,
+        longitude: 103.8448,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "sri-lanka",
+    name: "Sri Lanka",
+    description:
+      "An island nation south of India known for ancient Buddhist temples, tea plantations, and tropical coastlines.",
+    coverImageUrl: "https://picsum.photos/seed/sri-lanka-cover/1200/600",
+    currencyCode: "LKR",
+    cities: [
+      {
+        slug: "colombo",
+        name: "Colombo",
+        description:
+          "Sri Lanka's largest city and commercial capital, a coastal mix of colonial architecture, markets, and modern skyline.",
+        coverImageUrl: "https://picsum.photos/seed/colombo-cover/1200/600",
+        latitude: 6.9271,
+        longitude: 79.8612,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "israil",
+    name: "Israel",
+    description:
+      "A Middle Eastern country of deep religious and historical significance, home to Jerusalem's old city and the Dead Sea.",
+    coverImageUrl: "https://picsum.photos/seed/israil-cover/1200/600",
+    currencyCode: "ILS",
+    cities: [
+      {
+        slug: "kudus",
+        name: "Jerusalem",
+        description:
+          "A holy city for Judaism, Christianity, and Islam, centered on the walled Old City and its ancient religious sites.",
+        coverImageUrl: "https://picsum.photos/seed/kudus-cover/1200/600",
+        latitude: 31.7683,
+        longitude: 35.2137,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "urdun",
+    name: "Jordan",
+    description:
+      "A Middle Eastern country known for the ancient rock-cut city of Petra, desert landscapes, and the Dead Sea.",
+    coverImageUrl: "https://picsum.photos/seed/urdun-cover/1200/600",
+    currencyCode: "JOD",
+    cities: [
+      {
+        slug: "amman",
+        name: "Amman",
+        description:
+          "Jordan's capital, a hillside city mixing a Roman-era citadel and amphitheater with a modern Middle Eastern metropolis.",
+        coverImageUrl: "https://picsum.photos/seed/amman-cover/1200/600",
+        latitude: 31.9454,
+        longitude: 35.9284,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "nepal",
+    name: "Nepal",
+    description:
+      "A Himalayan country home to Mount Everest, ancient temples, and a rich mix of Hindu and Buddhist culture.",
+    coverImageUrl: "https://picsum.photos/seed/nepal-cover/1200/600",
+    currencyCode: "NPR",
+    cities: [
+      {
+        slug: "katmandu",
+        name: "Kathmandu",
+        description:
+          "Nepal's capital in a Himalayan valley, known for ancient temple squares, stupas, and as a gateway to Everest trekking.",
+        coverImageUrl: "https://picsum.photos/seed/katmandu-cover/1200/600",
+        latitude: 27.7172,
+        longitude: 85.324,
+        places: [],
+      },
+    ],
+  },
 ];
 
 const demoUsers = [

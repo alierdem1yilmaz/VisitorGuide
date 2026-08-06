@@ -46,7 +46,9 @@
     "countries": "Nchi",
     "cities": "Miji",
     "places": "Maeneo",
-    "noResults": "Hakuna matokeo yaliyopatikana."
+    "noResults": "Hakuna matokeo yaliyopatikana.",
+    "exploreHeading": "Gundua",
+    "exploreSubtitle": "Kuanzia migahawa hadi maajabu ya asili, makaburi hadi hoteli, chunguza nchi kote ulimwenguni. Bofya katika nchi yoyote ili kuona miji na maeneo yake halisi."
   },
   "place": {
     "address": "Anwani",

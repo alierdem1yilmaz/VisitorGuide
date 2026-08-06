@@ -46,7 +46,9 @@
     "countries": "Ölkələr",
     "cities": "Şəhərlər",
     "places": "Yerlər",
-    "noResults": "Heç bir nəticə tapılmadı."
+    "noResults": "Heç bir nəticə tapılmadı.",
+    "exploreHeading": "Araşdırın",
+    "exploreSubtitle": "Restoranlardan tutmuş təbii möcüzələrə, abidələrdən tutmuş otellərə qədər dünyanın müxtəlif ölkələrini kəşf edin. İstənilən ölkəyə klikləyin və onun şəhərlərini və real yerlərini görün."
   },
   "place": {
     "address": "Ünvan",

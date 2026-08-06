@@ -46,7 +46,9 @@
     "countries": "Land",
     "cities": "Byer",
     "places": "Steder",
-    "noResults": "Ingen resultater funnet."
+    "noResults": "Ingen resultater funnet.",
+    "exploreHeading": "Utforske",
+    "exploreSubtitle": "Fra restauranter til naturlige underverker, monumenter til hoteller, utforsk land rundt om i verden. Klikk på et hvilket som helst land for å se byene og virkelige steder."
   },
   "place": {
     "address": "Adresse",

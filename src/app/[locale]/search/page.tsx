@@ -4,7 +4,12 @@ import CityCard from "@/components/destination/CityCard";
 import PlaceCard from "@/components/place/PlaceCard";
 import FilterBar from "@/components/place/FilterBar";
 import SeasonToggle from "@/components/place/SeasonToggle";
-import { searchAll, getFavoritePlaceIds, type PlaceSort } from "@/lib/queries";
+import {
+  searchAll,
+  getFavoritePlaceIds,
+  getAllCountriesWithPhotos,
+  type PlaceSort,
+} from "@/lib/queries";
 import { Category, Season } from "@/generated/prisma/client";
 import { auth } from "@/auth";
 import { getExchangeRates, getPreferredCurrency, formatConvertedPrice } from "@/lib/currency";
@@ -53,6 +58,40 @@ export default async function SearchPage({
   const minRating = rawMinRating ? Number(rawMinRating) : undefined;
   const maxPrice = rawMaxPrice ? Number(rawMaxPrice) : undefined;
   const season = isSeason(rawSeason) ? rawSeason : undefined;
+  const hasSearchContext = Boolean(q || category);
+
+  const [t, tCommon, tCategories, tFilters, tPlace, session] = await Promise.all([
+    getTranslations("search"),
+    getTranslations("common"),
+    getTranslations("categories"),
+    getTranslations("filters"),
+    getTranslations("place"),
+    auth(),
+  ]);
+
+  if (!hasSearchContext) {
+    const exploreCountries = await getAllCountriesWithPhotos();
+    return (
+      <div className="mx-auto max-w-6xl px-6 py-12">
+        <h1 className="text-3xl font-bold text-brand-800">{t("exploreHeading")}</h1>
+        <p className="mt-3 max-w-2xl text-muted">{t("exploreSubtitle")}</p>
+        <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {exploreCountries.map((country) => (
+            <CountryCard
+              key={country.id}
+              href={`/countries/${country.slug}`}
+              name={country.name}
+              description={country.description}
+              photos={country.photoUrls.map((url) => ({ url, alt: country.name }))}
+              cityCountLabel={tCommon("cityCount", { count: country._count.cities })}
+              previousLabel={tFilters("previousPhoto")}
+              nextLabel={tFilters("nextPhoto")}
+            />
+          ))}
+        </div>
+      </div>
+    );
+  }
 
   const { countries, cities, places } = await searchAll({
     q,
@@ -63,14 +102,6 @@ export default async function SearchPage({
     season,
   });
 
-  const [t, tCommon, tCategories, tFilters, tPlace, session] = await Promise.all([
-    getTranslations("search"),
-    getTranslations("common"),
-    getTranslations("categories"),
-    getTranslations("filters"),
-    getTranslations("place"),
-    auth(),
-  ]);
   const favoriteIds = await getFavoritePlaceIds(
     session?.user?.id,
     places.map((p) => p.id),
@@ -93,7 +124,6 @@ export default async function SearchPage({
   })();
 
   const hasResults = countries.length > 0 || cities.length > 0 || places.length > 0;
-  const hasSearchContext = Boolean(q || category);
   const heading = category ? tCategories(category) : t("resultsFor", { query: q ?? "" });
 
   return (

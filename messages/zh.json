@@ -46,7 +46,9 @@
     "countries": "国家",
     "cities": "城市",
     "places": "地点",
-    "noResults": "未找到结果。"
+    "noResults": "未找到结果。",
+    "exploreHeading": "探索",
+    "exploreSubtitle": "从餐厅到自然奇观，从古迹到酒店，探索世界各地的国家。点击任意国家查看其城市和真实地点。"
   },
   "place": {
     "address": "地址",

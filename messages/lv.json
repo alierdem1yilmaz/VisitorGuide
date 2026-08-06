@@ -46,7 +46,9 @@
     "countries": "Valstis",
     "cities": "Pilsētas",
     "places": "Vietas",
-    "noResults": "Nav atrasts neviens rezultāts."
+    "noResults": "Nav atrasts neviens rezultāts.",
+    "exploreHeading": "Izpētīt",
+    "exploreSubtitle": "No restorāniem līdz dabas brīnumiem, no pieminekļiem līdz viesnīcām — iepazīstiet valstis visā pasaulē. Noklikšķiniet uz jebkuras valsts, lai redzētu tās pilsētas un reālās vietas."
   },
   "place": {
     "address": "Adrese",

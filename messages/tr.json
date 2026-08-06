@@ -46,7 +46,9 @@
     "countries": "Ülkeler",
     "cities": "Şehirler",
     "places": "Mekânlar",
-    "noResults": "Sonuç bulunamadı."
+    "noResults": "Sonuç bulunamadı.",
+    "exploreHeading": "Keşfedin",
+    "exploreSubtitle": "Restoranlardan doğal güzelliklere, anıtlardan otellere kadar dünyanın dört bir yanındaki ülkeleri keşfedin. Her ülkeye tıklayarak şehirlerini ve gerçek mekanlarını görün."
   },
   "place": {
     "address": "Adres",

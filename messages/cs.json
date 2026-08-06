@@ -46,7 +46,9 @@
     "countries": "Země",
     "cities": "Města",
     "places": "Místa",
-    "noResults": "Nebyly nalezeny žádné výsledky."
+    "noResults": "Nebyly nalezeny žádné výsledky.",
+    "exploreHeading": "Prozkoumat",
+    "exploreSubtitle": "Od restaurací po přírodní divy, od památek po hotely, prozkoumejte země po celém světě. Klikněte na libovolnou zemi a zobrazí se vám její města a skutečná místa."
   },
   "place": {
     "address": "Adresa",

@@ -46,7 +46,9 @@
     "countries": "Maat",
     "cities": "Kaupungit",
     "places": "Paikat",
-    "noResults": "Ei tuloksia."
+    "noResults": "Ei tuloksia.",
+    "exploreHeading": "Tutkia",
+    "exploreSubtitle": "Ravintoloista luonnonihmeisiin, monumenteista hotelleihin – tutustu maihin ympäri maailmaa. Klikkaa mitä tahansa maata nähdäksesi sen kaupungit ja todelliset paikat."
   },
   "place": {
     "address": "Osoite",

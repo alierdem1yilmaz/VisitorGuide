@@ -46,7 +46,9 @@
     "countries": "Šalys",
     "cities": "Miestai",
     "places": "Vietos",
-    "noResults": "Nerasta jokių rezultatų."
+    "noResults": "Nerasta jokių rezultatų.",
+    "exploreHeading": "Naršyti",
+    "exploreSubtitle": "Nuo restoranų iki gamtos stebuklų, nuo paminklų iki viešbučių – tyrinėkite viso pasaulio šalis. Spustelėkite bet kurią šalį, kad pamatytumėte jos miestus ir tikras vietas."
   },
   "place": {
     "address": "Adresas",

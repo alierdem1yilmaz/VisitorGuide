@@ -46,7 +46,9 @@
     "countries": "Țări",
     "cities": "Orașe",
     "places": "Locuri",
-    "noResults": "Nu s-au găsit rezultate."
+    "noResults": "Nu s-au găsit rezultate.",
+    "exploreHeading": "Explora",
+    "exploreSubtitle": "De la restaurante la minuni naturale, de la monumente la hoteluri, explorează țări din întreaga lume. Apasă pe orice țară pentru a-i vedea orașele și locurile reale."
   },
   "place": {
     "address": "Adresa",

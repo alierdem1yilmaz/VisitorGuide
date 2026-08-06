@@ -46,7 +46,9 @@
     "countries": "Riigid",
     "cities": "Linnad",
     "places": "Kohad",
-    "noResults": "Tulemusi ei leitud."
+    "noResults": "Tulemusi ei leitud.",
+    "exploreHeading": "Avasta",
+    "exploreSubtitle": "Restoranidest loodusimede, monumentide ja hotellideni – avastage riike üle maailma. Klõpsake mis tahes riigi nimel, et näha selle linnu ja päris kohti."
   },
   "place": {
     "address": "Aadress",

@@ -46,7 +46,9 @@
     "countries": "국가",
     "cities": "도시들",
     "places": "장소",
-    "noResults": "검색 결과가 없습니다."
+    "noResults": "검색 결과가 없습니다.",
+    "exploreHeading": "탐구하다",
+    "exploreSubtitle": "레스토랑부터 자연 경관, 기념물부터 호텔까지, 전 세계 여러 나라를 탐험해 보세요. 원하는 나라를 클릭하면 그 나라의 도시와 실제 명소를 볼 수 있습니다."
   },
   "place": {
     "address": "주소",
