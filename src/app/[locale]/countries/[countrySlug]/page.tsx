@@ -39,7 +39,10 @@ export default async function CountryPage({
   const country = await getCountryBySlug(countrySlug);
   if (!country) notFound();
 
-  const tCommon = await getTranslations("common");
+  const [tCommon, tFilters] = await Promise.all([
+    getTranslations("common"),
+    getTranslations("filters"),
+  ]);
   const placeCount = country.cities.reduce((sum, c) => sum + c._count.places, 0);
 
   const basePath = `/countries/${countrySlug}`;
@@ -108,8 +111,13 @@ export default async function CountryPage({
               href={`/countries/${country.slug}/${city.slug}`}
               name={city.name}
               description={city.description}
-              coverImageUrl={city.coverImageUrl}
+              photos={city.places
+                .flatMap((p) => p.photos.map((photo) => photo.url))
+                .filter((url) => !url.includes("picsum"))
+                .map((url) => ({ url, alt: city.name }))}
               placeCountLabel={tCommon("placeCount", { count: city._count.places })}
+              previousLabel={tFilters("previousPhoto")}
+              nextLabel={tFilters("nextPhoto")}
             />
           ))}
         </div>

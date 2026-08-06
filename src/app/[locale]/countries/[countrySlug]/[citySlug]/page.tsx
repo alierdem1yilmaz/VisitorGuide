@@ -8,7 +8,7 @@ import MapView from "@/components/place/MapView";
 import ViewToggle from "@/components/place/ViewToggle";
 import FilterBar from "@/components/place/FilterBar";
 import SeasonToggle from "@/components/place/SeasonToggle";
-import CategoryHeroBanner from "@/components/place/CategoryHeroBanner";
+import PhotoCarousel from "@/components/place/PhotoCarousel";
 import HighlightRow from "@/components/place/HighlightRow";
 import { getCityBySlug, getFavoritePlaceIds, type PlaceSort } from "@/lib/queries";
 import { Category, Season } from "@/generated/prisma/client";
@@ -113,15 +113,17 @@ export default async function CityPage({
   const basePath = `/countries/${countrySlug}/${citySlug}`;
 
   const showCategorySpotlight = Boolean(category) && category !== Category.HOTEL;
+  const showBaseHero = !category;
 
-  const heroPhotos = showCategorySpotlight
-    ? [...city.places]
-        .sort((a, b) => b.reviewCount - a.reviewCount)
-        .map((p) => p.photos[0]?.url)
-        .filter((url): url is string => !!url && !url.includes("picsum"))
-        .slice(0, 6)
-        .map((url) => ({ url, alt: city.name }))
-    : [];
+  const heroPhotos =
+    showCategorySpotlight || showBaseHero
+      ? [...city.places]
+          .sort((a, b) => b.reviewCount - a.reviewCount)
+          .map((p) => p.photos[0]?.url)
+          .filter((url): url is string => !!url && !url.includes("picsum"))
+          .slice(0, 6)
+          .map((url) => ({ url, alt: city.name }))
+      : [];
 
   function toHighlight(place: NonNullable<typeof city>["places"][number]) {
     return {
@@ -179,10 +181,12 @@ export default async function CityPage({
             </p>
           </div>
           <div className="mt-6">
-            <CategoryHeroBanner
+            <PhotoCarousel
               photos={heroPhotos}
               previousLabel={tFilters("previousPhoto")}
               nextLabel={tFilters("nextPhoto")}
+              variant="hero"
+              priority
             />
           </div>
           <div className="mt-8">
@@ -192,6 +196,22 @@ export default async function CityPage({
           <h2 className="mb-2 mt-2 text-lg font-bold text-brand-800">
             {tFilters("allInCategory")}
           </h2>
+        </>
+      ) : showBaseHero ? (
+        <>
+          <h1 className="text-3xl font-bold text-brand-800">{city.name}</h1>
+          {city.description && (
+            <p className="mt-3 max-w-2xl text-muted">{city.description}</p>
+          )}
+          <div className="mt-6">
+            <PhotoCarousel
+              photos={heroPhotos}
+              previousLabel={tFilters("previousPhoto")}
+              nextLabel={tFilters("nextPhoto")}
+              variant="hero"
+              priority
+            />
+          </div>
         </>
       ) : (
         <>

@@ -114,8 +114,10 @@ export default async function SearchPage({
                 href={`/countries/${country.slug}`}
                 name={country.name}
                 description={country.description}
-                coverImageUrl={country.coverImageUrl}
+                photos={country.photoUrls.map((url) => ({ url, alt: country.name }))}
                 cityCountLabel={tCommon("cityCount", { count: country._count.cities })}
+                previousLabel={tFilters("previousPhoto")}
+                nextLabel={tFilters("nextPhoto")}
               />
             ))}
           </div>
@@ -132,8 +134,13 @@ export default async function SearchPage({
                 href={`/countries/${city.country.slug}/${city.slug}`}
                 name={city.name}
                 description={city.description}
-                coverImageUrl={city.coverImageUrl}
+                photos={city.places
+                  .flatMap((p) => p.photos.map((photo) => photo.url))
+                  .filter((url) => !url.includes("picsum"))
+                  .map((url) => ({ url, alt: city.name }))}
                 placeCountLabel={tCommon("placeCount", { count: city._count.places })}
+                previousLabel={tFilters("previousPhoto")}
+                nextLabel={tFilters("nextPhoto")}
               />
             ))}
           </div>

@@ -1,33 +1,38 @@
-import Image from "next/image";
 import { Link } from "@/i18n/navigation";
+import PhotoCarousel from "@/components/place/PhotoCarousel";
 
 export default function CityCard({
   href,
   name,
   description,
-  coverImageUrl,
+  photos,
   placeCountLabel,
+  previousLabel,
+  nextLabel,
 }: {
   href: string;
   name: string;
   description: string | null;
-  coverImageUrl: string | null;
+  photos: { url: string; alt: string }[];
   placeCountLabel: string;
+  previousLabel: string;
+  nextLabel: string;
 }) {
   return (
-    <Link
-      href={href}
-      className="group flex flex-col overflow-hidden rounded-xl border border-brand-100 bg-white transition-shadow hover:shadow-lg"
-    >
-      <div className="relative h-40 w-full bg-brand-50">
-        {coverImageUrl && (
-          <Image
-            src={coverImageUrl}
-            alt={name}
-            fill
-            className="object-cover transition-transform group-hover:scale-105"
-            sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+    <div className="group relative flex flex-col overflow-hidden rounded-xl border border-brand-100 bg-white transition-shadow hover:shadow-lg">
+      <Link href={href} aria-label={name} className="absolute inset-0 z-10">
+        <span className="sr-only">{name}</span>
+      </Link>
+      <div className="relative z-20">
+        {photos.length > 0 ? (
+          <PhotoCarousel
+            photos={photos}
+            previousLabel={previousLabel}
+            nextLabel={nextLabel}
+            variant="card"
           />
+        ) : (
+          <div className="h-56 w-full bg-brand-50" />
         )}
       </div>
       <div className="flex flex-1 flex-col gap-2 p-4">
@@ -39,6 +44,6 @@ export default function CityCard({
           {placeCountLabel}
         </span>
       </div>
-    </Link>
+    </div>
   );
 }

@@ -1,5 +1,6 @@
 import { PrismaClient, Category, Season } from "../src/generated/prisma/client";
 import wikiPhotos from "./wikiPhotos.json";
+import curatedPlaceRatings from "./curatedPlaceRatings.json";
 import { estimatePriceUsd } from "./priceEstimate";
 
 const prisma = new PrismaClient();
@@ -5712,10 +5713,13 @@ async function main() {
           place.priceLevel,
           country.slug,
         );
+        const realRating = (
+          curatedPlaceRatings as Record<string, { avgRating: number; reviewCount: number }>
+        )[place.slug];
         const dbPlace = await prisma.place.upsert({
           where: { slug: place.slug },
-          update: { ...placeData, priceAmount, cityId: dbCity.id },
-          create: { ...placeData, priceAmount, cityId: dbCity.id },
+          update: { ...placeData, priceAmount, ...realRating, cityId: dbCity.id },
+          create: { ...placeData, priceAmount, ...realRating, cityId: dbCity.id },
         });
         placeIds.push(dbPlace.id);
 

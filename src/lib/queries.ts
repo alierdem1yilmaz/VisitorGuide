@@ -92,17 +92,43 @@ export async function getFeaturedPlacesByCategory(perCategory = 8) {
   >;
 }
 
+const TOP_PLACE_PHOTOS_INCLUDE = {
+  where: { photos: { some: { isCover: true } } },
+  orderBy: { reviewCount: "desc" as const },
+  take: 5,
+  select: { photos: { where: { isCover: true }, take: 1, select: { url: true } } },
+};
+
+function extractPhotoUrls(places: { photos: { url: string }[] }[]) {
+  return places
+    .flatMap((p) => p.photos.map((photo) => photo.url))
+    .filter((url) => !url.includes("picsum"));
+}
+
 export function getCountryBySlug(slug: string) {
   return prisma.country.findUnique({
     where: { slug },
     include: {
       cities: {
         orderBy: { name: "asc" },
-        include: { _count: { select: { places: true } } },
+        include: {
+          _count: { select: { places: true } },
+          places: TOP_PLACE_PHOTOS_INCLUDE,
+        },
       },
       _count: { select: { cities: true } },
     },
   });
+}
+
+async function topPlacePhotosForCountry(countrySlug: string) {
+  const places = await prisma.place.findMany({
+    where: { city: { country: { slug: countrySlug } }, photos: { some: { isCover: true } } },
+    orderBy: { reviewCount: "desc" },
+    take: 5,
+    select: { photos: { where: { isCover: true }, take: 1, select: { url: true } } },
+  });
+  return extractPhotoUrls(places);
 }
 
 export async function getCityBySlug(
@@ -224,7 +250,7 @@ export async function searchAll({
 } & PlaceFilters) {
   const nameFilter = q ? { contains: q, mode: "insensitive" as const } : undefined;
 
-  const [countries, cities, places] = await Promise.all([
+  const [countriesRaw, cities, places] = await Promise.all([
     category
       ? Promise.resolve([])
       : prisma.country.findMany({
@@ -236,7 +262,11 @@ export async function searchAll({
       ? Promise.resolve([])
       : prisma.city.findMany({
           where: { name: nameFilter },
-          include: { country: true, _count: { select: { places: true } } },
+          include: {
+            country: true,
+            _count: { select: { places: true } },
+            places: TOP_PLACE_PHOTOS_INCLUDE,
+          },
           take: 10,
         }),
     prisma.place.findMany({
@@ -256,6 +286,13 @@ export async function searchAll({
           (a, b) => distanceFromOwnCity(a) - distanceFromOwnCity(b),
         )
       : places;
+
+  const countries = await Promise.all(
+    countriesRaw.map(async (country) => ({
+      ...country,
+      photoUrls: await topPlacePhotosForCountry(country.slug),
+    })),
+  );
 
   return { countries, cities, places: sortedPlaces };
 }

@@ -1,0 +1,1142 @@
+{
+  "hagia-sophia": {
+    "avgRating": 4.8,
+    "reviewCount": 135135
+  },
+  "blue-mosque": {
+    "avgRating": 4.7,
+    "reviewCount": 120268
+  },
+  "topkapi-palace": {
+    "avgRating": 4.6,
+    "reviewCount": 119091
+  },
+  "belgrad-forest": {
+    "avgRating": 4.6,
+    "reviewCount": 521
+  },
+  "karakoy-lokantasi": {
+    "avgRating": 4.3,
+    "reviewCount": 3080
+  },
+  "duden-waterfalls": {
+    "avgRating": 4.6,
+    "reviewCount": 38575
+  },
+  "antalya-old-town": {
+    "avgRating": 4.7,
+    "reviewCount": 615
+  },
+  "aspendos-theatre": {
+    "avgRating": 4.8,
+    "reviewCount": 22154
+  },
+  "vanilla-lounge": {
+    "avgRating": 4.5,
+    "reviewCount": 1165
+  },
+  "rixos-downtown-antalya": {
+    "avgRating": 4.6,
+    "reviewCount": 10603
+  },
+  "goreme-open-air-museum": {
+    "avgRating": 4.6,
+    "reviewCount": 28304
+  },
+  "fairy-chimneys-pasabag": {
+    "avgRating": 4.7,
+    "reviewCount": 378
+  },
+  "uchisar-castle": {
+    "avgRating": 4.6,
+    "reviewCount": 31998
+  },
+  "old-greek-house-restaurant": {
+    "avgRating": 4.4,
+    "reviewCount": 946
+  },
+  "museum-hotel-cappadocia": {
+    "avgRating": 4.5,
+    "reviewCount": 1425
+  },
+  "pamukkale-travertines": {
+    "avgRating": 4.2,
+    "reviewCount": 2959
+  },
+  "hierapolis-ancient-city": {
+    "avgRating": 4.8,
+    "reviewCount": 17160
+  },
+  "cleopatra-antique-pool": {
+    "avgRating": 4.2,
+    "reviewCount": 2959
+  },
+  "colossae-restaurant": {
+    "avgRating": 4.1,
+    "reviewCount": 4976
+  },
+  "doga-thermal-spa": {
+    "avgRating": 4.5,
+    "reviewCount": 2529
+  },
+  "ephesus-ancient-city": {
+    "avgRating": 4.8,
+    "reviewCount": 39479
+  },
+  "house-of-virgin-mary": {
+    "avgRating": 4.5,
+    "reviewCount": 9526
+  },
+  "sirince-village": {
+    "avgRating": 4.5,
+    "reviewCount": 711
+  },
+  "selcuk-koftecisi": {
+    "avgRating": 4.1,
+    "reviewCount": 1863
+  },
+  "hotel-bella-selcuk": {
+    "avgRating": 4.2,
+    "reviewCount": 185
+  },
+  "eiffel-tower": {
+    "avgRating": 4.7,
+    "reviewCount": 493695
+  },
+  "louvre-museum": {
+    "avgRating": 4.7,
+    "reviewCount": 372963
+  },
+  "le-jules-verne": {
+    "avgRating": 4.4,
+    "reviewCount": 3632
+  },
+  "bois-de-boulogne": {
+    "avgRating": 4.3,
+    "reviewCount": 28981
+  },
+  "hotel-ritz-paris": {
+    "avgRating": 4.6,
+    "reviewCount": 4570
+  },
+  "promenade-des-anglais": {
+    "avgRating": 4.7,
+    "reviewCount": 2537
+  },
+  "castle-hill-nice": {
+    "avgRating": 4.7,
+    "reviewCount": 25414
+  },
+  "cathedrale-sainte-reparate": {
+    "avgRating": 4.6,
+    "reviewCount": 5205
+  },
+  "la-petite-maison": {
+    "avgRating": 3.5,
+    "reviewCount": 1564
+  },
+  "hotel-negresco": {
+    "avgRating": 4.6,
+    "reviewCount": 6603
+  },
+  "colosseum": {
+    "avgRating": 4.8,
+    "reviewCount": 501210
+  },
+  "vatican-museums": {
+    "avgRating": 4.6,
+    "reviewCount": 207878
+  },
+  "villa-borghese-gardens": {
+    "avgRating": 4.6,
+    "reviewCount": 95044
+  },
+  "roscioli": {
+    "avgRating": 4.3,
+    "reviewCount": 6428
+  },
+  "hotel-eden-rome": {
+    "avgRating": 4.7,
+    "reviewCount": 952
+  },
+  "st-marks-basilica": {
+    "avgRating": 4.7,
+    "reviewCount": 29567
+  },
+  "doges-palace": {
+    "avgRating": 4.7,
+    "reviewCount": 39281
+  },
+  "lido-di-venezia": {
+    "avgRating": 4.7,
+    "reviewCount": 1828
+  },
+  "osteria-alle-testiere": {
+    "avgRating": 4.5,
+    "reviewCount": 391
+  },
+  "hotel-danieli": {
+    "avgRating": 4.5,
+    "reviewCount": 2291
+  },
+  "florence-cathedral": {
+    "avgRating": 4.8,
+    "reviewCount": 110362
+  },
+  "uffizi-gallery": {
+    "avgRating": 4.7,
+    "reviewCount": 93729
+  },
+  "boboli-gardens": {
+    "avgRating": 4.2,
+    "reviewCount": 30681
+  },
+  "trattoria-mario": {
+    "avgRating": 4.6,
+    "reviewCount": 4596
+  },
+  "hotel-brunelleschi": {
+    "avgRating": 4.7,
+    "reviewCount": 1523
+  },
+  "sensoji-temple": {
+    "avgRating": 4.6,
+    "reviewCount": 97612
+  },
+  "tokyo-tower": {
+    "avgRating": 4.5,
+    "reviewCount": 99135
+  },
+  "meiji-shrine-forest": {
+    "avgRating": 4.6,
+    "reviewCount": 52044
+  },
+  "sukiyabashi-jiro": {
+    "avgRating": 3.9,
+    "reviewCount": 864
+  },
+  "park-hyatt-tokyo": {
+    "avgRating": 4.5,
+    "reviewCount": 4558
+  },
+  "fushimi-inari-taisha": {
+    "avgRating": 4.6,
+    "reviewCount": 90191
+  },
+  "kinkakuji": {
+    "avgRating": 4.6,
+    "reviewCount": 69431
+  },
+  "arashiyama-bamboo-grove": {
+    "avgRating": 4.4,
+    "reviewCount": 24128
+  },
+  "gion-karyo": {
+    "avgRating": 4.4,
+    "reviewCount": 420
+  },
+  "ritz-carlton-kyoto": {
+    "avgRating": 4.6,
+    "reviewCount": 2483
+  },
+  "seville-cathedral": {
+    "avgRating": 4.8,
+    "reviewCount": 59555
+  },
+  "alcazar-of-seville": {
+    "avgRating": 4.7,
+    "reviewCount": 101934
+  },
+  "restaurante-az-zait": {
+    "avgRating": 4.6,
+    "reviewCount": 980
+  },
+  "hotel-alfonso-xiii": {
+    "avgRating": 4.6,
+    "reviewCount": 7098
+  },
+  "sagrada-familia": {
+    "avgRating": 4.8,
+    "reviewCount": 327564
+  },
+  "park-guell": {
+    "avgRating": 4.4,
+    "reviewCount": 238930
+  },
+  "tickets-bar": {
+    "avgRating": 4.5,
+    "reviewCount": 1814
+  },
+  "hotel-arts-barcelona": {
+    "avgRating": 4.5,
+    "reviewCount": 4717
+  },
+  "statue-of-liberty": {
+    "avgRating": 4.7,
+    "reviewCount": 112265
+  },
+  "central-park": {
+    "avgRating": 4.8,
+    "reviewCount": 300569
+  },
+  "metropolitan-museum-of-art": {
+    "avgRating": 4.8,
+    "reviewCount": 94318
+  },
+  "katzs-delicatessen": {
+    "avgRating": 4.5,
+    "reviewCount": 54492
+  },
+  "the-plaza-hotel": {
+    "avgRating": 4.5,
+    "reviewCount": 6759
+  },
+  "lincoln-memorial": {
+    "avgRating": 4.8,
+    "reviewCount": 54112
+  },
+  "smithsonian-air-and-space-museum": {
+    "avgRating": 4.6,
+    "reviewCount": 48810
+  },
+  "national-mall": {
+    "avgRating": 4.8,
+    "reviewCount": 139871
+  },
+  "old-ebbitt-grill": {
+    "avgRating": 4.6,
+    "reviewCount": 20386
+  },
+  "the-hay-adams": {
+    "avgRating": 4.6,
+    "reviewCount": 1448
+  },
+  "christ-the-redeemer": {
+    "avgRating": 4.8,
+    "reviewCount": 132349
+  },
+  "copacabana-beach": {
+    "avgRating": 4.7,
+    "reviewCount": 9561
+  },
+  "sugarloaf-mountain": {
+    "avgRating": 4.8,
+    "reviewCount": 8816
+  },
+  "confeitaria-colombo": {
+    "avgRating": 4.4,
+    "reviewCount": 39684
+  },
+  "copacabana-palace": {
+    "avgRating": 4.8,
+    "reviewCount": 41580
+  },
+  "catedral-da-se": {
+    "avgRating": 4.7,
+    "reviewCount": 30964
+  },
+  "ibirapuera-park": {
+    "avgRating": 4.8,
+    "reviewCount": 297095
+  },
+  "masp": {
+    "avgRating": 4.7,
+    "reviewCount": 112006
+  },
+  "dom-restaurant": {
+    "avgRating": 4.6,
+    "reviewCount": 2843
+  },
+  "hotel-unique": {
+    "avgRating": 4.8,
+    "reviewCount": 18906
+  },
+  "big-ben": {
+    "avgRating": 4.6,
+    "reviewCount": 99519
+  },
+  "hyde-park": {
+    "avgRating": 4.7,
+    "reviewCount": 142717
+  },
+  "british-museum": {
+    "avgRating": 4.2,
+    "reviewCount": 285
+  },
+  "dishoom": {
+    "avgRating": 4.7,
+    "reviewCount": 29397
+  },
+  "the-savoy": {
+    "avgRating": 4.7,
+    "reviewCount": 11068
+  },
+  "koutoubia-mosque": {
+    "avgRating": 4.6,
+    "reviewCount": 18434
+  },
+  "jardin-majorelle": {
+    "avgRating": 4.4,
+    "reviewCount": 60218
+  },
+  "jemaa-el-fnaa": {
+    "avgRating": 4.3,
+    "reviewCount": 51547
+  },
+  "nomad-restaurant": {
+    "avgRating": 4,
+    "reviewCount": 7463
+  },
+  "la-mamounia": {
+    "avgRating": 4.5,
+    "reviewCount": 9408
+  },
+  "acropolis-of-athens": {
+    "avgRating": 4.8,
+    "reviewCount": 146409
+  },
+  "national-garden-of-athens": {
+    "avgRating": 4.6,
+    "reviewCount": 43595
+  },
+  "karamanlidika-tou-fani": {
+    "avgRating": 4.7,
+    "reviewCount": 13952
+  },
+  "hotel-grande-bretagne": {
+    "avgRating": 4.8,
+    "reviewCount": 6738
+  },
+  "forbidden-city": {
+    "avgRating": 4.6,
+    "reviewCount": 2853
+  },
+  "great-wall-badaling": {
+    "avgRating": 4.6,
+    "reviewCount": 1525
+  },
+  "temple-of-heaven": {
+    "avgRating": 4.6,
+    "reviewCount": 3841
+  },
+  "summer-palace": {
+    "avgRating": 4.6,
+    "reviewCount": 9925
+  },
+  "houhai-lake": {
+    "avgRating": 4.4,
+    "reviewCount": 118
+  },
+  "quanjude": {
+    "avgRating": 4,
+    "reviewCount": 615
+  },
+  "birds-nest-stadium": {
+    "avgRating": 4.5,
+    "reviewCount": 1536
+  },
+  "peninsula-beijing": {
+    "avgRating": 4.6,
+    "reviewCount": 194
+  },
+  "aman-summer-palace": {
+    "avgRating": 4.3,
+    "reviewCount": 57
+  },
+  "zocalo": {
+    "avgRating": 4.7,
+    "reviewCount": 323922
+  },
+  "metropolitan-cathedral": {
+    "avgRating": 4.7,
+    "reviewCount": 24057
+  },
+  "templo-mayor": {
+    "avgRating": 4.8,
+    "reviewCount": 34809
+  },
+  "chapultepec-park": {
+    "avgRating": 4.7,
+    "reviewCount": 267154
+  },
+  "frida-kahlo-museum": {
+    "avgRating": 4.5,
+    "reviewCount": 44778
+  },
+  "pujol": {
+    "avgRating": 4.4,
+    "reviewCount": 6036
+  },
+  "four-seasons-mexico-city": {
+    "avgRating": 4.7,
+    "reviewCount": 11180
+  },
+  "hotel-downtown-mexico-city": {
+    "avgRating": 4.7,
+    "reviewCount": 941
+  },
+  "brandenburg-gate": {
+    "avgRating": 4.7,
+    "reviewCount": 187971
+  },
+  "berlin-wall-memorial": {
+    "avgRating": 4.6,
+    "reviewCount": 46496
+  },
+  "museum-island": {
+    "avgRating": 4.7,
+    "reviewCount": 4181
+  },
+  "curry-36": {
+    "avgRating": 4.2,
+    "reviewCount": 13674
+  },
+  "tim-raue": {
+    "avgRating": 4.6,
+    "reviewCount": 1517
+  },
+  "reichstag-building": {
+    "avgRating": 4.7,
+    "reviewCount": 10354
+  },
+  "hotel-adlon-kempinski": {
+    "avgRating": 4.6,
+    "reviewCount": 2252
+  },
+  "michelberger-hotel": {
+    "avgRating": 4.4,
+    "reviewCount": 2592
+  },
+  "grand-palace-bangkok": {
+    "avgRating": 4.6,
+    "reviewCount": 79327
+  },
+  "wat-arun": {
+    "avgRating": 4.7,
+    "reviewCount": 44931
+  },
+  "wat-pho": {
+    "avgRating": 4.7,
+    "reviewCount": 37885
+  },
+  "chatuchak-market": {
+    "avgRating": 4.4,
+    "reviewCount": 56120
+  },
+  "lumpini-park": {
+    "avgRating": 4.5,
+    "reviewCount": 40685
+  },
+  "damnoen-saduak": {
+    "avgRating": 3.8,
+    "reviewCount": 34604
+  },
+  "jay-fai": {
+    "avgRating": 3.6,
+    "reviewCount": 5052
+  },
+  "suhring": {
+    "avgRating": 4.6,
+    "reviewCount": 1743
+  },
+  "mandarin-oriental-bangkok": {
+    "avgRating": 4.7,
+    "reviewCount": 6662
+  },
+  "the-siam-hotel": {
+    "avgRating": 4.7,
+    "reviewCount": 1117
+  },
+  "schonbrunn-palace": {
+    "avgRating": 4.7,
+    "reviewCount": 183452
+  },
+  "st-stephens-cathedral": {
+    "avgRating": 4.7,
+    "reviewCount": 137672
+  },
+  "belvedere-palace": {
+    "avgRating": 4.7,
+    "reviewCount": 89535
+  },
+  "vienna-christmas-market": {
+    "avgRating": 4.4,
+    "reviewCount": 283
+  },
+  "prater-park": {
+    "avgRating": 4.6,
+    "reviewCount": 139757
+  },
+  "cafe-central": {
+    "avgRating": 4.3,
+    "reviewCount": 30391
+  },
+  "figlmuller": {
+    "avgRating": 4.3,
+    "reviewCount": 32652
+  },
+  "vienna-state-opera": {
+    "avgRating": 4.7,
+    "reviewCount": 63070
+  },
+  "hotel-sacher-wien": {
+    "avgRating": 4.5,
+    "reviewCount": 14014
+  },
+  "hotel-imperial-vienna": {
+    "avgRating": 4.7,
+    "reviewCount": 1867
+  },
+  "cn-tower": {
+    "avgRating": 4.6,
+    "reviewCount": 88301
+  },
+  "royal-ontario-museum": {
+    "avgRating": 4.7,
+    "reviewCount": 43502
+  },
+  "high-park": {
+    "avgRating": 4.7,
+    "reviewCount": 27302
+  },
+  "toronto-islands": {
+    "avgRating": 4.7,
+    "reviewCount": 2134
+  },
+  "distillery-district": {
+    "avgRating": 4.6,
+    "reviewCount": 26425
+  },
+  "st-lawrence-market": {
+    "avgRating": 4.6,
+    "reviewCount": 42826
+  },
+  "canoe-restaurant": {
+    "avgRating": 4.4,
+    "reviewCount": 3894
+  },
+  "fairmont-royal-york": {
+    "avgRating": 4.4,
+    "reviewCount": 13561
+  },
+  "ritz-carlton-toronto": {
+    "avgRating": 4.6,
+    "reviewCount": 3471
+  },
+  "wawel-castle": {
+    "avgRating": 4.7,
+    "reviewCount": 166032
+  },
+  "st-marys-basilica-krakow": {
+    "avgRating": 4.8,
+    "reviewCount": 19906
+  },
+  "main-market-square": {
+    "avgRating": 4.8,
+    "reviewCount": 187958
+  },
+  "krakow-christmas-market": {
+    "avgRating": 4.7,
+    "reviewCount": 1862
+  },
+  "wieliczka-salt-mine": {
+    "avgRating": 4.6,
+    "reviewCount": 36498
+  },
+  "planty-park": {
+    "avgRating": 4.7,
+    "reviewCount": 23447
+  },
+  "mr-vincent-pierogi": {
+    "avgRating": 4.6,
+    "reviewCount": 3874
+  },
+  "szara-ges": {
+    "avgRating": 4.6,
+    "reviewCount": 2777
+  },
+  "hotel-stary": {
+    "avgRating": 4.7,
+    "reviewCount": 1233
+  },
+  "sheraton-grand-krakow": {
+    "avgRating": 4.6,
+    "reviewCount": 3544
+  },
+  "moscow-kremlin": {
+    "avgRating": 3.9,
+    "reviewCount": 29
+  },
+  "saint-basils-cathedral": {
+    "avgRating": 4.8,
+    "reviewCount": 11133
+  },
+  "bolshoi-theatre": {
+    "avgRating": 4.8,
+    "reviewCount": 22811
+  },
+  "gorky-park": {
+    "avgRating": 4.7,
+    "reviewCount": 84522
+  },
+  "izmailovo-market": {
+    "avgRating": 4.4,
+    "reviewCount": 13667
+  },
+  "gum-stolovaya-57": {
+    "avgRating": 4.4,
+    "reviewCount": 3324
+  },
+  "cafe-pushkin": {
+    "avgRating": 4.6,
+    "reviewCount": 6750
+  },
+  "hotel-national-moscow": {
+    "avgRating": 4.5,
+    "reviewCount": 2760
+  },
+  "ritz-carlton-moscow": {
+    "avgRating": 4.7,
+    "reviewCount": 3922
+  },
+  "rijksmuseum": {
+    "avgRating": 4.7,
+    "reviewCount": 114338
+  },
+  "anne-frank-house": {
+    "avgRating": 4.5,
+    "reviewCount": 75728
+  },
+  "van-gogh-museum": {
+    "avgRating": 4.6,
+    "reviewCount": 107894
+  },
+  "vondelpark": {
+    "avgRating": 4.7,
+    "reviewCount": 60630
+  },
+  "amsterdam-light-festival": {
+    "avgRating": 4.4,
+    "reviewCount": 2247
+  },
+  "canal-ring-amsterdam": {
+    "avgRating": 5,
+    "reviewCount": 6
+  },
+  "cafe-de-reiger": {
+    "avgRating": 4.5,
+    "reviewCount": 709
+  },
+  "hotel-de-leurope": {
+    "avgRating": 4.6,
+    "reviewCount": 2159
+  },
+  "the-toren": {
+    "avgRating": 4.7,
+    "reviewCount": 552
+  },
+  "belem-tower": {
+    "avgRating": 4.5,
+    "reviewCount": 115072
+  },
+  "jeronimos-monastery": {
+    "avgRating": 4.4,
+    "reviewCount": 62078
+  },
+  "sao-jorge-castle": {
+    "avgRating": 4.5,
+    "reviewCount": 102092
+  },
+  "lisbon-oceanarium": {
+    "avgRating": 4.7,
+    "reviewCount": 102874
+  },
+  "time-out-market-lisboa": {
+    "avgRating": 4.4,
+    "reviewCount": 75041
+  },
+  "cervejaria-ramiro": {
+    "avgRating": 4.4,
+    "reviewCount": 20504
+  },
+  "four-seasons-ritz-lisbon": {
+    "avgRating": 4.7,
+    "reviewCount": 3561
+  },
+  "pestana-palace-lisboa": {
+    "avgRating": 4.7,
+    "reviewCount": 4076
+  },
+  "hungarian-parliament": {
+    "avgRating": 4.8,
+    "reviewCount": 29199
+  },
+  "buda-castle": {
+    "avgRating": 4.7,
+    "reviewCount": 69293
+  },
+  "fishermans-bastion": {
+    "avgRating": 4.8,
+    "reviewCount": 115626
+  },
+  "szechenyi-thermal-bath": {
+    "avgRating": 4.2,
+    "reviewCount": 66262
+  },
+  "margaret-island": {
+    "avgRating": 4.7,
+    "reviewCount": 7154
+  },
+  "budapest-christmas-market": {
+    "avgRating": 4.6,
+    "reviewCount": 19051
+  },
+  "new-york-cafe": {
+    "avgRating": 4,
+    "reviewCount": 63156
+  },
+  "menza-budapest": {
+    "avgRating": 4.5,
+    "reviewCount": 22297
+  },
+  "four-seasons-gresham-palace": {
+    "avgRating": 4.8,
+    "reviewCount": 4346
+  },
+  "aria-hotel-budapest": {
+    "avgRating": 4.8,
+    "reviewCount": 1128
+  },
+  "dubrovnik-city-walls": {
+    "avgRating": 4.5,
+    "reviewCount": 1724
+  },
+  "dubrovnik-old-town": {
+    "avgRating": 4.8,
+    "reviewCount": 865
+  },
+  "fort-lovrijenac": {
+    "avgRating": 4.6,
+    "reviewCount": 10269
+  },
+  "banje-beach": {
+    "avgRating": 4,
+    "reviewCount": 4920
+  },
+  "mount-srd-cable-car": {
+    "avgRating": 4.3,
+    "reviewCount": 11282
+  },
+  "lokrum-island": {
+    "avgRating": 4.6,
+    "reviewCount": 940
+  },
+  "restaurant-360": {
+    "avgRating": 4.7,
+    "reviewCount": 1205
+  },
+  "konoba-poklisar": {
+    "avgRating": 4.2,
+    "reviewCount": 2154
+  },
+  "hotel-excelsior-dubrovnik": {
+    "avgRating": 4.8,
+    "reviewCount": 1342
+  },
+  "villa-dubrovnik": {
+    "avgRating": 4.8,
+    "reviewCount": 343
+  },
+  "burj-khalifa": {
+    "avgRating": 4.7,
+    "reviewCount": 171721
+  },
+  "dubai-mall": {
+    "avgRating": 4.8,
+    "reviewCount": 643
+  },
+  "palm-jumeirah": {
+    "avgRating": 4.7,
+    "reviewCount": 7104
+  },
+  "dubai-desert-safari": {
+    "avgRating": 4.6,
+    "reviewCount": 1020
+  },
+  "jumeirah-beach": {
+    "avgRating": 4.6,
+    "reviewCount": 6846
+  },
+  "dubai-gold-souk": {
+    "avgRating": 4.4,
+    "reviewCount": 10714
+  },
+  "al-fanar-restaurant": {
+    "avgRating": 4.6,
+    "reviewCount": 8876
+  },
+  "pierchic": {
+    "avgRating": 4.2,
+    "reviewCount": 2640
+  },
+  "burj-al-arab": {
+    "avgRating": 4.7,
+    "reviewCount": 30731
+  },
+  "atlantis-the-palm": {
+    "avgRating": 4.7,
+    "reviewCount": 102407
+  },
+  "taj-mahal": {
+    "avgRating": 4.6,
+    "reviewCount": 250927
+  },
+  "itmad-ud-daulah": {
+    "avgRating": 4.4,
+    "reviewCount": 12514
+  },
+  "mehtab-bagh": {
+    "avgRating": 4.2,
+    "reviewCount": 7233
+  },
+  "pinch-of-spice": {
+    "avgRating": 4.2,
+    "reviewCount": 6262
+  },
+  "peshawri-agra": {
+    "avgRating": 4.3,
+    "reviewCount": 246
+  },
+  "oberoi-amarvilas": {
+    "avgRating": 4.7,
+    "reviewCount": 5083
+  },
+  "itc-mughal-agra": {
+    "avgRating": 4.7,
+    "reviewCount": 20757
+  },
+  "uluwatu-temple": {
+    "avgRating": 4.6,
+    "reviewCount": 52698
+  },
+  "tanah-lot-temple": {
+    "avgRating": 4.6,
+    "reviewCount": 102759
+  },
+  "ubud-monkey-forest": {
+    "avgRating": 4.5,
+    "reviewCount": 59368
+  },
+  "tegallalang-rice-terraces": {
+    "avgRating": 4.4,
+    "reviewCount": 54236
+  },
+  "kuta-beach": {
+    "avgRating": 4.5,
+    "reviewCount": 42789
+  },
+  "ubud-art-market": {
+    "avgRating": 4,
+    "reviewCount": 3458
+  },
+  "locavore-ubud": {
+    "avgRating": 4.8,
+    "reviewCount": 763
+  },
+  "bebek-bengil": {
+    "avgRating": 4.3,
+    "reviewCount": 7140
+  },
+  "four-seasons-sayan": {
+    "avgRating": 4.8,
+    "reviewCount": 1725
+  },
+  "bulgari-resort-bali": {
+    "avgRating": 4.7,
+    "reviewCount": 1934
+  },
+  "hoan-kiem-lake": {
+    "avgRating": 4.7,
+    "reviewCount": 12668
+  },
+  "temple-of-literature": {
+    "avgRating": 4.6,
+    "reviewCount": 24686
+  },
+  "ho-chi-minh-mausoleum": {
+    "avgRating": 4.5,
+    "reviewCount": 20784
+  },
+  "hanoi-old-quarter": {
+    "avgRating": 4.6,
+    "reviewCount": 10060
+  },
+  "quang-ba-flower-market": {
+    "avgRating": 4.3,
+    "reviewCount": 112
+  },
+  "bun-cha-huong-lien": {
+    "avgRating": 4.1,
+    "reviewCount": 12244
+  },
+  "cha-ca-la-vong": {
+    "avgRating": 4.6,
+    "reviewCount": 602
+  },
+  "sofitel-legend-metropole": {
+    "avgRating": 4.7,
+    "reviewCount": 6136
+  },
+  "apricot-hotel-hanoi": {
+    "avgRating": 4.5,
+    "reviewCount": 1893
+  },
+  "pyramids-of-giza": {
+    "avgRating": 4.6,
+    "reviewCount": 112650
+  },
+  "great-sphinx": {
+    "avgRating": 4.7,
+    "reviewCount": 25960
+  },
+  "egyptian-museum": {
+    "avgRating": 4.5,
+    "reviewCount": 64941
+  },
+  "khan-el-khalili": {
+    "avgRating": 4.4,
+    "reviewCount": 75034
+  },
+  "saqqara": {
+    "avgRating": 4.7,
+    "reviewCount": 7116
+  },
+  "nile-felucca-cruise": {
+    "avgRating": 4.2,
+    "reviewCount": 77
+  },
+  "naguib-mahfouz-cafe": {
+    "avgRating": 4.2,
+    "reviewCount": 4954
+  },
+  "abou-el-sid": {
+    "avgRating": 3.8,
+    "reviewCount": 7315
+  },
+  "marriott-mena-house": {
+    "avgRating": 4.6,
+    "reviewCount": 14356
+  },
+  "four-seasons-nile-plaza": {
+    "avgRating": 4.7,
+    "reviewCount": 18942
+  },
+  "gyeongbokgung-palace": {
+    "avgRating": 4.6,
+    "reviewCount": 46677
+  },
+  "changdeokgung-palace": {
+    "avgRating": 4.7,
+    "reviewCount": 2018
+  },
+  "bukchon-hanok-village": {
+    "avgRating": 4.4,
+    "reviewCount": 24327
+  },
+  "n-seoul-tower": {
+    "avgRating": 4.5,
+    "reviewCount": 67697
+  },
+  "seoul-plaza-ice-rink": {
+    "avgRating": 4.4,
+    "reviewCount": 767
+  },
+  "han-river-park": {
+    "avgRating": 4.5,
+    "reviewCount": 18283
+  },
+  "gwangjang-market": {
+    "avgRating": 4.2,
+    "reviewCount": 44146
+  },
+  "jungsik-seoul": {
+    "avgRating": 4.4,
+    "reviewCount": 1635
+  },
+  "four-seasons-seoul": {
+    "avgRating": 4.6,
+    "reviewCount": 7367
+  },
+  "lotte-hotel-seoul": {
+    "avgRating": 4.5,
+    "reviewCount": 8815
+  },
+  "prague-castle": {
+    "avgRating": 4.7,
+    "reviewCount": 199879
+  },
+  "old-town-square-prague": {
+    "avgRating": 4.7,
+    "reviewCount": 99966
+  },
+  "prague-christmas-market": {
+    "avgRating": 3.6,
+    "reviewCount": 93
+  },
+  "josefov-jewish-quarter": {
+    "avgRating": 4.4,
+    "reviewCount": 1858
+  },
+  "petrin-hill": {
+    "avgRating": 4.6,
+    "reviewCount": 1998
+  },
+  "lokal-dlouhaaa": {
+    "avgRating": 4.4,
+    "reviewCount": 23391
+  },
+  "cafe-savoy": {
+    "avgRating": 4.2,
+    "reviewCount": 8106
+  },
+  "aria-hotel-prague": {
+    "avgRating": 4.8,
+    "reviewCount": 556
+  },
+  "augustine-prague": {
+    "avgRating": 4.7,
+    "reviewCount": 871
+  },
+  "grossmunster": {
+    "avgRating": 4.5,
+    "reviewCount": 10165
+  },
+  "zurich-old-town": {
+    "avgRating": 4.3,
+    "reviewCount": 1804
+  },
+  "zurich-christmas-market": {
+    "avgRating": 4.7,
+    "reviewCount": 628
+  },
+  "bahnhofstrasse": {
+    "avgRating": 4.7,
+    "reviewCount": 1141
+  },
+  "zeughauskeller": {
+    "avgRating": 4.5,
+    "reviewCount": 14547
+  },
+  "kronenhalle": {
+    "avgRating": 4.6,
+    "reviewCount": 2439
+  },
+  "baur-au-lac": {
+    "avgRating": 4.6,
+    "reviewCount": 1904
+  },
+  "the-dolder-grand": {
+    "avgRating": 4.7,
+    "reviewCount": 4064
+  }
+}
