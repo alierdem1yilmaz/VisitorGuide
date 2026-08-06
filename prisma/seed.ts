@@ -1294,6 +1294,16 @@ const countries = [
           },
         ],
       },
+      {
+        slug: "madrid",
+        name: "Madrid",
+        description:
+          "Spain's capital, known for the Royal Palace, world-class art museums along the Paseo del Prado, and lively plazas.",
+        coverImageUrl: "https://picsum.photos/seed/madrid-cover/1200/600",
+        latitude: 40.4168,
+        longitude: -3.7038,
+        places: [],
+      },
     ],
   },
   {
