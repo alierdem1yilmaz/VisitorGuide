@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Hero from "@/components/home/Hero";
 import IntroSection from "@/components/home/IntroSection";
+import TrustStrip from "@/components/home/TrustStrip";
 import CategoryShowcaseRow, {
   type ShowcasePlace,
 } from "@/components/home/CategoryShowcaseRow";
-import { getFeaturedPlacesByCategory } from "@/lib/queries";
+import { getFeaturedPlacesByCategory, getPlaceCount } from "@/lib/queries";
 import { Category } from "@/generated/prisma/client";
 import introPhotos from "../../../prisma/introPhotos.json";
 
@@ -33,10 +34,12 @@ export default async function HomePage({
   const { locale } = await params;
   setRequestLocale(locale);
 
-  const [t, tCategories, featured] = await Promise.all([
+  const [t, tCommon, tCategories, featured, placeCount] = await Promise.all([
     getTranslations("home"),
+    getTranslations("common"),
     getTranslations("categories"),
     getFeaturedPlacesByCategory(),
+    getPlaceCount(),
   ]);
 
   const categories: Category[] = [
@@ -59,6 +62,17 @@ export default async function HomePage({
           author: p.author,
           placeName: p.placeName,
         }))}
+      />
+      <TrustStrip
+        heading={t("trustHeading")}
+        caption={t("trustCaption", {
+          placeCountLabel: tCommon("placeCount", { count: placeCount }),
+        })}
+        items={[
+          { title: t("trustCuratedTitle"), description: t("trustCuratedDesc") },
+          { title: t("trustNoFakeTitle"), description: t("trustNoFakeDesc") },
+          { title: t("trustNoPaidTitle"), description: t("trustNoPaidDesc") },
+        ]}
       />
       {categories.map((category) => {
         const places: ShowcasePlace[] = featured[category].map((place) => ({

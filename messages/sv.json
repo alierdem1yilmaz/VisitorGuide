@@ -23,7 +23,15 @@
     "viewAll": "Visa alla",
     "introHeading": "Upptäck platser som riktiga resenärer har hittat",
     "introSubtitle": "Från restauranger till naturliga underverk, monument till hotell, utforska tusentals verkliga platser runt om i världen med riktiga betyg och riktiga foton.",
-    "introCta": "Börja utforska"
+    "introCta": "Börja utforska",
+    "trustHeading": "Varför VisitorGuide",
+    "trustCaption": "{placeCountLabel} — handplockade och verifierade. Inga falska recensioner. Ingen betald rankning.",
+    "trustCuratedTitle": "Redaktionellt Godkänt",
+    "trustCuratedDesc": "Varje plats handplockas och kontrolleras av vår redaktion.",
+    "trustNoFakeTitle": "Inga Falska Recensioner",
+    "trustNoFakeDesc": "Endast riktiga besökare kan lägga upp en recension.",
+    "trustNoPaidTitle": "Ingen Betald Rankning",
+    "trustNoPaidDesc": "Rankningen baseras enbart på betyget — aldrig på betalning."
   },
   "categories": {
     "RESTAURANT": "Restauranger",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Adress",
     "openingHours": "Öppettider",
+    "bestSeason": "Bästa tiden att besöka",
     "website": "Webbplats",
     "phone": "Telefon",
     "reviewsHeading": "Recensioner",
+    "editorCuratedNote": "Denna plats handplockades och verifierades av vår redaktion.",
     "noReviews": "Inga recensioner än.",
     "anonymous": "Anonym",
     "writeReviewCta": "Logga in för att skriva en recension",
@@ -83,6 +93,7 @@
     "seasonWinter": "Vinter",
     "mostPopular": "Mest populära",
     "topRated": "Högst betygsatt",
+    "rightNow": "Perfekt just nu",
     "allInCategory": "Utforska alla",
     "previousPhoto": "Föregående foto",
     "nextPhoto": "Nästa foto"
@@ -125,6 +136,7 @@
     "retry": "Försök igen"
   },
   "footer": {
-    "rights": "Alla rättigheter förbehållna."
+    "rights": "Alla rättigheter förbehållna.",
+    "trustNote": "Handplockade platser. Inga falska recensioner. Ingen betald rankning."
   }
 }

@@ -14,6 +14,7 @@ import { getCityBySlug, getFavoritePlaceIds, type PlaceSort } from "@/lib/querie
 import { Category, Season } from "@/generated/prisma/client";
 import { auth } from "@/auth";
 import { getExchangeRates, getPreferredCurrency, formatConvertedPrice } from "@/lib/currency";
+import { currentSeasonForLatitude } from "@/lib/season";
 
 export const revalidate = 60;
 
@@ -146,6 +147,15 @@ export default async function CityPage({
         .slice(0, 8)
         .map(toHighlight)
     : [];
+  const currentSeason = currentSeasonForLatitude(city.latitude);
+  const rightNow =
+    showCategorySpotlight || showBaseHero
+      ? [...city.places]
+          .filter((p) => p.bestSeason === currentSeason)
+          .sort((a, b) => b.avgRating - a.avgRating)
+          .slice(0, 8)
+          .map(toHighlight)
+      : [];
 
   function buildQuery(overrides: { category?: string }) {
     const params = new URLSearchParams();
@@ -192,6 +202,7 @@ export default async function CityPage({
           <div className="mt-8">
             <HighlightRow label={tFilters("mostPopular")} places={mostPopular} />
             <HighlightRow label={tFilters("topRated")} places={topRated} />
+            <HighlightRow label={tFilters("rightNow")} places={rightNow} />
           </div>
           <h2 className="mb-2 mt-2 text-lg font-bold text-brand-800">
             {tFilters("allInCategory")}
@@ -211,6 +222,9 @@ export default async function CityPage({
               variant="hero"
               priority
             />
+          </div>
+          <div className="mt-8">
+            <HighlightRow label={tFilters("rightNow")} places={rightNow} />
           </div>
         </>
       ) : (
@@ -308,6 +322,14 @@ export default async function CityPage({
               reviewCount={place.reviewCount}
               priceLevel={place.priceLevel}
               categoryLabel={tCategories(place.category)}
+              season={place.bestSeason !== "ALL" ? place.bestSeason : undefined}
+              seasonLabel={
+                place.bestSeason === "SUMMER"
+                  ? tFilters("seasonSummer")
+                  : place.bestSeason === "WINTER"
+                    ? tFilters("seasonWinter")
+                    : undefined
+              }
               estimatedPrice={
                 place.priceAmount != null
                   ? formatConvertedPrice(place.priceAmount, preferredCurrency, rates, locale)

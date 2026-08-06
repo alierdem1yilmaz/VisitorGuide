@@ -23,7 +23,15 @@
     "viewAll": "Näytä kaikki",
     "introHeading": "Löydä paikat, jotka oikeat matkailijat ovat löytäneet",
     "introSubtitle": "Ravintoloista luonnonihmeisiin, monumenteista hotelleihin – tutustu tuhansiin oikeisiin paikkoihin ympäri maailmaa oikeiden arvioiden ja valokuvien avulla.",
-    "introCta": "Aloita tutkiminen"
+    "introCta": "Aloita tutkiminen",
+    "trustHeading": "Miksi VisitorGuide",
+    "trustCaption": "{placeCountLabel} — käsin valittua ja tarkistettua. Ei valearvosteluja. Ei maksettua sijoitusta.",
+    "trustCuratedTitle": "Toimituksen Hyväksymä",
+    "trustCuratedDesc": "Jokainen paikka valitaan käsin ja tarkistetaan toimituksessamme.",
+    "trustNoFakeTitle": "Ei Valearvosteluja",
+    "trustNoFakeDesc": "Vain oikeat kävijät voivat jättää arvostelun.",
+    "trustNoPaidTitle": "Ei Maksettua Sijoitusta",
+    "trustNoPaidDesc": "Sijoitus perustuu vain arvosanaan — ei koskaan maksuun."
   },
   "categories": {
     "RESTAURANT": "Ravintolat",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Osoite",
     "openingHours": "Aukioloajat",
+    "bestSeason": "Paras vierailuaika",
     "website": "Verkkosivusto",
     "phone": "Puhelin",
     "reviewsHeading": "Arvostelut",
+    "editorCuratedNote": "Tämän paikan on käsin valinnut ja tarkistanut toimituksemme.",
     "noReviews": "Ei vielä arvosteluja.",
     "anonymous": "Anonyymi",
     "writeReviewCta": "Kirjaudu sisään kirjoittaaksesi arvostelun",
@@ -83,6 +93,7 @@
     "seasonWinter": "Talvi",
     "mostPopular": "Suosituimmat",
     "topRated": "Parhaiten arvioidut",
+    "rightNow": "Ihanteellinen juuri nyt",
     "allInCategory": "Tutustu kaikkiin",
     "previousPhoto": "Edellinen kuva",
     "nextPhoto": "Seuraava kuva"
@@ -125,6 +136,7 @@
     "retry": "Yritä uudelleen"
   },
   "footer": {
-    "rights": "Kaikki oikeudet pidätetään."
+    "rights": "Kaikki oikeudet pidätetään.",
+    "trustNote": "Käsin valitut paikat. Ei valearvosteluja. Ei maksettua sijoitusta."
   }
 }

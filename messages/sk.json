@@ -23,7 +23,15 @@
     "viewAll": "Zobraziť všetko",
     "introHeading": "Objavte miesta, ktoré našli skutoční cestovatelia",
     "introSubtitle": "Od reštaurácií po prírodné divy, od pamiatok po hotely, preskúmajte tisíce skutočných miest po celom svete so skutočnými hodnoteniami a skutočnými fotografiami.",
-    "introCta": "Začnite objavovať"
+    "introCta": "Začnite objavovať",
+    "trustHeading": "Prečo VisitorGuide",
+    "trustCaption": "{placeCountLabel} — ručne vybraných a overených. Žiadne falošné recenzie. Žiadne platené poradie.",
+    "trustCuratedTitle": "Schválené Redakciou",
+    "trustCuratedDesc": "Každé miesto ručne vyberá a kontroluje naša redakcia.",
+    "trustNoFakeTitle": "Žiadne Falošné Recenzie",
+    "trustNoFakeDesc": "Recenziu môže pridať iba skutočný návštevník.",
+    "trustNoPaidTitle": "Žiadne Platené Poradie",
+    "trustNoPaidDesc": "Poradie vychádza iba z hodnotenia — nikdy z platby."
   },
   "categories": {
     "RESTAURANT": "Reštaurácie",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Adresa",
     "openingHours": "OTVÁRACIE HODINY",
+    "bestSeason": "Najlepší čas na návštevu",
     "website": "Webová stránka",
     "phone": "Telefón",
     "reviewsHeading": "Recenzie",
+    "editorCuratedNote": "Toto miesto ručne vybrala a overila naša redakcia.",
     "noReviews": "Zatiaľ žiadne recenzie.",
     "anonymous": "Anonymný",
     "writeReviewCta": "Prihláste sa a napíšte recenziu",
@@ -83,6 +93,7 @@
     "seasonWinter": "Zima",
     "mostPopular": "Najobľúbenejšie",
     "topRated": "Najlepšie hodnotené",
+    "rightNow": "Ideálne práve teraz",
     "allInCategory": "Preskúmať všetko",
     "previousPhoto": "Predchádzajúca fotografia",
     "nextPhoto": "Ďalšia fotografia"
@@ -125,6 +136,7 @@
     "retry": "Skúste to znova"
   },
   "footer": {
-    "rights": "Všetky práva vyhradené."
+    "rights": "Všetky práva vyhradené.",
+    "trustNote": "Ručne vybrané miesta. Žiadne falošné recenzie. Žiadne platené poradie."
   }
 }

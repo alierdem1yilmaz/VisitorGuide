@@ -23,7 +23,15 @@
     "viewAll": "Tingnan Lahat",
     "introHeading": "Tuklasin ang mga Lugar na Natagpuan ng mga Tunay na Manlalakbay",
     "introSubtitle": "Mula sa mga restawran hanggang sa mga likas na kababalaghan, mga monumento hanggang sa mga hotel, galugarin ang libu-libong totoong lugar sa buong mundo na may mga totoong rating at totoong mga larawan.",
-    "introCta": "Simulan ang Paggalugad"
+    "introCta": "Simulan ang Paggalugad",
+    "trustHeading": "Bakit VisitorGuide",
+    "trustCaption": "{placeCountLabel} — pinili nang de-kamay at na-verify. Walang pekeng review. Walang bayad na ranking.",
+    "trustCuratedTitle": "Inaprubahan ng Editor",
+    "trustCuratedDesc": "Bawat lugar ay pinipili nang de-kamay at sinusuri ng aming editorial team.",
+    "trustNoFakeTitle": "Walang Pekeng Review",
+    "trustNoFakeDesc": "Tanging mga tunay na bisita lamang ang makapagpo-post ng review.",
+    "trustNoPaidTitle": "Walang Bayad na Ranking",
+    "trustNoPaidDesc": "Ang ranking ay batay lamang sa rating — hindi kailanman sa bayad."
   },
   "categories": {
     "RESTAURANT": "Mga restawran",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Tirahan",
     "openingHours": "Mga Oras ng Pagbubukas",
+    "bestSeason": "Pinakamagandang oras para bumisita",
     "website": "Website",
     "phone": "Telepono",
     "reviewsHeading": "Mga Review",
+    "editorCuratedNote": "Ang lugar na ito ay pinili nang de-kamay at na-verify ng aming editorial team.",
     "noReviews": "Wala pang mga review.",
     "anonymous": "Anonymous",
     "writeReviewCta": "Mag-sign in para magsulat ng review",
@@ -83,6 +93,7 @@
     "seasonWinter": "Taglamig",
     "mostPopular": "Pinakasikat",
     "topRated": "Nangungunang Rating",
+    "rightNow": "Perpekto Ngayon",
     "allInCategory": "Galugarin Lahat",
     "previousPhoto": "Nakaraang larawan",
     "nextPhoto": "Susunod na larawan"
@@ -125,6 +136,7 @@
     "retry": "Subukan muli"
   },
   "footer": {
-    "rights": "Lahat ng karapatan ay nakalaan."
+    "rights": "Lahat ng karapatan ay nakalaan.",
+    "trustNote": "Mga lugar na pinili nang de-kamay. Walang pekeng review. Walang bayad na ranking."
   }
 }

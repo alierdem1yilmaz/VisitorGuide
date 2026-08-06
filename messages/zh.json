@@ -23,7 +23,15 @@
     "viewAll": "查看全部",
     "introHeading": "探索真实旅行者发现的地方",
     "introSubtitle": "从餐厅到自然奇观，从古迹到酒店，探索世界各地成千上万的真实地点，附有真实评分和真实照片。",
-    "introCta": "开始探索"
+    "introCta": "开始探索",
+    "trustHeading": "为什么选择 VisitorGuide",
+    "trustCaption": "{placeCountLabel} — 精心挑选并经过核实。没有虚假评论。没有付费排名。",
+    "trustCuratedTitle": "编辑精选",
+    "trustCuratedDesc": "每个地点都由我们的编辑团队精心挑选并核实。",
+    "trustNoFakeTitle": "没有虚假评论",
+    "trustNoFakeDesc": "只有真实访客才能发布评论。",
+    "trustNoPaidTitle": "没有付费排名",
+    "trustNoPaidDesc": "排名仅基于评分——绝不基于付费。"
   },
   "categories": {
     "RESTAURANT": "餐厅",
@@ -53,9 +61,11 @@
   "place": {
     "address": "地址",
     "openingHours": "营业时间",
+    "bestSeason": "最佳游览时间",
     "website": "网站",
     "phone": "电话",
     "reviewsHeading": "评论",
+    "editorCuratedNote": "此地点由我们的编辑团队精心挑选并核实。",
     "noReviews": "暂无评论。",
     "anonymous": "匿名",
     "writeReviewCta": "登录后发表评论",
@@ -83,6 +93,7 @@
     "seasonWinter": "冬季",
     "mostPopular": "最受欢迎",
     "topRated": "评分最高",
+    "rightNow": "现在正合适",
     "allInCategory": "探索全部",
     "previousPhoto": "上一张照片",
     "nextPhoto": "下一张照片"
@@ -125,6 +136,7 @@
     "retry": "重试"
   },
   "footer": {
-    "rights": "版权所有。"
+    "rights": "版权所有。",
+    "trustNote": "精心挑选的地点。没有虚假评论。没有付费排名。"
   }
 }

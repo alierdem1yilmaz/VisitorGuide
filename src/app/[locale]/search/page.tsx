@@ -214,6 +214,14 @@ export default async function SearchPage({
                   reviewCount={place.reviewCount}
                   priceLevel={place.priceLevel}
                   categoryLabel={tCategories(place.category)}
+                  season={place.bestSeason !== "ALL" ? place.bestSeason : undefined}
+                  seasonLabel={
+                    place.bestSeason === "SUMMER"
+                      ? tFilters("seasonSummer")
+                      : place.bestSeason === "WINTER"
+                        ? tFilters("seasonWinter")
+                        : undefined
+                  }
                   estimatedPrice={
                     place.priceAmount != null
                       ? formatConvertedPrice(place.priceAmount, preferredCurrency, rates, locale)

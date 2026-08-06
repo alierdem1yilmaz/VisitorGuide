@@ -23,7 +23,15 @@
     "viewAll": "Vis alle",
     "introHeading": "Oppdag stedene ekte reisende har funnet",
     "introSubtitle": "Fra restauranter til naturlige underverker, monumenter til hoteller, utforsk tusenvis av ekte steder rundt om i verden med ekte vurderinger og ekte bilder.",
-    "introCta": "Begynn å utforske"
+    "introCta": "Begynn å utforske",
+    "trustHeading": "Hvorfor VisitorGuide",
+    "trustCaption": "{placeCountLabel} — håndplukket og verifisert. Ingen falske anmeldelser. Ingen betalt rangering.",
+    "trustCuratedTitle": "Redaksjonelt Godkjent",
+    "trustCuratedDesc": "Hvert sted blir håndplukket og sjekket av redaksjonen vår.",
+    "trustNoFakeTitle": "Ingen Falske Anmeldelser",
+    "trustNoFakeDesc": "Kun ekte besøkende kan legge ut en anmeldelse.",
+    "trustNoPaidTitle": "Ingen Betalt Rangering",
+    "trustNoPaidDesc": "Rangeringen er kun basert på vurdering — aldri betaling."
   },
   "categories": {
     "RESTAURANT": "Restauranter",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Adresse",
     "openingHours": "Åpningstider",
+    "bestSeason": "Beste tidspunkt å besøke",
     "website": "Nettsted",
     "phone": "Telefon",
     "reviewsHeading": "Anmeldelser",
+    "editorCuratedNote": "Dette stedet ble håndplukket og verifisert av redaksjonen vår.",
     "noReviews": "Ingen anmeldelser ennå.",
     "anonymous": "Anonym",
     "writeReviewCta": "Logg inn for å skrive en anmeldelse",
@@ -83,6 +93,7 @@
     "seasonWinter": "Vinter",
     "mostPopular": "Mest populær",
     "topRated": "Topprangert",
+    "rightNow": "Ideelt akkurat nå",
     "allInCategory": "Utforsk alle",
     "previousPhoto": "Forrige bilde",
     "nextPhoto": "Neste bilde"
@@ -125,6 +136,7 @@
     "retry": "Prøv igjen"
   },
   "footer": {
-    "rights": "Alle rettigheter forbeholdt."
+    "rights": "Alle rettigheter forbeholdt.",
+    "trustNote": "Håndplukkede steder. Ingen falske anmeldelser. Ingen betalt rangering."
   }
 }

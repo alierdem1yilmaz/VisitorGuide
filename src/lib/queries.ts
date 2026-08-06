@@ -63,6 +63,10 @@ function sortByDistance<T extends { latitude: number | null; longitude: number |
   });
 }
 
+export function getPlaceCount() {
+  return prisma.place.count();
+}
+
 export function getAllCountries() {
   return prisma.country.findMany({
     orderBy: { name: "asc" },

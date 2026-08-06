@@ -3,6 +3,11 @@ import { Link } from "@/i18n/navigation";
 import StarRating from "./StarRating";
 import FavoriteButton from "./FavoriteButton";
 
+const SEASON_BADGE_CLASS: Record<"SUMMER" | "WINTER", string> = {
+  SUMMER: "bg-amber-50/95 text-amber-700",
+  WINTER: "bg-sky-50/95 text-sky-700",
+};
+
 export default function PlaceCard({
   href,
   name,
@@ -12,6 +17,8 @@ export default function PlaceCard({
   reviewCount,
   priceLevel,
   categoryLabel,
+  season,
+  seasonLabel,
   estimatedPrice,
   priceEstimateLabel,
   favorite,
@@ -24,6 +31,8 @@ export default function PlaceCard({
   reviewCount: number;
   priceLevel: number | null;
   categoryLabel: string;
+  season?: "SUMMER" | "WINTER";
+  seasonLabel?: string;
   estimatedPrice?: string;
   priceEstimateLabel?: string;
   favorite?: {
@@ -52,6 +61,13 @@ export default function PlaceCard({
         <span className="pointer-events-none absolute left-3 top-3 rounded-full bg-white/90 px-2.5 py-1 text-xs font-medium text-brand-700">
           {categoryLabel}
         </span>
+        {season && seasonLabel && (
+          <span
+            className={`pointer-events-none absolute left-3 top-11 rounded-full px-2.5 py-1 text-xs font-medium ${SEASON_BADGE_CLASS[season]}`}
+          >
+            {seasonLabel}
+          </span>
+        )}
         {favorite && (
           <div className="relative z-20">
             <FavoriteButton

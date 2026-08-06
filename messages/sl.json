@@ -23,7 +23,15 @@
     "viewAll": "Prikaži vse",
     "introHeading": "Odkrijte kraje, ki so jih našli pravi popotniki",
     "introSubtitle": "Od restavracij do naravnih čudes, spomenikov do hotelov, raziščite na tisoče resničnih krajev po vsem svetu z resničnimi ocenami in resničnimi fotografijami.",
-    "introCta": "Začni raziskovati"
+    "introCta": "Začni raziskovati",
+    "trustHeading": "Zakaj VisitorGuide",
+    "trustCaption": "{placeCountLabel} — ročno izbranih in preverjenih. Brez lažnih ocen. Brez plačane razvrstitve.",
+    "trustCuratedTitle": "Odobreno s strani Uredništva",
+    "trustCuratedDesc": "Vsak kraj ročno izbere in preveri naša uredniška ekipa.",
+    "trustNoFakeTitle": "Brez Lažnih Ocen",
+    "trustNoFakeDesc": "Oceno lahko objavijo samo resnični obiskovalci.",
+    "trustNoPaidTitle": "Brez Plačane Razvrstitve",
+    "trustNoPaidDesc": "Razvrstitev temelji izključno na oceni — nikoli na plačilu."
   },
   "categories": {
     "RESTAURANT": "Restavracije",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Naslov",
     "openingHours": "Delovni čas",
+    "bestSeason": "Najboljši čas za obisk",
     "website": "Spletna stran",
     "phone": "Telefon",
     "reviewsHeading": "Ocene",
+    "editorCuratedNote": "Ta kraj je ročno izbrala in preverila naša uredniška ekipa.",
     "noReviews": "Še ni ocen.",
     "anonymous": "Anonimno",
     "writeReviewCta": "Prijavite se, če želite napisati oceno",
@@ -83,6 +93,7 @@
     "seasonWinter": "Zima",
     "mostPopular": "Najbolj priljubljeno",
     "topRated": "Najbolje ocenjeno",
+    "rightNow": "Idealno ravno zdaj",
     "allInCategory": "Razišči vse",
     "previousPhoto": "Prejšnja fotografija",
     "nextPhoto": "Naslednja fotografija"
@@ -125,6 +136,7 @@
     "retry": "Poskusi znova"
   },
   "footer": {
-    "rights": "Vse pravice pridržane."
+    "rights": "Vse pravice pridržane.",
+    "trustNote": "Ročno izbrani kraji. Brez lažnih ocen. Brez plačane razvrstitve."
   }
 }

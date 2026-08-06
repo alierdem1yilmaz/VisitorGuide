@@ -23,7 +23,15 @@
     "viewAll": "Kuva kõik",
     "introHeading": "Avasta kohad, mille päris rändurid on leidnud",
     "introSubtitle": "Restoranidest loodusimede, monumentide ja hotellideni – avastage tuhandeid päris kohti üle maailma, kasutades päris hinnanguid ja fotosid.",
-    "introCta": "Alusta avastamist"
+    "introCta": "Alusta avastamist",
+    "trustHeading": "Miks VisitorGuide",
+    "trustCaption": "{placeCountLabel} — käsitsi valitud ja kontrollitud. Valearvustusi ei ole. Tasulist edetabelit ei ole.",
+    "trustCuratedTitle": "Toimetuse Kinnitatud",
+    "trustCuratedDesc": "Iga koha valib ja kontrollib käsitsi meie toimetus.",
+    "trustNoFakeTitle": "Valearvustusi Ei Ole",
+    "trustNoFakeDesc": "Ainult tegelikud külastajad saavad arvustuse jätta.",
+    "trustNoPaidTitle": "Tasulist Edetabelit Ei Ole",
+    "trustNoPaidDesc": "Järjestus põhineb ainult hinnangul — mitte kunagi maksel."
   },
   "categories": {
     "RESTAURANT": "Restoranid",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Aadress",
     "openingHours": "Lahtiolekuajad",
+    "bestSeason": "Parim külastusaeg",
     "website": "Veebisait",
     "phone": "Telefon",
     "reviewsHeading": "Arvustused",
+    "editorCuratedNote": "Selle koha valis ja kinnitas meie toimetus käsitsi.",
     "noReviews": "Arvustusi pole veel.",
     "anonymous": "Anonüümne",
     "writeReviewCta": "Arvustuse kirjutamiseks logige sisse",
@@ -83,6 +93,7 @@
     "seasonWinter": "Talv",
     "mostPopular": "Kõige populaarsem",
     "topRated": "Kõrgeima hinnanguga",
+    "rightNow": "Praegu ideaalne",
     "allInCategory": "Avasta kõik",
     "previousPhoto": "Eelmine foto",
     "nextPhoto": "Järgmine foto"
@@ -125,6 +136,7 @@
     "retry": "Proovi uuesti"
   },
   "footer": {
-    "rights": "Kõik õigused kaitstud."
+    "rights": "Kõik õigused kaitstud.",
+    "trustNote": "Käsitsi valitud kohad. Valearvustusi ei ole. Tasulist edetabelit ei ole."
   }
 }

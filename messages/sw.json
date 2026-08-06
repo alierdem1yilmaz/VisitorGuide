@@ -23,7 +23,15 @@
     "viewAll": "Tazama Zote",
     "introHeading": "Gundua Maeneo Ambayo Wasafiri Halisi Wamepata",
     "introSubtitle": "Kuanzia migahawa hadi maajabu ya asili, makaburi hadi hoteli, chunguza maelfu ya maeneo halisi duniani kote kwa ukadiriaji halisi na picha halisi.",
-    "introCta": "Anza Kuchunguza"
+    "introCta": "Anza Kuchunguza",
+    "trustHeading": "Kwa Nini VisitorGuide",
+    "trustCaption": "{placeCountLabel} — zimechaguliwa kwa mkono na kuthibitishwa. Hakuna maoni bandia. Hakuna upangaji wa malipo.",
+    "trustCuratedTitle": "Imeidhinishwa na Wahariri",
+    "trustCuratedDesc": "Kila mahali huchaguliwa kwa mkono na kukaguliwa na timu yetu ya uhariri.",
+    "trustNoFakeTitle": "Hakuna Maoni Bandia",
+    "trustNoFakeDesc": "Wageni halisi tu ndio wanaweza kuchapisha maoni.",
+    "trustNoPaidTitle": "Hakuna Upangaji wa Malipo",
+    "trustNoPaidDesc": "Upangaji hutegemea ukadiriaji pekee — kamwe sio malipo."
   },
   "categories": {
     "RESTAURANT": "Mikahawa",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Anwani",
     "openingHours": "Saa za Kufungua",
+    "bestSeason": "Wakati mzuri wa kutembelea",
     "website": "Tovuti",
     "phone": "Simu",
     "reviewsHeading": "Mapitio",
+    "editorCuratedNote": "Mahali hapa palichaguliwa kwa mkono na kuthibitishwa na timu yetu ya uhariri.",
     "noReviews": "Hakuna maoni bado.",
     "anonymous": "Mtu Asiyejulikana",
     "writeReviewCta": "Ingia ili kuandika maoni",
@@ -83,6 +93,7 @@
     "seasonWinter": "Baridi",
     "mostPopular": "Maarufu Zaidi",
     "topRated": "Iliyokadiriwa Zaidi",
+    "rightNow": "Bora Sasa Hivi",
     "allInCategory": "Gundua Zote",
     "previousPhoto": "Picha iliyotangulia",
     "nextPhoto": "Picha inayofuata"
@@ -125,6 +136,7 @@
     "retry": "Jaribu tena"
   },
   "footer": {
-    "rights": "Haki zote zimehifadhiwa."
+    "rights": "Haki zote zimehifadhiwa.",
+    "trustNote": "Mahali palipochaguliwa kwa mkono. Hakuna maoni bandia. Hakuna upangaji wa malipo."
   }
 }

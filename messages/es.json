@@ -23,7 +23,15 @@
     "viewAll": "Ver todo",
     "introHeading": "Descubre los lugares que han encontrado viajeros reales",
     "introSubtitle": "Desde restaurantes hasta maravillas naturales, desde monumentos hasta hoteles, explora miles de lugares reales en todo el mundo con valoraciones y fotos reales.",
-    "introCta": "Empezar a explorar"
+    "introCta": "Empezar a explorar",
+    "trustHeading": "Por qué VisitorGuide",
+    "trustCaption": "{placeCountLabel} — seleccionados a mano y verificados. Sin reseñas falsas. Sin clasificación pagada.",
+    "trustCuratedTitle": "Aprobado por Editores",
+    "trustCuratedDesc": "Cada lugar es seleccionado a mano y revisado por nuestro equipo editorial.",
+    "trustNoFakeTitle": "Sin Reseñas Falsas",
+    "trustNoFakeDesc": "Solo visitantes reales pueden publicar una reseña.",
+    "trustNoPaidTitle": "Sin Clasificación Pagada",
+    "trustNoPaidDesc": "La clasificación se basa únicamente en la valoración — nunca en el pago."
   },
   "categories": {
     "RESTAURANT": "Restaurantes",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Dirección",
     "openingHours": "Horario",
+    "bestSeason": "Mejor época para visitar",
     "website": "Sitio web",
     "phone": "Teléfono",
     "reviewsHeading": "Reseñas",
+    "editorCuratedNote": "Este lugar fue seleccionado a mano y verificado por nuestro equipo editorial.",
     "noReviews": "Aún no hay reseñas.",
     "anonymous": "Anónimo",
     "writeReviewCta": "Inicia sesión para escribir una reseña",
@@ -83,6 +93,7 @@
     "seasonWinter": "Invierno",
     "mostPopular": "Más populares",
     "topRated": "Mejor valorados",
+    "rightNow": "Ideal ahora mismo",
     "allInCategory": "Explorar todo",
     "previousPhoto": "Foto anterior",
     "nextPhoto": "Foto siguiente"
@@ -125,6 +136,7 @@
     "retry": "Reintentar"
   },
   "footer": {
-    "rights": "Todos los derechos reservados."
+    "rights": "Todos los derechos reservados.",
+    "trustNote": "Lugares seleccionados a mano. Sin reseñas falsas. Sin clasificación pagada."
   }
 }

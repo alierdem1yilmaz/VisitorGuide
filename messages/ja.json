@@ -23,7 +23,15 @@
     "viewAll": "すべて表示",
     "introHeading": "実際の旅行者が発見した場所を探ってみよう",
     "introSubtitle": "レストランから自然の驚異、モニュメントからホテルまで、世界中の何千もの実際の場所を、実際の評価と実際の写真とともに探索しましょう。",
-    "introCta": "探索を始めよう"
+    "introCta": "探索を始めよう",
+    "trustHeading": "VisitorGuideが選ばれる理由",
+    "trustCaption": "{placeCountLabel} — すべて厳選・検証済み。やらせレビューなし。有料掲載なし。",
+    "trustCuratedTitle": "編集部厳選",
+    "trustCuratedDesc": "すべてのスポットは編集チームが厳選し、確認しています。",
+    "trustNoFakeTitle": "やらせレビューなし",
+    "trustNoFakeDesc": "実際に訪れた人だけがレビューを投稿できます。",
+    "trustNoPaidTitle": "有料掲載なし",
+    "trustNoPaidDesc": "掲載順位は評価のみに基づき、支払いでは決まりません。"
   },
   "categories": {
     "RESTAURANT": "レストラン",
@@ -53,9 +61,11 @@
   "place": {
     "address": "住所",
     "openingHours": "営業時間",
+    "bestSeason": "訪れるのに最適な時期",
     "website": "Webサイト",
     "phone": "電話",
     "reviewsHeading": "レビュー",
+    "editorCuratedNote": "この場所は編集チームが厳選し、確認済みです。",
     "noReviews": "まだレビューはありません。",
     "anonymous": "匿名",
     "writeReviewCta": "レビューを書くにはログインしてください",
@@ -83,6 +93,7 @@
     "seasonWinter": "冬",
     "mostPopular": "人気ランキング",
     "topRated": "最高評価",
+    "rightNow": "今が旬",
     "allInCategory": "すべてを見る",
     "previousPhoto": "前の写真",
     "nextPhoto": "次の写真"
@@ -125,6 +136,7 @@
     "retry": "もう一度やり直してください"
   },
   "footer": {
-    "rights": "無断転載を禁じます。"
+    "rights": "無断転載を禁じます。",
+    "trustNote": "厳選されたスポット。やらせレビューなし。有料掲載なし。"
   }
 }

@@ -23,7 +23,15 @@
     "viewAll": "Zobacz wszystko",
     "introHeading": "Odkryj miejsca znalezione przez prawdziwych podróżników",
     "introSubtitle": "Od restauracji po cuda natury, od zabytków po hotele — odkryj tysiące prawdziwych miejsc na całym świecie z prawdziwymi ocenami i prawdziwymi zdjęciami.",
-    "introCta": "Zacznij odkrywać"
+    "introCta": "Zacznij odkrywać",
+    "trustHeading": "Dlaczego VisitorGuide",
+    "trustCaption": "{placeCountLabel} — wybranych ręcznie i zweryfikowanych. Żadnych fałszywych recenzji. Żadnego płatnego rankingu.",
+    "trustCuratedTitle": "Zatwierdzone przez Redakcję",
+    "trustCuratedDesc": "Każde miejsce jest wybierane ręcznie i sprawdzane przez nasz zespół redakcyjny.",
+    "trustNoFakeTitle": "Żadnych Fałszywych Recenzji",
+    "trustNoFakeDesc": "Tylko prawdziwi odwiedzający mogą dodać recenzję.",
+    "trustNoPaidTitle": "Żadnego Płatnego Rankingu",
+    "trustNoPaidDesc": "Ranking opiera się wyłącznie na ocenie — nigdy na płatności."
   },
   "categories": {
     "RESTAURANT": "Restauracje",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Adres",
     "openingHours": "Godziny otwarcia",
+    "bestSeason": "Najlepsza pora na odwiedziny",
     "website": "Strona internetowa",
     "phone": "Telefon",
     "reviewsHeading": "Opinie",
+    "editorCuratedNote": "To miejsce zostało wybrane ręcznie i zweryfikowane przez nasz zespół redakcyjny.",
     "noReviews": "Brak opinii.",
     "anonymous": "Anonim",
     "writeReviewCta": "Zaloguj się, aby napisać opinię",
@@ -83,6 +93,7 @@
     "seasonWinter": "Zima",
     "mostPopular": "Najpopularniejsze",
     "topRated": "Najwyżej oceniane",
+    "rightNow": "Idealne teraz",
     "allInCategory": "Zobacz wszystko",
     "previousPhoto": "Poprzednie zdjęcie",
     "nextPhoto": "Następne zdjęcie"
@@ -125,6 +136,7 @@
     "retry": "Spróbuj ponownie"
   },
   "footer": {
-    "rights": "Wszelkie prawa zastrzeżone."
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "trustNote": "Miejsca wybrane ręcznie. Żadnych fałszywych recenzji. Żadnego płatnego rankingu."
   }
 }

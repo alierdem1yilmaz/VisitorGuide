@@ -23,7 +23,15 @@
     "viewAll": "View All",
     "introHeading": "Discover the Places Real Travelers Have Found",
     "introSubtitle": "From restaurants to natural wonders, monuments to hotels, explore thousands of real places around the world with real ratings and real photos.",
-    "introCta": "Start Exploring"
+    "introCta": "Start Exploring",
+    "trustHeading": "Why VisitorGuide",
+    "trustCaption": "{placeCountLabel} — hand-picked and verified. No fake reviews. No paid ranking.",
+    "trustCuratedTitle": "Editor-Curated",
+    "trustCuratedDesc": "Every place is hand-picked and checked by our editors.",
+    "trustNoFakeTitle": "No Fake Reviews",
+    "trustNoFakeDesc": "Only real visitors can post a review.",
+    "trustNoPaidTitle": "No Paid Ranking",
+    "trustNoPaidDesc": "Ranking is based on rating alone — never payment."
   },
   "categories": {
     "RESTAURANT": "Restaurants",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Address",
     "openingHours": "Opening Hours",
+    "bestSeason": "Best time to visit",
     "website": "Website",
     "phone": "Phone",
     "reviewsHeading": "Reviews",
+    "editorCuratedNote": "This place was hand-picked and verified by our editorial team.",
     "noReviews": "No reviews yet.",
     "anonymous": "Anonymous",
     "writeReviewCta": "Sign in to write a review",
@@ -83,6 +93,7 @@
     "seasonWinter": "Winter",
     "mostPopular": "Most Popular",
     "topRated": "Top Rated",
+    "rightNow": "Perfect Right Now",
     "allInCategory": "Explore All",
     "previousPhoto": "Previous photo",
     "nextPhoto": "Next photo"
@@ -125,6 +136,7 @@
     "retry": "Try again"
   },
   "footer": {
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "trustNote": "Hand-picked places. No fake reviews. No paid ranking."
   }
 }

@@ -23,7 +23,15 @@
     "viewAll": "Skoða allt",
     "introHeading": "Uppgötvaðu staðina sem sannir ferðalangar hafa fundið",
     "introSubtitle": "Frá veitingastöðum til náttúruperla, minnisvarða til hótela, skoðaðu þúsundir raunverulegra staða um allan heim með raunverulegum einkunnum og myndum.",
-    "introCta": "Byrjaðu að kanna"
+    "introCta": "Byrjaðu að kanna",
+    "trustHeading": "Af hverju VisitorGuide",
+    "trustCaption": "{placeCountLabel} — handvalið og staðfest. Engar falsaðar umsagnir. Engin greidd röðun.",
+    "trustCuratedTitle": "Samþykkt af Ritstjórn",
+    "trustCuratedDesc": "Hver staður er handvalinn og yfirfarinn af ritstjórn okkar.",
+    "trustNoFakeTitle": "Engar Falsaðar Umsagnir",
+    "trustNoFakeDesc": "Aðeins raunverulegir gestir geta skrifað umsögn.",
+    "trustNoPaidTitle": "Engin Greidd Röðun",
+    "trustNoPaidDesc": "Röðun byggist eingöngu á einkunn — aldrei á greiðslu."
   },
   "categories": {
     "RESTAURANT": "Veitingastaðir",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Heimilisfang",
     "openingHours": "Opnunartími",
+    "bestSeason": "Besti tíminn til að heimsækja",
     "website": "Vefsíða",
     "phone": "Sími",
     "reviewsHeading": "Umsagnir",
+    "editorCuratedNote": "Þessi staður var handvalinn og staðfestur af ritstjórn okkar.",
     "noReviews": "Engar umsagnir ennþá.",
     "anonymous": "Nafnlaust",
     "writeReviewCta": "Skráðu þig inn til að skrifa umsögn",
@@ -83,6 +93,7 @@
     "seasonWinter": "Vetur",
     "mostPopular": "Vinsælast",
     "topRated": "Hæst metið",
+    "rightNow": "Tilvalið núna",
     "allInCategory": "Skoða allt",
     "previousPhoto": "Fyrri mynd",
     "nextPhoto": "Næsta mynd"
@@ -125,6 +136,7 @@
     "retry": "Reyndu aftur"
   },
   "footer": {
-    "rights": "Öll réttindi áskilin."
+    "rights": "Öll réttindi áskilin.",
+    "trustNote": "Handvaldir staðir. Engar falsaðar umsagnir. Engin greidd röðun."
   }
 }

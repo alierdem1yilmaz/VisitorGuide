@@ -23,7 +23,15 @@
     "viewAll": "Lihat Semua",
     "introHeading": "Temui Tempat-tempat yang Telah Ditemui oleh Pengembara Sebenar",
     "introSubtitle": "Daripada restoran hinggalah keajaiban alam semula jadi, monumen hinggalah hotel, terokai beribu-ribu tempat sebenar di seluruh dunia dengan penilaian dan foto sebenar.",
-    "introCta": "Mula Meneroka"
+    "introCta": "Mula Meneroka",
+    "trustHeading": "Kenapa VisitorGuide",
+    "trustCaption": "{placeCountLabel} — dipilih secara manual dan disahkan. Tiada ulasan palsu. Tiada kedudukan berbayar.",
+    "trustCuratedTitle": "Diluluskan Editor",
+    "trustCuratedDesc": "Setiap tempat dipilih secara manual dan disemak oleh pasukan editorial kami.",
+    "trustNoFakeTitle": "Tiada Ulasan Palsu",
+    "trustNoFakeDesc": "Hanya pelawat sebenar boleh menyiarkan ulasan.",
+    "trustNoPaidTitle": "Tiada Kedudukan Berbayar",
+    "trustNoPaidDesc": "Kedudukan hanya berdasarkan penilaian — bukan pembayaran."
   },
   "categories": {
     "RESTAURANT": "Restoran",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Alamat",
     "openingHours": "Waktu Operasi",
+    "bestSeason": "Masa terbaik untuk melawat",
     "website": "Laman Web",
     "phone": "Telefon",
     "reviewsHeading": "Ulasan",
+    "editorCuratedNote": "Tempat ini dipilih secara manual dan disahkan oleh pasukan editorial kami.",
     "noReviews": "Tiada ulasan lagi.",
     "anonymous": "Tanpa Nama",
     "writeReviewCta": "Log masuk untuk menulis ulasan",
@@ -83,6 +93,7 @@
     "seasonWinter": "Musim sejuk",
     "mostPopular": "Paling Popular",
     "topRated": "Penilaian Terbaik",
+    "rightNow": "Ideal Sekarang",
     "allInCategory": "Terokai Semua",
     "previousPhoto": "Foto sebelumnya",
     "nextPhoto": "Foto seterusnya"
@@ -125,6 +136,7 @@
     "retry": "Cuba lagi"
   },
   "footer": {
-    "rights": "Semua hak cipta terpelihara."
+    "rights": "Semua hak cipta terpelihara.",
+    "trustNote": "Tempat pilihan tangan. Tiada ulasan palsu. Tiada kedudukan berbayar."
   }
 }

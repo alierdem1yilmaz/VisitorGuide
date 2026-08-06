@@ -23,7 +23,15 @@
     "viewAll": "Bekyk alles",
     "introHeading": "Ontdek die plekke wat regte reisigers gevind het",
     "introSubtitle": "Van restaurante tot natuurwonders, monumente tot hotelle, verken duisende regte plekke regoor die wêreld met regte graderings en regte foto's.",
-    "introCta": "Begin Verken"
+    "introCta": "Begin Verken",
+    "trustHeading": "Waarom VisitorGuide",
+    "trustCaption": "{placeCountLabel} — met die hand gekies en geverifieer. Geen vals resensies. Geen betaalde rangorde.",
+    "trustCuratedTitle": "Deur Redakteurs Gekeur",
+    "trustCuratedDesc": "Elke plek word met die hand gekies en nagegaan deur ons redakteurs.",
+    "trustNoFakeTitle": "Geen Vals Resensies",
+    "trustNoFakeDesc": "Slegs werklike besoekers kan 'n resensie plaas.",
+    "trustNoPaidTitle": "Geen Betaalde Rangorde",
+    "trustNoPaidDesc": "Rangorde is slegs op gradering gebaseer — nooit op betaling nie."
   },
   "categories": {
     "RESTAURANT": "Restaurante",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Adres",
     "openingHours": "Ooptye",
+    "bestSeason": "Beste tyd om te besoek",
     "website": "Webwerf",
     "phone": "Foon",
     "reviewsHeading": "Resensies",
+    "editorCuratedNote": "Hierdie plek is met die hand gekies en geverifieer deur ons redaksie.",
     "noReviews": "Geen resensies nog nie.",
     "anonymous": "Anoniem",
     "writeReviewCta": "Meld aan om 'n resensie te skryf",
@@ -83,6 +93,7 @@
     "seasonWinter": "Winter",
     "mostPopular": "Mees gewild",
     "topRated": "Topgegradeer",
+    "rightNow": "Nou Ideaal Om Te Besoek",
     "allInCategory": "Verken alles",
     "previousPhoto": "Vorige foto",
     "nextPhoto": "Volgende foto"
@@ -125,6 +136,7 @@
     "retry": "Probeer weer"
   },
   "footer": {
-    "rights": "Alle regte voorbehou."
+    "rights": "Alle regte voorbehou.",
+    "trustNote": "Met die hand gekeurde plekke. Geen vals resensies. Geen betaalde rangorde."
   }
 }

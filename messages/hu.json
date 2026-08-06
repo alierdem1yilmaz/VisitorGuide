@@ -23,7 +23,15 @@
     "viewAll": "Összes megtekintése",
     "introHeading": "Fedezd fel azokat a helyeket, amelyeket az igazi utazók találtak",
     "introSubtitle": "Éttermektől a természeti csodákig, műemlékektől a szállodákig, fedezz fel több ezer valós helyet szerte a világon valós értékelésekkel és valódi fotókkal.",
-    "introCta": "Kezdje el a felfedezést"
+    "introCta": "Kezdje el a felfedezést",
+    "trustHeading": "Miért VisitorGuide",
+    "trustCaption": "{placeCountLabel} — kézzel válogatva és ellenőrizve. Nincsenek hamis vélemények. Nincs fizetett rangsorolás.",
+    "trustCuratedTitle": "Szerkesztőség Által Jóváhagyott",
+    "trustCuratedDesc": "Minden helyet szerkesztőségünk kézzel válogat és ellenőriz.",
+    "trustNoFakeTitle": "Nincsenek Hamis Vélemények",
+    "trustNoFakeDesc": "Csak valódi látogatók írhatnak véleményt.",
+    "trustNoPaidTitle": "Nincs Fizetett Rangsorolás",
+    "trustNoPaidDesc": "A rangsorolás kizárólag az értékelésen alapul — soha a fizetésen."
   },
   "categories": {
     "RESTAURANT": "Éttermek",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Cím",
     "openingHours": "Nyitvatartás",
+    "bestSeason": "Legjobb látogatási időszak",
     "website": "Weboldal",
     "phone": "Telefon",
     "reviewsHeading": "Vélemények",
+    "editorCuratedNote": "Ezt a helyet szerkesztőségünk kézzel válogatta és ellenőrizte.",
     "noReviews": "Még nincsenek vélemények.",
     "anonymous": "Névtelen",
     "writeReviewCta": "Jelentkezzen be vélemény írásához",
@@ -83,6 +93,7 @@
     "seasonWinter": "Téli",
     "mostPopular": "Legnépszerűbb",
     "topRated": "Legjobbra értékelt",
+    "rightNow": "Most ideális",
     "allInCategory": "Összes felfedezése",
     "previousPhoto": "Előző fotó",
     "nextPhoto": "Következő fotó"
@@ -125,6 +136,7 @@
     "retry": "Próbáld újra"
   },
   "footer": {
-    "rights": "Minden jog fenntartva."
+    "rights": "Minden jog fenntartva.",
+    "trustNote": "Kézzel válogatott helyek. Nincsenek hamis vélemények. Nincs fizetett rangsorolás."
   }
 }

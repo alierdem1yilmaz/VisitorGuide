@@ -23,7 +23,15 @@
     "viewAll": "Ver tudo",
     "introHeading": "Descubra os lugares que viajantes de verdade encontraram.",
     "introSubtitle": "De restaurantes a maravilhas naturais, de monumentos a hotéis, explore milhares de lugares reais ao redor do mundo com avaliações e fotos reais.",
-    "introCta": "Comece a explorar"
+    "introCta": "Comece a explorar",
+    "trustHeading": "Por que VisitorGuide",
+    "trustCaption": "{placeCountLabel} — selecionados manualmente e verificados. Sem avaliações falsas. Sem classificação paga.",
+    "trustCuratedTitle": "Aprovado pela Redação",
+    "trustCuratedDesc": "Cada lugar é selecionado manualmente e verificado pela nossa equipe editorial.",
+    "trustNoFakeTitle": "Sem Avaliações Falsas",
+    "trustNoFakeDesc": "Somente visitantes reais podem publicar uma avaliação.",
+    "trustNoPaidTitle": "Sem Classificação Paga",
+    "trustNoPaidDesc": "A classificação é baseada apenas na avaliação — nunca no pagamento."
   },
   "categories": {
     "RESTAURANT": "Restaurantes",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Endereço",
     "openingHours": "Horário de funcionamento",
+    "bestSeason": "Melhor época para visitar",
     "website": "Site",
     "phone": "Telefone",
     "reviewsHeading": "Avaliações",
+    "editorCuratedNote": "Este lugar foi selecionado manualmente e verificado pela nossa equipe editorial.",
     "noReviews": "Ainda não há avaliações.",
     "anonymous": "Anônimo",
     "writeReviewCta": "Faça login para escrever uma avaliação.",
@@ -83,6 +93,7 @@
     "seasonWinter": "Inverno",
     "mostPopular": "Mais populares",
     "topRated": "Mais bem avaliado",
+    "rightNow": "Ideal agora",
     "allInCategory": "Explore tudo",
     "previousPhoto": "Foto anterior",
     "nextPhoto": "Próxima foto"
@@ -125,6 +136,7 @@
     "retry": "Tente novamente"
   },
   "footer": {
-    "rights": "Todos os direitos reservados."
+    "rights": "Todos os direitos reservados.",
+    "trustNote": "Lugares selecionados manualmente. Sem avaliações falsas. Sem classificação paga."
   }
 }

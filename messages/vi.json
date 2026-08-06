@@ -23,7 +23,15 @@
     "viewAll": "Xem tất cả",
     "introHeading": "Khám phá những địa điểm mà du khách thực sự đã tìm thấy.",
     "introSubtitle": "Từ nhà hàng đến kỳ quan thiên nhiên, từ di tích đến khách sạn, hãy khám phá hàng ngàn địa điểm thực tế trên khắp thế giới với đánh giá và hình ảnh thực tế.",
-    "introCta": "Bắt đầu khám phá"
+    "introCta": "Bắt đầu khám phá",
+    "trustHeading": "Tại sao chọn VisitorGuide",
+    "trustCaption": "{placeCountLabel} — được chọn lọc thủ công và xác minh. Không có đánh giá giả. Không có xếp hạng trả phí.",
+    "trustCuratedTitle": "Được Biên Tập Viên Duyệt",
+    "trustCuratedDesc": "Mỗi địa điểm đều được đội ngũ biên tập của chúng tôi chọn lọc và kiểm tra thủ công.",
+    "trustNoFakeTitle": "Không Có Đánh Giá Giả",
+    "trustNoFakeDesc": "Chỉ những khách tham quan thực sự mới có thể đăng đánh giá.",
+    "trustNoPaidTitle": "Không Có Xếp Hạng Trả Phí",
+    "trustNoPaidDesc": "Xếp hạng chỉ dựa trên đánh giá — không bao giờ dựa trên thanh toán."
   },
   "categories": {
     "RESTAURANT": "Nhà hàng",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Địa chỉ",
     "openingHours": "Giờ mở cửa",
+    "bestSeason": "Thời điểm tốt nhất để ghé thăm",
     "website": "Trang web",
     "phone": "Điện thoại",
     "reviewsHeading": "Đánh giá",
+    "editorCuratedNote": "Địa điểm này được đội ngũ biên tập của chúng tôi chọn lọc và xác minh thủ công.",
     "noReviews": "Chưa có đánh giá nào.",
     "anonymous": "Vô danh",
     "writeReviewCta": "Đăng nhập để viết đánh giá",
@@ -83,6 +93,7 @@
     "seasonWinter": "Mùa đông",
     "mostPopular": "Phổ biến nhất",
     "topRated": "Được đánh giá cao nhất",
+    "rightNow": "Lý tưởng ngay bây giờ",
     "allInCategory": "Khám phá tất cả",
     "previousPhoto": "Ảnh trước đó",
     "nextPhoto": "Ảnh tiếp theo"
@@ -125,6 +136,7 @@
     "retry": "Hãy thử lại"
   },
   "footer": {
-    "rights": "Bản quyền đã được bảo lưu."
+    "rights": "Bản quyền đã được bảo lưu.",
+    "trustNote": "Địa điểm được chọn lọc thủ công. Không có đánh giá giả. Không có xếp hạng trả phí."
   }
 }

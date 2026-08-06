@@ -23,7 +23,15 @@
     "viewAll": "Peržiūrėti visus",
     "introHeading": "Atraskite vietas, kurias rado tikri keliautojai",
     "introSubtitle": "Nuo restoranų iki gamtos stebuklų, nuo paminklų iki viešbučių – tyrinėkite tūkstančius tikrų vietų visame pasaulyje su tikrais įvertinimais ir tikromis nuotraukomis.",
-    "introCta": "Pradėti tyrinėti"
+    "introCta": "Pradėti tyrinėti",
+    "trustHeading": "Kodėl VisitorGuide",
+    "trustCaption": "{placeCountLabel} — atrinkta rankiniu būdu ir patikrinta. Jokių netikrų atsiliepimų. Jokio apmokamo reitingavimo.",
+    "trustCuratedTitle": "Redakcijos Patvirtinta",
+    "trustCuratedDesc": "Kiekvieną vietą rankiniu būdu atrenka ir patikrina mūsų redakcija.",
+    "trustNoFakeTitle": "Jokių Netikrų Atsiliepimų",
+    "trustNoFakeDesc": "Atsiliepimą gali palikti tik tikri lankytojai.",
+    "trustNoPaidTitle": "Jokio Apmokamo Reitingavimo",
+    "trustNoPaidDesc": "Reitingas grindžiamas tik įvertinimu — niekada mokėjimu."
   },
   "categories": {
     "RESTAURANT": "Restoranai",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Adresas",
     "openingHours": "Darbo valandos",
+    "bestSeason": "Geriausias laikas lankytis",
     "website": "Svetainė",
     "phone": "Telefonas",
     "reviewsHeading": "Atsiliepimai",
+    "editorCuratedNote": "Šią vietą rankiniu būdu atrinko ir patikrino mūsų redakcija.",
     "noReviews": "Kol kas nėra atsiliepimų.",
     "anonymous": "Anonimas",
     "writeReviewCta": "Prisijunkite, kad galėtumėte parašyti atsiliepimą",
@@ -83,6 +93,7 @@
     "seasonWinter": "Žiema",
     "mostPopular": "Populiariausi",
     "topRated": "Geriausiai įvertinti",
+    "rightNow": "Idealu dabar",
     "allInCategory": "Naršyti viską",
     "previousPhoto": "Ankstesnė nuotrauka",
     "nextPhoto": "Kita nuotrauka"
@@ -125,6 +136,7 @@
     "retry": "Bandykite dar kartą"
   },
   "footer": {
-    "rights": "Visos teisės saugomos."
+    "rights": "Visos teisės saugomos.",
+    "trustNote": "Rankiniu būdu atrinktos vietos. Jokių netikrų atsiliepimų. Jokio apmokamo reitingavimo."
   }
 }

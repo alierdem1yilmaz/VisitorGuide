@@ -23,7 +23,15 @@
     "viewAll": "Visualizza tutto",
     "introHeading": "Scopri i luoghi che i veri viaggiatori hanno scoperto",
     "introSubtitle": "Dai ristoranti alle meraviglie naturali, dai monumenti agli hotel, esplora migliaia di luoghi reali in tutto il mondo con recensioni e foto autentiche.",
-    "introCta": "Inizia a esplorare"
+    "introCta": "Inizia a esplorare",
+    "trustHeading": "Perché VisitorGuide",
+    "trustCaption": "{placeCountLabel} — selezionati a mano e verificati. Nessuna recensione falsa. Nessuna classifica a pagamento.",
+    "trustCuratedTitle": "Approvato dalla Redazione",
+    "trustCuratedDesc": "Ogni luogo viene selezionato a mano e controllato dal nostro team editoriale.",
+    "trustNoFakeTitle": "Nessuna Recensione Falsa",
+    "trustNoFakeDesc": "Solo i visitatori reali possono pubblicare una recensione.",
+    "trustNoPaidTitle": "Nessuna Classifica a Pagamento",
+    "trustNoPaidDesc": "La classifica si basa solo sulla valutazione — mai sul pagamento."
   },
   "categories": {
     "RESTAURANT": "Laser",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Indirizzo",
     "openingHours": "Orari di apertura",
+    "bestSeason": "Periodo migliore per visitare",
     "website": "Sito web",
     "phone": "Telefono",
     "reviewsHeading": "Recensioni",
+    "editorCuratedNote": "Questo luogo è stato selezionato a mano e verificato dal nostro team editoriale.",
     "noReviews": "Nessuna recensione ancora.",
     "anonymous": "Anonimo",
     "writeReviewCta": "Accedi per scrivere una recensione",
@@ -83,6 +93,7 @@
     "seasonWinter": "Inverno",
     "mostPopular": "Più popolari",
     "topRated": "I migliori gusti",
+    "rightNow": "Ideale in questo momento",
     "allInCategory": "Esplora tutto",
     "previousPhoto": "Foto precedente",
     "nextPhoto": "Foto successiva"
@@ -125,6 +136,7 @@
     "retry": "Riprova"
   },
   "footer": {
-    "rights": "Tutti i diritti riservati."
+    "rights": "Tutti i diritti riservati.",
+    "trustNote": "Luoghi selezionati a mano. Nessuna recensione falsa. Nessuna classifica a pagamento."
   }
 }

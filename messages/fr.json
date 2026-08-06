@@ -23,7 +23,15 @@
     "viewAll": "Tout voir",
     "introHeading": "Découvrez les lieux trouvés par de vrais voyageurs",
     "introSubtitle": "Des restaurants aux merveilles naturelles, des monuments aux hôtels, explorez des milliers de lieux réels à travers le monde avec de vraies notes et de vraies photos.",
-    "introCta": "Commencer à explorer"
+    "introCta": "Commencer à explorer",
+    "trustHeading": "Pourquoi VisitorGuide",
+    "trustCaption": "{placeCountLabel} — sélectionnés à la main et vérifiés. Aucun faux avis. Aucun classement payant.",
+    "trustCuratedTitle": "Approuvé par la Rédaction",
+    "trustCuratedDesc": "Chaque lieu est sélectionné à la main et vérifié par notre équipe éditoriale.",
+    "trustNoFakeTitle": "Aucun Faux Avis",
+    "trustNoFakeDesc": "Seuls les vrais visiteurs peuvent publier un avis.",
+    "trustNoPaidTitle": "Aucun Classement Payant",
+    "trustNoPaidDesc": "Le classement repose uniquement sur la note — jamais sur un paiement."
   },
   "categories": {
     "RESTAURANT": "Restaurants",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Adresse",
     "openingHours": "Heures d'ouverture",
+    "bestSeason": "Meilleure période pour visiter",
     "website": "Site web",
     "phone": "Téléphone",
     "reviewsHeading": "Avis",
+    "editorCuratedNote": "Ce lieu a été sélectionné à la main et vérifié par notre équipe éditoriale.",
     "noReviews": "Pas encore d'avis.",
     "anonymous": "Anonyme",
     "writeReviewCta": "Connectez-vous pour laisser un avis",
@@ -83,6 +93,7 @@
     "seasonWinter": "Hiver",
     "mostPopular": "Les plus populaires",
     "topRated": "Les mieux notés",
+    "rightNow": "Idéal en ce moment",
     "allInCategory": "Tout découvrir",
     "previousPhoto": "Photo précédente",
     "nextPhoto": "Photo suivante"
@@ -125,6 +136,7 @@
     "retry": "Réessayer"
   },
   "footer": {
-    "rights": "Tous droits réservés."
+    "rights": "Tous droits réservés.",
+    "trustNote": "Lieux sélectionnés à la main. Aucun faux avis. Aucun classement payant."
   }
 }

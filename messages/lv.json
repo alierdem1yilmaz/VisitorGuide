@@ -23,7 +23,15 @@
     "viewAll": "Skatīt visu",
     "introHeading": "Atklājiet vietas, kuras atraduši īsti ceļotāji",
     "introSubtitle": "No restorāniem līdz dabas brīnumiem, no pieminekļiem līdz viesnīcām — izpētiet tūkstošiem reālu vietu visā pasaulē ar reāliem vērtējumiem un īstiem fotoattēliem.",
-    "introCta": "Sākt izpēti"
+    "introCta": "Sākt izpēti",
+    "trustHeading": "Kāpēc VisitorGuide",
+    "trustCaption": "{placeCountLabel} — rokas atlasīti un pārbaudīti. Nekādu viltus atsauksmju. Nekāda apmaksāta ranžējuma.",
+    "trustCuratedTitle": "Redakcijas Apstiprināts",
+    "trustCuratedDesc": "Katru vietu izvēlas un pārbauda mūsu redakcija.",
+    "trustNoFakeTitle": "Nekādu Viltus Atsauksmju",
+    "trustNoFakeDesc": "Atsauksmi var atstāt tikai reāli apmeklētāji.",
+    "trustNoPaidTitle": "Nekāda Apmaksāta Ranžējuma",
+    "trustNoPaidDesc": "Ranžējums balstās tikai uz vērtējumu — nekad uz maksājumu."
   },
   "categories": {
     "RESTAURANT": "Restorāni",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Adrese",
     "openingHours": "Darba laiks",
+    "bestSeason": "Labākais apmeklējuma laiks",
     "website": "Tīmekļa vietne",
     "phone": "Tālrunis",
     "reviewsHeading": "Atsauksmes",
+    "editorCuratedNote": "Šo vietu izvēlējās un pārbaudīja mūsu redakcija.",
     "noReviews": "Vēl nav atsauksmju.",
     "anonymous": "Anonīms",
     "writeReviewCta": "Pierakstieties, lai rakstītu atsauksmi",
@@ -83,6 +93,7 @@
     "seasonWinter": "Ziema",
     "mostPopular": "Populārākie",
     "topRated": "Augstāk novērtētais",
+    "rightNow": "Ideāli tieši tagad",
     "allInCategory": "Izpētīt visu",
     "previousPhoto": "Iepriekšējais fotoattēls",
     "nextPhoto": "Nākamais fotoattēls"
@@ -125,6 +136,7 @@
     "retry": "Mēģiniet vēlreiz"
   },
   "footer": {
-    "rights": "Visas tiesības aizsargātas."
+    "rights": "Visas tiesības aizsargātas.",
+    "trustNote": "Rokas atlasītas vietas. Nekādu viltus atsauksmju. Nekāda apmaksāta ranžējuma."
   }
 }

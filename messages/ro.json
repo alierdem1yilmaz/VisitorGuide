@@ -23,7 +23,15 @@
     "viewAll": "Vezi toate",
     "introHeading": "Descoperă locurile pe care le-au găsit călătorii adevărați",
     "introSubtitle": "De la restaurante la minuni naturale, de la monumente la hoteluri, explorează mii de locuri reale din întreaga lume cu evaluări și fotografii reale.",
-    "introCta": "Începeți explorarea"
+    "introCta": "Începeți explorarea",
+    "trustHeading": "De ce VisitorGuide",
+    "trustCaption": "{placeCountLabel} — selectate manual și verificate. Fără recenzii false. Fără clasament plătit.",
+    "trustCuratedTitle": "Aprobat de Redacție",
+    "trustCuratedDesc": "Fiecare loc este selectat manual și verificat de echipa noastră editorială.",
+    "trustNoFakeTitle": "Fără Recenzii False",
+    "trustNoFakeDesc": "Doar vizitatorii reali pot posta o recenzie.",
+    "trustNoPaidTitle": "Fără Clasament Plătit",
+    "trustNoPaidDesc": "Clasamentul se bazează exclusiv pe evaluare — niciodată pe plată."
   },
   "categories": {
     "RESTAURANT": "Restaurante",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Adresa",
     "openingHours": "Program de lucru",
+    "bestSeason": "Cel mai bun moment pentru vizitat",
     "website": "Site web",
     "phone": "Telefon",
     "reviewsHeading": "Recenzii",
+    "editorCuratedNote": "Acest loc a fost selectat manual și verificat de echipa noastră editorială.",
     "noReviews": "Încă nu există recenzii.",
     "anonymous": "Anonim",
     "writeReviewCta": "Conectați-vă pentru a scrie o recenzie",
@@ -83,6 +93,7 @@
     "seasonWinter": "Iarnă",
     "mostPopular": "Cele mai populare",
     "topRated": "Cele mai bine cotate",
+    "rightNow": "Ideal chiar acum",
     "allInCategory": "Explorează tot",
     "previousPhoto": "Fotografia anterioară",
     "nextPhoto": "Următoarea fotografie"
@@ -125,6 +136,7 @@
     "retry": "Încearcă din nou"
   },
   "footer": {
-    "rights": "Toate drepturile rezervate."
+    "rights": "Toate drepturile rezervate.",
+    "trustNote": "Locuri selectate manual. Fără recenzii false. Fără clasament plătit."
   }
 }

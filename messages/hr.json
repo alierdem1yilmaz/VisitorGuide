@@ -23,7 +23,15 @@
     "viewAll": "Prikaži sve",
     "introHeading": "Otkrijte mjesta koja su pronašli pravi putnici",
     "introSubtitle": "Od restorana do prirodnih čuda, spomenika do hotela, istražite tisuće stvarnih mjesta diljem svijeta sa stvarnim ocjenama i stvarnim fotografijama.",
-    "introCta": "Započni istraživanje"
+    "introCta": "Započni istraživanje",
+    "trustHeading": "Zašto VisitorGuide",
+    "trustCaption": "{placeCountLabel} — ručno odabranih i provjerenih. Bez lažnih recenzija. Bez plaćenog rangiranja.",
+    "trustCuratedTitle": "Odobreno od Urednika",
+    "trustCuratedDesc": "Svako mjesto ručno odabire i provjerava naš urednički tim.",
+    "trustNoFakeTitle": "Bez Lažnih Recenzija",
+    "trustNoFakeDesc": "Recenziju mogu objaviti samo stvarni posjetitelji.",
+    "trustNoPaidTitle": "Bez Plaćenog Rangiranja",
+    "trustNoPaidDesc": "Rangiranje se temelji isključivo na ocjeni — nikada na plaćanju."
   },
   "categories": {
     "RESTAURANT": "Restorani",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Adresa",
     "openingHours": "Radno vrijeme",
+    "bestSeason": "Najbolje vrijeme za posjet",
     "website": "Web stranica",
     "phone": "Telefon",
     "reviewsHeading": "Recenzije",
+    "editorCuratedNote": "Ovo mjesto ručno je odabrao i provjerio naš urednički tim.",
     "noReviews": "Još nema recenzija.",
     "anonymous": "Anonimno",
     "writeReviewCta": "Prijavite se da biste napisali recenziju",
@@ -83,6 +93,7 @@
     "seasonWinter": "Zimski",
     "mostPopular": "Najpopularnije",
     "topRated": "Najbolje ocijenjeno",
+    "rightNow": "Idealno upravo sada",
     "allInCategory": "Istraži sve",
     "previousPhoto": "Prethodna fotografija",
     "nextPhoto": "Sljedeća fotografija"
@@ -125,6 +136,7 @@
     "retry": "Pokušajte ponovno"
   },
   "footer": {
-    "rights": "Sva prava pridržana."
+    "rights": "Sva prava pridržana.",
+    "trustNote": "Ručno odabrana mjesta. Bez lažnih recenzija. Bez plaćenog rangiranja."
   }
 }

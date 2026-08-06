@@ -23,7 +23,15 @@
     "viewAll": "Hamısına Baxın",
     "introHeading": "Əsl Səyahətçilərin Tapdığı Yerləri Kəşf Edin",
     "introSubtitle": "Restoranlardan təbii möcüzələrə, abidələrdən otellərə qədər dünyanın hər yerində minlərlə real məkanı real reytinqlər və real fotoşəkillərlə araşdırın.",
-    "introCta": "Kəşf etməyə başlayın"
+    "introCta": "Kəşf etməyə başlayın",
+    "trustHeading": "Niyə VisitorGuide",
+    "trustCaption": "{placeCountLabel} — əl ilə seçilib və yoxlanılıb. Saxta rəylər yoxdur. Ödənişli sıralama yoxdur.",
+    "trustCuratedTitle": "Redaktor Təsdiqli",
+    "trustCuratedDesc": "Hər yer redaksiya komandamız tərəfindən əl ilə seçilir və yoxlanılır.",
+    "trustNoFakeTitle": "Saxta Rəy Yoxdur",
+    "trustNoFakeDesc": "Yalnız real ziyarətçilər rəy yaza bilər.",
+    "trustNoPaidTitle": "Ödənişli Sıralama Yoxdur",
+    "trustNoPaidDesc": "Sıralama yalnız reytinqə əsaslanır — heç vaxt ödənişə deyil."
   },
   "categories": {
     "RESTAURANT": "Restoranlar",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Ünvan",
     "openingHours": "İş saatları",
+    "bestSeason": "Ziyarət üçün ən yaxşı vaxt",
     "website": "Veb sayt",
     "phone": "Telefon",
     "reviewsHeading": "Rəylər",
+    "editorCuratedNote": "Bu yer redaksiya komandamız tərəfindən seçilib və yoxlanılıb.",
     "noReviews": "Hələ rəy yoxdur.",
     "anonymous": "Anonim",
     "writeReviewCta": "Rəy yazmaq üçün daxil olun",
@@ -83,6 +93,7 @@
     "seasonWinter": "Qış",
     "mostPopular": "Ən Populyar",
     "topRated": "Ən Yüksək Reytinqli",
+    "rightNow": "Hazırda Ziyarət Üçün İdeal",
     "allInCategory": "Hamısını araşdırın",
     "previousPhoto": "Əvvəlki foto",
     "nextPhoto": "Növbəti foto"
@@ -125,6 +136,7 @@
     "retry": "Yenidən cəhd edin"
   },
   "footer": {
-    "rights": "Bütün hüquqlar qorunur."
+    "rights": "Bütün hüquqlar qorunur.",
+    "trustNote": "Əl ilə seçilmiş yerlər. Saxta rəy yoxdur. Ödənişli sıralama yoxdur."
   }
 }

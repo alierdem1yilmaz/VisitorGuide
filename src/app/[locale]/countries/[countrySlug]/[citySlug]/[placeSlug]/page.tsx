@@ -52,10 +52,11 @@ export default async function PlacePage({
   const place = await getPlaceBySlug(countrySlug, citySlug, placeSlug);
   if (!place) notFound();
 
-  const [t, tCategories, tReview, session] = await Promise.all([
+  const [t, tCategories, tReview, tFilters, session] = await Promise.all([
     getTranslations("place"),
     getTranslations("categories"),
     getTranslations("review"),
+    getTranslations("filters"),
     auth(),
   ]);
 
@@ -90,9 +91,24 @@ export default async function PlacePage({
 
       <div className="mt-6 flex flex-wrap items-start justify-between gap-4">
         <div>
-          <span className="inline-block rounded-full bg-brand-50 px-3 py-1 text-xs font-medium text-brand-700">
-            {tCategories(place.category)}
-          </span>
+          <div className="flex flex-wrap gap-2">
+            <span className="inline-block rounded-full bg-brand-50 px-3 py-1 text-xs font-medium text-brand-700">
+              {tCategories(place.category)}
+            </span>
+            {place.bestSeason !== "ALL" && (
+              <span
+                className={`inline-block rounded-full px-3 py-1 text-xs font-medium ${
+                  place.bestSeason === "SUMMER"
+                    ? "bg-amber-50 text-amber-700"
+                    : "bg-sky-50 text-sky-700"
+                }`}
+              >
+                {place.bestSeason === "SUMMER"
+                  ? tFilters("seasonSummer")
+                  : tFilters("seasonWinter")}
+              </span>
+            )}
+          </div>
           <h1 className="mt-2 text-3xl font-bold text-brand-800">{place.name}</h1>
         </div>
         <div className="flex items-center gap-3">
@@ -144,6 +160,16 @@ export default async function PlacePage({
             <span className="text-muted">~{estimatedPrice}</span>
           </p>
         )}
+        <p>
+          <span className="font-medium text-brand-700">{t("bestSeason")}:</span>{" "}
+          <span className="text-muted">
+            {place.bestSeason === "SUMMER"
+              ? tFilters("seasonSummer")
+              : place.bestSeason === "WINTER"
+                ? tFilters("seasonWinter")
+                : tFilters("seasonAll")}
+          </span>
+        </p>
         {openingHours && (
           <div>
             <span className="font-medium text-brand-700">{t("openingHours")}:</span>
@@ -169,7 +195,10 @@ export default async function PlacePage({
 
       <div className="mt-10">
         <div className="mb-4 flex items-center justify-between">
-          <h2 className="text-xl font-bold text-brand-800">{t("reviewsHeading")}</h2>
+          <div>
+            <h2 className="text-xl font-bold text-brand-800">{t("reviewsHeading")}</h2>
+            <p className="mt-1 text-xs text-muted">{t("editorCuratedNote")}</p>
+          </div>
           {!session?.user && <WriteReviewCta label={t("writeReviewCta")} />}
         </div>
         {session?.user && (

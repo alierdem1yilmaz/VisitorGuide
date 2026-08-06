@@ -23,7 +23,15 @@
     "viewAll": "Alles bekijken",
     "introHeading": "Ontdek de plekken die echte reizigers hebben gevonden.",
     "introSubtitle": "Van restaurants tot natuurwonderen, van monumenten tot hotels: ontdek duizenden echte plekken over de hele wereld met echte beoordelingen en echte foto's.",
-    "introCta": "Begin met verkennen"
+    "introCta": "Begin met verkennen",
+    "trustHeading": "Waarom VisitorGuide",
+    "trustCaption": "{placeCountLabel} — handmatig geselecteerd en geverifieerd. Geen nepreviews. Geen betaalde ranking.",
+    "trustCuratedTitle": "Redactioneel Goedgekeurd",
+    "trustCuratedDesc": "Elke plek wordt handmatig geselecteerd en gecontroleerd door onze redactie.",
+    "trustNoFakeTitle": "Geen Nepreviews",
+    "trustNoFakeDesc": "Alleen echte bezoekers kunnen een review plaatsen.",
+    "trustNoPaidTitle": "Geen Betaalde Ranking",
+    "trustNoPaidDesc": "De ranking is uitsluitend gebaseerd op de beoordeling — nooit op betaling."
   },
   "categories": {
     "RESTAURANT": "Restaurants",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Adres",
     "openingHours": "Openingstijden",
+    "bestSeason": "Beste bezoekperiode",
     "website": "Website",
     "phone": "Telefoon",
     "reviewsHeading": "Recensies",
+    "editorCuratedNote": "Deze plek is handmatig geselecteerd en geverifieerd door onze redactie.",
     "noReviews": "Nog geen recensies.",
     "anonymous": "Anoniem",
     "writeReviewCta": "Meld u aan om een recensie te schrijven",
@@ -83,6 +93,7 @@
     "seasonWinter": "Winter",
     "mostPopular": "Meest populair",
     "topRated": "Hoogst gewaardeerd",
+    "rightNow": "Nu ideaal",
     "allInCategory": "Ontdek alles",
     "previousPhoto": "Vorige foto",
     "nextPhoto": "Volgende foto"
@@ -125,6 +136,7 @@
     "retry": "Probeer het opnieuw"
   },
   "footer": {
-    "rights": "Alle rechten voorbehouden."
+    "rights": "Alle rechten voorbehouden.",
+    "trustNote": "Handmatig geselecteerde plekken. Geen nepreviews. Geen betaalde ranking."
   }
 }

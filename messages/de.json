@@ -23,7 +23,15 @@
     "viewAll": "Alle anzeigen",
     "introHeading": "Entdecken Sie die Orte, die echte Reisende gefunden haben",
     "introSubtitle": "Von Restaurants bis zu Naturwundern, von Denkmälern bis zu Hotels — entdecken Sie Tausende echter Orte weltweit mit echten Bewertungen und echten Fotos.",
-    "introCta": "Jetzt entdecken"
+    "introCta": "Jetzt entdecken",
+    "trustHeading": "Warum VisitorGuide",
+    "trustCaption": "{placeCountLabel} — handverlesen und geprüft. Keine gefälschten Bewertungen. Kein bezahltes Ranking.",
+    "trustCuratedTitle": "Redaktionell Geprüft",
+    "trustCuratedDesc": "Jeder Ort wird von unserer Redaktion handverlesen und geprüft.",
+    "trustNoFakeTitle": "Keine gefälschten Bewertungen",
+    "trustNoFakeDesc": "Nur echte Besucher können eine Bewertung abgeben.",
+    "trustNoPaidTitle": "Kein bezahltes Ranking",
+    "trustNoPaidDesc": "Das Ranking basiert allein auf der Bewertung — nie auf Bezahlung."
   },
   "categories": {
     "RESTAURANT": "Restaurants",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Adresse",
     "openingHours": "Öffnungszeiten",
+    "bestSeason": "Beste Reisezeit",
     "website": "Webseite",
     "phone": "Telefon",
     "reviewsHeading": "Bewertungen",
+    "editorCuratedNote": "Dieser Ort wurde von unserer Redaktion handverlesen und geprüft.",
     "noReviews": "Noch keine Bewertungen.",
     "anonymous": "Anonym",
     "writeReviewCta": "Zum Bewerten anmelden",
@@ -83,6 +93,7 @@
     "seasonWinter": "Winter",
     "mostPopular": "Am beliebtesten",
     "topRated": "Am besten bewertet",
+    "rightNow": "Jetzt ideal",
     "allInCategory": "Alle entdecken",
     "previousPhoto": "Vorheriges Foto",
     "nextPhoto": "Nächstes Foto"
@@ -125,6 +136,7 @@
     "retry": "Erneut versuchen"
   },
   "footer": {
-    "rights": "Alle Rechte vorbehalten."
+    "rights": "Alle Rechte vorbehalten.",
+    "trustNote": "Handverlesene Orte. Keine gefälschten Bewertungen. Kein bezahltes Ranking."
   }
 }

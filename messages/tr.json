@@ -23,7 +23,15 @@
     "viewAll": "Tümünü Gör",
     "introHeading": "Gerçek Gezginlerin Keşfettiği Yerleri Siz de Keşfedin",
     "introSubtitle": "Restoranlardan doğal güzelliklere, anıtlardan otellere kadar dünyanın dört bir yanında binlerce gerçek mekanı, gerçek puanları ve gerçek fotoğraflarıyla keşfedin.",
-    "introCta": "Keşfetmeye Başla"
+    "introCta": "Keşfetmeye Başla",
+    "trustHeading": "Neden VisitorGuide?",
+    "trustCaption": "{placeCountLabel} — elle seçildi ve doğrulandı. Sahte yorum yok. Ücretli sıralama yok.",
+    "trustCuratedTitle": "Editör Onaylı",
+    "trustCuratedDesc": "Her yer editör ekibimiz tarafından elle seçilir ve kontrol edilir.",
+    "trustNoFakeTitle": "Sahte Yorum Yok",
+    "trustNoFakeDesc": "Yalnızca gerçek ziyaretçiler yorum yazabilir.",
+    "trustNoPaidTitle": "Ücretli Sıralama Yok",
+    "trustNoPaidDesc": "Sıralama yalnızca puana dayanır — asla ödemeye değil."
   },
   "categories": {
     "RESTAURANT": "Restoranlar",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Adres",
     "openingHours": "Çalışma Saatleri",
+    "bestSeason": "En iyi ziyaret zamanı",
     "website": "Web Sitesi",
     "phone": "Telefon",
     "reviewsHeading": "Yorumlar",
+    "editorCuratedNote": "Bu yer editör ekibimiz tarafından seçildi ve doğrulandı.",
     "noReviews": "Henüz yorum yok.",
     "anonymous": "Anonim",
     "writeReviewCta": "Yorum yazmak için giriş yapın",
@@ -83,6 +93,7 @@
     "seasonWinter": "Kış",
     "mostPopular": "En Popüler",
     "topRated": "En Çok Beğenilen",
+    "rightNow": "Şu An Gidilecek Yerler",
     "allInCategory": "Tümünü Keşfedin",
     "previousPhoto": "Önceki fotoğraf",
     "nextPhoto": "Sonraki fotoğraf"
@@ -125,6 +136,7 @@
     "retry": "Tekrar dene"
   },
   "footer": {
-    "rights": "Tüm hakları saklıdır."
+    "rights": "Tüm hakları saklıdır.",
+    "trustNote": "Elle seçilmiş yerler. Sahte yorum yok. Ücretli sıralama yok."
   }
 }

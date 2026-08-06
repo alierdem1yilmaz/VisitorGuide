@@ -23,7 +23,15 @@
     "viewAll": "Lihat Semua",
     "introHeading": "Temukan Tempat-Tempat yang Telah Ditemukan oleh Para Pelancong Sejati",
     "introSubtitle": "Dari restoran hingga keajaiban alam, monumen hingga hotel, jelajahi ribuan tempat nyata di seluruh dunia dengan peringkat dan foto asli.",
-    "introCta": "Mulai Menjelajah"
+    "introCta": "Mulai Menjelajah",
+    "trustHeading": "Mengapa VisitorGuide",
+    "trustCaption": "{placeCountLabel} — dipilih langsung dan terverifikasi. Tanpa ulasan palsu. Tanpa peringkat berbayar.",
+    "trustCuratedTitle": "Disetujui Editor",
+    "trustCuratedDesc": "Setiap tempat dipilih langsung dan diperiksa oleh tim editorial kami.",
+    "trustNoFakeTitle": "Tanpa Ulasan Palsu",
+    "trustNoFakeDesc": "Hanya pengunjung asli yang dapat memposting ulasan.",
+    "trustNoPaidTitle": "Tanpa Peringkat Berbayar",
+    "trustNoPaidDesc": "Peringkat hanya berdasarkan rating — tidak pernah pembayaran."
   },
   "categories": {
     "RESTAURANT": "Restoran",
@@ -53,9 +61,11 @@
   "place": {
     "address": "Alamat",
     "openingHours": "Jam Buka",
+    "bestSeason": "Waktu terbaik untuk berkunjung",
     "website": "Situs web",
     "phone": "Telepon",
     "reviewsHeading": "Ulasan",
+    "editorCuratedNote": "Tempat ini dipilih langsung dan diverifikasi oleh tim editorial kami.",
     "noReviews": "Belum ada ulasan.",
     "anonymous": "Anonim",
     "writeReviewCta": "Masuk untuk menulis ulasan",
@@ -83,6 +93,7 @@
     "seasonWinter": "Musim dingin",
     "mostPopular": "Paling Populer",
     "topRated": "Peringkat Teratas",
+    "rightNow": "Ideal Saat Ini",
     "allInCategory": "Jelajahi Semua",
     "previousPhoto": "Foto sebelumnya",
     "nextPhoto": "Foto berikutnya"
@@ -125,6 +136,7 @@
     "retry": "Coba lagi"
   },
   "footer": {
-    "rights": "Seluruh hak dilindungi undang-undang."
+    "rights": "Seluruh hak dilindungi undang-undang.",
+    "trustNote": "Tempat pilihan tangan. Tanpa ulasan palsu. Tanpa peringkat berbayar."
   }
 }
