@@ -5915,6 +5915,306 @@ const countries = [
       },
     ],
   },
+  {
+    slug: "guney-afrika",
+    name: "South Africa",
+    description:
+      "A country at Africa's southern tip known for dramatic coastal scenery, wildlife safaris, and a rich, layered history.",
+    coverImageUrl: "https://picsum.photos/seed/guney-afrika-cover/1200/600",
+    currencyCode: "ZAR",
+    cities: [
+      {
+        slug: "cape-town",
+        name: "Cape Town",
+        description:
+          "A coastal city beneath Table Mountain, known for its waterfront, beaches, vineyards, and access to the Cape Peninsula.",
+        coverImageUrl: "https://picsum.photos/seed/cape-town-cover/1200/600",
+        latitude: -33.9249,
+        longitude: 18.4241,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "kenya",
+    name: "Kenya",
+    description:
+      "An East African country famed for its savanna wildlife safaris, the Great Rift Valley, and Indian Ocean beaches.",
+    coverImageUrl: "https://picsum.photos/seed/kenya-cover/1200/600",
+    currencyCode: "KES",
+    cities: [
+      {
+        slug: "nairobi",
+        name: "Nairobi",
+        description:
+          "Kenya's capital, a major safari gateway uniquely home to a national park with wildlife just outside the city center.",
+        coverImageUrl: "https://picsum.photos/seed/nairobi-cover/1200/600",
+        latitude: -1.2921,
+        longitude: 36.8219,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "tanzanya",
+    name: "Tanzania",
+    description:
+      "An East African country known for the Serengeti, Mount Kilimanjaro, and the historic spice island of Zanzibar.",
+    coverImageUrl: "https://picsum.photos/seed/tanzanya-cover/1200/600",
+    currencyCode: "TZS",
+    cities: [
+      {
+        slug: "zanzibar",
+        name: "Zanzibar City",
+        description:
+          "A historic spice island city on Tanzania's coast, known for the UNESCO-listed Stone Town and turquoise beaches.",
+        coverImageUrl: "https://picsum.photos/seed/zanzibar-cover/1200/600",
+        latitude: -6.1659,
+        longitude: 39.2026,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "tunus",
+    name: "Tunisia",
+    description:
+      "A North African country known for Mediterranean beaches, well-preserved Roman ruins, and the ancient city of Carthage.",
+    coverImageUrl: "https://picsum.photos/seed/tunus-cover/1200/600",
+    currencyCode: "TND",
+    cities: [
+      {
+        slug: "tunis",
+        name: "Tunis",
+        description:
+          "Tunisia's capital, known for its UNESCO-listed medina, nearby ruins of ancient Carthage, and Mediterranean coastline.",
+        coverImageUrl: "https://picsum.photos/seed/tunis-cover/1200/600",
+        latitude: 36.8065,
+        longitude: 10.1815,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "seyseller",
+    name: "Seychelles",
+    description:
+      "An Indian Ocean island nation known for granite-boulder beaches, coral reefs, and lush nature reserves.",
+    coverImageUrl: "https://picsum.photos/seed/seyseller-cover/1200/600",
+    currencyCode: "SCR",
+    cities: [
+      {
+        slug: "victoria",
+        name: "Victoria",
+        description:
+          "The Seychelles' small capital on Mahé island, a gateway to some of the Indian Ocean's most celebrated beaches.",
+        coverImageUrl: "https://picsum.photos/seed/victoria-cover/1200/600",
+        latitude: -4.6191,
+        longitude: 55.4513,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "mauritius",
+    name: "Mauritius",
+    description:
+      "An Indian Ocean island nation known for coral lagoons, luxury beach resorts, and a multicultural heritage.",
+    coverImageUrl: "https://picsum.photos/seed/mauritius-cover/1200/600",
+    currencyCode: "MUR",
+    cities: [
+      {
+        slug: "port-louis",
+        name: "Port Louis",
+        description:
+          "Mauritius' capital and main port, a mix of colonial architecture, bustling markets, and nearby mountain scenery.",
+        coverImageUrl: "https://picsum.photos/seed/port-louis-cover/1200/600",
+        latitude: -20.1609,
+        longitude: 57.5012,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "namibya",
+    name: "Namibia",
+    description:
+      "A Southern African country known for the towering red dunes of the Namib Desert and vast, wildlife-rich wilderness.",
+    coverImageUrl: "https://picsum.photos/seed/namibya-cover/1200/600",
+    currencyCode: "NAD",
+    cities: [
+      {
+        slug: "windhoek",
+        name: "Windhoek",
+        description:
+          "Namibia's capital, a small, orderly city in the highlands that serves as the gateway to the country's desert landscapes.",
+        coverImageUrl: "https://picsum.photos/seed/windhoek-cover/1200/600",
+        latitude: -22.5609,
+        longitude: 17.0658,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "zimbabve",
+    name: "Zimbabwe",
+    description:
+      "A Southern African country home to Victoria Falls, one of the world's largest and most spectacular waterfalls.",
+    coverImageUrl: "https://picsum.photos/seed/zimbabve-cover/1200/600",
+    currencyCode: "USD",
+    cities: [
+      {
+        slug: "victoria-falls",
+        name: "Victoria Falls",
+        description:
+          "A town on the Zambezi River named for the thundering waterfall beside it, a hub for adventure tourism and wildlife viewing.",
+        coverImageUrl: "https://picsum.photos/seed/victoria-falls-cover/1200/600",
+        latitude: -17.9243,
+        longitude: 25.8572,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "arjantin",
+    name: "Argentina",
+    description:
+      "A South American country known for tango, Patagonian wilderness, the Andes, and the grand boulevards of Buenos Aires.",
+    coverImageUrl: "https://picsum.photos/seed/arjantin-cover/1200/600",
+    currencyCode: "ARS",
+    cities: [
+      {
+        slug: "buenos-aires",
+        name: "Buenos Aires",
+        description:
+          "Argentina's capital, known for European-style architecture, tango culture, and vibrant neighborhoods like La Boca and Recoleta.",
+        coverImageUrl: "https://picsum.photos/seed/buenos-aires-cover/1200/600",
+        latitude: -34.6037,
+        longitude: -58.3816,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "peru",
+    name: "Peru",
+    description:
+      "A South American country known for the Inca citadel of Machu Picchu, Andean peaks, and a rich pre-Columbian heritage.",
+    coverImageUrl: "https://picsum.photos/seed/peru-cover/1200/600",
+    currencyCode: "PEN",
+    cities: [
+      {
+        slug: "cusco",
+        name: "Cusco",
+        description:
+          "The historic capital of the Inca Empire high in the Andes, and the main gateway to Machu Picchu and the Sacred Valley.",
+        coverImageUrl: "https://picsum.photos/seed/cusco-cover/1200/600",
+        latitude: -13.5319,
+        longitude: -71.9675,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "sili",
+    name: "Chile",
+    description:
+      "A long, narrow South American country spanning desert, Andes peaks, lakes, and Patagonian wilderness.",
+    coverImageUrl: "https://picsum.photos/seed/sili-cover/1200/600",
+    currencyCode: "CLP",
+    cities: [
+      {
+        slug: "santiago",
+        name: "Santiago",
+        description:
+          "Chile's capital, set in a valley ringed by the snow-capped Andes, known for its vineyards and lively neighborhoods.",
+        coverImageUrl: "https://picsum.photos/seed/santiago-cover/1200/600",
+        latitude: -33.4489,
+        longitude: -70.6693,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "kolombiya",
+    name: "Colombia",
+    description:
+      "A South American country known for colorful colonial cities, Caribbean beaches, and coffee-growing highlands.",
+    coverImageUrl: "https://picsum.photos/seed/kolombiya-cover/1200/600",
+    currencyCode: "COP",
+    cities: [
+      {
+        slug: "cartagena",
+        name: "Cartagena",
+        description:
+          "A Caribbean coastal city famed for its walled Old Town of colorful colonial buildings, plazas, and seaside forts.",
+        coverImageUrl: "https://picsum.photos/seed/cartagena-cover/1200/600",
+        latitude: 10.391,
+        longitude: -75.4794,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "ekvador",
+    name: "Ecuador",
+    description:
+      "A South American country straddling the equator, known for Andean volcanoes, Amazon rainforest, and the Galápagos Islands.",
+    coverImageUrl: "https://picsum.photos/seed/ekvador-cover/1200/600",
+    currencyCode: "USD",
+    cities: [
+      {
+        slug: "quito",
+        name: "Quito",
+        description:
+          "Ecuador's high-altitude capital, known for one of the best-preserved historic centers in Latin America and Andean views.",
+        coverImageUrl: "https://picsum.photos/seed/quito-cover/1200/600",
+        latitude: -0.1807,
+        longitude: -78.4678,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "uruguay",
+    name: "Uruguay",
+    description:
+      "A small South American country known for relaxed beach towns, cattle ranches, and a historic Atlantic-coast capital.",
+    coverImageUrl: "https://picsum.photos/seed/uruguay-cover/1200/600",
+    currencyCode: "UYU",
+    cities: [
+      {
+        slug: "montevideo",
+        name: "Montevideo",
+        description:
+          "Uruguay's capital, a laid-back coastal city known for its historic old town, rambla promenade, and beaches.",
+        coverImageUrl: "https://picsum.photos/seed/montevideo-cover/1200/600",
+        latitude: -34.9011,
+        longitude: -56.1645,
+        places: [],
+      },
+    ],
+  },
+  {
+    slug: "bolivya",
+    name: "Bolivia",
+    description:
+      "A landlocked South American country known for the vast Salar de Uyuni salt flat and a high-altitude Andean capital.",
+    coverImageUrl: "https://picsum.photos/seed/bolivya-cover/1200/600",
+    currencyCode: "BOB",
+    cities: [
+      {
+        slug: "la-paz",
+        name: "La Paz",
+        description:
+          "Bolivia's seat of government, the world's highest administrative capital, set dramatically in an Andean canyon.",
+        coverImageUrl: "https://picsum.photos/seed/la-paz-cover/1200/600",
+        latitude: -16.5,
+        longitude: -68.15,
+        places: [],
+      },
+    ],
+  },
 ];
 
 const demoUsers = [
