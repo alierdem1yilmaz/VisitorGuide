@@ -115,7 +115,10 @@
     "continueWithGoogle": "Jätka Google'iga",
     "invalidCredentials": "Kehtetu e-posti aadress või parool.",
     "alreadyHaveAccount": "Kas sul on juba konto? Logi sisse",
-    "noAccountYet": "Kas teil pole kontot? Registreeru"
+    "noAccountYet": "Kas teil pole kontot? Registreeru",
+    "reviewLoginNotice": "Me hindame teie tagasisidet väga – täname jagamast. Arvustuse kirjutamiseks peate sisse logima.",
+    "signUpWithGoogle": "Registreeru Google'iga",
+    "accountExists": "Selle e-posti aadressiga konto on juba olemas."
   },
   "review": {
     "writeReview": "Kirjutage arvustus",

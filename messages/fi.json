@@ -115,7 +115,10 @@
     "continueWithGoogle": "Jatka Googlen kanssa",
     "invalidCredentials": "Virheellinen sähköpostiosoite tai salasana.",
     "alreadyHaveAccount": "Onko sinulla jo tili? Kirjaudu sisään",
-    "noAccountYet": "Eikö sinulla ole tiliä? Rekisteröidy"
+    "noAccountYet": "Eikö sinulla ole tiliä? Rekisteröidy",
+    "reviewLoginNotice": "Arvostamme palautettasi todella – kiitos sen jakamisesta. Sinun on kirjauduttava sisään kirjoittaaksesi arvostelun.",
+    "signUpWithGoogle": "Rekisteröidy Googlella",
+    "accountExists": "Tällä sähköpostiosoitteella on jo tili."
   },
   "review": {
     "writeReview": "Kirjoita arvostelu",

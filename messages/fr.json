@@ -115,7 +115,10 @@
     "continueWithGoogle": "Continuer avec Google",
     "invalidCredentials": "E-mail ou mot de passe incorrect.",
     "alreadyHaveAccount": "Déjà un compte ? Connectez-vous",
-    "noAccountYet": "Pas encore de compte ? Inscrivez-vous"
+    "noAccountYet": "Pas encore de compte ? Inscrivez-vous",
+    "reviewLoginNotice": "Nous accordons une grande importance à vos commentaires ; merci de les partager. Vous devez vous connecter pour rédiger un avis.",
+    "signUpWithGoogle": "Inscrivez-vous avec Google",
+    "accountExists": "Un compte associé à cette adresse e-mail existe déjà."
   },
   "review": {
     "writeReview": "Écrire un avis",

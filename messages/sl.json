@@ -115,7 +115,10 @@
     "continueWithGoogle": "Nadaljuj z Googlom",
     "invalidCredentials": "Neveljaven e-poštni naslov ali geslo.",
     "alreadyHaveAccount": "Že imate račun? Prijava",
-    "noAccountYet": "Nimate računa? Registrirajte se"
+    "noAccountYet": "Nimate računa? Registrirajte se",
+    "reviewLoginNotice": "Resnično cenimo vaše mnenje – hvala, ker ste ga delili z nami. Za pisanje mnenja se morate prijaviti.",
+    "signUpWithGoogle": "Registrirajte se z Googlom",
+    "accountExists": "Račun s tem e-poštnim naslovom že obstaja."
   },
   "review": {
     "writeReview": "Napišite oceno",

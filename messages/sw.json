@@ -115,7 +115,10 @@
     "continueWithGoogle": "Endelea na Google",
     "invalidCredentials": "Barua pepe au nenosiri si sahihi.",
     "alreadyHaveAccount": "Tayari una akaunti? Ingia",
-    "noAccountYet": "Huna akaunti? Jisajili"
+    "noAccountYet": "Huna akaunti? Jisajili",
+    "reviewLoginNotice": "Tunathamini sana maoni yako — asante kwa kuyashiriki. Unahitaji kuingia ili kuandika ukaguzi.",
+    "signUpWithGoogle": "Jisajili na Google",
+    "accountExists": "Akaunti yenye barua pepe hii tayari ipo."
   },
   "review": {
     "writeReview": "Andika Uhakiki",

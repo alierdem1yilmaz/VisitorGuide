@@ -115,7 +115,10 @@
     "continueWithGoogle": "Magpatuloy sa Google",
     "invalidCredentials": "Hindi wastong email o password.",
     "alreadyHaveAccount": "Mayroon ka nang account? Mag-sign in",
-    "noAccountYet": "Wala pang account? Mag-sign up"
+    "noAccountYet": "Wala pang account? Mag-sign up",
+    "reviewLoginNotice": "Talagang pinahahalagahan namin ang iyong feedback — salamat sa pagbabahagi nito. Kailangan mong mag-sign in para makapagsulat ng review.",
+    "signUpWithGoogle": "Mag-sign up sa Google",
+    "accountExists": "Mayroon nang account na may ganitong email."
   },
   "review": {
     "writeReview": "Magsulat ng Review",

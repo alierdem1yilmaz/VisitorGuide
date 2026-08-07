@@ -115,7 +115,10 @@
     "continueWithGoogle": "Teruskan dengan Google",
     "invalidCredentials": "E-mel atau kata laluan tidak sah.",
     "alreadyHaveAccount": "Sudah mempunyai akaun? Log masuk",
-    "noAccountYet": "Tidak mempunyai akaun? Daftar"
+    "noAccountYet": "Tidak mempunyai akaun? Daftar",
+    "reviewLoginNotice": "Kami amat menghargai maklum balas anda — terima kasih kerana berkongsinya. Anda perlu log masuk untuk menulis ulasan.",
+    "signUpWithGoogle": "Daftar dengan Google",
+    "accountExists": "Akaun dengan e-mel ini sudah wujud."
   },
   "review": {
     "writeReview": "Tulis Ulasan",

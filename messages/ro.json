@@ -115,7 +115,10 @@
     "continueWithGoogle": "Continuă cu Google",
     "invalidCredentials": "Adresă de e-mail sau parolă nevalidă.",
     "alreadyHaveAccount": "Ai deja un cont? Conectează-te?",
-    "noAccountYet": "Nu ai un cont? Înregistrează-te"
+    "noAccountYet": "Nu ai un cont? Înregistrează-te",
+    "reviewLoginNotice": "Apreciem cu adevărat feedback-ul dumneavoastră — vă mulțumim că l-ați distribuit. Trebuie să vă conectați pentru a scrie o recenzie.",
+    "signUpWithGoogle": "Înregistrează-te cu Google",
+    "accountExists": "Există deja un cont cu această adresă de e-mail."
   },
   "review": {
     "writeReview": "Scrie o recenzie",

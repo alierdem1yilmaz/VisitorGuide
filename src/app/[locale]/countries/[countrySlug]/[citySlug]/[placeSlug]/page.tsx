@@ -204,7 +204,12 @@ export default async function PlacePage({
               {t("editorCuratedNote")}
             </p>
           </div>
-          {!session?.user && <WriteReviewCta label={t("writeReviewCta")} />}
+          {!session?.user && (
+            <WriteReviewCta
+              label={t("writeReviewCta")}
+              href={`/login?intent=review&callbackUrl=${encodeURIComponent(placePath)}`}
+            />
+          )}
         </div>
         {session?.user && (
           <div className="mb-6">

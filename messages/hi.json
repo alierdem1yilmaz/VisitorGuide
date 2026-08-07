@@ -115,7 +115,10 @@
     "continueWithGoogle": "Google से जारी रखें",
     "invalidCredentials": "ईमेल या पासवर्ड गलत है।",
     "alreadyHaveAccount": "पहले से खाता है? साइन इन करें",
-    "noAccountYet": "खाता नहीं है? साइन अप करें"
+    "noAccountYet": "खाता नहीं है? साइन अप करें",
+    "reviewLoginNotice": "हम आपकी प्रतिक्रिया को बहुत महत्व देते हैं — इसे साझा करने के लिए धन्यवाद। समीक्षा लिखने के लिए आपको साइन इन करना होगा।",
+    "signUpWithGoogle": "Google के साथ साइन अप करें",
+    "accountExists": "इस ईमेल पते से पहले से ही एक खाता मौजूद है।"
   },
   "review": {
     "writeReview": "समीक्षा लिखें",

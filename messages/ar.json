@@ -115,7 +115,10 @@
     "continueWithGoogle": "تابع مع جوجل",
     "invalidCredentials": "بريد إلكتروني أو كلمة مرور غير صحيحة.",
     "alreadyHaveAccount": "هل لديك حساب بالفعل؟ سجّل الدخول",
-    "noAccountYet": "ليس لديك حساب؟ سجل الآن"
+    "noAccountYet": "ليس لديك حساب؟ سجل الآن",
+    "reviewLoginNotice": "نُقدّر ملاحظاتكم حقًا، شكرًا لكم على مشاركتها. يجب عليكم تسجيل الدخول لكتابة مراجعة.",
+    "signUpWithGoogle": "سجل باستخدام جوجل",
+    "accountExists": "يوجد حساب بالفعل بهذا البريد الإلكتروني."
   },
   "review": {
     "writeReview": "اكتب مراجعة",

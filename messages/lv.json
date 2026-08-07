@@ -115,7 +115,10 @@
     "continueWithGoogle": "Turpināt ar Google",
     "invalidCredentials": "Nederīga e-pasta adrese vai parole.",
     "alreadyHaveAccount": "Vai jums jau ir konts? Pierakstieties",
-    "noAccountYet": "Nav konta? Reģistrējieties"
+    "noAccountYet": "Nav konta? Reģistrējieties",
+    "reviewLoginNotice": "Mēs patiesi novērtējam jūsu atsauksmes — paldies, ka dalījāties ar tām. Lai rakstītu atsauksmi, jums jāpiesakās.",
+    "signUpWithGoogle": "Reģistrēties, izmantojot Google",
+    "accountExists": "Konts ar šādu e-pasta adresi jau pastāv."
   },
   "review": {
     "writeReview": "Uzrakstīt atsauksmi",

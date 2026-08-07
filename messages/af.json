@@ -115,7 +115,10 @@
     "continueWithGoogle": "Gaan voort met Google",
     "invalidCredentials": "Ongeldige e-pos of wagwoord.",
     "alreadyHaveAccount": "Het jy reeds 'n rekening? Meld aan",
-    "noAccountYet": "Het jy nie 'n rekening nie? Registreer"
+    "noAccountYet": "Het jy nie 'n rekening nie? Registreer",
+    "reviewLoginNotice": "Ons waardeer jou terugvoer werklik — dankie dat jy dit gedeel het. Jy moet aanmeld om 'n resensie te skryf.",
+    "signUpWithGoogle": "Registreer met Google",
+    "accountExists": "'n Rekening met hierdie e-posadres bestaan reeds."
   },
   "review": {
     "writeReview": "Skryf 'n resensie",

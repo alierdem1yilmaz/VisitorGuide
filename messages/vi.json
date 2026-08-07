@@ -115,7 +115,10 @@
     "continueWithGoogle": "Tiếp tục với Google",
     "invalidCredentials": "Địa chỉ email hoặc mật khẩu không hợp lệ.",
     "alreadyHaveAccount": "Bạn đã có tài khoản? Đăng nhập",
-    "noAccountYet": "Chưa có tài khoản? Đăng ký"
+    "noAccountYet": "Chưa có tài khoản? Đăng ký",
+    "reviewLoginNotice": "Chúng tôi thực sự trân trọng phản hồi của bạn — cảm ơn bạn đã chia sẻ. Bạn cần đăng nhập để viết đánh giá.",
+    "signUpWithGoogle": "Đăng ký bằng Google",
+    "accountExists": "Tài khoản có địa chỉ email này đã tồn tại."
   },
   "review": {
     "writeReview": "Viết đánh giá",

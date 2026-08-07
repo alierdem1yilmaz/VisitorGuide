@@ -115,7 +115,10 @@
     "continueWithGoogle": "Google ilə davam edin",
     "invalidCredentials": "Yanlış e-poçt və ya parol.",
     "alreadyHaveAccount": "Artıq hesabınız var? Daxil olun",
-    "noAccountYet": "Hesabınız yoxdur? Qeydiyyatdan keçin"
+    "noAccountYet": "Hesabınız yoxdur? Qeydiyyatdan keçin",
+    "reviewLoginNotice": "Rəylərinizi həqiqətən qiymətləndiririk — paylaşdığınız üçün təşəkkür edirik. Rəy yazmaq üçün daxil olmalısınız.",
+    "signUpWithGoogle": "Google ilə qeydiyyatdan keçin",
+    "accountExists": "Bu e-poçt ünvanı ilə hesab artıq mövcuddur."
   },
   "review": {
     "writeReview": "Rəy yazın",

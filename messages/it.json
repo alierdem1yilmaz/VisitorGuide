@@ -115,7 +115,10 @@
     "continueWithGoogle": "Continua con Google",
     "invalidCredentials": "Indirizzo email o password non validi.",
     "alreadyHaveAccount": "Hai già un account? Accedi",
-    "noAccountYet": "Non hai un account? Registrati"
+    "noAccountYet": "Non hai un account? Registrati",
+    "reviewLoginNotice": "Apprezziamo molto il tuo feedback: grazie per averlo condiviso. Per scrivere una recensione è necessario effettuare l'accesso.",
+    "signUpWithGoogle": "Registrati con Google",
+    "accountExists": "Esiste già un account con questo indirizzo email."
   },
   "review": {
     "writeReview": "Scrivi una recensione",

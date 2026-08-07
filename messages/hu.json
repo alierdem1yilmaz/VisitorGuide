@@ -115,7 +115,10 @@
     "continueWithGoogle": "Folytatás a Google-lal",
     "invalidCredentials": "Érvénytelen e-mail cím vagy jelszó.",
     "alreadyHaveAccount": "Már van fiókja? Jelentkezzen be",
-    "noAccountYet": "Nincs fiókod? Regisztrálj"
+    "noAccountYet": "Nincs fiókod? Regisztrálj",
+    "reviewLoginNotice": "Visszajelzését nagyra értékeljük – köszönjük, hogy megosztotta. Be kell jelentkeznie, hogy véleményt írhasson.",
+    "signUpWithGoogle": "Regisztrálj Google-lel",
+    "accountExists": "Már létezik egy fiók ezzel az e-mail címmel."
   },
   "review": {
     "writeReview": "Írjon véleményt",

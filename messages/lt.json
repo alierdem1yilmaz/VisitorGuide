@@ -115,7 +115,10 @@
     "continueWithGoogle": "Tęsti naudojant „Google“",
     "invalidCredentials": "Neteisingas el. pašto adresas arba slaptažodis.",
     "alreadyHaveAccount": "Jau turite paskyrą? Prisijunkite",
-    "noAccountYet": "Neturite paskyros? Registruotis"
+    "noAccountYet": "Neturite paskyros? Registruotis",
+    "reviewLoginNotice": "Mes tikrai vertiname jūsų atsiliepimą – ačiū, kad juo pasidalijote. Norėdami parašyti atsiliepimą, turite prisijungti.",
+    "signUpWithGoogle": "Prisiregistruokite naudodami „Google“",
+    "accountExists": "Paskyra su šiuo el. pašto adresu jau yra."
   },
   "review": {
     "writeReview": "Parašykite atsiliepimą",

@@ -115,7 +115,10 @@
     "continueWithGoogle": "Pokračovať s Googlom",
     "invalidCredentials": "Neplatný e-mail alebo heslo.",
     "alreadyHaveAccount": "Už máte účet? Prihlásiť sa",
-    "noAccountYet": "Nemáte účet? Zaregistrujte sa"
+    "noAccountYet": "Nemáte účet? Zaregistrujte sa",
+    "reviewLoginNotice": "Vašu spätnú väzbu si naozaj ceníme – ďakujeme, že ste sa o ňu podelili. Pre napísanie recenzie sa musíte prihlásiť.",
+    "signUpWithGoogle": "Zaregistrujte sa cez Google",
+    "accountExists": "Účet s touto e-mailovou adresou už existuje."
   },
   "review": {
     "writeReview": "Napísať recenziu",

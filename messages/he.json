@@ -115,7 +115,10 @@
     "continueWithGoogle": "המשך עם גוגל",
     "invalidCredentials": "כתובת דוא\"ל או סיסמה לא חוקיים.",
     "alreadyHaveAccount": "כבר יש לך חשבון? התחבר",
-    "noAccountYet": "אין לך חשבון? הירשם"
+    "noAccountYet": "אין לך חשבון? הירשם",
+    "reviewLoginNotice": "אנו מעריכים מאוד את המשוב שלך - תודה ששיתפת אותו. עליך להתחבר כדי לכתוב ביקורת.",
+    "signUpWithGoogle": "הירשם עם גוגל",
+    "accountExists": "חשבון עם כתובת דוא\"ל זו כבר קיים."
   },
   "review": {
     "writeReview": "כתוב ביקורת",

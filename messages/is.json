@@ -115,7 +115,10 @@
     "continueWithGoogle": "Halda áfram með Google",
     "invalidCredentials": "Ógilt netfang eða lykilorð.",
     "alreadyHaveAccount": "Ertu nú þegar með aðgang? Skráðu þig inn",
-    "noAccountYet": "Ertu ekki með aðgang? Skráðu þig"
+    "noAccountYet": "Ertu ekki með aðgang? Skráðu þig",
+    "reviewLoginNotice": "Við metum ábendingar þínar mikils — takk fyrir að deila þeim. Þú þarft að skrá þig inn til að skrifa umsögn.",
+    "signUpWithGoogle": "Skráðu þig með Google",
+    "accountExists": "Aðgangur með þessu netfangi er þegar til."
   },
   "review": {
     "writeReview": "Skrifaðu umsögn",

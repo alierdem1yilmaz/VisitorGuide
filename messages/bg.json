@@ -115,7 +115,10 @@
     "continueWithGoogle": "Продължете с Google",
     "invalidCredentials": "Невалиден имейл или парола.",
     "alreadyHaveAccount": "Вече имате акаунт? Влезте",
-    "noAccountYet": "Нямате акаунт? Регистрирайте се"
+    "noAccountYet": "Нямате акаунт? Регистрирайте се",
+    "reviewLoginNotice": "Наистина ценим вашата обратна връзка — благодарим ви, че я споделихте. Трябва да влезете, за да напишете отзив.",
+    "signUpWithGoogle": "Регистрирайте се с Google",
+    "accountExists": "Вече съществува акаунт с този имейл адрес."
   },
   "review": {
     "writeReview": "Напишете отзив",

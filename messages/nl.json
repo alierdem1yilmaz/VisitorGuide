@@ -115,7 +115,10 @@
     "continueWithGoogle": "Ga verder met Google",
     "invalidCredentials": "Ongeldig e-mailadres of wachtwoord.",
     "alreadyHaveAccount": "Heb je al een account? Log in",
-    "noAccountYet": "Nog geen account? Meld je aan"
+    "noAccountYet": "Nog geen account? Meld je aan",
+    "reviewLoginNotice": "We stellen uw feedback zeer op prijs — dank u wel dat u deze met ons deelt. U moet zich aanmelden om een recensie te kunnen schrijven.",
+    "signUpWithGoogle": "Meld je aan bij Google",
+    "accountExists": "Er bestaat al een account met dit e-mailadres."
   },
   "review": {
     "writeReview": "Schrijf een recensie",

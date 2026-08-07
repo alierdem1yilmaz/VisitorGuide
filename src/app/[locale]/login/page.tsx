@@ -8,17 +8,24 @@ export default async function LoginPage({
   searchParams,
 }: {
   params: Promise<{ locale: string }>;
-  searchParams: Promise<{ error?: string }>;
+  searchParams: Promise<{ error?: string; callbackUrl?: string; intent?: string }>;
 }) {
   const { locale } = await params;
-  const { error } = await searchParams;
+  const { error, callbackUrl, intent } = await searchParams;
   setRequestLocale(locale);
 
   const t = await getTranslations("auth");
+  const redirectTo = callbackUrl || "/";
 
   return (
     <div className="mx-auto max-w-sm px-6 py-16">
       <h1 className="font-serif text-2xl font-medium text-ink-text">{t("signIn")}</h1>
+
+      {intent === "review" && (
+        <p className="mt-4 rounded-md border border-ink-text/10 bg-paper-2 px-3 py-2 text-sm text-ink-text/80">
+          {t("reviewLoginNotice")}
+        </p>
+      )}
 
       {error && (
         <p className="mt-4 rounded-md bg-red-50 px-3 py-2 text-sm text-red-700">
@@ -27,6 +34,8 @@ export default async function LoginPage({
       )}
 
       <form action={signInWithCredentials} className="mt-6 flex flex-col gap-4">
+        <input type="hidden" name="callbackUrl" value={redirectTo} />
+        <input type="hidden" name="intent" value={intent ?? ""} />
         <input
           type="email"
           name="email"
@@ -52,7 +61,7 @@ export default async function LoginPage({
       <form
         action={async () => {
           "use server";
-          await signIn("google", { redirectTo: "/" });
+          await signIn("google", { redirectTo });
         }}
         className="mt-3"
       >
@@ -65,7 +74,7 @@ export default async function LoginPage({
       </form>
 
       <Link
-        href="/register"
+        href={`/register${callbackUrl ? `?callbackUrl=${encodeURIComponent(callbackUrl)}` : ""}`}
         className="mt-4 block text-center font-mono text-xs uppercase tracking-wide text-gold hover:text-rust"
       >
         {t("noAccountYet")}

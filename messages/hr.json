@@ -115,7 +115,10 @@
     "continueWithGoogle": "Nastavite s Googleom",
     "invalidCredentials": "Nevažeća e-pošta ili lozinka.",
     "alreadyHaveAccount": "Već imate račun? Prijavite se",
-    "noAccountYet": "Nemate račun? Registrirajte se"
+    "noAccountYet": "Nemate račun? Registrirajte se",
+    "reviewLoginNotice": "Zaista cijenimo vaše povratne informacije - hvala vam što ste ih podijelili. Morate se prijaviti da biste napisali recenziju.",
+    "signUpWithGoogle": "Registrirajte se putem Googlea",
+    "accountExists": "Račun s ovom e-mail adresom već postoji."
   },
   "review": {
     "writeReview": "Napišite recenziju",

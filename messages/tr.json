@@ -115,7 +115,10 @@
     "continueWithGoogle": "Google ile devam et",
     "invalidCredentials": "E-posta veya şifre hatalı.",
     "alreadyHaveAccount": "Zaten hesabın var mı? Giriş yap",
-    "noAccountYet": "Hesabın yok mu? Kayıt ol"
+    "noAccountYet": "Hesabın yok mu? Kayıt ol",
+    "reviewLoginNotice": "Değerli yorumlarınızla geri bildirim alıyoruz, çok teşekkür ederiz. Yorum yapabilmek için oturum açmanız gerekmektedir.",
+    "signUpWithGoogle": "Google ile hesap oluştur",
+    "accountExists": "Bu e-posta adresiyle zaten bir hesap var."
   },
   "review": {
     "writeReview": "Yorum Yaz",

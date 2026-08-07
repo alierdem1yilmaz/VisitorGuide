@@ -115,7 +115,10 @@
     "continueWithGoogle": "Lanjutkan dengan Google",
     "invalidCredentials": "Email atau kata sandi tidak valid.",
     "alreadyHaveAccount": "Sudah memiliki akun? Masuk",
-    "noAccountYet": "Belum punya akun? Daftar sekarang"
+    "noAccountYet": "Belum punya akun? Daftar sekarang",
+    "reviewLoginNotice": "Kami sangat menghargai masukan Anda — terima kasih telah membagikannya. Anda perlu masuk untuk menulis ulasan.",
+    "signUpWithGoogle": "Daftar dengan Google",
+    "accountExists": "Akun dengan alamat email ini sudah ada."
   },
   "review": {
     "writeReview": "Tulis Ulasan",

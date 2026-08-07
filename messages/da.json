@@ -115,7 +115,10 @@
     "continueWithGoogle": "Fortsæt med Google",
     "invalidCredentials": "Ugyldig e-mail eller adgangskode.",
     "alreadyHaveAccount": "Har du allerede en konto? Log ind",
-    "noAccountYet": "Har du ikke en konto? Tilmeld dig"
+    "noAccountYet": "Har du ikke en konto? Tilmeld dig",
+    "reviewLoginNotice": "Vi sætter stor pris på din feedback – tak fordi du deler den. Du skal logge ind for at skrive en anmeldelse.",
+    "signUpWithGoogle": "Tilmeld dig med Google",
+    "accountExists": "Der findes allerede en konto med denne e-mail."
   },
   "review": {
     "writeReview": "Skriv en anmeldelse",

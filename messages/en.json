@@ -115,7 +115,10 @@
     "continueWithGoogle": "Continue with Google",
     "invalidCredentials": "Invalid email or password.",
     "alreadyHaveAccount": "Already have an account? Sign in",
-    "noAccountYet": "Don't have an account? Sign up"
+    "noAccountYet": "Don't have an account? Sign up",
+    "reviewLoginNotice": "We truly value your feedback — thank you for sharing it. You need to sign in to write a review.",
+    "signUpWithGoogle": "Sign up with Google",
+    "accountExists": "An account with this email already exists."
   },
   "review": {
     "writeReview": "Write a Review",

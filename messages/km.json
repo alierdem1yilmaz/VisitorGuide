@@ -115,7 +115,10 @@
     "continueWithGoogle": "បន្តជាមួយ Google",
     "invalidCredentials": "អ៊ីមែល ឬពាក្យសម្ងាត់មិនត្រឹមត្រូវ។",
     "alreadyHaveAccount": "មានគណនីរួចហើយ? ចូល",
-    "noAccountYet": "មិនមានគណនីទេ? ចុះឈ្មោះ"
+    "noAccountYet": "មិនមានគណនីទេ? ចុះឈ្មោះ",
+    "reviewLoginNotice": "យើងពិតជាឱ្យតម្លៃចំពោះមតិកែលម្អរបស់អ្នក — សូមអរគុណសម្រាប់ការចែករំលែកវា។ អ្នកត្រូវចូលដើម្បីសរសេរការវាយតម្លៃ។",
+    "signUpWithGoogle": "ចុះឈ្មោះជាមួយ Google",
+    "accountExists": "គណនីដែលមានអ៊ីមែលនេះមានរួចហើយ។"
   },
   "review": {
     "writeReview": "សរសេរការវាយតម្លៃ",

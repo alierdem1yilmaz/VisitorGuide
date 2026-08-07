@@ -115,7 +115,10 @@
     "continueWithGoogle": "使用 Google 继续",
     "invalidCredentials": "邮箱或密码错误。",
     "alreadyHaveAccount": "已有账号？登录",
-    "noAccountYet": "还没有账号？注册"
+    "noAccountYet": "还没有账号？注册",
+    "reviewLoginNotice": "我们非常重视您的反馈——感谢您的分享。您需要登录才能撰写评论。",
+    "signUpWithGoogle": "使用 Google 账号注册",
+    "accountExists": "此邮箱地址已存在账户。"
   },
   "review": {
     "writeReview": "写评论",

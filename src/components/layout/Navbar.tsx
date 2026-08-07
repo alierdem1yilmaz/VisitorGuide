@@ -20,6 +20,9 @@ export default async function Navbar() {
   const activeRegion = regions.find((r) => r.locale === locale) ?? regions[0];
   const currentCurrency =
     cookieStore.get(CURRENCY_COOKIE)?.value ?? activeRegion.currencyCode;
+  const writeReviewHref = session?.user
+    ? "/search"
+    : "/login?intent=review&callbackUrl=%2Fsearch";
 
   return (
     <header className="border-b border-paper/10 bg-ink">
@@ -36,7 +39,7 @@ export default async function Navbar() {
               {t("explore")}
             </Link>
             <Link
-              href="/search"
+              href={writeReviewHref}
               className="font-mono text-xs uppercase tracking-wide text-paper/75 transition-opacity hover:text-gold-soft hover:opacity-100"
             >
               {t("writeReview")}

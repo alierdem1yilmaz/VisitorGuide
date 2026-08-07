@@ -115,7 +115,10 @@
     "continueWithGoogle": "Googleで続行",
     "invalidCredentials": "メールアドレスまたはパスワードが無効です。",
     "alreadyHaveAccount": "既にアカウントをお持ちですか？ログインしてください",
-    "noAccountYet": "アカウントをお持ちでない方はこちらからご登録ください。"
+    "noAccountYet": "アカウントをお持ちでない方はこちらからご登録ください。",
+    "reviewLoginNotice": "貴重なご意見をいただき、誠にありがとうございます。レビューを投稿するにはログインが必要です。",
+    "signUpWithGoogle": "Googleでサインアップ",
+    "accountExists": "このメールアドレスのアカウントは既に存在します。"
   },
   "review": {
     "writeReview": "レビューを書く",
