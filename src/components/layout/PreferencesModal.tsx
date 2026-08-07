@@ -62,7 +62,7 @@ export default function PreferencesModal({
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="flex items-center gap-1.5 rounded-full border border-brand-100 px-3 py-1.5 text-sm font-medium text-brand-700 transition-colors hover:bg-brand-50"
+        className="flex items-center gap-1.5 rounded-full border border-paper/25 px-3 py-1.5 font-mono text-xs uppercase tracking-wide text-paper transition-colors hover:bg-paper/10 hover:text-gold-soft"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

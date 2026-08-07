@@ -22,7 +22,7 @@ export default async function Navbar() {
     cookieStore.get(CURRENCY_COOKIE)?.value ?? activeRegion.currencyCode;
 
   return (
-    <header className="border-b border-brand-100 bg-white">
+    <header className="border-b border-paper/10 bg-ink">
       <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-4 gap-y-2 px-6 py-4">
         <div className="flex flex-wrap items-center gap-6">
           <Link href="/" className="flex items-center gap-3">
@@ -31,24 +31,24 @@ export default async function Navbar() {
           <nav className="hidden items-center gap-5 md:flex">
             <Link
               href="/search"
-              className="text-sm font-medium text-brand-700 hover:underline"
+              className="font-mono text-xs uppercase tracking-wide text-paper/75 transition-opacity hover:text-gold-soft hover:opacity-100"
             >
               {t("explore")}
             </Link>
             <Link
               href="/search"
-              className="text-sm font-medium text-brand-700 hover:underline"
+              className="font-mono text-xs uppercase tracking-wide text-paper/75 transition-opacity hover:text-gold-soft hover:opacity-100"
             >
               {t("writeReview")}
             </Link>
             <details className="group relative">
-              <summary className="cursor-pointer list-none text-sm font-medium text-brand-700 hover:underline">
+              <summary className="cursor-pointer list-none font-mono text-xs uppercase tracking-wide text-paper/75 hover:text-gold-soft">
                 {t("more")}
               </summary>
-              <div className="absolute left-0 top-full z-30 mt-2 min-w-40 rounded-lg border border-brand-100 bg-white p-2 shadow-lg">
+              <div className="absolute left-0 top-full z-30 mt-2 min-w-40 rounded-lg border border-paper/10 bg-ink-2 p-2 shadow-lg">
                 <Link
                   href="/"
-                  className="block rounded-md px-3 py-2 text-sm text-brand-700 hover:bg-brand-50"
+                  className="block rounded-md px-3 py-2 font-mono text-xs uppercase tracking-wide text-paper/80 hover:bg-ink hover:text-gold-soft"
                 >
                   {t("allCountries")}
                 </Link>
@@ -62,7 +62,7 @@ export default async function Navbar() {
             href="/profile"
             aria-label={t("favorites")}
             title={t("favorites")}
-            className="flex h-9 w-9 items-center justify-center rounded-full text-brand-700 transition-colors hover:bg-brand-50"
+            className="flex h-9 w-9 items-center justify-center rounded-full text-paper/80 transition-colors hover:bg-paper/10 hover:text-gold-soft"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +96,7 @@ export default async function Navbar() {
             <>
               <Link
                 href="/profile"
-                className="hidden text-sm font-medium text-brand-700 hover:underline sm:inline"
+                className="hidden font-mono text-xs uppercase tracking-wide text-paper/75 hover:text-gold-soft sm:inline"
               >
                 {session.user.name ?? session.user.email}
               </Link>
@@ -108,7 +108,7 @@ export default async function Navbar() {
               >
                 <button
                   type="submit"
-                  className="rounded-full border border-brand-100 px-4 py-1.5 text-sm font-medium text-brand-700 transition-colors hover:bg-brand-50"
+                  className="rounded-full border border-paper/25 px-4 py-1.5 font-mono text-xs uppercase tracking-wide text-paper transition-colors hover:bg-gold-soft hover:text-ink hover:border-gold-soft"
                 >
                   {tAuth("signOut")}
                 </button>
@@ -117,7 +117,7 @@ export default async function Navbar() {
           ) : (
             <Link
               href="/login"
-              className="rounded-full bg-brand-900 px-4 py-1.5 text-sm font-medium text-white transition-colors hover:bg-brand-800"
+              className="rounded-full border border-paper/25 px-4 py-1.5 font-mono text-xs uppercase tracking-wide text-paper transition-colors hover:bg-gold-soft hover:text-ink hover:border-gold-soft"
             >
               {tAuth("signIn")}
             </Link>

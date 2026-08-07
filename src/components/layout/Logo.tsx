@@ -1,18 +1,12 @@
-import Image from "next/image";
+import Stamp from "@/components/ui/Stamp";
 
 export default function Logo() {
   return (
     <div className="flex items-center gap-2.5">
-      <Image
-        src="/images/logo/icon.svg"
-        alt="VisitorGuide"
-        width={36}
-        height={36}
-        priority
-      />
-      <span className="text-xl font-bold tracking-tight">
-        <span className="text-brand-700">Visitor</span>
-        <span className="text-brand-500">Guide</span>
+      <Stamp value="VG" size="md" tone="onInk" className="shrink-0" />
+      <span className="font-serif text-xl font-semibold tracking-tight">
+        <span className="text-paper">Visitor</span>
+        <span className="text-gold-soft">Guide</span>
       </span>
     </div>
   );
