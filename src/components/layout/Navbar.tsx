@@ -21,8 +21,8 @@ export default async function Navbar() {
   const currentCurrency =
     cookieStore.get(CURRENCY_COOKIE)?.value ?? activeRegion.currencyCode;
   const writeReviewHref = session?.user
-    ? "/search"
-    : "/login?intent=review&callbackUrl=%2Fsearch";
+    ? "/search?intent=review"
+    : "/login?intent=review&callbackUrl=%2Fsearch%3Fintent%3Dreview";
 
   return (
     <header className="border-b border-paper/10 bg-ink">

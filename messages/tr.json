@@ -56,7 +56,9 @@
     "places": "Mekânlar",
     "noResults": "Sonuç bulunamadı.",
     "exploreHeading": "Keşfedin",
-    "exploreSubtitle": "Restoranlardan doğal güzelliklere, anıtlardan otellere kadar dünyanın dört bir yanındaki ülkeleri keşfedin. Her ülkeye tıklayarak şehirlerini ve gerçek mekanlarını görün."
+    "exploreSubtitle": "Restoranlardan doğal güzelliklere, anıtlardan otellere kadar dünyanın dört bir yanındaki ülkeleri keşfedin. Her ülkeye tıklayarak şehirlerini ve gerçek mekanlarını görün.",
+    "reviewIntentHeading": "Yorum yazmak ister misiniz?",
+    "reviewIntentSubtitle": "Yorum yapmak istediğiniz mekanı, şehri veya ülkeyi arayın, sayfasına gidin ve yorumunuzu orada yazın."
   },
   "place": {
     "address": "Adres",
@@ -66,7 +68,7 @@
     "phone": "Telefon",
     "reviewsHeading": "Yorumlar",
     "editorCuratedNote": "Bu yer editör ekibimiz tarafından seçildi ve doğrulandı.",
-    "noReviews": "Henüz yorum yok.",
+    "noReviews": "Henüz yorum yok. İlk yorum yapan siz olun!",
     "anonymous": "Anonim",
     "writeReviewCta": "Yorum yazmak için giriş yapın",
     "photoAlt": "fotoğrafı",

@@ -56,7 +56,9 @@
     "places": "Places",
     "noResults": "No results found.",
     "exploreHeading": "Explore",
-    "exploreSubtitle": "From restaurants to natural wonders, monuments to hotels, explore countries around the world. Click into any country to see its cities and real places."
+    "exploreSubtitle": "From restaurants to natural wonders, monuments to hotels, explore countries around the world. Click into any country to see its cities and real places.",
+    "reviewIntentHeading": "Want to write a review?",
+    "reviewIntentSubtitle": "Search for the place, city, or country you want to review, go to its page, and write your review there."
   },
   "place": {
     "address": "Address",
@@ -66,7 +68,7 @@
     "phone": "Phone",
     "reviewsHeading": "Reviews",
     "editorCuratedNote": "This place was hand-picked and verified by our editorial team.",
-    "noReviews": "No reviews yet.",
+    "noReviews": "No reviews yet. Be the first to write one!",
     "anonymous": "Anonymous",
     "writeReviewCta": "Sign in to write a review",
     "photoAlt": "photo",

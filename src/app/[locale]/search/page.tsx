@@ -4,6 +4,7 @@ import CityCard from "@/components/destination/CityCard";
 import PlaceCard from "@/components/place/PlaceCard";
 import FilterBar from "@/components/place/FilterBar";
 import SeasonToggle from "@/components/place/SeasonToggle";
+import SearchForm from "@/components/search/SearchForm";
 import {
   searchAll,
   getFavoritePlaceIds,
@@ -40,6 +41,7 @@ export default async function SearchPage({
     minRating?: string;
     maxPrice?: string;
     season?: string;
+    intent?: string;
   }>;
 }) {
   const { locale } = await params;
@@ -50,6 +52,7 @@ export default async function SearchPage({
     minRating: rawMinRating,
     maxPrice: rawMaxPrice,
     season: rawSeason,
+    intent,
   } = await searchParams;
   setRequestLocale(locale);
 
@@ -68,6 +71,20 @@ export default async function SearchPage({
     getTranslations("place"),
     auth(),
   ]);
+
+  if (!hasSearchContext && intent === "review") {
+    return (
+      <div className="mx-auto max-w-xl px-6 py-24 text-center">
+        <h1 className="font-serif text-3xl font-medium text-ink-text">
+          {t("reviewIntentHeading")}
+        </h1>
+        <p className="mt-3 text-ink-text/60">{t("reviewIntentSubtitle")}</p>
+        <div className="mt-8">
+          <SearchForm />
+        </div>
+      </div>
+    );
+  }
 
   if (!hasSearchContext) {
     const exploreCountries = await getAllCountriesWithPhotos();
