@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
-import { Category } from "@/generated/prisma/client";
+import { Category } from "@prisma/client";
 import { CATEGORY_THEME } from "@/lib/categoryTheme";
 import Stamp from "@/components/ui/Stamp";
 import FavoriteButton from "./FavoriteButton";

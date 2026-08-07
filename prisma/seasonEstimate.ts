@@ -1,4 +1,4 @@
-import { Category, Season } from "../src/generated/prisma/client";
+import { Category, Season } from "@prisma/client";
 
 // Extreme-summer-heat, desert-climate countries where the real tourist
 // season is winter (Nov-Mar) — outdoor/nature spots there (including

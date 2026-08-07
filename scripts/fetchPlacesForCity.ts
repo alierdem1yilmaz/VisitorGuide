@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { Category } from "../src/generated/prisma/client";
+import { Category } from "@prisma/client";
 import { countries } from "../prisma/seed";
 
 const API_KEY = process.env.GOOGLE_PLACES_API_KEY;

@@ -1,4 +1,4 @@
-import { PrismaClient, Season } from "../src/generated/prisma/client";
+import { PrismaClient, Season } from "@prisma/client";
 import { inferBestSeason } from "../prisma/seasonEstimate";
 
 const prisma = new PrismaClient();

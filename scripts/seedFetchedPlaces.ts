@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { PrismaClient, Category } from "../src/generated/prisma/client";
+import { PrismaClient, Category } from "@prisma/client";
 import { estimatePriceUsd } from "../prisma/priceEstimate";
 import { inferBestSeason } from "../prisma/seasonEstimate";
 

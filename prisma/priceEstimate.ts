@@ -1,4 +1,4 @@
-import { Category } from "../src/generated/prisma/client";
+import { Category } from "@prisma/client";
 
 // Baseline USD price per category at priceLevel 2 / "moderate" cost-of-living
 // (restaurant = meal for two, hotel = per night, attraction/monument/nature =

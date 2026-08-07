@@ -1,4 +1,4 @@
-import { Category } from "@/generated/prisma/client";
+import { Category } from "@prisma/client";
 
 export const CATEGORY_THEME: Record<
   Category,

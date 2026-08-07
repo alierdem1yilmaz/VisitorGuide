@@ -1,4 +1,4 @@
-import { PrismaClient } from "../src/generated/prisma/client";
+import { PrismaClient } from "@prisma/client";
 
 const API_KEY = process.env.GOOGLE_PLACES_API_KEY;
 if (!API_KEY) {

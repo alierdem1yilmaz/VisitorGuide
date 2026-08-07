@@ -11,7 +11,7 @@ import SeasonToggle from "@/components/place/SeasonToggle";
 import PhotoCarousel from "@/components/place/PhotoCarousel";
 import HighlightRow from "@/components/place/HighlightRow";
 import { getCityBySlug, getFavoritePlaceIds, type PlaceSort } from "@/lib/queries";
-import { Category, Season } from "@/generated/prisma/client";
+import { Category, Season } from "@prisma/client";
 import { auth } from "@/auth";
 import { getExchangeRates, getPreferredCurrency, formatConvertedPrice } from "@/lib/currency";
 import { currentSeasonForLatitude } from "@/lib/season";

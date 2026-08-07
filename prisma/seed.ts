@@ -1,4 +1,4 @@
-import { PrismaClient, Category, Season } from "../src/generated/prisma/client";
+import { PrismaClient, Category, Season } from "@prisma/client";
 import wikiPhotos from "./wikiPhotos.json";
 import curatedPlaceRatings from "./curatedPlaceRatings.json";
 import { estimatePriceUsd } from "./priceEstimate";

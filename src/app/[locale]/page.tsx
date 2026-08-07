@@ -7,7 +7,7 @@ import CategoryShowcaseRow, {
   type ShowcasePlace,
 } from "@/components/home/CategoryShowcaseRow";
 import { getFeaturedPlacesByCategory, getPlaceCount } from "@/lib/queries";
-import { Category } from "@/generated/prisma/client";
+import { Category } from "@prisma/client";
 import introPhotos from "../../../prisma/introPhotos.json";
 
 export const revalidate = 60;

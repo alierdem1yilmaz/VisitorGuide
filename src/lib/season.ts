@@ -1,4 +1,4 @@
-import { Season } from "@/generated/prisma/client";
+import { Season } from "@prisma/client";
 
 /**
  * Northern hemisphere's warm half (Apr–Sep) maps to SUMMER, the cold half

@@ -1,4 +1,4 @@
-import { Category, Season } from "@/generated/prisma/client";
+import { Category, Season } from "@prisma/client";
 import { prisma } from "@/lib/prisma";
 import { haversineKm } from "@/lib/distance";
 
