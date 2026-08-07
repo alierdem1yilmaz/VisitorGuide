@@ -19,18 +19,18 @@ export default function SearchForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="mx-auto flex w-full max-w-xl overflow-hidden rounded-full border border-brand-100 bg-white shadow-sm"
+      className="mx-auto flex w-full max-w-xl overflow-hidden rounded-full border border-ink-text/15 bg-paper shadow-sm"
     >
       <input
         type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder={t("searchPlaceholder")}
-        className="flex-1 px-5 py-3 text-brand-800 outline-none placeholder:text-muted"
+        className="flex-1 px-5 py-3 text-ink-text outline-none placeholder:text-ink-text/50"
       />
       <button
         type="submit"
-        className="bg-brand-600 px-6 py-3 font-medium text-white transition-colors hover:bg-brand-700"
+        className="bg-ink px-6 py-3 font-mono text-xs uppercase tracking-wide text-paper transition-colors hover:bg-ink-2"
       >
         {t("searchButton")}
       </button>

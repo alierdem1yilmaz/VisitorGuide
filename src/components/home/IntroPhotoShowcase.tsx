@@ -41,7 +41,7 @@ export default function IntroPhotoShowcase({ photos }: { photos: IntroPhoto[] })
           />
         </div>
       ))}
-      <span className="absolute bottom-4 left-4 rounded-full bg-white/90 px-3 py-1.5 text-sm font-medium text-brand-800 shadow">
+      <span className="absolute bottom-4 left-4 rounded-full bg-ink/80 px-3 py-1.5 font-mono text-xs uppercase tracking-wide text-paper shadow">
         @{photos[index].author}
       </span>
     </div>
