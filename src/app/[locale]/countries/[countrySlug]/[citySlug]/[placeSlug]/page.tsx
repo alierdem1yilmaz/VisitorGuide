@@ -12,6 +12,7 @@ import FavoriteButton from "@/components/place/FavoriteButton";
 import { getPlaceBySlug, getFavoritePlaceIds } from "@/lib/queries";
 import { auth } from "@/auth";
 import { getExchangeRates, getPreferredCurrency, formatConvertedPrice } from "@/lib/currency";
+import { CATEGORY_THEME } from "@/lib/categoryTheme";
 
 export const revalidate = 60;
 
@@ -92,15 +93,15 @@ export default async function PlacePage({
       <div className="mt-6 flex flex-wrap items-start justify-between gap-4">
         <div>
           <div className="flex flex-wrap gap-2">
-            <span className="inline-block rounded-full bg-brand-50 px-3 py-1 text-xs font-medium text-brand-700">
+            <span
+              className={`inline-block rounded-md px-3 py-1 font-mono text-xs uppercase tracking-wide ${CATEGORY_THEME[place.category].chip} ${CATEGORY_THEME[place.category].chipText}`}
+            >
               {tCategories(place.category)}
             </span>
             {place.bestSeason !== "ALL" && (
               <span
-                className={`inline-block rounded-full px-3 py-1 text-xs font-medium ${
-                  place.bestSeason === "SUMMER"
-                    ? "bg-amber-50 text-amber-700"
-                    : "bg-sky-50 text-sky-700"
+                className={`inline-block rounded-md bg-ink px-3 py-1 font-mono text-xs uppercase tracking-wide ${
+                  place.bestSeason === "SUMMER" ? "text-gold-soft" : "text-slate"
                 }`}
               >
                 {place.bestSeason === "SUMMER"
@@ -109,7 +110,7 @@ export default async function PlacePage({
               </span>
             )}
           </div>
-          <h1 className="mt-2 text-3xl font-bold text-brand-800">{place.name}</h1>
+          <h1 className="mt-2 font-serif text-3xl font-medium text-ink-text">{place.name}</h1>
         </div>
         <div className="flex items-center gap-3">
           <StarRating avgRating={place.avgRating} reviewCount={place.reviewCount} />
@@ -125,30 +126,30 @@ export default async function PlacePage({
       </div>
 
       {place.description && (
-        <p className="mt-4 max-w-2xl text-muted">{place.description}</p>
+        <p className="mt-4 max-w-2xl text-ink-text/70">{place.description}</p>
       )}
 
       <div className="mt-6 grid grid-cols-1 gap-2 text-sm sm:grid-cols-2">
         {place.address && (
           <p>
-            <span className="font-medium text-brand-700">{t("address")}:</span>{" "}
-            <span className="text-muted">{place.address}</span>
+            <span className="font-mono text-xs uppercase tracking-wide text-ink-text/60">{t("address")}:</span>{" "}
+            <span className="text-ink-text/80">{place.address}</span>
           </p>
         )}
         {place.phone && (
           <p>
-            <span className="font-medium text-brand-700">{t("phone")}:</span>{" "}
-            <span className="text-muted">{place.phone}</span>
+            <span className="font-mono text-xs uppercase tracking-wide text-ink-text/60">{t("phone")}:</span>{" "}
+            <span className="text-ink-text/80">{place.phone}</span>
           </p>
         )}
         {place.website && (
           <p>
-            <span className="font-medium text-brand-700">{t("website")}:</span>{" "}
+            <span className="font-mono text-xs uppercase tracking-wide text-ink-text/60">{t("website")}:</span>{" "}
             <a
               href={place.website}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-brand-600 hover:underline"
+              className="text-gold hover:text-rust"
             >
               {place.website}
             </a>
@@ -156,15 +157,15 @@ export default async function PlacePage({
         )}
         {estimatedPrice && (
           <p title={t("priceEstimateNote")}>
-            <span className="font-medium text-brand-700">
+            <span className="font-mono text-xs uppercase tracking-wide text-ink-text/60">
               {t(`priceLabelByCategory.${place.category}`)}:
             </span>{" "}
-            <span className="text-muted">~{estimatedPrice}</span>
+            <span className="text-ink-text/80">~{estimatedPrice}</span>
           </p>
         )}
         <p>
-          <span className="font-medium text-brand-700">{t("bestSeason")}:</span>{" "}
-          <span className="text-muted">
+          <span className="font-mono text-xs uppercase tracking-wide text-ink-text/60">{t("bestSeason")}:</span>{" "}
+          <span className="text-ink-text/80">
             {place.bestSeason === "SUMMER"
               ? tFilters("seasonSummer")
               : place.bestSeason === "WINTER"
@@ -174,8 +175,8 @@ export default async function PlacePage({
         </p>
         {openingHours && (
           <div>
-            <span className="font-medium text-brand-700">{t("openingHours")}:</span>
-            <ul className="mt-1 text-muted">
+            <span className="font-mono text-xs uppercase tracking-wide text-ink-text/60">{t("openingHours")}:</span>
+            <ul className="mt-1 text-ink-text/80">
               {Object.entries(openingHours).map(([days, hours]) => (
                 <li key={days}>
                   {days}: {hours}
@@ -198,8 +199,10 @@ export default async function PlacePage({
       <div className="mt-10">
         <div className="mb-4 flex items-center justify-between">
           <div>
-            <h2 className="text-xl font-bold text-brand-800">{t("reviewsHeading")}</h2>
-            <p className="mt-1 text-xs text-muted">{t("editorCuratedNote")}</p>
+            <h2 className="font-serif text-xl text-ink-text">{t("reviewsHeading")}</h2>
+            <p className="mt-1 font-mono text-xs uppercase tracking-wide text-ink-text/50">
+              {t("editorCuratedNote")}
+            </p>
           </div>
           {!session?.user && <WriteReviewCta label={t("writeReviewCta")} />}
         </div>

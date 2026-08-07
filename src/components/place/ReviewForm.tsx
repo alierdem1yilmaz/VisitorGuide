@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { submitReview } from "@/lib/actions/reviews";
+import { Star } from "./StarRating";
 
 export default function ReviewForm({
   placeId,
@@ -24,14 +25,14 @@ export default function ReviewForm({
   return (
     <form
       action={submitReview}
-      className="flex flex-col gap-3 rounded-xl border border-brand-100 bg-white p-4"
+      className="flex flex-col gap-3 rounded-xl border border-ink-2 bg-ink p-4"
     >
       <input type="hidden" name="placeId" value={placeId} />
       <input type="hidden" name="path" value={path} />
       <input type="hidden" name="rating" value={rating} />
 
       <div>
-        <span className="mb-1 block text-sm font-medium text-brand-700">
+        <span className="mb-1 block font-mono text-xs uppercase tracking-wide text-slate">
           {ratingLabel}
         </span>
         <div className="flex gap-1">
@@ -45,15 +46,12 @@ export default function ReviewForm({
               aria-label={`${value}`}
               className="p-0.5"
             >
-              <svg
-                viewBox="0 0 20 20"
+              <Star
+                filled={value <= (hovered || rating)}
                 className={`h-6 w-6 ${
-                  value <= (hovered || rating) ? "text-accent-500" : "text-brand-100"
+                  value <= (hovered || rating) ? "text-rust" : "text-ink-3"
                 }`}
-                fill="currentColor"
-              >
-                <path d="M10 1.5l2.59 5.25 5.79.84-4.19 4.08.99 5.77L10 14.77l-5.18 2.67.99-5.77-4.19-4.08 5.79-.84L10 1.5z" />
-              </svg>
+              />
             </button>
           ))}
         </div>
@@ -63,19 +61,19 @@ export default function ReviewForm({
         type="text"
         name="title"
         placeholder={titleLabel}
-        className="rounded-md border border-brand-100 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-brand-400"
+        className="rounded-md border border-ink-3 bg-ink-2 px-3 py-2 text-sm text-paper placeholder:text-slate focus:outline-none focus:ring-2 focus:ring-gold-soft"
       />
       <textarea
         name="body"
         placeholder={bodyLabel}
         rows={3}
-        className="rounded-md border border-brand-100 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-brand-400"
+        className="rounded-md border border-ink-3 bg-ink-2 px-3 py-2 text-sm text-paper placeholder:text-slate focus:outline-none focus:ring-2 focus:ring-gold-soft"
       />
 
       <button
         type="submit"
         disabled={rating === 0}
-        className="self-start rounded-full bg-brand-600 px-5 py-2 text-sm font-medium text-white transition-colors hover:bg-brand-700 disabled:cursor-not-allowed disabled:opacity-50"
+        className="self-start rounded-full bg-gold-soft px-5 py-2 font-mono text-xs uppercase tracking-wide text-ink transition-colors hover:bg-gold disabled:cursor-not-allowed disabled:opacity-50"
       >
         {submitLabel}
       </button>

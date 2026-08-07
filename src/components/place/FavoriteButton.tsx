@@ -27,8 +27,8 @@ export default function FavoriteButton({
         title={label}
         className={
           variant === "overlay"
-            ? "flex h-8 w-8 items-center justify-center rounded-full bg-white/90 text-brand-700 shadow-sm transition-colors hover:bg-white"
-            : "flex items-center gap-1.5 rounded-full border border-brand-100 px-3 py-1.5 text-sm font-medium text-brand-700 transition-colors hover:bg-brand-50"
+            ? "flex h-8 w-8 items-center justify-center rounded-full bg-ink/80 text-paper shadow-sm transition-colors hover:bg-ink"
+            : "flex items-center gap-1.5 rounded-full border border-ink-text/15 px-3 py-1.5 font-mono text-xs uppercase tracking-wide text-ink-text transition-colors hover:bg-paper-2"
         }
       >
         <svg

@@ -1,8 +1,14 @@
-function Star({ filled }: { filled: boolean }) {
+export function Star({
+  filled,
+  className,
+}: {
+  filled: boolean;
+  className?: string;
+}) {
   return (
     <svg
       viewBox="0 0 20 20"
-      className={`h-4 w-4 ${filled ? "text-accent-500" : "text-brand-100"}`}
+      className={className ?? `h-4 w-4 ${filled ? "text-rust" : "text-ink-text/15"}`}
       fill="currentColor"
     >
       <path d="M10 1.5l2.59 5.25 5.79.84-4.19 4.08.99 5.77L10 14.77l-5.18 2.67.99-5.77-4.19-4.08 5.79-.84L10 1.5z" />
@@ -27,7 +33,7 @@ export default function StarRating({
         ))}
       </div>
       {reviewCount !== undefined && (
-        <span className="text-sm text-muted">({reviewCount})</span>
+        <span className="text-sm text-ink-text/60">({reviewCount})</span>
       )}
     </div>
   );

@@ -4,7 +4,7 @@ export default function WriteReviewCta({ label }: { label: string }) {
   return (
     <Link
       href="/login"
-      className="rounded-full border border-brand-100 bg-white px-5 py-2.5 text-sm font-medium text-brand-700 transition-colors hover:bg-brand-50"
+      className="rounded-full border border-ink-text/15 bg-paper px-5 py-2.5 font-mono text-xs uppercase tracking-wide text-ink-text transition-colors hover:bg-paper-2"
     >
       {label}
     </Link>
