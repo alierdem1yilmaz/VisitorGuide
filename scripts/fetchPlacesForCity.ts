@@ -36,29 +36,31 @@ const CATEGORY_CONFIGS: CategoryConfig[] = [
   {
     category: Category.ATTRACTION,
     query: (city, country) => `top tourist attractions in ${city}, ${country}`,
-    targetCount: 10,
+    targetCount: 16,
   },
   {
     category: Category.MONUMENT,
     query: (city, country) => `historical landmarks and monuments in ${city}, ${country}`,
-    targetCount: 6,
+    targetCount: 10,
   },
   {
     category: Category.RESTAURANT,
     query: (city, country) => `best restaurants in ${city}, ${country}`,
-    targetCount: 8,
+    targetCount: 14,
   },
   {
     category: Category.HOTEL,
     query: (city, country) => `best hotels in ${city}, ${country}`,
-    targetCount: 5,
+    targetCount: 8,
   },
   {
     category: Category.NATURE,
     query: (city, country) => `parks and natural landmarks near ${city}, ${country}`,
-    targetCount: 5,
+    targetCount: 10,
   },
 ];
+
+const MAX_PHOTOS_PER_PLACE = 5;
 
 type GooglePlaceResult = {
   id: string;
@@ -90,7 +92,7 @@ type FetchedPlace = {
   openingHours: Record<string, string> | null;
   website: string | null;
   phone: string | null;
-  photoUrl: string | null;
+  photoUrls: string[];
 };
 
 function sleep(ms: number) {
@@ -187,7 +189,7 @@ async function searchText(
   lng: number | null,
 ): Promise<GooglePlaceResult[]> {
   const url = "https://places.googleapis.com/v1/places:searchText";
-  const body: Record<string, unknown> = { textQuery: query, maxResultCount: 15 };
+  const body: Record<string, unknown> = { textQuery: query, maxResultCount: 20 };
   if (lat != null && lng != null) {
     body.locationBias = {
       circle: { center: { latitude: lat, longitude: lng }, radius: 15000 },
@@ -257,10 +259,11 @@ async function fetchCity(
       if (slug === `-${citySlug}`) continue;
       if (usedSlugs.has(slug)) continue;
 
-      let photoUrl: string | null = null;
-      if (p.photos?.[0]?.name) {
-        photoUrl = await fetchPhotoUrl(p.photos[0].name);
+      const photoUrls: string[] = [];
+      for (const photo of (p.photos ?? []).slice(0, MAX_PHOTOS_PER_PLACE)) {
+        const url = await fetchPhotoUrl(photo.name);
         await sleep(150);
+        if (url) photoUrls.push(url);
       }
 
       results.push({
@@ -278,7 +281,7 @@ async function fetchCity(
         openingHours: mapOpeningHours(p.regularOpeningHours?.weekdayDescriptions),
         website: p.websiteUri ?? null,
         phone: p.internationalPhoneNumber ?? null,
-        photoUrl,
+        photoUrls,
       });
       usedSlugs.add(slug);
       usedNames.push(name);

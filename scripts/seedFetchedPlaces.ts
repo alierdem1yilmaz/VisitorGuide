@@ -21,7 +21,7 @@ type FetchedPlace = {
   openingHours: Record<string, string> | null;
   website: string | null;
   phone: string | null;
-  photoUrl: string | null;
+  photoUrls: string[];
 };
 
 async function main() {
@@ -87,18 +87,23 @@ async function main() {
       if (existing) updated++;
       else created++;
 
-      const photoUrl = p.photoUrl ?? `https://picsum.photos/seed/${p.slug}-1/800/600`;
-      await prisma.photo.upsert({
-        where: { id: `${dbPlace.id}-${photoUrl}` },
-        update: { url: photoUrl, caption: p.name, isCover: true },
-        create: {
-          id: `${dbPlace.id}-${photoUrl}`,
-          placeId: dbPlace.id,
-          url: photoUrl,
-          caption: p.name,
-          isCover: true,
-        },
-      });
+      const photoUrls =
+        p.photoUrls.length > 0
+          ? p.photoUrls
+          : [`https://picsum.photos/seed/${p.slug}-1/800/600`];
+      for (const [i, photoUrl] of photoUrls.entries()) {
+        await prisma.photo.upsert({
+          where: { id: `${dbPlace.id}-${photoUrl}` },
+          update: { url: photoUrl, caption: p.name, isCover: i === 0 },
+          create: {
+            id: `${dbPlace.id}-${photoUrl}`,
+            placeId: dbPlace.id,
+            url: photoUrl,
+            caption: p.name,
+            isCover: i === 0,
+          },
+        });
+      }
     }
 
     console.log(

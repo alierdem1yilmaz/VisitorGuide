@@ -1766,6 +1766,26 @@ const countries = [
           },
         ],
       },
+      {
+        slug: "edinburgh",
+        name: "Edinburgh",
+        description:
+          "Scotland's capital, known for its medieval Old Town, hilltop castle, and the Georgian elegance of the New Town.",
+        coverImageUrl: "https://picsum.photos/seed/edinburgh-cover/1200/600",
+        latitude: 55.9533,
+        longitude: -3.1883,
+        places: [],
+      },
+      {
+        slug: "liverpool",
+        name: "Liverpool",
+        description:
+          "A historic English port city known as the birthplace of The Beatles, with a revitalized waterfront and museum district.",
+        coverImageUrl: "https://picsum.photos/seed/liverpool-cover/1200/600",
+        latitude: 53.4084,
+        longitude: -2.9916,
+        places: [],
+      },
     ],
   },
   {
@@ -1961,6 +1981,36 @@ const countries = [
           },
         ],
       },
+      {
+        slug: "santorini",
+        name: "Santorini",
+        description:
+          "A volcanic Aegean island famed for whitewashed, blue-domed villages perched on cliffs above the caldera.",
+        coverImageUrl: "https://picsum.photos/seed/santorini-cover/1200/600",
+        latitude: 36.3932,
+        longitude: 25.4615,
+        places: [],
+      },
+      {
+        slug: "mikonos",
+        name: "Mykonos",
+        description:
+          "A Cycladic island known for whitewashed windmills, narrow lanes, and a lively beach and nightlife scene.",
+        coverImageUrl: "https://picsum.photos/seed/mikonos-cover/1200/600",
+        latitude: 37.4467,
+        longitude: 25.3289,
+        places: [],
+      },
+      {
+        slug: "selanik",
+        name: "Thessaloniki",
+        description:
+          "Greece's second city, a historic Aegean port known for Byzantine monuments, waterfront promenades, and food culture.",
+        coverImageUrl: "https://picsum.photos/seed/selanik-cover/1200/600",
+        latitude: 40.6401,
+        longitude: 22.9444,
+        places: [],
+      },
     ],
   },
   {
@@ -2145,6 +2195,36 @@ const countries = [
           },
         ],
       },
+      {
+        slug: "sanghay",
+        name: "Shanghai",
+        description:
+          "China's largest city, known for the futuristic Pudong skyline, colonial-era Bund waterfront, and vibrant nightlife.",
+        coverImageUrl: "https://picsum.photos/seed/sanghay-cover/1200/600",
+        latitude: 31.2304,
+        longitude: 121.4737,
+        places: [],
+      },
+      {
+        slug: "xian",
+        name: "Xi'an",
+        description:
+          "An ancient Chinese capital known as the home of the Terracotta Army and well-preserved city walls.",
+        coverImageUrl: "https://picsum.photos/seed/xian-cover/1200/600",
+        latitude: 34.3416,
+        longitude: 108.9398,
+        places: [],
+      },
+      {
+        slug: "chengdu",
+        name: "Chengdu",
+        description:
+          "A southwestern Chinese city famed for giant panda reserves, spicy Sichuan cuisine, and a relaxed teahouse culture.",
+        coverImageUrl: "https://picsum.photos/seed/chengdu-cover/1200/600",
+        latitude: 30.5728,
+        longitude: 104.0668,
+        places: [],
+      },
     ],
   },
   {
@@ -2326,6 +2406,36 @@ const countries = [
           },
         ],
       },
+      {
+        slug: "cancun",
+        name: "Cancún",
+        description:
+          "A Caribbean resort city on Mexico's Yucatán Peninsula, known for white-sand beaches and nearby Mayan ruins.",
+        coverImageUrl: "https://picsum.photos/seed/cancun-cover/1200/600",
+        latitude: 21.1619,
+        longitude: -86.8515,
+        places: [],
+      },
+      {
+        slug: "playa-del-carmen",
+        name: "Playa del Carmen",
+        description:
+          "A laid-back Riviera Maya beach town known for its pedestrian Fifth Avenue, cenotes, and diving nearby.",
+        coverImageUrl: "https://picsum.photos/seed/playa-del-carmen-cover/1200/600",
+        latitude: 20.6296,
+        longitude: -87.0739,
+        places: [],
+      },
+      {
+        slug: "puerto-vallarta",
+        name: "Puerto Vallarta",
+        description:
+          "A Pacific coast resort city known for its cobblestone old town, beaches, and mountain-backed bay.",
+        coverImageUrl: "https://picsum.photos/seed/puerto-vallarta-cover/1200/600",
+        latitude: 20.6534,
+        longitude: -105.2253,
+        places: [],
+      },
     ],
   },
   {
@@ -2506,6 +2616,36 @@ const countries = [
             photos: [photo("michelberger-hotel", 1, "Hotel lobby lounge", true)],
           },
         ],
+      },
+      {
+        slug: "munih",
+        name: "Munich",
+        description:
+          "Bavaria's capital, known for Oktoberfest, beer halls, and a mix of grand architecture and Alpine proximity.",
+        coverImageUrl: "https://picsum.photos/seed/munih-cover/1200/600",
+        latitude: 48.1351,
+        longitude: 11.582,
+        places: [],
+      },
+      {
+        slug: "hamburg",
+        name: "Hamburg",
+        description:
+          "A major German port city known for its harbor, historic Speicherstadt warehouse district, and lively nightlife.",
+        coverImageUrl: "https://picsum.photos/seed/hamburg-cover/1200/600",
+        latitude: 53.5511,
+        longitude: 9.9937,
+        places: [],
+      },
+      {
+        slug: "koln",
+        name: "Cologne",
+        description:
+          "A Rhine-river city famed for its twin-spired Gothic cathedral and a lively riverside old town.",
+        coverImageUrl: "https://picsum.photos/seed/koln-cover/1200/600",
+        latitude: 50.9375,
+        longitude: 6.9603,
+        places: [],
       },
     ],
   },
@@ -2691,6 +2831,36 @@ const countries = [
           },
         ],
       },
+      {
+        slug: "chiang-mai",
+        name: "Chiang Mai",
+        description:
+          "A northern Thai city known for hundreds of Buddhist temples, a walled old town, and surrounding mountain scenery.",
+        coverImageUrl: "https://picsum.photos/seed/chiang-mai-cover/1200/600",
+        latitude: 18.7883,
+        longitude: 98.9853,
+        places: [],
+      },
+      {
+        slug: "phuket",
+        name: "Phuket",
+        description:
+          "Thailand's largest island, known for beaches, coral-fringed bays, and a lively nightlife scene.",
+        coverImageUrl: "https://picsum.photos/seed/phuket-cover/1200/600",
+        latitude: 7.8804,
+        longitude: 98.3923,
+        places: [],
+      },
+      {
+        slug: "pattaya",
+        name: "Pattaya",
+        description:
+          "A Gulf of Thailand beach resort city known for its waterfront promenade and lively entertainment scene.",
+        coverImageUrl: "https://picsum.photos/seed/pattaya-cover/1200/600",
+        latitude: 12.9236,
+        longitude: 100.8825,
+        places: [],
+      },
     ],
   },
   {
@@ -2871,6 +3041,26 @@ const countries = [
             photos: [photo("hotel-imperial-vienna", 1, "Grand facade on the Ringstrasse", true)],
           },
         ],
+      },
+      {
+        slug: "salzburg",
+        name: "Salzburg",
+        description:
+          "Mozart's birthplace, an Alpine baroque city known for its hilltop fortress and Sound of Music filming locations.",
+        coverImageUrl: "https://picsum.photos/seed/salzburg-cover/1200/600",
+        latitude: 47.8095,
+        longitude: 13.055,
+        places: [],
+      },
+      {
+        slug: "innsbruck",
+        name: "Innsbruck",
+        description:
+          "A Tyrolean city ringed by the Alps, known for its colorful old town and access to year-round mountain sports.",
+        coverImageUrl: "https://picsum.photos/seed/innsbruck-cover/1200/600",
+        latitude: 47.2692,
+        longitude: 11.4041,
+        places: [],
       },
     ],
   },
@@ -3053,6 +3243,26 @@ const countries = [
           },
         ],
       },
+      {
+        slug: "vancouver",
+        name: "Vancouver",
+        description:
+          "A Pacific coast Canadian city known for its mountain-and-ocean setting, parks, and mild climate.",
+        coverImageUrl: "https://picsum.photos/seed/vancouver-cover/1200/600",
+        latitude: 49.2827,
+        longitude: -123.1207,
+        places: [],
+      },
+      {
+        slug: "montreal",
+        name: "Montreal",
+        description:
+          "A bilingual Canadian city known for its European-flavored old town, festivals, and food scene.",
+        coverImageUrl: "https://picsum.photos/seed/montreal-cover/1200/600",
+        latitude: 45.5017,
+        longitude: -73.5673,
+        places: [],
+      },
     ],
   },
   {
@@ -3233,6 +3443,26 @@ const countries = [
             photos: [photo("sheraton-grand-krakow", 1, "Riverside hotel view", true)],
           },
         ],
+      },
+      {
+        slug: "varsova",
+        name: "Warsaw",
+        description:
+          "Poland's capital, rebuilt after WWII, known for its meticulously reconstructed Old Town and modern skyline.",
+        coverImageUrl: "https://picsum.photos/seed/varsova-cover/1200/600",
+        latitude: 52.2297,
+        longitude: 21.0122,
+        places: [],
+      },
+      {
+        slug: "gdansk",
+        name: "Gdansk",
+        description:
+          "A Baltic port city known for its colorful Hanseatic old town and shipyard history.",
+        coverImageUrl: "https://picsum.photos/seed/gdansk-cover/1200/600",
+        latitude: 54.352,
+        longitude: 18.6466,
+        places: [],
       },
     ],
   },
@@ -3415,6 +3645,26 @@ const countries = [
           },
         ],
       },
+      {
+        slug: "st-petersburg",
+        name: "Saint Petersburg",
+        description:
+          "Russia's former imperial capital, known for grand palaces, canals, and the vast Hermitage Museum.",
+        coverImageUrl: "https://picsum.photos/seed/st-petersburg-cover/1200/600",
+        latitude: 59.9311,
+        longitude: 30.3609,
+        places: [],
+      },
+      {
+        slug: "kazan",
+        name: "Kazan",
+        description:
+          "A city on the Volga River known for its kremlin blending Orthodox and Islamic architecture.",
+        coverImageUrl: "https://picsum.photos/seed/kazan-cover/1200/600",
+        latitude: 55.8304,
+        longitude: 49.0661,
+        places: [],
+      },
     ],
   },
   {
@@ -3596,6 +3846,26 @@ const countries = [
           },
         ],
       },
+      {
+        slug: "rotterdam",
+        name: "Rotterdam",
+        description:
+          "A modern Dutch port city known for bold contemporary architecture, rebuilt after WWII bombing.",
+        coverImageUrl: "https://picsum.photos/seed/rotterdam-cover/1200/600",
+        latitude: 51.9244,
+        longitude: 4.4777,
+        places: [],
+      },
+      {
+        slug: "utrecht",
+        name: "Utrecht",
+        description:
+          "A canal-lined Dutch city known for its unique wharf-level quays, medieval cathedral tower, and student energy.",
+        coverImageUrl: "https://picsum.photos/seed/utrecht-cover/1200/600",
+        latitude: 52.0907,
+        longitude: 5.1214,
+        places: [],
+      },
     ],
   },
   {
@@ -3776,6 +4046,26 @@ const countries = [
             photos: [photo("pestana-palace-lisboa", 1, "Palace gardens", true)],
           },
         ],
+      },
+      {
+        slug: "porto",
+        name: "Porto",
+        description:
+          "A riverside Portuguese city known for port wine cellars, tiled facades, and the Dom Luís I Bridge.",
+        coverImageUrl: "https://picsum.photos/seed/porto-cover/1200/600",
+        latitude: 41.1579,
+        longitude: -8.6291,
+        places: [],
+      },
+      {
+        slug: "sintra",
+        name: "Sintra",
+        description:
+          "A hillside Portuguese town near Lisbon known for its fairy-tale palaces and lush, misty forests.",
+        coverImageUrl: "https://picsum.photos/seed/sintra-cover/1200/600",
+        latitude: 38.7979,
+        longitude: -9.3903,
+        places: [],
       },
     ],
   },
@@ -4139,6 +4429,26 @@ const countries = [
           },
         ],
       },
+      {
+        slug: "split",
+        name: "Split",
+        description:
+          "A Croatian coastal city built around the ancient Diocletian's Palace, with beaches and island ferries nearby.",
+        coverImageUrl: "https://picsum.photos/seed/split-cover/1200/600",
+        latitude: 43.5081,
+        longitude: 16.4402,
+        places: [],
+      },
+      {
+        slug: "zagreb",
+        name: "Zagreb",
+        description:
+          "Croatia's capital, known for its Austro-Hungarian architecture, museums, and lively café culture.",
+        coverImageUrl: "https://picsum.photos/seed/zagreb-cover/1200/600",
+        latitude: 45.815,
+        longitude: 15.9819,
+        places: [],
+      },
     ],
   },
   {
@@ -4319,6 +4629,26 @@ const countries = [
             photos: [photo("atlantis-the-palm", 1, "Resort and waterpark", true)],
           },
         ],
+      },
+      {
+        slug: "abu-dabi",
+        name: "Abu Dhabi",
+        description:
+          "The UAE's capital, known for the Sheikh Zayed Grand Mosque, Louvre Abu Dhabi, and a corniche waterfront.",
+        coverImageUrl: "https://picsum.photos/seed/abu-dabi-cover/1200/600",
+        latitude: 24.4539,
+        longitude: 54.3773,
+        places: [],
+      },
+      {
+        slug: "sarjah",
+        name: "Sharjah",
+        description:
+          "A UAE emirate known for its museums, restored heritage souks, and reputation as a cultural capital of the Gulf.",
+        coverImageUrl: "https://picsum.photos/seed/sarjah-cover/1200/600",
+        latitude: 25.3463,
+        longitude: 55.4209,
+        places: [],
       },
     ],
   },
@@ -4504,6 +4834,26 @@ const countries = [
           },
         ],
       },
+      {
+        slug: "delhi",
+        name: "Delhi",
+        description:
+          "India's capital, blending the Mughal-era monuments of Old Delhi with the colonial boulevards of New Delhi.",
+        coverImageUrl: "https://picsum.photos/seed/delhi-cover/1200/600",
+        latitude: 28.6139,
+        longitude: 77.209,
+        places: [],
+      },
+      {
+        slug: "jaipur",
+        name: "Jaipur",
+        description:
+          "Rajasthan's \"Pink City,\" known for its palaces, forts, and vibrant bazaars.",
+        coverImageUrl: "https://picsum.photos/seed/jaipur-cover/1200/600",
+        latitude: 26.9124,
+        longitude: 75.7873,
+        places: [],
+      },
     ],
   },
   {
@@ -4685,6 +5035,26 @@ const countries = [
           },
         ],
       },
+      {
+        slug: "jakarta",
+        name: "Jakarta",
+        description:
+          "Indonesia's sprawling capital, a mix of modern skyscrapers, historic Dutch colonial quarters, and vibrant markets.",
+        coverImageUrl: "https://picsum.photos/seed/jakarta-cover/1200/600",
+        latitude: -6.2088,
+        longitude: 106.8456,
+        places: [],
+      },
+      {
+        slug: "yogyakarta",
+        name: "Yogyakarta",
+        description:
+          "A cultural hub in Java known as the gateway to the temples of Borobudur and Prambanan.",
+        coverImageUrl: "https://picsum.photos/seed/yogyakarta-cover/1200/600",
+        latitude: -7.7956,
+        longitude: 110.3695,
+        places: [],
+      },
     ],
   },
   {
@@ -4865,6 +5235,26 @@ const countries = [
             photos: [photo("apricot-hotel-hanoi", 1, "Lake-view room", true)],
           },
         ],
+      },
+      {
+        slug: "ho-chi-minh-city",
+        name: "Ho Chi Minh City",
+        description:
+          "Vietnam's largest city, known for French colonial landmarks, war history sites, and a fast-paced street food scene.",
+        coverImageUrl: "https://picsum.photos/seed/ho-chi-minh-city-cover/1200/600",
+        latitude: 10.8231,
+        longitude: 106.6297,
+        places: [],
+      },
+      {
+        slug: "da-nang",
+        name: "Da Nang",
+        description:
+          "A central Vietnamese coastal city known for its beaches, marble mountains, and the nearby ancient town of Hoi An.",
+        coverImageUrl: "https://picsum.photos/seed/da-nang-cover/1200/600",
+        latitude: 16.0544,
+        longitude: 108.2022,
+        places: [],
       },
     ],
   },
@@ -5050,6 +5440,36 @@ const countries = [
           },
         ],
       },
+      {
+        slug: "luksor",
+        name: "Luxor",
+        description:
+          "An Egyptian city on the Nile built on the site of ancient Thebes, home to the Valley of the Kings and Karnak Temple.",
+        coverImageUrl: "https://picsum.photos/seed/luksor-cover/1200/600",
+        latitude: 25.6872,
+        longitude: 32.6396,
+        places: [],
+      },
+      {
+        slug: "iskenderiye",
+        name: "Alexandria",
+        description:
+          "A Mediterranean port city founded by Alexander the Great, known for its coastal corniche and ancient history.",
+        coverImageUrl: "https://picsum.photos/seed/iskenderiye-cover/1200/600",
+        latitude: 31.2001,
+        longitude: 29.9187,
+        places: [],
+      },
+      {
+        slug: "asvan",
+        name: "Aswan",
+        description:
+          "A Nile-side Egyptian city known for its temples, Nubian culture, and relaxed riverside felucca sailing.",
+        coverImageUrl: "https://picsum.photos/seed/asvan-cover/1200/600",
+        latitude: 24.0889,
+        longitude: 32.8998,
+        places: [],
+      },
     ],
   },
   {
@@ -5231,6 +5651,26 @@ const countries = [
           },
         ],
       },
+      {
+        slug: "busan",
+        name: "Busan",
+        description:
+          "South Korea's second city, a coastal port known for beaches, seafood markets, and mountain temples.",
+        coverImageUrl: "https://picsum.photos/seed/busan-cover/1200/600",
+        latitude: 35.1796,
+        longitude: 129.0756,
+        places: [],
+      },
+      {
+        slug: "jeju-city",
+        name: "Jeju City",
+        description:
+          "The main city on volcanic Jeju Island, a honeymoon and nature getaway known for beaches and lava landscapes.",
+        coverImageUrl: "https://picsum.photos/seed/jeju-city-cover/1200/600",
+        latitude: 33.4996,
+        longitude: 126.5312,
+        places: [],
+      },
     ],
   },
   {
@@ -5411,6 +5851,26 @@ const countries = [
             photos: [photo("augustine-prague", 1, "Monastery courtyard", true)],
           },
         ],
+      },
+      {
+        slug: "brno",
+        name: "Brno",
+        description:
+          "The Czech Republic's second city, known for its hilltop Špilberk Castle and a youthful, university-town energy.",
+        coverImageUrl: "https://picsum.photos/seed/brno-cover/1200/600",
+        latitude: 49.1951,
+        longitude: 16.6068,
+        places: [],
+      },
+      {
+        slug: "cesky-krumlov",
+        name: "Český Krumlov",
+        description:
+          "A fairy-tale Czech town wrapped by a river bend beneath a hilltop castle, with a well-preserved medieval core.",
+        coverImageUrl: "https://picsum.photos/seed/cesky-krumlov-cover/1200/600",
+        latitude: 48.8127,
+        longitude: 14.3175,
+        places: [],
       },
     ],
   },
