@@ -59,7 +59,7 @@ export default function FilterBar({
   }, [query]);
 
   const controlClass =
-    "rounded-lg border border-brand-100 bg-white px-3 py-2 text-sm text-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-400";
+    "rounded-md border border-ink-text/15 bg-paper px-3 py-2 text-sm font-mono text-ink-text focus:outline-none focus:ring-2 focus:ring-gold";
 
   return (
     <div className="flex flex-wrap gap-3">

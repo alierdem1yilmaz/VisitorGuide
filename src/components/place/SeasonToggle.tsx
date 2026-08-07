@@ -30,10 +30,10 @@ export default function SeasonToggle({
   }
 
   function tabClass(target: string) {
-    return `rounded-lg px-4 py-2 text-sm font-medium transition-colors ${
+    return `rounded-full px-4 py-2 font-mono text-xs uppercase tracking-wide transition-colors ${
       season === target
-        ? "bg-brand-600 text-white"
-        : "border border-brand-100 bg-white text-brand-700 hover:bg-brand-50"
+        ? "bg-gold text-ink"
+        : "border border-ink-text/15 bg-paper text-ink-text hover:bg-paper-2"
     }`;
   }
 
