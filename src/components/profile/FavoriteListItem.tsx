@@ -24,14 +24,14 @@ export default function FavoriteListItem({
   const coverUrl = favorite.place.photos[0]?.url;
 
   return (
-    <div className="flex items-center gap-4 border-b border-brand-100 pb-6 last:border-0">
-      <div className="relative h-16 w-16 flex-shrink-0 overflow-hidden rounded-lg bg-brand-50">
+    <div className="flex items-center gap-4 border-b border-ink-text/10 pb-6 last:border-0">
+      <div className="relative h-16 w-16 flex-shrink-0 overflow-hidden rounded-lg bg-paper-2">
         {coverUrl && (
           <Image src={coverUrl} alt={favorite.place.name} fill className="object-cover" sizes="64px" />
         )}
       </div>
       <div className="min-w-0 flex-1">
-        <Link href={placePath} className="font-medium text-brand-800 hover:underline">
+        <Link href={placePath} className="font-serif text-ink-text hover:text-gold">
           {favorite.place.name}
         </Link>
         <div className="mt-1">

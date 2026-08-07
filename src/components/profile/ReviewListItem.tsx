@@ -28,20 +28,22 @@ export default function ReviewListItem({
   const placePath = `/countries/${review.place.city.country.slug}/${review.place.city.slug}/${review.place.slug}`;
 
   return (
-    <div className="border-b border-brand-100 pb-6 last:border-0">
+    <div className="border-b border-ink-text/10 pb-6 last:border-0">
       <div className="flex items-center justify-between">
-        <Link href={placePath} className="font-medium text-brand-800 hover:underline">
+        <Link href={placePath} className="font-serif text-ink-text hover:text-gold">
           {review.place.name}
         </Link>
-        <span className="text-sm text-muted">{formatter.format(review.createdAt)}</span>
+        <span className="font-mono text-xs text-ink-text/50">
+          {formatter.format(review.createdAt)}
+        </span>
       </div>
       <div className="mt-1">
         <StarRating avgRating={review.rating} />
       </div>
       {review.title && (
-        <h4 className="mt-2 font-semibold text-brand-800">{review.title}</h4>
+        <h4 className="mt-2 font-serif font-semibold text-ink-text">{review.title}</h4>
       )}
-      {review.body && <p className="mt-1 text-muted">{review.body}</p>}
+      {review.body && <p className="mt-1 text-ink-text/70">{review.body}</p>}
       <div className="mt-2">
         <DeleteReviewButton
           reviewId={review.id}

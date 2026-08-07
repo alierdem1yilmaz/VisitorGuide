@@ -90,19 +90,19 @@ export default function PreferencesModal({
           role="presentation"
         >
           <div
-            className="flex max-h-[80vh] w-full max-w-2xl flex-col overflow-hidden rounded-xl bg-white shadow-xl"
+            className="flex max-h-[80vh] w-full max-w-2xl flex-col overflow-hidden rounded-xl bg-paper shadow-xl"
             onClick={(e) => e.stopPropagation()}
             role="dialog"
             aria-modal="true"
             aria-label={labels.title}
           >
-            <div className="flex items-center justify-between border-b border-brand-100 p-4">
-              <h2 className="text-lg font-bold text-brand-800">{labels.title}</h2>
+            <div className="flex items-center justify-between border-b border-ink-text/10 p-4">
+              <h2 className="font-serif text-lg text-ink-text">{labels.title}</h2>
               <button
                 type="button"
                 onClick={() => setOpen(false)}
                 aria-label={labels.close}
-                className="rounded-full p-1 text-brand-700 hover:bg-brand-50"
+                className="rounded-full p-1 text-ink-text hover:bg-paper-2"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -117,14 +117,14 @@ export default function PreferencesModal({
               </button>
             </div>
 
-            <div className="flex border-b border-brand-100">
+            <div className="flex border-b border-ink-text/10">
               <button
                 type="button"
                 onClick={() => setTab("region")}
-                className={`flex-1 px-4 py-3 text-sm font-medium transition-colors ${
+                className={`flex-1 px-4 py-3 font-mono text-xs uppercase tracking-wide transition-colors ${
                   tab === "region"
-                    ? "border-b-2 border-brand-600 text-brand-800"
-                    : "text-muted hover:text-brand-700"
+                    ? "border-b-2 border-gold text-ink-text"
+                    : "text-ink-text/50 hover:text-ink-text"
                 }`}
               >
                 {labels.regionTab}
@@ -132,10 +132,10 @@ export default function PreferencesModal({
               <button
                 type="button"
                 onClick={() => setTab("currency")}
-                className={`flex-1 px-4 py-3 text-sm font-medium transition-colors ${
+                className={`flex-1 px-4 py-3 font-mono text-xs uppercase tracking-wide transition-colors ${
                   tab === "currency"
-                    ? "border-b-2 border-brand-600 text-brand-800"
-                    : "text-muted hover:text-brand-700"
+                    ? "border-b-2 border-gold text-ink-text"
+                    : "text-ink-text/50 hover:text-ink-text"
                 }`}
               >
                 {labels.currencyTab}
@@ -150,7 +150,7 @@ export default function PreferencesModal({
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
                     placeholder={labels.searchPlaceholder}
-                    className="mb-4 w-full rounded-md border border-brand-100 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-brand-400"
+                    className="mb-4 w-full rounded-md border border-ink-text/15 bg-paper px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-gold"
                   />
                   <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
                     {filteredRegions.map((r) => (
@@ -160,14 +160,14 @@ export default function PreferencesModal({
                         onClick={() => selectRegion(r)}
                         className={`rounded-lg border px-3 py-2 text-left text-sm transition-colors ${
                           r.locale === currentLocale
-                            ? "border-brand-500 bg-brand-50"
-                            : "border-brand-100 hover:bg-brand-50"
+                            ? "border-gold bg-paper-2"
+                            : "border-ink-text/15 hover:bg-paper-2"
                         }`}
                       >
-                        <div className="font-medium text-brand-800">
+                        <div className="font-serif text-ink-text">
                           {r.flag} {r.countryLabel}
                         </div>
-                        <div className="text-xs text-muted">{r.languageLabel}</div>
+                        <div className="font-mono text-xs text-ink-text/60">{r.languageLabel}</div>
                       </button>
                     ))}
                   </div>
@@ -179,10 +179,10 @@ export default function PreferencesModal({
                       key={code}
                       type="button"
                       onClick={() => selectCurrency(code)}
-                      className={`rounded-lg border px-3 py-2 text-sm font-medium transition-colors ${
+                      className={`rounded-lg border px-3 py-2 font-mono text-sm transition-colors ${
                         code === currentCurrency
-                          ? "border-brand-500 bg-brand-50 text-brand-800"
-                          : "border-brand-100 text-brand-700 hover:bg-brand-50"
+                          ? "border-gold bg-paper-2 text-ink-text"
+                          : "border-ink-text/15 text-ink-text hover:bg-paper-2"
                       }`}
                     >
                       {code}

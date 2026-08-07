@@ -17,7 +17,7 @@ export default async function RegisterPage({
 
   return (
     <div className="mx-auto max-w-sm px-6 py-16">
-      <h1 className="text-2xl font-bold text-brand-800">{t("signUp")}</h1>
+      <h1 className="font-serif text-2xl font-medium text-ink-text">{t("signUp")}</h1>
 
       {error && (
         <p className="mt-4 rounded-md bg-red-50 px-3 py-2 text-sm text-red-700">
@@ -30,14 +30,14 @@ export default async function RegisterPage({
           type="text"
           name="name"
           placeholder={t("name")}
-          className="rounded-md border border-brand-100 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-brand-400"
+          className="rounded-md border border-ink-text/15 bg-paper px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-gold"
         />
         <input
           type="email"
           name="email"
           required
           placeholder={t("email")}
-          className="rounded-md border border-brand-100 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-brand-400"
+          className="rounded-md border border-ink-text/15 bg-paper px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-gold"
         />
         <input
           type="password"
@@ -45,11 +45,11 @@ export default async function RegisterPage({
           required
           minLength={8}
           placeholder={t("password")}
-          className="rounded-md border border-brand-100 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-brand-400"
+          className="rounded-md border border-ink-text/15 bg-paper px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-gold"
         />
         <button
           type="submit"
-          className="rounded-full bg-brand-600 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-brand-700"
+          className="rounded-full bg-ink px-5 py-2.5 font-mono text-xs uppercase tracking-wide text-paper transition-colors hover:bg-ink-2"
         >
           {t("signUp")}
         </button>
@@ -57,7 +57,7 @@ export default async function RegisterPage({
 
       <Link
         href="/login"
-        className="mt-4 block text-center text-sm text-brand-600 hover:underline"
+        className="mt-4 block text-center font-mono text-xs uppercase tracking-wide text-gold hover:text-rust"
       >
         {t("alreadyHaveAccount")}
       </Link>
