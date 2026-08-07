@@ -73,7 +73,14 @@
     "addToFavorites": "پسندیدہ میں شامل کریں۔",
     "removeFromFavorites": "پسندیدہ سے ہٹا دیں۔",
     "priceEstimateNote": "تخمینی قیمت، لائیو ڈیٹا نہیں۔",
-    "priceEstimate": "تخمینی قیمت"
+    "priceEstimate": "تخمینی قیمت",
+    "priceLabelByCategory": {
+      "RESTAURANT": "دو کے لیے اوسط کھانا",
+      "ATTRACTION": "داخلہ فیس",
+      "MONUMENT": "داخلہ فیس",
+      "HOTEL": "فی رات قیمت",
+      "NATURE": "داخلہ فیس"
+    }
   },
   "filters": {
     "sortLabel": "چھانٹنا",

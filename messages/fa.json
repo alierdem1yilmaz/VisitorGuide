@@ -73,7 +73,14 @@
     "addToFavorites": "افزودن به علاقه‌مندی‌ها",
     "removeFromFavorites": "حذف از موارد دلخواه",
     "priceEstimateNote": "قیمت تخمینی، نه داده‌های زنده.",
-    "priceEstimate": "قیمت تخمینی"
+    "priceEstimate": "قیمت تخمینی",
+    "priceLabelByCategory": {
+      "RESTAURANT": "یک وعده غذایی متوسط برای دو نفر",
+      "ATTRACTION": "هزینه ورود",
+      "MONUMENT": "هزینه ورود",
+      "HOTEL": "قیمت به ازای هر شب",
+      "NATURE": "هزینه ورود"
+    }
   },
   "filters": {
     "sortLabel": "مرتب سازی",

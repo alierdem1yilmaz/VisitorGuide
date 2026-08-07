@@ -73,7 +73,14 @@
     "addToFavorites": "Добави към любими",
     "removeFromFavorites": "Премахване от любими",
     "priceEstimateNote": "Приблизителна цена, не актуални данни.",
-    "priceEstimate": "Приблизителна цена"
+    "priceEstimate": "Приблизителна цена",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Средностатистическо хранене за двама",
+      "ATTRACTION": "Входна такса",
+      "MONUMENT": "Входна такса",
+      "HOTEL": "Цена на нощувка",
+      "NATURE": "Входна такса"
+    }
   },
   "filters": {
     "sortLabel": "Сортиране",

@@ -73,7 +73,14 @@
     "addToFavorites": "Voeg by gunstelinge",
     "removeFromFavorites": "Verwyder van gunstelinge",
     "priceEstimateNote": "Geraamde prys, nie regstreekse data nie.",
-    "priceEstimate": "Geskatte prys"
+    "priceEstimate": "Geskatte prys",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Gemiddelde maaltyd vir twee",
+      "ATTRACTION": "Toegangsgeld",
+      "MONUMENT": "Toegangsgeld",
+      "HOTEL": "Prys per nag",
+      "NATURE": "Toegangsgeld"
+    }
   },
   "filters": {
     "sortLabel": "Sorteer",

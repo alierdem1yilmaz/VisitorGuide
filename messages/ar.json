@@ -73,7 +73,14 @@
     "addToFavorites": "أضف إلى المفضلة",
     "removeFromFavorites": "إزالة من المفضلة",
     "priceEstimateNote": "السعر تقديري، وليس بيانات مباشرة.",
-    "priceEstimate": "السعر التقديري"
+    "priceEstimate": "السعر التقديري",
+    "priceLabelByCategory": {
+      "RESTAURANT": "متوسط وجبة لشخصين",
+      "ATTRACTION": "رسوم الدخول",
+      "MONUMENT": "رسوم الدخول",
+      "HOTEL": "السعر لليلة الواحدة",
+      "NATURE": "رسوم الدخول"
+    }
   },
   "filters": {
     "sortLabel": "نوع",

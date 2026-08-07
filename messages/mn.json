@@ -73,7 +73,14 @@
     "addToFavorites": "Дуртай зүйлсэд нэмэх",
     "removeFromFavorites": "Дуртай зүйлсээс хасах",
     "priceEstimateNote": "Бодит мэдээлэл биш, тооцоолсон үнэ.",
-    "priceEstimate": "Тооцоолсон үнэ"
+    "priceEstimate": "Тооцоолсон үнэ",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Хоёр хүний дундаж хоол",
+      "ATTRACTION": "Орох хураамж",
+      "MONUMENT": "Орох хураамж",
+      "HOTEL": "Нэг шөнийн үнэ",
+      "NATURE": "Орох хураамж"
+    }
   },
   "filters": {
     "sortLabel": "Эрэмбэлэх",

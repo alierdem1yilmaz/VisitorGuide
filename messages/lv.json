@@ -73,7 +73,14 @@
     "addToFavorites": "Pievienot izlasei",
     "removeFromFavorites": "Noņemt no izlases",
     "priceEstimateNote": "Aptuvenā cena, nevis tiešie dati.",
-    "priceEstimate": "Paredzamā cena"
+    "priceEstimate": "Paredzamā cena",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Vidēja maltīte diviem",
+      "ATTRACTION": "Ieejas maksa",
+      "MONUMENT": "Ieejas maksa",
+      "HOTEL": "Cena par nakti",
+      "NATURE": "Ieejas maksa"
+    }
   },
   "filters": {
     "sortLabel": "Kārtot",

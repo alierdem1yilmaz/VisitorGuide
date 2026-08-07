@@ -73,7 +73,14 @@
     "addToFavorites": "Ավելացնել ընտրյալներին",
     "removeFromFavorites": "Հեռացնել ընտրյալներից",
     "priceEstimateNote": "Մոտավոր գին, ոչ թե իրական տվյալներ։",
-    "priceEstimate": "Մոտավոր գին"
+    "priceEstimate": "Մոտավոր գին",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Միջին ճաշ երկուսի համար",
+      "ATTRACTION": "Մուտքի վճար",
+      "MONUMENT": "Մուտքի վճար",
+      "HOTEL": "Գինը մեկ գիշերվա համար",
+      "NATURE": "Մուտքի վճար"
+    }
   },
   "filters": {
     "sortLabel": "Դասավորել",

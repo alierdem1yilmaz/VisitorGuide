@@ -73,7 +73,14 @@
     "addToFavorites": "Προσθήκη στα αγαπημένα",
     "removeFromFavorites": "Αφαίρεση από τα αγαπημένα",
     "priceEstimateNote": "Εκτιμώμενη τιμή, όχι δεδομένα σε πραγματικό χρόνο.",
-    "priceEstimate": "Εκτιμώμενη τιμή"
+    "priceEstimate": "Εκτιμώμενη τιμή",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Μέσο γεύμα για δύο",
+      "ATTRACTION": "Τέλος εισόδου",
+      "MONUMENT": "Τέλος εισόδου",
+      "HOTEL": "Τιμή ανά διανυκτέρευση",
+      "NATURE": "Τέλος εισόδου"
+    }
   },
   "filters": {
     "sortLabel": "Είδος",

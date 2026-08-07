@@ -73,7 +73,14 @@
     "addToFavorites": "加入收藏",
     "removeFromFavorites": "取消收藏",
     "priceEstimateNote": "预估价格，非实时数据。",
-    "priceEstimate": "预估价格"
+    "priceEstimate": "预估价格",
+    "priceLabelByCategory": {
+      "RESTAURANT": "两人份的平均餐食",
+      "ATTRACTION": "入场费",
+      "MONUMENT": "入场费",
+      "HOTEL": "每晚价格",
+      "NATURE": "入场费"
+    }
   },
   "filters": {
     "sortLabel": "排序",

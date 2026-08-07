@@ -73,7 +73,14 @@
     "addToFavorites": "Tambahkan ke favorit",
     "removeFromFavorites": "Hapus dari favorit",
     "priceEstimateNote": "Perkiraan harga, bukan data aktual.",
-    "priceEstimate": "Perkiraan harga"
+    "priceEstimate": "Perkiraan harga",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Rata-rata porsi makan untuk dua orang",
+      "ATTRACTION": "Biaya masuk",
+      "MONUMENT": "Biaya masuk",
+      "HOTEL": "Harga per malam",
+      "NATURE": "Biaya masuk"
+    }
   },
   "filters": {
     "sortLabel": "Menyortir",

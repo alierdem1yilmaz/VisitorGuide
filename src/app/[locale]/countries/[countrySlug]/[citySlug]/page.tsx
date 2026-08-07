@@ -336,6 +336,7 @@ export default async function CityPage({
                   : undefined
               }
               priceEstimateLabel={tPlace("priceEstimateNote")}
+              priceCategoryLabel={tPlace(`priceLabelByCategory.${place.category}`)}
               favorite={{
                 placeId: place.id,
                 path: buildQuery({}),

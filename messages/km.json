@@ -73,7 +73,14 @@
     "addToFavorites": "បន្ថែមទៅក្នុងចំណូលចិត្ត",
     "removeFromFavorites": "ដកចេញពីចំណូលចិត្ត",
     "priceEstimateNote": "តម្លៃប៉ាន់ស្មាន មិនមែនទិន្នន័យផ្ទាល់ទេ។",
-    "priceEstimate": "តម្លៃប៉ាន់ស្មាន"
+    "priceEstimate": "តម្លៃប៉ាន់ស្មាន",
+    "priceLabelByCategory": {
+      "RESTAURANT": "អាហារជាមធ្យមសម្រាប់ពីរនាក់",
+      "ATTRACTION": "ថ្លៃចូល",
+      "MONUMENT": "ថ្លៃចូល",
+      "HOTEL": "តម្លៃក្នុងមួយយប់",
+      "NATURE": "ថ្លៃចូល"
+    }
   },
   "filters": {
     "sortLabel": "តម្រៀប",

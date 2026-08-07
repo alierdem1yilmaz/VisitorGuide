@@ -73,7 +73,14 @@
     "addToFavorites": "Aggiungi ai preferiti",
     "removeFromFavorites": "Rimuovi dai preferiti",
     "priceEstimateNote": "Prezzo stimato, non dato in tempo reale.",
-    "priceEstimate": "Prezzo stimato"
+    "priceEstimate": "Prezzo stimato",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Pasto medio per due persone",
+      "ATTRACTION": "Quota di iscrizione",
+      "MONUMENT": "Quota di iscrizione",
+      "HOTEL": "Prezzo a notte",
+      "NATURE": "Quota di iscrizione"
+    }
   },
   "filters": {
     "sortLabel": "Ordinare",

@@ -73,7 +73,14 @@
     "addToFavorites": "Thêm vào mục yêu thích",
     "removeFromFavorites": "Xóa khỏi mục yêu thích",
     "priceEstimateNote": "Giá ước tính, không phải dữ liệu thực tế.",
-    "priceEstimate": "Giá ước tính"
+    "priceEstimate": "Giá ước tính",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Bữa ăn trung bình cho hai người",
+      "ATTRACTION": "Phí vào cửa",
+      "MONUMENT": "Phí vào cửa",
+      "HOTEL": "Giá mỗi đêm",
+      "NATURE": "Phí vào cửa"
+    }
   },
   "filters": {
     "sortLabel": "Loại",

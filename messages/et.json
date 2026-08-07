@@ -73,7 +73,14 @@
     "addToFavorites": "Lisa lemmikutesse",
     "removeFromFavorites": "Eemalda lemmikutest",
     "priceEstimateNote": "Hinnanguline hind, mitte reaalajas andmed.",
-    "priceEstimate": "Hinnanguline hind"
+    "priceEstimate": "Hinnanguline hind",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Keskmine eine kahele",
+      "ATTRACTION": "Sissepääsutasu",
+      "MONUMENT": "Sissepääsutasu",
+      "HOTEL": "Hind öö kohta",
+      "NATURE": "Sissepääsutasu"
+    }
   },
   "filters": {
     "sortLabel": "Sorteeri",

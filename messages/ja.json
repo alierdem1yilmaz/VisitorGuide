@@ -73,7 +73,14 @@
     "addToFavorites": "お気に入りに追加",
     "removeFromFavorites": "お気に入りから削除",
     "priceEstimateNote": "推定価格であり、リアルタイムデータではありません。",
-    "priceEstimate": "推定価格"
+    "priceEstimate": "推定価格",
+    "priceLabelByCategory": {
+      "RESTAURANT": "2人分の平均的な食事",
+      "ATTRACTION": "入場料",
+      "MONUMENT": "入場料",
+      "HOTEL": "1泊あたりの料金",
+      "NATURE": "入場料"
+    }
   },
   "filters": {
     "sortLabel": "選別",

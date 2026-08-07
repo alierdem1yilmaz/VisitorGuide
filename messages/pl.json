@@ -73,7 +73,14 @@
     "addToFavorites": "Dodaj do ulubionych",
     "removeFromFavorites": "Usuń z ulubionych",
     "priceEstimateNote": "Cena szacunkowa, nie dane na żywo.",
-    "priceEstimate": "Szacunkowa cena"
+    "priceEstimate": "Szacunkowa cena",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Przeciętny posiłek dla dwóch osób",
+      "ATTRACTION": "Opłata za wstęp",
+      "MONUMENT": "Opłata za wstęp",
+      "HOTEL": "Cena za noc",
+      "NATURE": "Opłata za wstęp"
+    }
   },
   "filters": {
     "sortLabel": "Sortuj",

@@ -73,7 +73,14 @@
     "addToFavorites": "Tambah ke kegemaran",
     "removeFromFavorites": "Alih keluar daripada kegemaran",
     "priceEstimateNote": "Anggaran harga, bukan data langsung.",
-    "priceEstimate": "Anggaran harga"
+    "priceEstimate": "Anggaran harga",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Purata hidangan untuk dua orang",
+      "ATTRACTION": "Yuran masuk",
+      "MONUMENT": "Yuran masuk",
+      "HOTEL": "Harga setiap malam",
+      "NATURE": "Yuran masuk"
+    }
   },
   "filters": {
     "sortLabel": "Isih",

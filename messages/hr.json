@@ -73,7 +73,14 @@
     "addToFavorites": "Dodaj u favorite",
     "removeFromFavorites": "Ukloni iz favorita",
     "priceEstimateNote": "Procijenjena cijena, ne podaci uživo.",
-    "priceEstimate": "Procijenjena cijena"
+    "priceEstimate": "Procijenjena cijena",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Prosječan obrok za dvoje",
+      "ATTRACTION": "Ulaznica",
+      "MONUMENT": "Ulaznica",
+      "HOTEL": "Cijena po noćenju",
+      "NATURE": "Ulaznica"
+    }
   },
   "filters": {
     "sortLabel": "Vrsta",

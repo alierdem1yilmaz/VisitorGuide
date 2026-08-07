@@ -73,7 +73,14 @@
     "addToFavorites": "რჩეულებში დამატება",
     "removeFromFavorites": "რჩეულებიდან ამოღება",
     "priceEstimateNote": "სავარაუდო ფასი, არა რეალური მონაცემები.",
-    "priceEstimate": "სავარაუდო ფასი"
+    "priceEstimate": "სავარაუდო ფასი",
+    "priceLabelByCategory": {
+      "RESTAURANT": "საშუალო კვება ორი ადამიანისთვის",
+      "ATTRACTION": "შესვლის საფასური",
+      "MONUMENT": "შესვლის საფასური",
+      "HOTEL": "ფასი ერთ ღამეში",
+      "NATURE": "შესვლის საფასური"
+    }
   },
   "filters": {
     "sortLabel": "დახარისხება",

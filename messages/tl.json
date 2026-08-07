@@ -73,7 +73,14 @@
     "addToFavorites": "Idagdag sa mga paborito",
     "removeFromFavorites": "Alisin sa mga paborito",
     "priceEstimateNote": "Tinatayang presyo, hindi live na datos.",
-    "priceEstimate": "Tinatayang presyo"
+    "priceEstimate": "Tinatayang presyo",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Karaniwang pagkain para sa dalawa",
+      "ATTRACTION": "Bayad sa pagpasok",
+      "MONUMENT": "Bayad sa pagpasok",
+      "HOTEL": "Presyo kada gabi",
+      "NATURE": "Bayad sa pagpasok"
+    }
   },
   "filters": {
     "sortLabel": "Pagbukud-bukurin",

@@ -73,7 +73,14 @@
     "addToFavorites": "விருப்பமானவற்றில் சேர்க்கவும்",
     "removeFromFavorites": "விருப்பமானவற்றிலிருந்து அகற்று",
     "priceEstimateNote": "இது உத்தேச விலை, நிகழ்நேரத் தரவு அல்ல.",
-    "priceEstimate": "மதிப்பிடப்பட்ட விலை"
+    "priceEstimate": "மதிப்பிடப்பட்ட விலை",
+    "priceLabelByCategory": {
+      "RESTAURANT": "இருவருக்கான சராசரி உணவு",
+      "ATTRACTION": "நுழைவுக் கட்டணம்",
+      "MONUMENT": "நுழைவுக் கட்டணம்",
+      "HOTEL": "ஒரு இரவுக்கான விலை",
+      "NATURE": "நுழைவுக் கட்டணம்"
+    }
   },
   "filters": {
     "sortLabel": "வரிசைப்படுத்து",

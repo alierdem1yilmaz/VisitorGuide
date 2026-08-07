@@ -73,7 +73,14 @@
     "addToFavorites": "הוסף למועדפים",
     "removeFromFavorites": "הסר מהמועדפים",
     "priceEstimateNote": "מחיר משוער, לא נתונים בזמן אמת.",
-    "priceEstimate": "מחיר משוער"
+    "priceEstimate": "מחיר משוער",
+    "priceLabelByCategory": {
+      "RESTAURANT": "ארוחה ממוצעת לשניים",
+      "ATTRACTION": "דמי כניסה",
+      "MONUMENT": "דמי כניסה",
+      "HOTEL": "מחיר ללילה",
+      "NATURE": "דמי כניסה"
+    }
   },
   "filters": {
     "sortLabel": "סוּג",

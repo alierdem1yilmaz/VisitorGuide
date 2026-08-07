@@ -21,6 +21,7 @@ export default function PlaceCard({
   seasonLabel,
   estimatedPrice,
   priceEstimateLabel,
+  priceCategoryLabel,
   favorite,
 }: {
   href: string;
@@ -35,6 +36,7 @@ export default function PlaceCard({
   seasonLabel?: string;
   estimatedPrice?: string;
   priceEstimateLabel?: string;
+  priceCategoryLabel?: string;
   favorite?: {
     placeId: string;
     path: string;
@@ -98,7 +100,7 @@ export default function PlaceCard({
                 className="block text-xs text-muted"
                 title={priceEstimateLabel}
               >
-                ~{estimatedPrice}
+                {priceCategoryLabel && `${priceCategoryLabel}: `}~{estimatedPrice}
               </span>
             )}
           </div>

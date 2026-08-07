@@ -73,7 +73,14 @@
     "addToFavorites": "Добавить в избранное",
     "removeFromFavorites": "Убрать из избранного",
     "priceEstimateNote": "Приблизительная цена, не данные в реальном времени.",
-    "priceEstimate": "Примерная цена"
+    "priceEstimate": "Примерная цена",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Среднее количество еды на двоих",
+      "ATTRACTION": "Входной взнос",
+      "MONUMENT": "Входной взнос",
+      "HOTEL": "Цена за ночь",
+      "NATURE": "Входной взнос"
+    }
   },
   "filters": {
     "sortLabel": "Сортировать",

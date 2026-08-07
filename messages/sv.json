@@ -73,7 +73,14 @@
     "addToFavorites": "Lägg till i favoriter",
     "removeFromFavorites": "Ta bort från favoriter",
     "priceEstimateNote": "Uppskattat pris, inte realtidsdata.",
-    "priceEstimate": "Uppskattat pris"
+    "priceEstimate": "Uppskattat pris",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Genomsnittlig måltid för två",
+      "ATTRACTION": "Inträdesavgift",
+      "MONUMENT": "Inträdesavgift",
+      "HOTEL": "Pris per natt",
+      "NATURE": "Inträdesavgift"
+    }
   },
   "filters": {
     "sortLabel": "Sortera",

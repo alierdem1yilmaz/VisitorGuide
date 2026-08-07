@@ -73,7 +73,14 @@
     "addToFavorites": "Sevimlilərə əlavə edin",
     "removeFromFavorites": "Sevimlilərdən silin",
     "priceEstimateNote": "Təxmini qiymət, canlı məlumat deyil.",
-    "priceEstimate": "Təxmini qiymət"
+    "priceEstimate": "Təxmini qiymət",
+    "priceLabelByCategory": {
+      "RESTAURANT": "İki nəfərlik orta yemək",
+      "ATTRACTION": "Giriş haqqı",
+      "MONUMENT": "Giriş haqqı",
+      "HOTEL": "Gecəlik qiymət",
+      "NATURE": "Giriş haqqı"
+    }
   },
   "filters": {
     "sortLabel": "Çeşidləmə",

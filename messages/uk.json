@@ -73,7 +73,14 @@
     "addToFavorites": "Додати до обраного",
     "removeFromFavorites": "Видалити з обраного",
     "priceEstimateNote": "Орієнтовна ціна, а не актуальні дані.",
-    "priceEstimate": "Орієнтовна ціна"
+    "priceEstimate": "Орієнтовна ціна",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Середній обід для двох",
+      "ATTRACTION": "Вхідний внесок",
+      "MONUMENT": "Вхідний внесок",
+      "HOTEL": "Ціна за ніч",
+      "NATURE": "Вхідний внесок"
+    }
   },
   "filters": {
     "sortLabel": "Сортувати",

@@ -73,7 +73,14 @@
     "addToFavorites": "Favorilere ekle",
     "removeFromFavorites": "Favorilerden çıkar",
     "priceEstimateNote": "Tahmini fiyat, gerçek zamanlı veri değildir.",
-    "priceEstimate": "Tahmini fiyat"
+    "priceEstimate": "Tahmini fiyat",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Ortalama yemek (2 kişi)",
+      "ATTRACTION": "Giriş ücreti",
+      "MONUMENT": "Giriş ücreti",
+      "HOTEL": "Gecelik oda ücreti",
+      "NATURE": "Giriş ücreti"
+    }
   },
   "filters": {
     "sortLabel": "Sırala",

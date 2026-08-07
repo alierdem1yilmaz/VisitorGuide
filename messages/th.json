@@ -73,7 +73,14 @@
     "addToFavorites": "เพิ่มในรายการโปรด",
     "removeFromFavorites": "ลบออกจากรายการโปรด",
     "priceEstimateNote": "ราคาที่แสดงเป็นราคาโดยประมาณ ไม่ใช่ราคาปัจจุบัน",
-    "priceEstimate": "ราคาโดยประมาณ"
+    "priceEstimate": "ราคาโดยประมาณ",
+    "priceLabelByCategory": {
+      "RESTAURANT": "อาหารโดยเฉลี่ยสำหรับสองคน",
+      "ATTRACTION": "ค่าธรรมเนียมเข้าชม",
+      "MONUMENT": "ค่าธรรมเนียมเข้าชม",
+      "HOTEL": "ราคาต่อคืน",
+      "NATURE": "ค่าธรรมเนียมเข้าชม"
+    }
   },
   "filters": {
     "sortLabel": "เรียงลำดับ",

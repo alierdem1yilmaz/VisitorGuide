@@ -73,7 +73,14 @@
     "addToFavorites": "Legg til i favoritter",
     "removeFromFavorites": "Fjern fra favoritter",
     "priceEstimateNote": "Estimert pris, ikke sanntidsdata.",
-    "priceEstimate": "Estimert pris"
+    "priceEstimate": "Estimert pris",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Gjennomsnittlig måltid for to",
+      "ATTRACTION": "Inngangsavgift",
+      "MONUMENT": "Inngangsavgift",
+      "HOTEL": "Pris per natt",
+      "NATURE": "Inngangsavgift"
+    }
   },
   "filters": {
     "sortLabel": "Sortere",

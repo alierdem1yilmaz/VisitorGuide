@@ -73,7 +73,14 @@
     "addToFavorites": "즐겨찾기에 추가",
     "removeFromFavorites": "즐겨찾기에서 제거",
     "priceEstimateNote": "예상 가격이며 실시간 데이터가 아닙니다.",
-    "priceEstimate": "예상 가격"
+    "priceEstimate": "예상 가격",
+    "priceLabelByCategory": {
+      "RESTAURANT": "두 사람이 먹는 평균 식사",
+      "ATTRACTION": "입장료",
+      "MONUMENT": "입장료",
+      "HOTEL": "1박당 가격",
+      "NATURE": "입장료"
+    }
   },
   "filters": {
     "sortLabel": "종류",

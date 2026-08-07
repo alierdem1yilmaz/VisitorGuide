@@ -73,7 +73,14 @@
     "addToFavorites": "Bæta við uppáhalds",
     "removeFromFavorites": "Fjarlægja úr uppáhaldslistum",
     "priceEstimateNote": "Áætlað verð, ekki rauntímagögn.",
-    "priceEstimate": "Áætlað verð"
+    "priceEstimate": "Áætlað verð",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Meðalmáltíð fyrir tvo",
+      "ATTRACTION": "Aðgangseyrir",
+      "MONUMENT": "Aðgangseyrir",
+      "HOTEL": "Verð á nótt",
+      "NATURE": "Aðgangseyrir"
+    }
   },
   "filters": {
     "sortLabel": "Raða",

@@ -73,7 +73,14 @@
     "addToFavorites": "Ajouter aux favoris",
     "removeFromFavorites": "Retirer des favoris",
     "priceEstimateNote": "Prix estimé, pas une donnée en temps réel.",
-    "priceEstimate": "Prix estimé"
+    "priceEstimate": "Prix estimé",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Repas moyen pour deux",
+      "ATTRACTION": "Frais d'entrée",
+      "MONUMENT": "Frais d'entrée",
+      "HOTEL": "Prix par nuit",
+      "NATURE": "Frais d'entrée"
+    }
   },
   "filters": {
     "sortLabel": "Trier",

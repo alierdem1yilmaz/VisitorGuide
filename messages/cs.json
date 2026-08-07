@@ -73,7 +73,14 @@
     "addToFavorites": "Přidat k oblíbeným",
     "removeFromFavorites": "Odebrat z oblíbených",
     "priceEstimateNote": "Odhadovaná cena, nikoli aktuální data.",
-    "priceEstimate": "Odhadovaná cena"
+    "priceEstimate": "Odhadovaná cena",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Průměrné jídlo pro dva",
+      "ATTRACTION": "Vstupné",
+      "MONUMENT": "Vstupné",
+      "HOTEL": "Cena za noc",
+      "NATURE": "Vstupné"
+    }
   },
   "filters": {
     "sortLabel": "Seřadit",

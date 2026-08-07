@@ -73,7 +73,14 @@
     "addToFavorites": "Dodaj med priljubljene",
     "removeFromFavorites": "Odstrani iz priljubljenih",
     "priceEstimateNote": "Ocenjena cena, ne podatki v živo.",
-    "priceEstimate": "Ocenjena cena"
+    "priceEstimate": "Ocenjena cena",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Povprečen obrok za dva",
+      "ATTRACTION": "Vstopnina",
+      "MONUMENT": "Vstopnina",
+      "HOTEL": "Cena na noč",
+      "NATURE": "Vstopnina"
+    }
   },
   "filters": {
     "sortLabel": "Razvrsti",

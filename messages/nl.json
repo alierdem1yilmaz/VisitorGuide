@@ -73,7 +73,14 @@
     "addToFavorites": "Toevoegen aan favorieten",
     "removeFromFavorites": "Verwijderen uit favorieten",
     "priceEstimateNote": "Geschatte prijs, geen actuele gegevens.",
-    "priceEstimate": "Geschatte prijs"
+    "priceEstimate": "Geschatte prijs",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Gemiddelde maaltijd voor twee personen",
+      "ATTRACTION": "Toegangsprijs",
+      "MONUMENT": "Toegangsprijs",
+      "HOTEL": "Prijs per nacht",
+      "NATURE": "Toegangsprijs"
+    }
   },
   "filters": {
     "sortLabel": "Soort",

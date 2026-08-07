@@ -73,7 +73,14 @@
     "addToFavorites": "Zu Favoriten hinzufügen",
     "removeFromFavorites": "Aus Favoriten entfernen",
     "priceEstimateNote": "Geschätzter Preis, keine Echtzeitdaten.",
-    "priceEstimate": "Geschätzter Preis"
+    "priceEstimate": "Geschätzter Preis",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Durchschnittliche Mahlzeit für zwei Personen",
+      "ATTRACTION": "Eintrittsgebühr",
+      "MONUMENT": "Eintrittsgebühr",
+      "HOTEL": "Preis pro Nacht",
+      "NATURE": "Eintrittsgebühr"
+    }
   },
   "filters": {
     "sortLabel": "Sortieren",

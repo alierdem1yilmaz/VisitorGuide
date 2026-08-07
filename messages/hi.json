@@ -73,7 +73,14 @@
     "addToFavorites": "पसंदीदा में जोड़ें",
     "removeFromFavorites": "पसंदीदा से हटाएं",
     "priceEstimateNote": "अनुमानित कीमत, वास्तविक समय का डेटा नहीं है।",
-    "priceEstimate": "अनुमानित कीमत"
+    "priceEstimate": "अनुमानित कीमत",
+    "priceLabelByCategory": {
+      "RESTAURANT": "दो लोगों के लिए औसत भोजन",
+      "ATTRACTION": "प्रवेश शुल्क",
+      "MONUMENT": "प्रवेश शुल्क",
+      "HOTEL": "प्रति रात्रि मूल्य",
+      "NATURE": "प्रवेश शुल्क"
+    }
   },
   "filters": {
     "sortLabel": "क्रमबद्ध करें",

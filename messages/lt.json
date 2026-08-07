@@ -73,7 +73,14 @@
     "addToFavorites": "Pridėti prie mėgstamiausių",
     "removeFromFavorites": "Pašalinti iš mėgstamiausių",
     "priceEstimateNote": "Apytikslė kaina, o ne tiesioginiai duomenys.",
-    "priceEstimate": "Numatoma kaina"
+    "priceEstimate": "Numatoma kaina",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Vidutinis valgis dviems",
+      "ATTRACTION": "Įėjimo mokestis",
+      "MONUMENT": "Įėjimo mokestis",
+      "HOTEL": "Kaina už naktį",
+      "NATURE": "Įėjimo mokestis"
+    }
   },
   "filters": {
     "sortLabel": "Rūšiuoti",

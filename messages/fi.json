@@ -73,7 +73,14 @@
     "addToFavorites": "Lisää suosikkeihin",
     "removeFromFavorites": "Poista suosikeista",
     "priceEstimateNote": "Arvioitu hinta, ei reaaliaikaista dataa.",
-    "priceEstimate": "Arvioitu hinta"
+    "priceEstimate": "Arvioitu hinta",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Keskimääräinen ateria kahdelle",
+      "ATTRACTION": "Sisäänpääsymaksu",
+      "MONUMENT": "Sisäänpääsymaksu",
+      "HOTEL": "Hinta per yö",
+      "NATURE": "Sisäänpääsymaksu"
+    }
   },
   "filters": {
     "sortLabel": "Järjestellä",

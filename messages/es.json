@@ -73,7 +73,14 @@
     "addToFavorites": "Añadir a favoritos",
     "removeFromFavorites": "Quitar de favoritos",
     "priceEstimateNote": "Precio estimado, no son datos en tiempo real.",
-    "priceEstimate": "Precio estimado"
+    "priceEstimate": "Precio estimado",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Comida promedio para dos personas",
+      "ATTRACTION": "Cuota de entrada",
+      "MONUMENT": "Cuota de entrada",
+      "HOTEL": "Precio por noche",
+      "NATURE": "Cuota de entrada"
+    }
   },
   "filters": {
     "sortLabel": "Ordenar",

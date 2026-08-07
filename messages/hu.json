@@ -73,7 +73,14 @@
     "addToFavorites": "Hozzáadás a kedvencekhez",
     "removeFromFavorites": "Eltávolítás a kedvencek közül",
     "priceEstimateNote": "Becsült ár, nem élő adat.",
-    "priceEstimate": "Becsült ár"
+    "priceEstimate": "Becsült ár",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Átlagos étkezés két fő részére",
+      "ATTRACTION": "Belépődíj",
+      "MONUMENT": "Belépődíj",
+      "HOTEL": "Ár éjszakánként",
+      "NATURE": "Belépődíj"
+    }
   },
   "filters": {
     "sortLabel": "Fajta",

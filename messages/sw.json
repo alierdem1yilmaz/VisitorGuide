@@ -73,7 +73,14 @@
     "addToFavorites": "Ongeza kwenye vipendwa",
     "removeFromFavorites": "Ondoa kutoka kwa vipendwa",
     "priceEstimateNote": "Bei inayokadiriwa, si data ya moja kwa moja.",
-    "priceEstimate": "Bei inayokadiriwa"
+    "priceEstimate": "Bei inayokadiriwa",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Mlo wa wastani wa watu wawili",
+      "ATTRACTION": "Ada ya kuingia",
+      "MONUMENT": "Ada ya kuingia",
+      "HOTEL": "Bei kwa usiku",
+      "NATURE": "Ada ya kuingia"
+    }
   },
   "filters": {
     "sortLabel": "Panga",

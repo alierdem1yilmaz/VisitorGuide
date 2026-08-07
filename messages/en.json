@@ -73,7 +73,14 @@
     "addToFavorites": "Add to favorites",
     "removeFromFavorites": "Remove from favorites",
     "priceEstimateNote": "Estimated price, not live data.",
-    "priceEstimate": "Estimated price"
+    "priceEstimate": "Estimated price",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Average meal for two",
+      "ATTRACTION": "Entry fee",
+      "MONUMENT": "Entry fee",
+      "HOTEL": "Price per night",
+      "NATURE": "Entry fee"
+    }
   },
   "filters": {
     "sortLabel": "Sort",

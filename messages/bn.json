@@ -73,7 +73,14 @@
     "addToFavorites": "পছন্দের তালিকায় যোগ করুন",
     "removeFromFavorites": "পছন্দের তালিকা থেকে সরান",
     "priceEstimateNote": "আনুমানিক মূল্য, সরাসরি তথ্য নয়।",
-    "priceEstimate": "আনুমানিক মূল্য"
+    "priceEstimate": "আনুমানিক মূল্য",
+    "priceLabelByCategory": {
+      "RESTAURANT": "দুজনের জন্য গড় খাবার",
+      "ATTRACTION": "প্রবেশ মূল্য",
+      "MONUMENT": "প্রবেশ মূল্য",
+      "HOTEL": "প্রতি রাতের মূল্য",
+      "NATURE": "প্রবেশ মূল্য"
+    }
   },
   "filters": {
     "sortLabel": "সাজান",

@@ -73,7 +73,14 @@
     "addToFavorites": "Adaugă la favorite",
     "removeFromFavorites": "Eliminare din favorite",
     "priceEstimateNote": "Preț estimat, nu date în timp real.",
-    "priceEstimate": "Preț estimat"
+    "priceEstimate": "Preț estimat",
+    "priceLabelByCategory": {
+      "RESTAURANT": "Masă medie pentru doi",
+      "ATTRACTION": "Taxă de intrare",
+      "MONUMENT": "Taxă de intrare",
+      "HOTEL": "Preț pe noapte",
+      "NATURE": "Taxă de intrare"
+    }
   },
   "filters": {
     "sortLabel": "Sorta",

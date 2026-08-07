@@ -156,7 +156,9 @@ export default async function PlacePage({
         )}
         {estimatedPrice && (
           <p title={t("priceEstimateNote")}>
-            <span className="font-medium text-brand-700">{t("priceEstimate")}:</span>{" "}
+            <span className="font-medium text-brand-700">
+              {t(`priceLabelByCategory.${place.category}`)}:
+            </span>{" "}
             <span className="text-muted">~{estimatedPrice}</span>
           </p>
         )}
