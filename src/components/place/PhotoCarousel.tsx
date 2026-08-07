@@ -45,7 +45,7 @@ export default function PhotoCarousel({
   }
 
   return (
-    <div className={`relative w-full overflow-hidden bg-brand-100 ${size.container}`}>
+    <div className={`relative w-full overflow-hidden bg-paper-2 ${size.container}`}>
       {photos.map((photo, i) => (
         <div
           key={photo.url}
@@ -69,7 +69,7 @@ export default function PhotoCarousel({
             type="button"
             onClick={prev}
             aria-label={previousLabel}
-            className={`absolute left-2 top-1/2 z-10 flex -translate-y-1/2 items-center justify-center rounded-full bg-brand-800/80 text-white shadow-md transition-colors hover:bg-brand-800 ${size.arrow}`}
+            className={`absolute left-2 top-1/2 z-10 flex -translate-y-1/2 items-center justify-center rounded-full bg-ink/80 text-white shadow-md transition-colors hover:bg-ink ${size.arrow}`}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +86,7 @@ export default function PhotoCarousel({
             type="button"
             onClick={next}
             aria-label={nextLabel}
-            className={`absolute right-2 top-1/2 z-10 flex -translate-y-1/2 items-center justify-center rounded-full bg-brand-800/80 text-white shadow-md transition-colors hover:bg-brand-800 ${size.arrow}`}
+            className={`absolute right-2 top-1/2 z-10 flex -translate-y-1/2 items-center justify-center rounded-full bg-ink/80 text-white shadow-md transition-colors hover:bg-ink ${size.arrow}`}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

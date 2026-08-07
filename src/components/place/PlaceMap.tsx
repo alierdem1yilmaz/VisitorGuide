@@ -21,7 +21,7 @@ export default function PlaceMap({
   )}`;
 
   return (
-    <div className="h-72 w-full overflow-hidden rounded-xl border border-brand-100">
+    <div className="h-72 w-full overflow-hidden rounded-xl border border-ink-text/15">
       <iframe
         title={`Map — ${name}`}
         src={src}

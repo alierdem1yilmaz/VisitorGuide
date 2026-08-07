@@ -74,7 +74,7 @@ export default function MapView({
   return (
     <div
       ref={containerRef}
-      className="h-[28rem] w-full rounded-xl border border-brand-100"
+      className="h-[28rem] w-full rounded-xl border border-ink-text/15"
     />
   );
 }

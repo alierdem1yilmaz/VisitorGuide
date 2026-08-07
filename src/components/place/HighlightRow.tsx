@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
-import StarRating from "./StarRating";
+import Stamp from "@/components/ui/Stamp";
 
 export type HighlightPlace = {
   id: string;
@@ -22,15 +22,15 @@ export default function HighlightRow({
 
   return (
     <section className="mb-8">
-      <h2 className="mb-3 text-lg font-bold text-brand-800">{label}</h2>
+      <h2 className="mb-3 font-serif text-lg text-ink-text">{label}</h2>
       <div className="-mx-6 flex gap-4 overflow-x-auto px-6 pb-2">
         {places.map((place) => (
           <Link
             key={place.id}
             href={place.href}
-            className="group w-56 flex-shrink-0 overflow-hidden rounded-xl border border-brand-100 bg-white transition-shadow hover:shadow-lg"
+            className="group w-56 flex-shrink-0 overflow-hidden rounded-xl border border-ink-text/10 bg-ink-2 transition-shadow hover:shadow-lg hover:shadow-ink/20"
           >
-            <div className="relative h-36 w-full bg-brand-50">
+            <div className="relative h-36 w-full bg-paper-2">
               {place.coverImageUrl && (
                 <Image
                   src={place.coverImageUrl}
@@ -42,11 +42,10 @@ export default function HighlightRow({
               )}
             </div>
             <div className="p-3">
-              <h3 className="truncate text-sm font-semibold text-brand-800">
-                {place.name}
-              </h3>
-              <div className="mt-1">
-                <StarRating avgRating={place.avgRating} reviewCount={place.reviewCount} />
+              <h3 className="truncate font-serif text-sm text-paper">{place.name}</h3>
+              <div className="mt-1.5 flex items-center gap-2">
+                <Stamp value={place.avgRating.toFixed(1)} size="sm" tone="onInk" />
+                <span className="font-mono text-xs text-slate">({place.reviewCount})</span>
               </div>
             </div>
           </Link>

@@ -73,8 +73,8 @@ export default async function SearchPage({
     const exploreCountries = await getAllCountriesWithPhotos();
     return (
       <div className="mx-auto max-w-6xl px-6 py-12">
-        <h1 className="text-3xl font-bold text-brand-800">{t("exploreHeading")}</h1>
-        <p className="mt-3 max-w-2xl text-muted">{t("exploreSubtitle")}</p>
+        <h1 className="font-serif text-3xl font-medium text-ink-text">{t("exploreHeading")}</h1>
+        <p className="mt-3 max-w-2xl text-ink-text/60">{t("exploreSubtitle")}</p>
         <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {exploreCountries.map((country) => (
             <CountryCard
@@ -128,13 +128,13 @@ export default async function SearchPage({
 
   return (
     <div className="mx-auto max-w-6xl px-6 py-12">
-      <h1 className="text-2xl font-bold text-brand-800">{heading}</h1>
+      <h1 className="font-serif text-2xl font-medium text-ink-text">{heading}</h1>
 
-      {!hasResults && <p className="mt-6 text-muted">{t("noResults")}</p>}
+      {!hasResults && <p className="mt-6 text-ink-text/60">{t("noResults")}</p>}
 
       {countries.length > 0 && (
         <section className="mt-8">
-          <h2 className="mb-4 text-lg font-semibold text-brand-700">
+          <h2 className="mb-4 font-serif text-lg text-ink-text">
             {t("countries")}
           </h2>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -156,7 +156,7 @@ export default async function SearchPage({
 
       {cities.length > 0 && (
         <section className="mt-8">
-          <h2 className="mb-4 text-lg font-semibold text-brand-700">{t("cities")}</h2>
+          <h2 className="mb-4 font-serif text-lg text-ink-text">{t("cities")}</h2>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {cities.map((city) => (
               <CityCard
@@ -179,7 +179,7 @@ export default async function SearchPage({
 
       {hasSearchContext && (
         <section className="mt-8">
-          <h2 className="mb-4 text-lg font-semibold text-brand-700">{t("places")}</h2>
+          <h2 className="mb-4 font-serif text-lg text-ink-text">{t("places")}</h2>
           <div className="mb-4 flex flex-wrap items-center justify-between gap-4">
             <FilterBar
               sortLabel={tFilters("sortLabel")}
@@ -213,6 +213,7 @@ export default async function SearchPage({
                   avgRating={place.avgRating}
                   reviewCount={place.reviewCount}
                   priceLevel={place.priceLevel}
+                  category={place.category}
                   categoryLabel={tCategories(place.category)}
                   season={place.bestSeason !== "ALL" ? place.bestSeason : undefined}
                   seasonLabel={
@@ -240,7 +241,7 @@ export default async function SearchPage({
               ))}
             </div>
           ) : (
-            <p className="text-muted">{t("noResults")}</p>
+            <p className="text-ink-text/60">{t("noResults")}</p>
           )}
         </section>
       )}

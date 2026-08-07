@@ -67,12 +67,12 @@ export default async function CountryPage({
 
   return (
     <div className="mx-auto max-w-6xl px-6 py-12">
-      <h1 className="text-3xl font-bold text-brand-800">{country.name}</h1>
+      <h1 className="font-serif text-3xl font-medium text-ink-text">{country.name}</h1>
       {country.description && (
-        <p className="mt-3 max-w-2xl text-muted">{country.description}</p>
+        <p className="mt-3 max-w-2xl text-ink-text/60">{country.description}</p>
       )}
       <div className="mt-4 flex flex-wrap items-center justify-between gap-4">
-        <p className="text-sm font-medium text-brand-600">
+        <p className="font-mono text-xs uppercase tracking-wide text-gold">
           {tCommon("cityCount", { count: country._count.cities })} ·{" "}
           {tCommon("placeCount", { count: placeCount })}
           {country.currencyCode && (

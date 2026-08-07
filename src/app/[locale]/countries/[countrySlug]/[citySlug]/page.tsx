@@ -183,10 +183,10 @@ export default async function CityPage({
             ]}
           />
           <div className="mt-3">
-            <h1 className="text-3xl font-bold text-brand-800">
+            <h1 className="font-serif text-3xl font-medium text-ink-text">
               {tCategories(category!)}
             </h1>
-            <p className="mt-1 text-muted">
+            <p className="mt-1 text-ink-text/60">
               {city.name}, {city.country.name}
             </p>
           </div>
@@ -204,15 +204,15 @@ export default async function CityPage({
             <HighlightRow label={tFilters("topRated")} places={topRated} />
             <HighlightRow label={tFilters("rightNow")} places={rightNow} />
           </div>
-          <h2 className="mb-2 mt-2 text-lg font-bold text-brand-800">
+          <h2 className="mb-2 mt-2 font-serif text-lg text-ink-text">
             {tFilters("allInCategory")}
           </h2>
         </>
       ) : showBaseHero ? (
         <>
-          <h1 className="text-3xl font-bold text-brand-800">{city.name}</h1>
+          <h1 className="font-serif text-3xl font-medium text-ink-text">{city.name}</h1>
           {city.description && (
-            <p className="mt-3 max-w-2xl text-muted">{city.description}</p>
+            <p className="mt-3 max-w-2xl text-ink-text/60">{city.description}</p>
           )}
           <div className="mt-6">
             <PhotoCarousel
@@ -229,9 +229,9 @@ export default async function CityPage({
         </>
       ) : (
         <>
-          <h1 className="text-3xl font-bold text-brand-800">{city.name}</h1>
+          <h1 className="font-serif text-3xl font-medium text-ink-text">{city.name}</h1>
           {city.description && (
-            <p className="mt-3 max-w-2xl text-muted">{city.description}</p>
+            <p className="mt-3 max-w-2xl text-ink-text/60">{city.description}</p>
           )}
         </>
       )}
@@ -240,10 +240,10 @@ export default async function CityPage({
         <div className="flex flex-wrap gap-2">
           <Link
             href={buildQuery({ category: undefined })}
-            className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
+            className={`rounded-full px-4 py-2 font-mono text-xs uppercase tracking-wide transition-colors ${
               !category
-                ? "bg-brand-600 text-white"
-                : "border border-brand-100 bg-white text-brand-700 hover:bg-brand-50"
+                ? "bg-ink text-gold-soft"
+                : "border border-ink-text/15 bg-paper text-ink-text hover:bg-paper-2"
             }`}
           >
             {t("all")}
@@ -252,10 +252,10 @@ export default async function CityPage({
             <Link
               key={c}
               href={buildQuery({ category: c })}
-              className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
+              className={`rounded-full px-4 py-2 font-mono text-xs uppercase tracking-wide transition-colors ${
                 category === c
-                  ? "bg-brand-600 text-white"
-                  : "border border-brand-100 bg-white text-brand-700 hover:bg-brand-50"
+                  ? "bg-ink text-gold-soft"
+                  : "border border-ink-text/15 bg-paper text-ink-text hover:bg-paper-2"
               }`}
             >
               {tCategories(c)}
@@ -321,6 +321,7 @@ export default async function CityPage({
               avgRating={place.avgRating}
               reviewCount={place.reviewCount}
               priceLevel={place.priceLevel}
+              category={place.category}
               categoryLabel={tCategories(place.category)}
               season={place.bestSeason !== "ALL" ? place.bestSeason : undefined}
               seasonLabel={
