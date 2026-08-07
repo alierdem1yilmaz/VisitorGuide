@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import { PrismaClient, Category } from "../src/generated/prisma/client";
 import { estimatePriceUsd } from "../prisma/priceEstimate";
+import { inferBestSeason } from "../prisma/seasonEstimate";
 
 const prisma = new PrismaClient();
 const DATA_DIR = path.join(__dirname, "..", "prisma", "placesData");
@@ -60,6 +61,7 @@ async function main() {
         continue;
       }
       const priceAmount = estimatePriceUsd(p.category, p.priceLevel, dbCity.country.slug);
+      const bestSeason = inferBestSeason(p.category, p.name, p.description, dbCity.country.slug);
 
       const existing = await prisma.place.findUnique({ where: { slug: p.slug } });
       const data = {
@@ -72,6 +74,7 @@ async function main() {
         longitude: p.longitude,
         priceLevel: p.priceLevel,
         priceAmount,
+        bestSeason,
         avgRating: p.avgRating,
         reviewCount: p.reviewCount,
         openingHours: p.openingHours ?? undefined,
